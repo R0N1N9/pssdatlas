@@ -18,8 +18,10 @@
    "updated": "2026-11-17"
   },
   "reddit": {
-   "configured": false,
-   "ok": true,
+   "configured": true,
+   "error": "Reddit blocked this network (it refuses many cloud and VPN addresses); run the update from a home connection",
+   "failed": "2026-11-17",
+   "ok": false,
    "updated": "2026-11-17"
   },
   "trials": {

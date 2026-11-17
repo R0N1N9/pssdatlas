@@ -24,6 +24,7 @@ self-contained report at `docs/index.html`:
 | Europe PMC | Preprints not yet indexed in PubMed |
 | ClinicalTrials.gov | Registered studies, filtered for relevance |
 | openFDA (FAERS) | Adverse-event report counts for a drug × reaction grid |
+| Reddit, blogs, advocacy sites | Patient posts and articles, reduced to tags and links |
 
 Each paper is tagged with:
 
@@ -77,6 +78,48 @@ Then open http://127.0.0.1:8765. The **Update data** button in the report
 re-fetches papers, preprints and trials (under a minute, with an option to
 refresh the FDA data too) and reloads the page. Opened as a plain file, the
 report is a snapshot and the button explains how to start the server.
+
+### Three views
+
+A selector at the top of the report switches every section between **all
+psychiatric medication**, **SSRIs and SNRIs**, and **antipsychotics and
+mirtazapine**. A record belongs to a view when it names one of that group's
+drugs (generic or brand name). The groups are defined under `[[partition]]`
+in the config.
+
+### Patient reports and community sources
+
+| Source | How | Status |
+|---|---|---|
+| Reddit | Official API | Needs your own free API app, and a home connection: Reddit refuses many cloud and VPN addresses |
+| RxISK, David Healy, Mad in America | Each site's WordPress search API | Works out of the box |
+| PSSD Network, PSSD Canada | RSS feeds (most recent items only) | Works out of the box |
+| pssdforum.org, survivingantidepressants.org | Not crawled: both block automated access | Use `import` for pages you saved yourself |
+
+For Reddit, create a "script" app at https://www.reddit.com/prefs/apps and set:
+
+```bash
+export REDDIT_CLIENT_ID=your-client-id
+```
+
+```bash
+export REDDIT_CLIENT_SECRET=your-client-secret
+```
+
+To add a forum thread you saved from your own browser:
+
+```bash
+python -m pssd_atlas import thread.html --source "PSSD Forum" --url https://example.org/thread --date 2025-03-01
+```
+
+Each patient post is reduced to tags (drugs, symptoms, treatments and a rough
+reading of how each went) plus a link. Usernames are never collected. Post text
+is kept only in `data_raw/`, which is git-ignored, so that tags can be
+re-derived when the config changes. Blog articles keep their titles.
+
+Outcome tags come from nearby words ("didn't help", "made it worse"), not from
+understanding the post, and are frequently wrong. Posts are self-selected.
+Treat this section as a source of leads, not evidence.
 
 The report also has a light/dark toggle, and the paper explorer sorts by
 publication date (newest or oldest first).

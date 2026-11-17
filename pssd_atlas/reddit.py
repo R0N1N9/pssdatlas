@@ -11,7 +11,7 @@ import datetime as dt
 import json
 import os
 
-from .http import Client
+from .http import Client, HttpError
 
 TOKEN_URL = "https://www.reddit.com/api/v1/access_token"
 API = "https://oauth.reddit.com"
@@ -26,8 +26,16 @@ def token(client: Client) -> str:
     if not cid or not secret:
         raise MissingCredentials("set REDDIT_CLIENT_ID and REDDIT_CLIENT_SECRET (see README)")
     basic = base64.b64encode(f"{cid}:{secret}".encode()).decode()
-    data = json.loads(client.get(TOKEN_URL, {"grant_type": "client_credentials"}, post=True,
-                                 headers={"Authorization": f"Basic {basic}"}))
+    try:
+        data = json.loads(client.get(TOKEN_URL, {"grant_type": "client_credentials"}, post=True,
+                                     headers={"Authorization": f"Basic {basic}"}))
+    except HttpError as e:
+        if e.status == 401:
+            raise RuntimeError("Reddit rejected the client ID or secret") from None
+        if e.status == 403:
+            raise RuntimeError("Reddit blocked this network (it refuses many cloud and VPN addresses); "
+                               "run the update from a home connection") from None
+        raise
     if "access_token" not in data:
         raise RuntimeError(f"Reddit refused the credentials: {data.get('error', data)}")
     return data["access_token"]
