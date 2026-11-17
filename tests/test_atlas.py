@@ -1,7 +1,7 @@
 import math
 import unittest
 
-from pssd_atlas import classify, community, config, faers, pubmed, reddit
+from pssd_atlas import classify, community, config, faers, forumpage, pubmed, reddit
 
 CFG = config.load()
 
@@ -117,6 +117,32 @@ class RedditCollect(unittest.TestCase):
     def test_missing_credentials(self):
         with self.assertRaises(reddit.MissingCredentials):
             reddit.token(None)
+
+
+class ForumPages(unittest.TestCase):
+    def test_phpbb(self):
+        page = """<html><head><title>Zyprexa PSSD - Forum</title><link rel="canonical" href="https://f.example/t/1"></head><body>
+        <div class="post"><div class="postbody"><p class="author">by <a>someuser</a> <time datetime="2024-03-05T10:00:00+00:00">x</time></p>
+        <div class="content">I took olanzapine for three months and my libido never came back after stopping.<br>Still numb.</div>
+        <div class="signature">my sig text here that is long enough to count as a post if wrong</div></div></div>
+        <div class="post"><div class="postbody"><p class="author"><time datetime="2024-03-06T10:00:00+00:00">y</time></p>
+        <div class="content"><blockquote><div>someuser wrote: I took olanzapine</div></blockquote>Same here with Remeron, bupropion did not help me at all sadly.</div></div></div>
+        </body></html>"""
+        p = forumpage.parse(page)
+        self.assertEqual((p["url"], p["title"], len(p["posts"])), ("https://f.example/t/1", "Zyprexa PSSD - Forum", 2))
+        self.assertEqual(p["posts"][0]["date"], "2024-03-05")
+        self.assertIn("Still numb", p["posts"][0]["text"])
+        self.assertEqual(p["posts"][1]["text"], "Same here with Remeron, bupropion did not help me at all sadly.")
+        self.assertNotIn("someuser", " ".join(x["text"] for x in p["posts"]))
+
+    def test_invision_and_fallback(self):
+        page = """<!-- saved from url=(0026)https://s.example/topic/9 --><html><body><article><time datetime='2023-01-02T00:00:00Z'>d</time>
+        <div data-role='commentContent' class='ipsType_richText'><p>Quetiapine for sleep, then genital numbness that has lasted two years now.</p></div></article></body></html>"""
+        p = forumpage.parse(page)
+        self.assertEqual((p["url"], len(p["posts"]), p["posts"][0]["date"]), ("https://s.example/topic/9", 1, "2023-01-02"))
+        q = forumpage.parse("<html><body><p>Just some saved notes about mirtazapine and what happened afterwards.</p></body></html>")
+        self.assertFalse(q["split"])
+        self.assertIn("mirtazapine", q["posts"][0]["text"])
 
 
 class Disproportionality(unittest.TestCase):

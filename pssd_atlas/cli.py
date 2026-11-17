@@ -10,10 +10,11 @@ import json
 import sys
 from pathlib import Path
 
-from . import blogs, classify, community, config, europepmc, faers, pubmed, reddit, report, server, trials
+from . import blogs, classify, community, forumpage, config, europepmc, faers, pubmed, reddit, report, server, trials
 from .http import Client
 
 SCOPE_RANK = {"core": 0, "related": 1, "adjacent": 2}
+IMPORTABLE = {".html", ".htm", ".txt", ".md"}
 SOURCES = ("pubmed", "preprints", "trials", "faers", "reddit", "blogs")
 
 
@@ -209,18 +210,34 @@ def cmd_import(args) -> int:
     cfg, data = config.load(args.config), Path(args.data)
     raw_path = Path(args.raw) / "posts.json"
     raw_posts = {p["id"]: p for p in _read(raw_path, [])}
+    files = []
     for name in args.files:
         f = Path(name)
+        files += sorted(x for x in f.rglob("*") if x.suffix.lower() in IMPORTABLE) if f.is_dir() else [f]
+    added = 0
+    for f in files:
         text = f.read_text(encoding="utf-8", errors="replace")
         if f.suffix.lower() in (".html", ".htm"):
-            text = blogs.strip_html(text)
-        key = hashlib.sha256(text.encode()).hexdigest()[:12]
-        raw_posts[f"import:{key}"] = {"id": f"import:{key}", "source": "import", "community": args.source,
-                                       "url": args.url or "", "date": args.date or "", "title": "", "text": text,
-                                       "replies": 0}
+            page = forumpage.parse(text)
+        else:
+            page = {"url": "", "title": "", "posts": [{"date": "", "text": text}], "split": False}
+        # In a split thread the title belongs to the opening post only.
+        for i, post in enumerate(page["posts"]):
+            key = hashlib.sha256(post["text"].encode()).hexdigest()[:12]
+            if f"import:{key}" not in raw_posts:
+                added += 1
+            raw_posts[f"import:{key}"] = {
+                "id": f"import:{key}", "source": "import", "community": args.source,
+                "url": args.url or page["url"], "date": args.date or post["date"],
+                "title": page["title"] if i == 0 else "", "text": post["text"], "replies": 0}
+        _log(f"- {f.name}: {len(page['posts'])} post(s)" + ("" if page["split"] or f.suffix.lower() not in (".html", ".htm")
+                                                             else " (forum layout not recognised; read as one page)"))
     posts = rebuild_community(cfg, data, raw_path, raw_posts)
     report.build(cfg, data, Path(args.report))
-    _log(f"Imported {len(args.files)} file(s); {len(posts)} patient reports and articles in total")
+    mine = [p for p in posts if p["source"] == "import"]
+    _log(f"\n{len(files)} file(s), {added} new post(s). Imported posts in total: {len(mine)}")
+    for part in cfg.partitions:
+        _log(f"  {part.label}: {sum(part.id in p['partitions'] for p in mine)}")
     return 0
 
 
@@ -289,10 +306,10 @@ def main(argv=None) -> int:
     sv.set_defaults(fn=lambda a: server.serve(a, cmd_update))
 
     im = sub.add_parser("import", help="add pages you saved from a forum (html/txt/md) as patient reports")
-    im.add_argument("files", nargs="+")
+    im.add_argument("files", nargs="+", help="files, or folders of saved pages")
     im.add_argument("--source", default="Imported", help="where they came from, e.g. 'PSSD Forum'")
-    im.add_argument("--url", help="link to the original page")
-    im.add_argument("--date", metavar="YYYY-MM-DD")
+    im.add_argument("--url", help="link to the original page (default: read from the saved page)")
+    im.add_argument("--date", metavar="YYYY-MM-DD", help="default: read from each post")
     im.set_defaults(fn=cmd_import)
 
     args = ap.parse_args(argv)

@@ -105,11 +105,19 @@ if approved, set `enabled = true` under `[community.reddit]` and provide
 `REDDIT_CLIENT_ID` and `REDDIT_CLIENT_SECRET` as environment variables. The
 collector has only been tested against a stand-in, never against Reddit itself.
 
-To add a forum thread you saved from your own browser:
+To add forum threads, save them from your own browser as you read them
+(Ctrl+S or Cmd+S, "Webpage, HTML only") into one folder, then import the folder:
 
 ```bash
-python -m pssd_atlas import thread.html --source "PSSD Forum" --url https://example.org/thread --date 2025-03-01
+python -m pssd_atlas import ~/pssd-saved --source "PSSD Forum"
 ```
+
+Each thread is split into its individual posts where the forum layout is
+recognised (phpBB and Invision Community), with the link and dates read from
+the page; quoted text and signatures are dropped. Re-importing the same folder
+adds only what is new. Plain `.txt` or `.md` notes work too. The splitter has
+been tested on sample pages only, so check the post count it prints for your
+first real thread.
 
 Each patient post is reduced to tags (drugs, symptoms, treatments and a rough
 reading of how each went) plus a link. Usernames are never collected. Post text
