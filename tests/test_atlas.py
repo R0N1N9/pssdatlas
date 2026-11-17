@@ -85,6 +85,16 @@ class PubmedParse(unittest.TestCase):
         self.assertEqual(p["title"], "Post-SSRI sexual dysfunction.")
         self.assertEqual(p["abstract"], "AIM: One. Two.")
         self.assertEqual((p["year"], p["doi"], p["authors"], p["mesh"]), (2019, "10.1/x", ["Doe J"], ["Humans"]))
+        self.assertEqual(p["date"], "2019-01")
+
+    def test_dates(self):
+        import xml.etree.ElementTree as ET
+        d = lambda x: pubmed._date(ET.fromstring(x))
+        self.assertEqual(d("<D><Year>2021</Year><Month>Mar</Month><Day>7</Day></D>"), "2021-03-07")
+        self.assertEqual(d("<D><Year>2021</Year><Month>11</Month></D>"), "2021-11")
+        self.assertEqual(d("<D><Year>2021</Year></D>"), "2021")
+        self.assertEqual(d("<D><MedlineDate>2004 Winter</MedlineDate></D>"), "2004")
+        self.assertEqual(d("<D></D>"), "")
 
 
 if __name__ == "__main__":

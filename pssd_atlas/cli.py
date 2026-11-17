@@ -9,7 +9,7 @@ import json
 import sys
 from pathlib import Path
 
-from . import classify, config, europepmc, faers, pubmed, report, trials
+from . import classify, config, europepmc, faers, pubmed, report, server, trials
 from .http import Client
 
 SCOPE_RANK = {"core": 0, "related": 1, "adjacent": 2}
@@ -45,7 +45,7 @@ def _norm_title(t: str) -> str:
     return "".join(ch for ch in t.lower() if ch.isalnum())
 
 
-def cmd_update(args) -> int:
+def cmd_update(args, log=_log) -> int:
     cfg = config.load(args.config)
     data = Path(args.data)
     today = dt.date.today().isoformat()
@@ -58,14 +58,14 @@ def cmd_update(args) -> int:
     def run(name, fn):
         """Run one source; on failure keep the previous snapshot for that source."""
         if name in skip:
-            _log(f"- {name}: skipped")
+            log(f"- {name}: skipped")
             return None
         try:
             result = fn()
             status[name] = {"updated": today, "ok": True}
             return result
         except Exception as e:  # noqa: BLE001 - one flaky API must not lose the others
-            _log(f"! {name} failed, keeping previous data: {e}")
+            log(f"! {name} failed, keeping previous data: {e}")
             status[name] = {**status.get(name, {}), "ok": False, "error": str(e)[:300], "failed": today}
             failures.append(name)
             return None
@@ -78,7 +78,7 @@ def cmd_update(args) -> int:
             if not q["pubmed"]:
                 continue
             ids = pubmed.search(client, q["pubmed"])
-            _log(f"- pubmed [{q['id']}]: {len(ids)} records")
+            log(f"- pubmed [{q['id']}]: {len(ids)} records")
             _merge(pool, pubmed.fetch(client, ids), q["scope"], q["id"])
         return pool
 
@@ -88,7 +88,7 @@ def cmd_update(args) -> int:
             if not q["europepmc"]:
                 continue
             recs = europepmc.search_preprints(client, q["europepmc"])
-            _log(f"- preprints [{q['id']}]: {len(recs)} records")
+            log(f"- preprints [{q['id']}]: {len(recs)} records")
             _merge(pool, recs, q["scope"], q["id"])
         return pool
 
@@ -108,7 +108,7 @@ def cmd_update(args) -> int:
     for rec in {**pm, **pp}.values():
         rec["first_seen"] = old_papers.get(rec["id"], {}).get("first_seen", today)
         papers.append(classify.classify_paper(rec, cfg))
-    papers.sort(key=lambda r: (-(r["year"] or 0), r["id"]))
+    papers.sort(key=lambda r: (r.get("date") or "", r["id"]), reverse=True)  # newest first
 
     old_trials = {t["id"]: t for t in _read(data / "trials.json", [])}
 
@@ -122,7 +122,7 @@ def cmd_update(args) -> int:
                 if scope and t["id"] not in pool:
                     pool[t["id"]] = {**t, "scope": scope}
                     kept += 1
-            _log(f"- trials [{term}]: {len(found)} hits, {kept} new relevant")
+            log(f"- trials [{term}]: {len(found)} hits, {kept} new relevant")
         return pool
 
     tr = run("trials", get_trials)
@@ -135,7 +135,7 @@ def cmd_update(args) -> int:
     trial_list.sort(key=lambda t: (SCOPE_RANK[t["scope"]], t["id"]))
 
     def get_faers():
-        _log("- openFDA adverse-event grid (a few minutes on first run)")
+        log("- openFDA adverse-event grid (a few minutes on first run)")
         return faers.analyse(client, cfg.faers_drugs, cfg.faers_reactions, cfg.faers_composite, progress=_log)
 
     fa = run("faers", get_faers)
@@ -152,14 +152,14 @@ def cmd_update(args) -> int:
     write_csv(data, papers, trial_list, fa)
     report.build(cfg, data, Path(args.report))
 
-    _log(f"\n{len(papers)} papers, {len(trial_list)} trials, {len(fa['rows'])} drug-reaction pairs")
+    log(f"\n{len(papers)} papers, {len(trial_list)} trials, {len(fa['rows'])} drug-reaction pairs")
     if old_papers or old_trials:
-        _log(f"New since last update: {len(new_papers)} papers, {len(new_trials)} trials")
+        log(f"New since last update: {len(new_papers)} papers, {len(new_trials)} trials")
         for p in new_papers[:30]:
-            _log(f"  + [{p['year']}] {p['title'][:110]}  {p['url']}")
+            log(f"  + [{p.get('date') or '?'}] {p['title'][:110]}  {p['url']}")
         for t in new_trials[:30]:
-            _log(f"  + [trial] {t['brief_title'][:110]}  {t['url']}")
-    _log(f"Report: {args.report}")
+            log(f"  + [trial] {t['brief_title'][:110]}  {t['url']}")
+    log(f"Report: {args.report}")
     return 1 if failures else 0
 
 
@@ -172,7 +172,7 @@ def write_csv(data: Path, papers, trial_list, fa) -> None:
                 w.writerow(["; ".join(map(str, v)) if isinstance(v, list) else ("" if v is None else v)
                             for v in (r.get(c) for c in cols)])
 
-    dump("papers.csv", papers, ["id", "source", "scope", "year", "study_type", "title", "journal", "authors", "doi",
+    dump("papers.csv", papers, ["id", "source", "scope", "date", "year", "study_type", "title", "journal", "authors", "doi",
                                 "url", "hypotheses", "interventions", "drugs", "first_seen"])
     dump("trials.csv", trial_list, ["id", "scope", "status", "phases", "study_type", "enrollment", "start",
                                     "completion", "brief_title", "conditions", "interventions",
@@ -194,7 +194,7 @@ def cmd_new(args) -> int:
     tl = [t for t in _read(data / "trials.json", []) if t["first_seen"] >= since]
     print(f"First seen on or after {since}: {len(papers)} papers, {len(tl)} trials\n")
     for p in papers:
-        print(f"[{p['scope']}/{p['study_type']}] {p['year']} {p['title']}\n    {p['url']}")
+        print(f"[{p['scope']}/{p['study_type']}] {p.get('date') or '?'} {p['title']}\n    {p['url']}")
     for t in tl:
         print(f"[{t['scope']}/trial/{t['status']}] {t['brief_title']}\n    {t['url']}")
     return 0
@@ -220,6 +220,11 @@ def main(argv=None) -> int:
     nw = sub.add_parser("new", help="list records first seen since a date")
     nw.add_argument("--since", required=True, metavar="YYYY-MM-DD")
     nw.set_defaults(fn=cmd_new)
+
+    sv = sub.add_parser("serve", help="serve the report locally with a working 'Update data' button")
+    sv.add_argument("--port", type=int, default=8765)
+    sv.add_argument("--cache", default=".cache", help="HTTP cache directory")
+    sv.set_defaults(fn=lambda a: server.serve(a, cmd_update))
 
     args = ap.parse_args(argv)
     return args.fn(args)

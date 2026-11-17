@@ -67,6 +67,20 @@ python -m pssd_atlas new --since 2026-11-01   # what has appeared since a date
 python -m unittest                            # tests
 ```
 
+### Live updating from the report
+
+```bash
+python -m pssd_atlas serve
+```
+
+Then open http://127.0.0.1:8765. The **Update data** button in the report
+re-fetches papers, preprints and trials (under a minute, with an option to
+refresh the FDA data too) and reloads the page. Opened as a plain file, the
+report is a snapshot and the button explains how to start the server.
+
+The report also has a light/dark toggle, and the paper explorer sorts by
+publication date (newest or oldest first).
+
 Each update prints the papers and trials that are new since the previous
 snapshot, so running it weekly works as an alerting service.
 

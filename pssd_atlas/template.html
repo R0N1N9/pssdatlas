@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PSSD Atlas</title>
+<script>try { var t = localStorage.getItem('pssd-theme'); if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t); } catch (e) {}</script>
 <style>
 :root {
   color-scheme: light;
@@ -72,14 +73,23 @@ svg text { fill: var(--text-2); font-size: 11.5px; font-family: inherit; }
 svg .lab { fill: var(--text); font-size: 12.5px; }
 #tip { position: fixed; pointer-events: none; background: var(--text); color: var(--bg); padding: 6px 9px; border-radius: 6px; font-size: 12.5px; line-height: 1.4; max-width: 280px; display: none; z-index: 10; white-space: pre-line; }
 nav { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13.5px; margin-top: 10px; }
+.top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 10px; }
+.tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+button.primary { background: var(--s1); border-color: var(--s1); color: #fff; font-weight: 600; }
+button:disabled { opacity: 0.6; cursor: default; }
+#upBox { display: none; margin-top: 12px; padding: 12px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); font-size: 13.5px; }
+#upBox pre { margin: 8px 0 0; font: 12px/1.5 ui-monospace, monospace; color: var(--text-2); white-space: pre-wrap; max-height: 200px; overflow: auto; }
+#upBox code { background: var(--grid); padding: 1px 5px; border-radius: 4px; }
 footer { color: var(--text-3); font-size: 12.5px; margin-top: 24px; }
 </style>
 </head>
 <body>
 <main>
-<h1>PSSD Atlas</h1>
+<div class="top"><h1>PSSD Atlas</h1>
+<div class="tools"><button id="theme" aria-label="Switch colour theme"></button><button id="update" class="primary">Update data</button></div></div>
 <p class="sub">A living evidence map for post-SSRI sexual dysfunction and related persistent post-drug syndromes: every indexed paper, preprint and registered trial, tagged by hypothesis and study design, alongside drug-safety signals from FDA adverse-event reports.</p>
 <p class="small" id="stamp"></p>
+<div id="upBox" role="status" aria-live="polite"></div>
 <nav><a href="#timeline">Timeline</a><a href="#matrix">Evidence matrix</a><a href="#gaps">Research gaps</a><a href="#treat">Treatments</a><a href="#trials">Trials</a><a href="#faers">Drug-safety signals</a><a href="#explore">Paper explorer</a></nav>
 <div class="note">Tags are assigned automatically by keyword rules and will contain errors; a tag means a paper <em>discusses</em> a topic, not that it supports it. This is a research-navigation aid, not medical advice.</div>
 
@@ -133,6 +143,7 @@ footer { color: var(--text-3); font-size: 12.5px; margin-top: 24px; }
     <select id="fScope" aria-label="Scope"></select><select id="fType" aria-label="Study design"></select>
     <select id="fHyp" aria-label="Hypothesis"></select><select id="fTx" aria-label="Treatment"></select>
     <select id="fDrug" aria-label="Drug"></select>
+    <select id="fSort" aria-label="Sort order"><option value="new">Newest first</option><option value="old">Oldest first</option></select>
     <button id="reset">Reset</button><button id="csv">Download CSV</button>
   </div>
   <p class="small" id="count"></p>
@@ -180,6 +191,59 @@ footer { color: var(--text-3); font-size: 12.5px; margin-top: 24px; }
   const SCOPES = [['core', 'Core: persistent after psychotropics', '--s1'], ['related', 'Related: post-finasteride / post-retinoid', '--s2'], ['adjacent', 'Adjacent: on-treatment dysfunction', '--s3']];
   const human = new Set(D.humanPrimary);
   const fmt = n => n == null ? '' : n.toLocaleString('en-US');
+
+  // ---- theme toggle -----------------------------------------------------
+  (function () {
+    const root = document.documentElement, btn = $('theme'), mq = window.matchMedia('(prefers-color-scheme: dark)');
+    const isDark = () => root.getAttribute('data-theme') ? root.getAttribute('data-theme') === 'dark' : mq.matches;
+    const paint = () => { btn.textContent = isDark() ? '☀ Light mode' : '☾ Dark mode'; };
+    btn.addEventListener('click', () => {
+      const next = isDark() ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('pssd-theme', next); } catch (e) {}
+      paint();
+    });
+    mq.addEventListener('change', paint); paint();
+  })();
+
+  // ---- live update (needs `pssd-atlas serve`) ---------------------------
+  (function () {
+    const btn = $('update'), box = $('upBox'), HDR = { 'X-PSSD-Atlas': '1', 'Content-Type': 'application/json' };
+    const served = location.protocol === 'http:' || location.protocol === 'https:';
+    const show = (...kids) => { box.style.display = 'block'; box.replaceChildren(...kids); };
+    async function status() { const r = await fetch('api/status', { cache: 'no-store' }); if (!r.ok) throw new Error(r.status); return r.json(); }
+    async function watch() {
+      btn.disabled = true; btn.textContent = 'Updating…';
+      const pre = h('pre'); show(h('b', null, 'Fetching the latest papers and trials…'), pre);
+      for (;;) {
+        await new Promise(r => setTimeout(r, 1200));
+        let st; try { st = await status(); } catch (e) { continue; }
+        pre.textContent = st.log.join('\n'); pre.scrollTop = pre.scrollHeight;
+        if (!st.running) {
+          if (st.error) { show(h('b', null, st.error), pre, h('p', null, h('button', { onclick: () => location.reload() }, 'Reload page'))); btn.disabled = false; btn.textContent = 'Update data'; }
+          else location.reload();
+          return;
+        }
+      }
+    }
+    function offline() {
+      show(h('b', null, 'Live updating needs the local server.'), h('p', null, 'This page is a saved snapshot, so it cannot fetch new data by itself. In the project folder run ', h('code', null, 'python -m pssd_atlas serve'), ' and open ', h('code', null, 'http://127.0.0.1:8765'), ' — the button then refreshes everything in place.'));
+    }
+    function ask() {
+      const cb = h('input', { type: 'checkbox', id: 'upFaers' });
+      show(h('p', null, 'Fetch the latest papers, preprints and trials now (under a minute).'),
+        h('p', null, h('label', null, cb, ' Also refresh FDA adverse-event data (about 5 minutes; it only changes quarterly)')),
+        h('button', { class: 'primary', onclick: async () => {
+          const r = await fetch('api/update', { method: 'POST', headers: HDR, body: JSON.stringify({ faers: cb.checked }) });
+          if (r.status === 202 || r.status === 409) watch(); else offline();
+        } }, 'Start update'), ' ', h('button', { onclick: () => { box.style.display = 'none'; } }, 'Cancel'));
+    }
+    btn.addEventListener('click', async () => {
+      if (!served) return offline();
+      try { const st = await status(); st.running ? watch() : ask(); } catch (e) { offline(); }
+    });
+    if (served) status().then(st => { if (st.running) watch(); }).catch(() => {});
+  })();
 
   // ---- header ----------------------------------------------------------
   const src = (D.meta.sources || {});
@@ -257,15 +321,24 @@ footer { color: var(--text-3); font-size: 12.5px; margin-top: 24px; }
     const au = p.authors.length > 4 ? p.authors.slice(0, 3).join(', ') + ' et al.' : p.authors.join(', ');
     return h('div', { class: 'paper' },
       h('div', { class: 't' }, h('a', { href: p.url, target: '_blank', rel: 'noopener' }, p.title || '(untitled)')),
-      h('div', { class: 'small' }, [au, p.journal, p.year].filter(Boolean).join(' · ')),
+      h('div', { class: 'small' }, [au, p.journal, fmtDate(p.date) || p.year].filter(Boolean).join(' · ')),
       h('div', null, h('span', { class: 'pill ' + p.scope }, p.scope), h('span', { class: 'pill' }, label(D.studyTypes, p.study_type)),
         p.source === 'preprint' ? h('span', { class: 'pill' }, 'preprint, not peer reviewed') : null,
         p.hypotheses.map(x => h('span', { class: 'pill' }, label(D.hypotheses, x))),
         p.interventions.map(x => h('span', { class: 'pill' }, label(D.interventions, x)))),
       p.abstract ? h('details', null, h('summary', null, 'Abstract'), h('p', null, p.abstract)) : null);
   }
+  const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  function fmtDate(d) {
+    if (!d) return '';
+    const [y, m, day] = d.split('-');
+    return (day ? +day + ' ' : '') + (m ? MONTHS[+m - 1] + ' ' : '') + y;
+  }
+  $('fSort').addEventListener('input', () => { shown = 40; render(); });
   function render() {
-    current = D.papers.filter(matches);
+    const dir = $('fSort').value === 'old' ? 1 : -1;
+    // Undated records always go last; partial dates ("2019", "2019-03") sort within their year or month.
+    current = D.papers.filter(matches).sort((a, b) => !a.date !== !b.date ? (a.date ? -1 : 1) : dir * (a.date || '').localeCompare(b.date || ''));
     $('count').textContent = `${fmt(current.length)} of ${fmt(D.papers.length)} records` + (scopeOverride ? ` (scope: ${scopeOverride.join(' + ')})` : '');
     $('list').replaceChildren(...current.slice(0, shown).map(paperEl));
     $('more').style.display = current.length > shown ? '' : 'none';
@@ -279,7 +352,7 @@ footer { color: var(--text-3); font-size: 12.5px; margin-top: 24px; }
   $('more').addEventListener('click', () => { shown += 60; render(); });
   $('reset').addEventListener('click', () => { for (const k in F) F[k].value = ''; scopeOverride = null; shown = 40; render(); });
   $('csv').addEventListener('click', () => {
-    const cols = ['id', 'scope', 'year', 'study_type', 'title', 'journal', 'authors', 'doi', 'url', 'hypotheses', 'interventions', 'drugs'];
+    const cols = ['id', 'scope', 'date', 'year', 'study_type', 'title', 'journal', 'authors', 'doi', 'url', 'hypotheses', 'interventions', 'drugs'];
     const esc = v => '"' + String(Array.isArray(v) ? v.join('; ') : v == null ? '' : v).replace(/"/g, '""') + '"';
     const csv = [cols.join(',')].concat(current.map(p => cols.map(c => esc(p[c])).join(','))).join('\n');
     const a = h('a', { href: URL.createObjectURL(new Blob([csv], { type: 'text/csv' })), download: 'pssd-atlas-papers.csv' });

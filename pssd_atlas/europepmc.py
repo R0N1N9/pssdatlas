@@ -20,13 +20,14 @@ def search_preprints(client: Client, term: str, max_records: int = 500) -> list[
                                       "resultType": "core", "pageSize": 100, "cursorMark": cursor})
         results = data.get("resultList", {}).get("result", [])
         for r in results:
-            year = str(r.get("pubYear") or "")
+            date = r.get("firstPublicationDate") or str(r.get("pubYear") or "")
             out.append({
                 "id": f"PPR:{r['id']}",
                 "source": "preprint",
                 "title": _strip_tags(r.get("title", "")),
                 "abstract": _strip_tags(r.get("abstractText", "")),
-                "year": int(year) if year.isdigit() else None,
+                "date": date,
+                "year": int(date[:4]) if date[:4].isdigit() else None,
                 "journal": (r.get("bookOrReportDetails") or {}).get("publisher", "") or "Preprint",
                 "authors": [a.strip() for a in (r.get("authorString") or "").rstrip(".").split(",") if a.strip()],
                 "doi": r.get("doi", ""),
