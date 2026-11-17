@@ -1,0 +1,413 @@
+# PSSD Atlas configuration.
+#
+# Everything a researcher is likely to want to change lives here: the literature
+# searches, the hypothesis taxonomy, the candidate-treatment list and the
+# pharmacovigilance grid. No code changes are needed to add a hypothesis or drug.
+#
+# Patterns are case-insensitive regular expressions matched against title + abstract.
+
+# --------------------------------------------------------------------------
+# Literature searches. `scope` ranks how directly a paper bears on PSSD:
+#   core     - persistent sexual dysfunction after psychotropic drugs
+#   related  - sister syndromes (post-finasteride, post-retinoid) that may share mechanism
+#   adjacent - on-treatment drug-induced sexual dysfunction (mechanism + antidote trials)
+# A paper found by several searches keeps the most direct scope.
+# --------------------------------------------------------------------------
+
+[[query]]
+id = "pssd"
+scope = "core"
+label = "PSSD and persistent post-psychotropic sexual dysfunction"
+pubmed = '''
+"post-SSRI sexual dysfunction"[tiab] OR "post SSRI sexual dysfunction"[tiab]
+OR (PSSD[tiab] AND (SSRI*[tiab] OR antidepressant*[tiab] OR serotonin[tiab] OR serotonergic[tiab]))
+OR ("post-treatment sexual dysfunction"[tiab] AND (antidepressant*[tiab] OR SSRI*[tiab] OR "serotonin reuptake"[tiab] OR antipsychotic*[tiab]))
+OR (("persistent sexual"[tiab] OR "enduring sexual"[tiab] OR "persisting sexual"[tiab] OR "long-lasting sexual"[tiab])
+    AND (antidepressant*[tiab] OR SSRI*[tiab] OR "serotonin reuptake"[tiab] OR antipsychotic*[tiab] OR mirtazapine[tiab]))
+OR (("genital anesthesia"[tiab] OR "genital anaesthesia"[tiab] OR "genital numbness"[tiab])
+    AND (antidepressant*[tiab] OR SSRI*[tiab] OR "serotonin reuptake"[tiab]))
+OR ((antipsychotic*[tiab] OR olanzapine[tiab] OR quetiapine[tiab] OR mirtazapine[tiab])
+    AND "sexual dysfunction"[tiab]
+    AND ("after discontinuation"[tiab] OR "after withdrawal"[tiab] OR "after cessation"[tiab] OR "after stopping"[tiab]))
+'''
+europepmc = '''
+("post-SSRI sexual dysfunction" OR "post SSRI sexual dysfunction"
+ OR ((PSSD OR "post-treatment sexual dysfunction") AND (SSRI OR antidepressant)))
+'''
+
+[[query]]
+id = "sister"
+scope = "related"
+label = "Post-finasteride syndrome and post-retinoid sexual dysfunction"
+pubmed = '''
+"post-finasteride syndrome"[tiab] OR "post finasteride syndrome"[tiab]
+OR "post-retinoid sexual dysfunction"[tiab]
+OR (("persistent sexual"[tiab] OR "enduring sexual"[tiab] OR "persisting sexual"[tiab])
+    AND (finasteride[tiab] OR dutasteride[tiab] OR isotretinoin[tiab] OR "5-alpha reductase"[tiab] OR "5alpha-reductase"[tiab]))
+'''
+europepmc = '''
+("post-finasteride syndrome" OR "post finasteride syndrome" OR "post-retinoid sexual dysfunction")
+'''
+
+[[query]]
+id = "ontreatment"
+scope = "adjacent"
+label = "Antidepressant / antipsychotic-induced sexual dysfunction (on treatment)"
+pubmed = '''
+"antidepressant-induced sexual dysfunction"[tiab] OR "SSRI-induced sexual dysfunction"[tiab]
+OR "antidepressant-associated sexual dysfunction"[tiab] OR "SSRI-associated sexual dysfunction"[tiab]
+OR "antidepressant-related sexual dysfunction"[tiab] OR "treatment-emergent sexual dysfunction"[tiab]
+OR "antipsychotic-induced sexual dysfunction"[tiab] OR "antipsychotic-related sexual dysfunction"[tiab]
+'''
+europepmc = '''
+("antidepressant-induced sexual dysfunction" OR "SSRI-induced sexual dysfunction"
+ OR "antipsychotic-induced sexual dysfunction")
+'''
+
+# --------------------------------------------------------------------------
+# Clinical trial registry search (ClinicalTrials.gov). Registry free-text search
+# is noisy, so each result must also match one of the `relevance` patterns; the
+# first matching scope wins.
+# --------------------------------------------------------------------------
+
+[trials]
+terms = [
+  "post-SSRI sexual dysfunction",
+  "PSSD",
+  "post-finasteride syndrome",
+  "antidepressant induced sexual dysfunction",
+  "SSRI sexual dysfunction",
+  "antipsychotic induced sexual dysfunction",
+  "persistent sexual dysfunction",
+]
+
+[trials.relevance]
+core = ['post[- ]?ssri', 'pssd\b.{0,80}sexual', 'sexual.{0,80}\bpssd', 'post[- ]treatment sexual dysfunction',
+        '(persist|endur)\w* sexual (dysfunction|side).{0,120}(antidepress|ssri|antipsychotic)']
+related = ['post[- ]?finasteride', 'post[- ]?retinoid']
+adjacent = ['(antidepressant|ssri|snri|sri|antipsychotic|neuroleptic|serotonin reuptake inhibitor)s?[- ]?(induced|associated|related|emergent)[- ]sexual',
+            'sexual (dysfunction|side effects?) (induced|caused) by (antidepress|ssri|antipsychotic|serotonin)',
+            'sexual dysfunction.{0,60}(due to|secondary to|associated with).{0,40}(antidepress|ssri|antipsychotic|serotonin)']
+
+# --------------------------------------------------------------------------
+# Hypothesis taxonomy. kind = "mechanism" entries form the evidence matrix;
+# kind = "theme" entries are non-mechanistic research themes.
+# --------------------------------------------------------------------------
+
+[[hypothesis]]
+id = "serotonin"
+kind = "mechanism"
+label = "Serotonin receptor changes"
+description = "Lasting 5-HT1A / 5-HT2 receptor desensitisation, down-regulation or serotonergic neurotoxicity."
+patterns = ['5-?HT\s?1A', '5-?HT\s?2[AC]?', 'serotonin(ergic)? (receptor|neurotoxic|system|transporter)', 'receptor (desensiti|down-?regulat)', '\bSERT\b', 'autoreceptor']
+
+[[hypothesis]]
+id = "dopamine"
+kind = "mechanism"
+label = "Dopamine / reward circuitry"
+description = "Reduced mesolimbic dopamine signalling and serotonin-dopamine interaction."
+patterns = ['dopamin', 'mesolimbic', 'nucleus accumbens', 'reward (system|circuit|pathway)', '\bD2\b receptor']
+
+[[hypothesis]]
+id = "neurosteroid"
+kind = "mechanism"
+label = "Neuroactive steroids"
+description = "Altered allopregnanolone, pregnenolone and other neuroactive steroid levels or 5-alpha-reductase activity."
+patterns = ['neuro(active )?steroid', 'allopregnanolone', 'pregnenolone', '5[- ]?(alpha|α)[- ]?reductase', 'dihydroprogesterone', 'isopregnanolone', 'GABA[- ]?A receptor']
+
+[[hypothesis]]
+id = "hormonal"
+kind = "mechanism"
+label = "Sex hormones / HPG axis"
+description = "Androgen receptor signalling, testosterone, oestrogen, prolactin and hypothalamic-pituitary-gonadal function."
+patterns = ['testosterone', 'androgen', 'oestr(ogen|adiol)|estr(ogen|adiol)', 'prolactin', 'hypogonad', 'hypothalam\w+[- ]pituitary', '\bHPG\b', 'gonadotropin', '\bLH\b|\bFSH\b', 'dihydrotestosterone']
+
+[[hypothesis]]
+id = "epigenetic"
+kind = "mechanism"
+label = "Epigenetic / gene expression"
+description = "Persistent drug-induced changes in DNA methylation, histone modification or transcription."
+patterns = ['epigenet', 'methylation', 'histone', 'gene expression', 'transcriptom', 'RNA[- ]?seq', 'chromatin']
+
+[[hypothesis]]
+id = "neuropathy"
+kind = "mechanism"
+label = "Peripheral / sensory neuropathy"
+description = "Small-fibre neuropathy, ion-channel effects and genital sensory nerve dysfunction."
+patterns = ['small[- ]fib(er|re)', 'neuropath', 'ion channel', 'sodium channel', '\bTRP[VMA]?\d?\b', 'pudendal', 'quantitative sensory testing', 'sensory (nerve|threshold|neuro)', 'skin biopsy', 'nerve conduction', 'penile (sensitivity|sensation|thermal)', 'biothesiometr']
+
+[[hypothesis]]
+id = "microbiome"
+kind = "mechanism"
+label = "Gut microbiome"
+description = "Drug-induced changes in gut microbiota and the gut-brain axis."
+patterns = ['microbio(me|ta)', 'gut[- ]brain', 'dysbiosis', 'f(a)?ecal (microb|transplant)']
+
+[[hypothesis]]
+id = "inflammation"
+kind = "mechanism"
+label = "Neuroinflammation / immune"
+description = "Inflammatory, autoimmune or glial mechanisms."
+patterns = ['neuroinflam', 'inflammat', 'cytokine', 'microglia', 'autoimmun', 'autoantibod', 'interleukin', '\bIL-\d', '\bTNF']
+
+[[hypothesis]]
+id = "mitochondria"
+kind = "mechanism"
+label = "Mitochondria / oxidative stress"
+description = "Mitochondrial dysfunction and oxidative damage."
+patterns = ['mitochondri', 'oxidative stress', 'reactive oxygen', 'antioxidant']
+
+[[hypothesis]]
+id = "vascular"
+kind = "mechanism"
+label = "Nitric oxide / vascular / oxytocin"
+description = "Nitric-oxide signalling, genital blood flow and oxytocinergic function."
+patterns = ['nitric oxide', '\bNOS\b', 'oxytocin', 'penile (blood flow|doppler|haemodynamic|hemodynamic)', 'vascular', 'endothelial', 'corpus cavernos']
+
+[[hypothesis]]
+id = "genetic"
+kind = "mechanism"
+label = "Genetic susceptibility"
+description = "Pharmacogenomic or genetic predisposition to persistent effects."
+patterns = ['polymorphism', 'pharmacogen', 'CYP2D6|CYP2C19', 'genotyp', 'genome[- ]wide', '\bGWAS\b', 'genetic (predispos|suscept|variant|risk)', 'CAG repeat']
+
+[[hypothesis]]
+id = "diagnosis"
+kind = "theme"
+label = "Diagnostic criteria / case definition"
+description = "Work on defining and diagnosing the condition."
+patterns = ['diagnostic criteria', 'case definition', 'diagnos(is|tic) of (pssd|post)', 'differential diagnos', 'consensus']
+
+[[hypothesis]]
+id = "epidemiology"
+kind = "theme"
+label = "Prevalence / epidemiology"
+description = "How common the condition is and who is at risk."
+patterns = ['prevalence', 'incidence', 'epidemiolog', 'risk factor', 'cohort', 'population[- ]based', 'registry']
+
+[[hypothesis]]
+id = "pharmacovigilance"
+kind = "theme"
+label = "Pharmacovigilance / regulatory"
+description = "Spontaneous-report analyses and regulatory actions."
+patterns = ['pharmacovigilan', 'adverse event report', 'FAERS', 'EudraVigilance', 'VigiBase', 'spontaneous report', 'disproportionality', 'European Medicines Agency|\bEMA\b', '\bFDA\b', 'product label|labell?ing', 'yellow card']
+
+[[hypothesis]]
+id = "experience"
+kind = "theme"
+label = "Patient experience / quality of life"
+description = "Qualitative work, surveys of lived experience, psychological and relational impact."
+patterns = ['qualitative', 'lived experience', 'quality of life', 'patient[- ]reported', 'online (survey|communit|forum)', 'suicid', 'emotional (blunting|numb)', 'anhedonia', 'relationship']
+
+# --------------------------------------------------------------------------
+# Candidate treatments. Matched against papers and trial records.
+# --------------------------------------------------------------------------
+
+[[intervention]]
+id = "bupropion"
+label = "Bupropion"
+patterns = ['bupropion']
+
+[[intervention]]
+id = "buspirone"
+label = "Buspirone"
+patterns = ['buspirone']
+
+[[intervention]]
+id = "pde5"
+label = "PDE5 inhibitors"
+patterns = ['sildenafil', 'tadalafil', 'vardenafil', 'PDE-?5', 'phosphodiesterase[- ](type[- ])?5']
+
+[[intervention]]
+id = "dopamine_agonist"
+label = "Dopamine agonists"
+patterns = ['cabergoline', 'pramipexole', 'ropinirole', 'bromocriptine', 'apomorphine', 'dopamine agonist']
+
+[[intervention]]
+id = "stimulant"
+label = "Stimulants / amantadine"
+patterns = ['methylphenidate', 'amphetamine', 'modafinil', 'amantadine']
+
+[[intervention]]
+id = "vortioxetine"
+label = "Vortioxetine"
+patterns = ['vortioxetine']
+
+[[intervention]]
+id = "serotonin_antagonist"
+label = "Serotonin antagonists"
+patterns = ['cyproheptadine', 'mianserin', 'nefazodone', 'trazodone', 'granisetron', 'ondansetron']
+
+[[intervention]]
+id = "testosterone"
+label = "Testosterone / hormonal therapy"
+patterns = ['testosterone (therapy|replacement|treatment|gel|supplement)', 'clomiphene', '\bhCG\b', 'DHEA']
+
+[[intervention]]
+id = "neurosteroid_tx"
+label = "Neurosteroid therapy"
+patterns = ['brexanolone', 'zuranolone', 'ganaxolone', 'allopregnanolone (treatment|therapy|administration)']
+
+[[intervention]]
+id = "laser"
+label = "Low-power laser / photobiomodulation"
+patterns = ['low[- ]power laser', 'laser irradiation', 'photobiomodulation', 'low[- ]level laser']
+
+[[intervention]]
+id = "herbal"
+label = "Herbal / nutraceutical"
+patterns = ['saffron', 'ginkgo', '\bmaca\b', 'yohimbine', 'ginseng', 'L-arginine', 'inositol', 'rosa damascena']
+
+[[intervention]]
+id = "microbiome_tx"
+label = "Microbiome therapy"
+patterns = ['f(a)?ecal microbiota transplant', 'probiotic']
+
+[[intervention]]
+id = "psychedelic"
+label = "Psychedelics"
+patterns = ['psilocybin', '\bLSD\b', 'lysergic', 'psychedelic']
+
+[[intervention]]
+id = "naltrexone"
+label = "Naltrexone"
+patterns = ['naltrexone']
+
+[[intervention]]
+id = "flibanserin"
+label = "Flibanserin / bremelanotide"
+patterns = ['flibanserin', 'bremelanotide']
+
+[[intervention]]
+id = "psychological"
+label = "Psychological / sex therapy"
+patterns = ['cognitive[- ]behaviou?ral', 'psychotherap', 'sex therapy', 'mindfulness']
+
+[[intervention]]
+id = "physio"
+label = "Pelvic-floor physiotherapy / neuromodulation"
+patterns = ['pelvic floor', 'physiotherap', 'neuromodulation', 'transcranial', 'vibrat(ory|ion) stimulation']
+
+[[intervention]]
+id = "switch"
+label = "Dose reduction / switching / drug holiday"
+patterns = ['dose reduction', 'drug holiday', 'switch(ing|ed)? (to|from|antidepress)']
+
+# --------------------------------------------------------------------------
+# Pharmacovigilance grid (FDA Adverse Event Reporting System via openFDA).
+# Reaction terms are MedDRA preferred terms. `control = true` drugs are
+# comparators with no expected sexual-dysfunction signal.
+# --------------------------------------------------------------------------
+
+[faers]
+reactions = [
+  "SEXUAL DYSFUNCTION",
+  "GENITAL HYPOAESTHESIA",
+  "GENITAL ANAESTHESIA",
+  "ANORGASMIA",
+  "ORGASMIC SENSATION DECREASED",
+  "ORGASM ABNORMAL",
+  "LOSS OF LIBIDO",
+  "LIBIDO DECREASED",
+  "ERECTILE DYSFUNCTION",
+  "EJACULATION DISORDER",
+  "EJACULATION FAILURE",
+  "EJACULATION DELAYED",
+  "FEMALE ORGASMIC DISORDER",
+  "FEMALE SEXUAL AROUSAL DISORDER",
+  "EMOTIONAL POVERTY",
+  "ANHEDONIA",
+]
+# Terms pooled into the per-drug "any sexual dysfunction" composite.
+composite = [
+  "SEXUAL DYSFUNCTION", "GENITAL HYPOAESTHESIA", "GENITAL ANAESTHESIA", "ANORGASMIA",
+  "ORGASMIC SENSATION DECREASED", "ORGASM ABNORMAL", "LOSS OF LIBIDO", "LIBIDO DECREASED",
+  "ERECTILE DYSFUNCTION", "EJACULATION DISORDER", "EJACULATION FAILURE", "EJACULATION DELAYED",
+  "FEMALE ORGASMIC DISORDER", "FEMALE SEXUAL AROUSAL DISORDER",
+]
+
+[[faers.drug]]
+name = "sertraline"
+class = "SSRI"
+[[faers.drug]]
+name = "fluoxetine"
+class = "SSRI"
+[[faers.drug]]
+name = "paroxetine"
+class = "SSRI"
+[[faers.drug]]
+name = "citalopram"
+class = "SSRI"
+[[faers.drug]]
+name = "escitalopram"
+class = "SSRI"
+[[faers.drug]]
+name = "fluvoxamine"
+class = "SSRI"
+[[faers.drug]]
+name = "venlafaxine"
+class = "SNRI"
+[[faers.drug]]
+name = "duloxetine"
+class = "SNRI"
+[[faers.drug]]
+name = "desvenlafaxine"
+class = "SNRI"
+[[faers.drug]]
+name = "clomipramine"
+class = "Tricyclic"
+[[faers.drug]]
+name = "amitriptyline"
+class = "Tricyclic"
+[[faers.drug]]
+name = "mirtazapine"
+class = "Other antidepressant"
+[[faers.drug]]
+name = "trazodone"
+class = "Other antidepressant"
+[[faers.drug]]
+name = "vortioxetine"
+class = "Other antidepressant"
+[[faers.drug]]
+name = "bupropion"
+class = "Other antidepressant"
+[[faers.drug]]
+name = "olanzapine"
+class = "Antipsychotic"
+[[faers.drug]]
+name = "quetiapine"
+class = "Antipsychotic"
+[[faers.drug]]
+name = "risperidone"
+class = "Antipsychotic"
+[[faers.drug]]
+name = "aripiprazole"
+class = "Antipsychotic"
+[[faers.drug]]
+name = "haloperidol"
+class = "Antipsychotic"
+[[faers.drug]]
+name = "finasteride"
+class = "5-ARI / retinoid"
+[[faers.drug]]
+name = "dutasteride"
+class = "5-ARI / retinoid"
+[[faers.drug]]
+name = "isotretinoin"
+class = "5-ARI / retinoid"
+[[faers.drug]]
+name = "metformin"
+class = "Comparator"
+control = true
+[[faers.drug]]
+name = "atorvastatin"
+class = "Comparator"
+control = true
+[[faers.drug]]
+name = "omeprazole"
+class = "Comparator"
+control = true
+[[faers.drug]]
+name = "amoxicillin"
+class = "Comparator"
+control = true

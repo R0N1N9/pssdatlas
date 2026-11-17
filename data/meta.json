@@ -1,0 +1,22 @@
+{
+ "generated": "2026-11-17",
+ "sources": {
+  "faers": {
+   "ok": true,
+   "updated": "2026-11-17"
+  },
+  "preprints": {
+   "ok": true,
+   "updated": "2026-11-17"
+  },
+  "pubmed": {
+   "ok": true,
+   "updated": "2026-11-17"
+  },
+  "trials": {
+   "ok": true,
+   "updated": "2026-11-17"
+  }
+ },
+ "version": 1
+}

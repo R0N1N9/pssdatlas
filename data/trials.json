@@ -1,0 +1,376 @@
+[
+ {
+  "brief_title": "Ginkgo Biloba: Antidepressant-Induced Sexual Dysfunction",
+  "completion": "2004-09",
+  "conditions": [
+   "Hypoactive Sexual Desire Disorder",
+   "Sexual Dysfunctions, Psychological"
+  ],
+  "enrollment": null,
+  "first_seen": "2026-11-17",
+  "has_results": false,
+  "id": "NCT00034021",
+  "intervention_tags": [
+   "herbal",
+   "psychological"
+  ],
+  "interventions": [
+   "Ginkgo Biloba",
+   "Sex Therapy (genital focus)"
+  ],
+  "phases": [
+   "PHASE2"
+  ],
+  "scope": "adjacent",
+  "sponsor": "National Center for Complementary and Integrative Health (NCCIH)",
+  "start": "2002-06",
+  "status": "COMPLETED",
+  "study_type": "INTERVENTIONAL",
+  "summary": "The purpose of this study is to provide the first empirical examination of the effects of Ginkgo biloba (GBE), sex therapy, and a combination of the two on subjective and physiological measures of sexual function in women who are experiencing sexual disorders secondary to antidepressants.",
+  "title": "Ginkgo Biloba: Antidepressant-Induced Sexual Dysfunction",
+  "url": "https://clinicaltrials.gov/study/NCT00034021"
+ },
+ {
+  "brief_title": "Switching From an SSRI to Tiagabine(GABITRIL) in Order to Alleviate SSRI Induced Sexual Dysfunction",
+  "completion": "2005-05",
+  "conditions": [
+   "Anxiety",
+   "Sexual Dysfunction"
+  ],
+  "enrollment": 30,
+  "first_seen": "2026-11-17",
+  "has_results": false,
+  "id": "NCT00174850",
+  "intervention_tags": [
+   "switch"
+  ],
+  "interventions": [
+   "Gaitril"
+  ],
+  "phases": [
+   "PHASE4"
+  ],
+  "scope": "adjacent",
+  "sponsor": "State University of New York - Upstate Medical University",
+  "start": "2004-07",
+  "status": "COMPLETED",
+  "study_type": "INTERVENTIONAL",
+  "summary": "Anxious patients are now treated with Selective Serotonin Reuptake Inhibitor medications (common antidepressants) which elevate serotonin and thus alleviate anxiety. These medications have clearly proven efficacy upwards of 70% for many anxiety disorders. In regards to tolerability, they have a major problem in that they often produce sexual dysfunction in men and women (ie. decreased libido, anorgasmia, impotence) upwards of 30% of the time.\n\nBenzodiazepine anxiolytics are also FDA approved to treat anxiety with equal efficacy and greater tolerability (very little, if any sexual dysfunction). They do, however, carry a substantial risk for addiction. Tiagabine is a Selective GABA Reuptake Inhibitor (SGRI) that is FDA approved to treat certain types of epilepsy. Like benzodiazepines, Tiagabine also increases the neurotransmitter, GABA, in the brain and is thought to alleviate anxiety (see references below) this way too, but without any addiction risk common to Valium-type drugs. The safety profile of Tiagabine is thought to be much safer. Two double blind studies are ongoing which are looking at Tiagabine's effectiveness in PTSD and GAD. There are many open label studies showing anxiety reduction and many psychiatrists in clinical practice are utilizing this agent as an anxiety treatment in an off-label manner.\n\nThis study is designed to evaluate anxious patients who are taking SSRI medication, have had a reasonable response, but are experiencing significant sexual side effects which are pushing them towards noncompliance and possible relapse into anxiety. 30 subjects (15 men and 15 women) will be asked to join the study and be placed on Tiagabine as well as their current SSRI. Once an acceptable dose of Tiagabine is reached in the first four weeks, the subjects' SSRIs will be slowly stopped. Two weeks after enrollment, all subjects will be called in order to check for any side effects to the study drug and to insure that each subject is titrating to the proper dose of study drug according to the study protocol. An open-label, non-placebo prospective 10 week follow up will occur, where the now Tiagabine monotherapy subjects will be followed to see primarily if their sexual dysfunction improves and if there anxiety remains controlled.",
+  "title": "A 14 Week Open-Label Study to Evaluate the Tolerability of Switching From an SSRI to Tiagabine(GABITRIL) in Order to Alleviate SSRI Induced Sexual Dysfunction in Generalized Anxiety Disorder Patients",
+  "url": "https://clinicaltrials.gov/study/NCT00174850"
+ },
+ {
+  "brief_title": "Safety and Effectiveness Study of Maca Root to Treat Antidepressant-Induced Sexual Dysfunction",
+  "completion": "2010-06",
+  "conditions": [
+   "Depression",
+   "Sexual Dysfunction"
+  ],
+  "enrollment": 20,
+  "first_seen": "2026-11-17",
+  "has_results": true,
+  "id": "NCT00181961",
+  "intervention_tags": [
+   "herbal"
+  ],
+  "interventions": [
+   "Maca Root"
+  ],
+  "phases": [
+   "PHASE3"
+  ],
+  "scope": "adjacent",
+  "sponsor": "Massachusetts General Hospital",
+  "start": "2007-12",
+  "status": "COMPLETED",
+  "study_type": "INTERVENTIONAL",
+  "summary": "The purpose of this study is to determine the dose of Maca Root effective for the treatment of antidepressant-induced sexual dysfunction in patients with DSM-IV defined Major Depressive Disorder. We propose to carry out a dose-finding pilot study to determine the minimum effective dose of Maca Root. We hypothesize that patients who receive Maca Root will experience alleviation of their sexual dysfunction, and this effect will be more pronounced in those who receive higher doses of maca root.",
+  "title": "A Dose-Finding Study of the Tolerability and Efficacy of Maca Root in Patients With Antidepressant-Induced Sexual Dysfunction",
+  "url": "https://clinicaltrials.gov/study/NCT00181961"
+ },
+ {
+  "brief_title": "Treating Sexual Dysfunction From Selective Serotonin Reuptake Inhibitor (SSRI) Medication: a Study Comparing Requip CR to Placebo",
+  "completion": "2007-09",
+  "conditions": [
+   "Sexual Dysfunction"
+  ],
+  "enrollment": 9,
+  "first_seen": "2026-11-17",
+  "has_results": false,
+  "id": "NCT00334048",
+  "intervention_tags": [
+   "dopamine_agonist"
+  ],
+  "interventions": [
+   "Ropinirole (Requip)"
+  ],
+  "phases": [
+   "PHASE4"
+  ],
+  "scope": "adjacent",
+  "sponsor": "St. Luke's-Roosevelt Hospital Center",
+  "start": "2006-06",
+  "status": "COMPLETED",
+  "study_type": "INTERVENTIONAL",
+  "summary": "Antidepressant medicines sometimes cause sexual side effects. The purpose of this study is to determine whether the sexual dysfunction sometimes caused by selective serotonin reuptake inhibitor (SSRI) antidepressant medications can be reversed by treatment with Requip (ropinirole), a medicine which is used to treat Parkinson's Disease and restless leg syndrome.",
+  "title": "Treatment of Sexual Dysfunction Secondary to Antidepressant Pharmacotherapy: A Double-blind Comparison of Requip (Ropinirole) vs. Placebo in Patients Taking SSRI Antidepressants",
+  "url": "https://clinicaltrials.gov/study/NCT00334048"
+ },
+ {
+  "brief_title": "Study of Sildenafil for Treatment of SSRI-Antidepressant Sexual Dysfunction in Women",
+  "completion": "2005-06",
+  "conditions": [
+   "Sexual Dysfunction",
+   "Depression"
+  ],
+  "enrollment": 100,
+  "first_seen": "2026-11-17",
+  "has_results": false,
+  "id": "NCT00375297",
+  "intervention_tags": [
+   "pde5"
+  ],
+  "interventions": [
+   "sildenafil"
+  ],
+  "phases": [
+   "PHASE4"
+  ],
+  "scope": "adjacent",
+  "sponsor": "University of New Mexico",
+  "start": "2001-01",
+  "status": "COMPLETED",
+  "study_type": "INTERVENTIONAL",
+  "summary": "This prospective double-blind, placebo-controlled (DBPC) study, assessed the efficacy of sildenafil in women with serotonin reuptake inhibitor antidepressant-associated sexual dysfunction (SRI-AASD) following the same protocol which previously established efficacy in men with SRI-AASD.",
+  "title": "Randomized Double Blind Placebo Controlled Study of Sildenafil for Treatment of Serotonergic Reuptake Inhibitor Associated Sexual Dysfunction in Women With Major Depression Treated to Remission",
+  "url": "https://clinicaltrials.gov/study/NCT00375297"
+ },
+ {
+  "brief_title": "Switching to Duloxetine to Ameliorate SSRI-Induced Sexual Dysfunction",
+  "completion": "2009-04",
+  "conditions": [
+   "Depression"
+  ],
+  "enrollment": 6,
+  "first_seen": "2026-11-17",
+  "has_results": true,
+  "id": "NCT00398632",
+  "intervention_tags": [
+   "switch"
+  ],
+  "interventions": [
+   "Duloxetine"
+  ],
+  "phases": [
+   "PHASE4"
+  ],
+  "scope": "adjacent",
+  "sponsor": "Stanford University",
+  "start": "2006-11",
+  "status": "TERMINATED",
+  "study_type": "INTERVENTIONAL",
+  "summary": "Sexual dysfunction is a common side effect of selective serotonin reuptake inhibitors (SSRIs). The hypotheses of this study are that:1. subjects with major depression or dysthymia who are being treated with an SSRI and experiencing treatment-related sexual dysfunction will experience less sexual dysfunction if they are switched to duloxetine, and 2. they will experience either improved antidepressant response or no loss of antidepressant response.",
+  "title": "Switching to Duloxetine to Ameliorate SSRI-Induced Sexual Dysfunction",
+  "url": "https://clinicaltrials.gov/study/NCT00398632"
+ },
+ {
+  "brief_title": "Study of Maca Root for the Treatment of Antidepressant-Induced Sexual Dysfunction in Females",
+  "completion": "2010-10-05",
+  "conditions": [
+   "Antidepressant Induced Sexual Dysfunction"
+  ],
+  "enrollment": 45,
+  "first_seen": "2026-11-17",
+  "has_results": true,
+  "id": "NCT00568126",
+  "intervention_tags": [
+   "herbal"
+  ],
+  "interventions": [
+   "Maca Root",
+   "Placebo"
+  ],
+  "phases": [
+   "PHASE3"
+  ],
+  "scope": "adjacent",
+  "sponsor": "Massachusetts General Hospital",
+  "start": "2007-12-27",
+  "status": "COMPLETED",
+  "study_type": "INTERVENTIONAL",
+  "summary": "The purpose of this study is to find out whether Maca Root is effective for treating sexual dysfunction in females that is caused by antidepressant drugs. An additional aim of the study is to document the safety and tolerability of maca root, as well as any potential side effects that it causes.",
+  "title": "A Double-Blind, Placebo Controlled Study of Maca Root for the Treatment of Antidepressant-Induced Sexual Dysfunction in Females",
+  "url": "https://clinicaltrials.gov/study/NCT00568126"
+ },
+ {
+  "brief_title": "Trazodone for SSRI-sexual Dsyfunction",
+  "completion": "2012-01",
+  "conditions": [
+   "Sexual Dysfunction"
+  ],
+  "enrollment": 56,
+  "first_seen": "2026-11-17",
+  "has_results": false,
+  "id": "NCT01097980",
+  "intervention_tags": [
+   "serotonin_antagonist"
+  ],
+  "interventions": [
+   "Trazodone",
+   "Placebo"
+  ],
+  "phases": [
+   "NA"
+  ],
+  "scope": "adjacent",
+  "sponsor": "Beitou Armed Forces Hospital, Taipei, Taiwan",
+  "start": "2010-04",
+  "status": "COMPLETED",
+  "study_type": "INTERVENTIONAL",
+  "summary": "The aim of this study is to investigate the efficacy of trazodone in the treatment of selective serotonin reuptake inhibitor(s) associated sexual dysfunction. The secondary domains assessed were the relationship between 5-HT2A polymorphism and treatment efficacy.",
+  "title": "The Efficacy of Trazodone for Selective Serotonin Reuptake Inhibitor-induced Sexual Dysfunction",
+  "url": "https://clinicaltrials.gov/study/NCT01097980"
+ },
+ {
+  "brief_title": "Efficacy of Exercise for Sexual Side Effects of Antidepressants",
+  "completion": "2012-08",
+  "conditions": [
+   "Sexual Dysfunction"
+  ],
+  "enrollment": 48,
+  "first_seen": "2026-11-17",
+  "has_results": false,
+  "id": "NCT01189825",
+  "intervention_tags": [],
+  "interventions": [
+   "Exercise"
+  ],
+  "phases": [
+   "NA"
+  ],
+  "scope": "adjacent",
+  "sponsor": "University of Texas at Austin",
+  "start": "2009-06",
+  "status": "COMPLETED",
+  "study_type": "INTERVENTIONAL",
+  "summary": "The major aim of the this study is to replicate findings of previous research that examined the effects of acute exercise on sexual arousal in women in a novel population, namely, women taking antidepressants of the selective serotonin reuptake inhibitors (SSRI) or selective serotonin and norepinephrine reuptake inhibitors (SNRI) class. In previous studies it has been found that acute, moderate-intensity exercise facilitated physiological sexual arousal responses in healthy, sexually functional women. However, it is known that antidepressants may induce sexual dysfunction, and thus in the present study, the investigators are examining whether acute exercise may facilitate sexual responses in women with taking antidepressants, including women with antidepressant-related sexual dysfunction.",
+  "title": "Effects of Acute Exercise on Sexual Arousal in Women Taking a Selective Serotonin Reuptake Inhibitor (SSRI) or Selective Serotonin/Norepinephrine Reuptake Inhibitor",
+  "url": "https://clinicaltrials.gov/study/NCT01189825"
+ },
+ {
+  "brief_title": "Vortioxetine (Lu AA21004) 10 and 20 mg for Treatment of Major Depressive Disorder With Sexual Dysfunction",
+  "completion": "2013-12",
+  "conditions": [
+   "Treatment Outcome"
+  ],
+  "enrollment": 447,
+  "first_seen": "2026-11-17",
+  "has_results": true,
+  "id": "NCT01364649",
+  "intervention_tags": [
+   "vortioxetine"
+  ],
+  "interventions": [
+   "Vortioxetine",
+   "Escitalopram",
+   "Placebo"
+  ],
+  "phases": [
+   "PHASE3"
+  ],
+  "scope": "adjacent",
+  "sponsor": "Takeda",
+  "start": "2011-06",
+  "status": "COMPLETED",
+  "study_type": "INTERVENTIONAL",
+  "summary": "The purpose of this study is to evaluate the effects of Vortioxetine (Lu AA21004), once daily (QD), compared with escitalopram on sexual functioning.",
+  "title": "A Randomized, Double-Blind, Parallel-Group, Active-Controlled, Flexible-Dose Study Evaluating the Effect of Lu AA21004 vs Escitalopram on Sexual Functioning in Adults With Well-Treated Major Depressive Disorder Experiencing Selective Serotonin Reuptake Inhibitor-Induced Sexual Dysfunction",
+  "url": "https://clinicaltrials.gov/study/NCT01364649"
+ },
+ {
+  "brief_title": "Does Vilazodone Help With Antidepressant-associated Sexual Dysfunction?",
+  "completion": "2016-06",
+  "conditions": [
+   "Sexual Dysfunction",
+   "Major Depressive Disorder"
+  ],
+  "enrollment": 4,
+  "first_seen": "2026-11-17",
+  "has_results": false,
+  "id": "NCT01856127",
+  "intervention_tags": [
+   "switch"
+  ],
+  "interventions": [
+   "Vilazodone",
+   "Sertraline"
+  ],
+  "phases": [
+   "PHASE4"
+  ],
+  "scope": "adjacent",
+  "sponsor": "Thomas Jefferson University",
+  "start": "2013-01",
+  "status": "TERMINATED",
+  "study_type": "INTERVENTIONAL",
+  "summary": "This is a three-center, randomized, double-blind, fixed dose study designed to assess the efficacy, safety, and tolerability of a switch to vilazodone for sexual dysfunction associated with use of a selective serotonin reuptake inhibitor (SSRI) and serotonin-norepinephrine reuptake inhibitor (SNRI)compared to switching to sertraline in patients with Major Depressive Disorder (MDD).\n\nVilazodone is a newly introduced, FDA approved antidepressant that is a combined serotonin specific reuptake inhibitor and serotonin 1A receptor partial agonist. In contrast to the SSRIs and SNRIs, appears to have low adverse effects on sexual functioning when compared to placebo.",
+  "title": "A Randomized, Double-Blind, Active Controlled Clinical Trial of Switching to Vilazodone for Antidepressant-Associated Sexual Dysfunction",
+  "url": "https://clinicaltrials.gov/study/NCT01856127"
+ },
+ {
+  "brief_title": "Aripiprazole, Abilify Maintena Collaborative Clinical Protocol",
+  "completion": "2017-03-01",
+  "conditions": [
+   "Sexual Dysfunction"
+  ],
+  "enrollment": 2,
+  "first_seen": "2026-11-17",
+  "has_results": true,
+  "id": "NCT02472652",
+  "intervention_tags": [
+   "switch"
+  ],
+  "interventions": [
+   "Abilify Maintena"
+  ],
+  "phases": [
+   "PHASE4"
+  ],
+  "scope": "adjacent",
+  "sponsor": "Gazda, Thomas D., M.D., PC",
+  "start": "2015-06",
+  "status": "TERMINATED",
+  "study_type": "INTERVENTIONAL",
+  "summary": "Sexual dysfunction is highly prevalent in schizophrenic patients, affecting up to 80% of men and women. Antipsychotic induced sexual side effects may be a barrier to treatment compliance. Antipsychotics such as Risperdal Consta and Invega Sustenna are known to have higher rates of causing prolactin elevations that may be implicated in sexual dysfunction. The basic premise of this study is to identify patients who believe they have experienced sexual dysfunction on Risperdal Consta or Invega Sustenna and switch to the alternative long acting injectable antipsychotic, Abilify Maintena which tends to lower prolactin levels. Measures of sexual sexual functioning using the self rated 5 item Arizona Sexual Experience Scale (ASEX) as the primary outcome measure will be made over a 3 month period to determine if such a switch is helpful.",
+  "title": "An Open-label Study to Determine the Effect of Switching to Aripiprazole Once Monthly for Subjects With Schizophrenia Experiencing Worsening Sexual Dysfunction With Invega Sustenna or Risperdal Consta",
+  "url": "https://clinicaltrials.gov/study/NCT02472652"
+ },
+ {
+  "brief_title": "Mindfulness for Antidepressant-induced Sexual Symptoms",
+  "completion": "2018-07",
+  "conditions": [
+   "Other Substance Induced Sexual Dysfunction"
+  ],
+  "enrollment": 0,
+  "first_seen": "2026-11-17",
+  "has_results": false,
+  "id": "NCT02768012",
+  "intervention_tags": [
+   "psychological"
+  ],
+  "interventions": [
+   "mindfulness-based cognitive therapy"
+  ],
+  "phases": [
+   "NA"
+  ],
+  "scope": "adjacent",
+  "sponsor": "University of British Columbia",
+  "start": "2016-07",
+  "status": "WITHDRAWN",
+  "study_type": "INTERVENTIONAL",
+  "summary": "Antidepressant-induced sexual dysfunction (AISD) affects the majority of women taking antidepressants and reduces medication compliance: however there is a paucity of evidence-based strategies for the management of this condition. Mindfulness-based cognitive therapy (MBCT) has been shown to be effective in the treatment of non-antidepressant-induced sexual dysfunction and may be beneficial in the treatment of AISD. The investigators propose a randomized, controlled, proof-of-principle trial to establish preliminary evidence of efficacy of MBCT in AISD and to inform the design of a larger trial to evaluate its effectiveness",
+  "title": "Mindfulness for Antidepressant-induced Sexual Symptoms",
+  "url": "https://clinicaltrials.gov/study/NCT02768012"
+ }
+]
