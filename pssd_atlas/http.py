@@ -37,7 +37,7 @@ class Client:
         return self.cache_dir / (hashlib.sha256(key.encode()).hexdigest()[:32] + ".txt")
 
     def get(self, url: str, params: dict | None = None, *, post: bool = False,
-            ok_statuses: tuple[int, ...] = ()) -> str:
+            ok_statuses: tuple[int, ...] = (), headers: dict | None = None) -> str:
         """Fetch text. `ok_statuses` are non-200 codes returned (as body) rather than raised."""
         query = urllib.parse.urlencode(params or {}, quote_via=urllib.parse.quote)
         key = f"{url}?{query}"
@@ -56,6 +56,8 @@ class Client:
             else:
                 req = urllib.request.Request(f"{url}?{query}" if query else url)
             req.add_header("User-Agent", USER_AGENT)
+            for k, v in (headers or {}).items():
+                req.add_header(k, v)
             try:
                 with urllib.request.urlopen(req, timeout=60) as resp:
                     text = resp.read().decode("utf-8", errors="replace")

@@ -90,6 +90,7 @@ def classify_paper(rec: dict, cfg: Config) -> dict:
     rec["hypotheses"] = _tags(cfg.hypotheses, text)
     rec["interventions"] = _tags(cfg.interventions, text)
     rec["drugs"] = _tags(cfg.drug_tagger, text)
+    rec["partitions"] = cfg.partitions_for(rec["drugs"], text, paper=True)
     return rec
 
 
@@ -107,4 +108,6 @@ def trial_scope(trial: dict, cfg: Config) -> str | None:
 def classify_trial(trial: dict, cfg: Config) -> dict:
     text = " ".join([trial.get("title", ""), " ".join(trial.get("interventions", [])), trial.get("summary", "")])
     trial["intervention_tags"] = _tags(cfg.interventions, text)
+    full = " ".join([text, trial.get("brief_title", ""), " ".join(trial.get("conditions", []))])
+    trial["partitions"] = cfg.partitions_for(_tags(cfg.drug_tagger, full), full, paper=True)
     return trial

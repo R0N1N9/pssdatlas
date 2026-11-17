@@ -1,7 +1,7 @@
 import math
 import unittest
 
-from pssd_atlas import classify, config, faers, pubmed
+from pssd_atlas import classify, community, config, faers, pubmed, reddit
 
 CFG = config.load()
 
@@ -46,6 +46,77 @@ class Tagging(unittest.TestCase):
         self.assertEqual(classify.trial_scope(t, CFG), "core")
         t = {"title": "Bupropion for SSRI-induced sexual dysfunction", "conditions": [], "summary": ""}
         self.assertEqual(classify.trial_scope(t, CFG), "adjacent")
+
+
+class Partitions(unittest.TestCase):
+    def parts(self, title, abstract=""):
+        return classify.classify_paper(rec(title, abstract), CFG)["partitions"]
+
+    def test_papers(self):
+        self.assertEqual(self.parts("Post-SSRI sexual dysfunction after sertraline"), ["all", "ssri_snri"])
+        self.assertEqual(self.parts("Persistent sexual dysfunction after olanzapine"), ["all", "ap_mirt"])
+        self.assertEqual(self.parts("Sexual effects of Remeron and venlafaxine"), ["all", "ssri_snri", "ap_mirt"])
+        self.assertEqual(self.parts("Post-finasteride syndrome"), ["all"])
+        self.assertEqual(self.parts("Antipsychotic-induced sexual dysfunction"), ["all", "ap_mirt"])
+
+    def test_posts_do_not_treat_pssd_as_ssri(self):
+        post = {"id": "reddit:1", "source": "reddit", "url": "u", "title": "PSSD from Zyprexa", "text": "Only ever took that."}
+        self.assertEqual(community.extract(post, CFG)["partitions"], ["all", "ap_mirt"])
+
+
+class PatientPosts(unittest.TestCase):
+    def test_extract(self):
+        post = {"id": "reddit:1", "source": "reddit", "community": "r/PSSD", "url": "u", "date": "2025-01-02",
+                "title": "Mirtazipine gave me genital numbness and zero libido",
+                "text": "Wellbutrin didn't help at all. Cialis helped a bit with erections. "
+                        "Keto made everything worse. I also take magnesium."}
+        r = community.extract(post, CFG)
+        self.assertEqual(r["drugs"], ["mirtazapine", "bupropion"])
+        self.assertEqual(set(r["symptoms"]), {"genital_numbness", "libido", "erectile"})
+        got = {t["id"]: t["outcome"] for t in r["treatments"]}
+        self.assertEqual(got, {"bupropion": "none", "pde5": "better", "keto_fasting": "worse", "supplements": "mentioned"})
+        self.assertFalse(r["recovery"])
+        self.assertNotIn("text", r)
+        self.assertNotIn("title", r)
+
+    def test_reddit_parse_drops_author(self):
+        p = reddit._post({"id": "abc", "subreddit": "PSSD", "permalink": "/r/PSSD/comments/abc/x/", "created_utc": 1700000000,
+                          "title": "T", "selftext": "S", "num_comments": 3, "author": "someone"})
+        self.assertEqual((p["id"], p["community"], p["date"], p["replies"]), ("reddit:abc", "r/PSSD", "2023-11-14", 3))
+        self.assertNotIn("someone", str(p))
+
+
+class RedditCollect(unittest.TestCase):
+    def test_token_paging_and_dedup(self):
+        import json, os
+        calls = []
+
+        class Fake:
+            def get(self, url, params=None, post=False, headers=None, **kw):
+                calls.append((url, dict(params or {}), headers))
+                if url == reddit.TOKEN_URL:
+                    return json.dumps({"access_token": "tok"})
+                child = lambda i: {"kind": "t3", "data": {"id": i, "subreddit": "PSSD", "permalink": f"/r/PSSD/{i}/",
+                                                           "created_utc": 1700000000, "title": i, "selftext": ""}}
+                if "search" in url:
+                    return json.dumps({"data": {"children": [child("b")], "after": None}})
+                if params.get("after") == "t3_a":
+                    return json.dumps({"data": {"children": [child("b")], "after": None}})
+                return json.dumps({"data": {"children": [child("a")], "after": "t3_a"}})
+
+        os.environ.update(REDDIT_CLIENT_ID="id", REDDIT_CLIENT_SECRET="secret")
+        try:
+            posts = reddit.collect(Fake(), {"subreddits": ["PSSD"], "search": [{"subreddit": "PSSD", "q": "x"}]})
+        finally:
+            del os.environ["REDDIT_CLIENT_ID"], os.environ["REDDIT_CLIENT_SECRET"]
+        self.assertEqual(sorted(p["id"] for p in posts), ["reddit:a", "reddit:b"])
+        self.assertTrue(calls[0][2]["Authorization"].startswith("Basic "))
+        self.assertEqual(calls[1][2]["Authorization"], "Bearer tok")
+        self.assertEqual(len(calls), 4)  # token, two listing pages, one search
+
+    def test_missing_credentials(self):
+        with self.assertRaises(reddit.MissingCredentials):
+            reddit.token(None)
 
 
 class Disproportionality(unittest.TestCase):

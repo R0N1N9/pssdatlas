@@ -23,10 +23,12 @@ pubmed = '''
 OR (PSSD[tiab] AND (SSRI*[tiab] OR antidepressant*[tiab] OR serotonin[tiab] OR serotonergic[tiab]))
 OR ("post-treatment sexual dysfunction"[tiab] AND (antidepressant*[tiab] OR SSRI*[tiab] OR "serotonin reuptake"[tiab] OR antipsychotic*[tiab]))
 OR (("persistent sexual"[tiab] OR "enduring sexual"[tiab] OR "persisting sexual"[tiab] OR "long-lasting sexual"[tiab])
-    AND (antidepressant*[tiab] OR SSRI*[tiab] OR "serotonin reuptake"[tiab] OR antipsychotic*[tiab] OR mirtazapine[tiab]))
+    AND (antidepressant*[tiab] OR SSRI*[tiab] OR "serotonin reuptake"[tiab] OR antipsychotic*[tiab] OR neuroleptic*[tiab] OR mirtazapine[tiab]
+         OR olanzapine[tiab] OR quetiapine[tiab] OR risperidone[tiab] OR aripiprazole[tiab]))
 OR (("genital anesthesia"[tiab] OR "genital anaesthesia"[tiab] OR "genital numbness"[tiab])
     AND (antidepressant*[tiab] OR SSRI*[tiab] OR "serotonin reuptake"[tiab]))
-OR ((antipsychotic*[tiab] OR olanzapine[tiab] OR quetiapine[tiab] OR mirtazapine[tiab])
+OR ((antipsychotic*[tiab] OR neuroleptic*[tiab] OR olanzapine[tiab] OR quetiapine[tiab] OR risperidone[tiab]
+     OR aripiprazole[tiab] OR paliperidone[tiab] OR mirtazapine[tiab])
     AND "sexual dysfunction"[tiab]
     AND ("after discontinuation"[tiab] OR "after withdrawal"[tiab] OR "after cessation"[tiab] OR "after stopping"[tiab]))
 '''
@@ -206,32 +208,32 @@ patterns = ['qualitative', 'lived experience', 'quality of life', 'patient[- ]re
 [[intervention]]
 id = "bupropion"
 label = "Bupropion"
-patterns = ['bupropion']
+patterns = ['bupropion', 'wellbutrin']
 
 [[intervention]]
 id = "buspirone"
 label = "Buspirone"
-patterns = ['buspirone']
+patterns = ['buspirone', 'buspar']
 
 [[intervention]]
 id = "pde5"
 label = "PDE5 inhibitors"
-patterns = ['sildenafil', 'tadalafil', 'vardenafil', 'PDE-?5', 'phosphodiesterase[- ](type[- ])?5']
+patterns = ['sildenafil', 'tadalafil', 'vardenafil', 'viagra', 'cialis', 'PDE-?5', 'phosphodiesterase[- ](type[- ])?5']
 
 [[intervention]]
 id = "dopamine_agonist"
 label = "Dopamine agonists"
-patterns = ['cabergoline', 'pramipexole', 'ropinirole', 'bromocriptine', 'apomorphine', 'dopamine agonist']
+patterns = ['cabergoline', 'dostinex', 'pramipexole', 'mirapex', 'ropinirole', 'bromocriptine', 'apomorphine', 'dopamine agonist']
 
 [[intervention]]
 id = "stimulant"
 label = "Stimulants / amantadine"
-patterns = ['methylphenidate', 'amphetamine', 'modafinil', 'amantadine']
+patterns = ['methylphenidate', 'ritalin', 'adderall', 'vyvanse', 'amphetamine', 'modafinil', 'amantadine']
 
 [[intervention]]
 id = "vortioxetine"
 label = "Vortioxetine"
-patterns = ['vortioxetine']
+patterns = ['vortioxetine', 'trintellix', 'brintellix']
 
 [[intervention]]
 id = "serotonin_antagonist"
@@ -266,12 +268,12 @@ patterns = ['f(a)?ecal microbiota transplant', 'probiotic']
 [[intervention]]
 id = "psychedelic"
 label = "Psychedelics"
-patterns = ['psilocybin', '\bLSD\b', 'lysergic', 'psychedelic']
+patterns = ['psilocybin', 'shrooms', 'magic mushrooms', '\bLSD\b', 'lysergic', 'psychedelic']
 
 [[intervention]]
 id = "naltrexone"
 label = "Naltrexone"
-patterns = ['naltrexone']
+patterns = ['naltrexone', '\\bLDN\\b']
 
 [[intervention]]
 id = "flibanserin"
@@ -328,72 +330,115 @@ composite = [
 
 [[faers.drug]]
 name = "sertraline"
+aliases = ["zoloft", "lustral"]
 class = "SSRI"
 [[faers.drug]]
 name = "fluoxetine"
+aliases = ["prozac"]
 class = "SSRI"
 [[faers.drug]]
 name = "paroxetine"
+aliases = ["paxil", "seroxat"]
 class = "SSRI"
 [[faers.drug]]
 name = "citalopram"
+aliases = ["celexa", "cipramil"]
 class = "SSRI"
 [[faers.drug]]
 name = "escitalopram"
+aliases = ["lexapro", "cipralex"]
 class = "SSRI"
 [[faers.drug]]
 name = "fluvoxamine"
+aliases = ["luvox"]
 class = "SSRI"
 [[faers.drug]]
 name = "venlafaxine"
+aliases = ["effexor"]
 class = "SNRI"
 [[faers.drug]]
 name = "duloxetine"
+aliases = ["cymbalta"]
 class = "SNRI"
 [[faers.drug]]
 name = "desvenlafaxine"
+aliases = ["pristiq"]
 class = "SNRI"
 [[faers.drug]]
 name = "clomipramine"
+aliases = ["anafranil"]
 class = "Tricyclic"
 [[faers.drug]]
 name = "amitriptyline"
+aliases = ["elavil"]
 class = "Tricyclic"
 [[faers.drug]]
 name = "mirtazapine"
+aliases = ["remeron", "mirtazipine", "mirtazepine"]
 class = "Other antidepressant"
 [[faers.drug]]
 name = "trazodone"
+aliases = ["desyrel"]
 class = "Other antidepressant"
 [[faers.drug]]
 name = "vortioxetine"
+aliases = ["trintellix", "brintellix"]
 class = "Other antidepressant"
 [[faers.drug]]
 name = "bupropion"
+aliases = ["wellbutrin", "zyban"]
 class = "Other antidepressant"
 [[faers.drug]]
 name = "olanzapine"
+aliases = ["zyprexa"]
 class = "Antipsychotic"
 [[faers.drug]]
 name = "quetiapine"
+aliases = ["seroquel"]
 class = "Antipsychotic"
 [[faers.drug]]
 name = "risperidone"
+aliases = ["risperdal"]
 class = "Antipsychotic"
 [[faers.drug]]
 name = "aripiprazole"
+aliases = ["abilify"]
 class = "Antipsychotic"
 [[faers.drug]]
 name = "haloperidol"
+aliases = ["haldol"]
+class = "Antipsychotic"
+[[faers.drug]]
+name = "paliperidone"
+aliases = ["invega"]
+class = "Antipsychotic"
+[[faers.drug]]
+name = "clozapine"
+aliases = ["clozaril"]
+class = "Antipsychotic"
+[[faers.drug]]
+name = "ziprasidone"
+aliases = ["geodon"]
+class = "Antipsychotic"
+[[faers.drug]]
+name = "lurasidone"
+aliases = ["latuda"]
+class = "Antipsychotic"
+[[faers.drug]]
+name = "amisulpride"
+aliases = ["solian"]
 class = "Antipsychotic"
 [[faers.drug]]
 name = "finasteride"
+aliases = ["propecia", "proscar"]
 class = "5-ARI / retinoid"
 [[faers.drug]]
 name = "dutasteride"
+aliases = ["avodart"]
 class = "5-ARI / retinoid"
 [[faers.drug]]
 name = "isotretinoin"
+aliases = ["accutane", "roaccutane"]
 class = "5-ARI / retinoid"
 [[faers.drug]]
 name = "metformin"
@@ -411,3 +456,181 @@ control = true
 name = "amoxicillin"
 class = "Comparator"
 control = true
+
+# --------------------------------------------------------------------------
+# Partitions: the whole report can be viewed through any of these lenses.
+# A record belongs to a partition when it names one of the partition's drugs
+# (by class or name, including brand names) or matches one of its `terms`.
+# `paper_terms` apply to papers and trials only: on a patient forum "PSSD" is
+# used whatever the causative drug was, so it says nothing about drug class there.
+# A partition with no drugs or terms contains everything.
+# --------------------------------------------------------------------------
+
+[[partition]]
+id = "all"
+label = "All psychiatric medication"
+description = "Everything: persistent sexual dysfunction after any psychiatric drug, plus related syndromes."
+
+[[partition]]
+id = "ssri_snri"
+label = "SSRIs and SNRIs"
+description = "Records that involve serotonin reuptake inhibitors."
+classes = ["SSRI", "SNRI"]
+terms = ['\bSSRIs?\b', '\bSNRIs?\b', 'serotonin[- ](and[- ])?(norepinephrine[- ]|noradrenaline[- ])?re-?uptake inhibit']
+paper_terms = ['post-?SSRI', '\bPSSD\b']
+
+[[partition]]
+id = "ap_mirt"
+label = "Antipsychotics and mirtazapine"
+description = "Records that involve antipsychotics or mirtazapine."
+classes = ["Antipsychotic"]
+drugs = ["mirtazapine"]
+terms = ['antipsychotic', 'neuroleptic', '\bNaSSA\b']
+
+# --------------------------------------------------------------------------
+# Patient reports (Reddit, forums). Anecdotal and self-selected: shown in their
+# own section and never mixed into the evidence matrix. Only extracted tags and
+# a link are stored; usernames are never collected and post text stays local.
+# --------------------------------------------------------------------------
+
+[community.reddit]
+# Newest posts from these subreddits (Reddit serves at most ~1000 per listing).
+subreddits = ["PSSD"]
+# Extra searches to reach older posts about under-represented drugs.
+[[community.reddit.search]]
+subreddit = "PSSD"
+q = "mirtazapine OR remeron"
+[[community.reddit.search]]
+subreddit = "PSSD"
+q = "antipsychotic OR olanzapine OR zyprexa OR quetiapine OR seroquel OR risperidone OR aripiprazole OR abilify"
+[[community.reddit.search]]
+subreddit = "antipsychotics"
+q = "PSSD OR \"sexual dysfunction\" OR \"genital numbness\" OR anhedonia"
+[[community.reddit.search]]
+subreddit = "mirtazapine"
+q = "PSSD OR \"sexual dysfunction\" OR \"genital numbness\""
+[[community.reddit.search]]
+subreddit = "PSSD"
+q = "recovered OR recovery OR improvement"
+
+# Blogs and advocacy sites. kind = "wordpress" uses the site's own search API;
+# kind = "rss" reads a feed. `delay` is the site's requested crawl delay in seconds.
+# The two patient forums (pssdforum.org, survivingantidepressants.org) are not
+# here: both block automated access. Use `pssd-atlas import` for pages you have
+# saved from your own browser.
+[[community.blog]]
+name = "RxISK"
+kind = "wordpress"
+url = "https://rxisk.org"
+search = ["PSSD", "post-SSRI"]
+delay = 10
+[[community.blog]]
+name = "David Healy"
+kind = "wordpress"
+url = "https://davidhealy.org"
+search = ["PSSD", "post-SSRI"]
+delay = 10
+[[community.blog]]
+name = "Mad in America"
+kind = "wordpress"
+url = "https://www.madinamerica.com"
+search = ["PSSD", "post-SSRI"]
+delay = 3
+[[community.blog]]
+name = "PSSD Network: media"
+kind = "rss"
+url = "https://www.pssdnetwork.org/media?format=rss"
+[[community.blog]]
+name = "PSSD Canada: news"
+kind = "rss"
+url = "https://www.pssdcanada.ca/news?format=rss"
+[[community.blog]]
+name = "PSSD Canada: stories"
+kind = "rss"
+url = "https://www.pssdcanada.ca/our-stories?format=rss"
+
+[[community.symptom]]
+id = "genital_numbness"
+label = "Genital numbness / reduced sensation"
+patterns = ['genital (numb|an(a)?esthesia)', 'numb (genital|penis|dick|clit|vagina)', '(penis|penile|clitor\w+|genital\w*) (is |feels? |are )?(numb|rubbery|dead)', 'no (genital )?sensation', 'reduced sensation', 'rubbery']
+
+[[community.symptom]]
+id = "libido"
+label = "Loss of libido"
+patterns = ['libido', 'sex drive', 'no (sexual )?desire', 'asexual']
+
+[[community.symptom]]
+id = "erectile"
+label = "Erectile / arousal problems"
+patterns = ['erectile', '\bED\b', 'erections?', "can'?t get (hard|aroused|wet)", 'lubricat', 'arousal']
+
+[[community.symptom]]
+id = "orgasm"
+label = "Weak or pleasureless orgasm"
+patterns = ['anorgasmi', 'pleasureless', 'ejaculatory anhedonia', 'muted orgasm', 'weak orgasm', "can'?t (orgasm|climax|cum|finish)", 'no orgasm']
+
+[[community.symptom]]
+id = "blunting"
+label = "Emotional blunting"
+patterns = ['emotional(ly)? (blunt|numb|flat)', 'blunted', "can'?t feel (emotions?|love|anything)", 'no emotions', 'feel nothing']
+
+[[community.symptom]]
+id = "anhedonia"
+label = "Anhedonia"
+patterns = ['anhedoni', 'no pleasure', 'no joy', "can'?t enjoy"]
+
+[[community.symptom]]
+id = "cognitive"
+label = "Cognitive problems"
+patterns = ['brain fog', 'cognitive', 'memory (loss|problems|issues)', "can'?t (think|concentrate|focus)", 'blank mind']
+
+[[community.symptom]]
+id = "sleep"
+label = "Sleep problems"
+patterns = ['insomnia', "can'?t sleep", 'sleep (problems|issues)', 'unrefreshing']
+
+[[community.symptom]]
+id = "sensory"
+label = "Other sensory changes"
+patterns = ['skin numb', 'reduced (taste|smell)', 'tinnitus', 'visual snow', 'blurr(y|ed) vision', 'no goosebumps']
+
+# Treatments that appear in patient discussions but rarely in the literature.
+[[community.intervention]]
+id = "keto_fasting"
+label = "Ketogenic diet / fasting"
+patterns = ['\bketo(genic)?\b', '\bfast(ing|ed)\b', 'carnivore diet']
+
+[[community.intervention]]
+id = "antibiotics"
+label = "Antibiotics"
+patterns = ['antibiotics?', 'doxycycline', 'amoxicillin', 'rifaximin', 'augmentin']
+
+[[community.intervention]]
+id = "supplements"
+label = "Vitamins / minerals / amino acids"
+patterns = ['magnesium', '\bzinc\b', 'vitamin d', '\bB12\b', '\bNAC\b', 'omega[- ]?3', 'l-?citrulline', 'creatine', '5-?HTP', 'tyrosine']
+
+[[community.intervention]]
+id = "brain_stim"
+label = "ECT / TMS"
+patterns = ['\bECT\b', 'electroconvulsive', '\bTMS\b']
+
+[[community.intervention]]
+id = "cannabis"
+label = "Cannabis"
+patterns = ['cannabis', 'marijuana', '\bweed\b', '\bTHC\b', '\bCBD\b']
+
+[[community.intervention]]
+id = "exercise"
+label = "Exercise / cold exposure"
+patterns = ['exercis', 'working out', 'weight ?lifting', 'cold (shower|plunge|exposure)', 'sauna']
+
+[[community.intervention]]
+id = "reinstatement"
+label = "Reinstating the original drug"
+patterns = ['reinstat']
+
+[[community.intervention]]
+id = "lithium"
+label = "Lithium"
+patterns = ['lithium']

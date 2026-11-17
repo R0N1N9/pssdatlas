@@ -1,0 +1,8061 @@
+[
+ {
+  "community": "RxISK",
+  "date": "2026-11-16",
+  "drugs": [],
+  "id": "blog:rxisk.org:16552",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "sleep"
+  ],
+  "title": "Whose Fault Are Suicides?",
+  "treatments": [
+   {
+    "id": "antibiotics",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/whose-fault-are-suicides/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2026-10-26",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:16452",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Ariadne’s Thread and Post-Mefloquine Toxicity",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "brain_stim",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/ariadnes-thread-and-post-mefloquine-toxicity/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2026-10-26",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:davidhealy.org:14009",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "blunting",
+   "cognitive",
+   "sensory"
+  ],
+  "title": "Functional, Fashionable or Toxic?",
+  "treatments": [
+   {
+    "id": "psychological",
+    "outcome": "better"
+   },
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://davidhealy.org/functional-fashionable-or-toxic/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2026-10-17",
+  "drugs": [
+   "fluoxetine",
+   "vortioxetine",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:16388",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "orgasm"
+  ],
+  "title": "MHRA Announces New Warnings for Suicide and PSSD",
+  "treatments": [
+   {
+    "id": "vortioxetine",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/mhra-announces-new-warnings-for-suicide-and-pssd/"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2026-10-16",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/nursingtimes-pssd",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Nursing Times: New warnings on suicide risk from antidepressant medications",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/nursingtimes-pssd"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2026-08-31",
+  "drugs": [],
+  "id": "blog:www.madinamerica.com:271143",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Antidepressants and PSSD: Risky Sexuality in Adolescents and Adults",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2026/08/antidepressants-and-pssd-risky-sexuality-in-adolescents-and-adults/"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2026-08-26",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/scienceblog-pssd",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Science Blog: Seven drug regulators, including the EU, UK, and Canada, have warned that antidepressant-linked sexual side effects can persist for years after the drug is stopped. The US hasn't.",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/scienceblog-pssd"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2026-07-31",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/politifact-antidepressants-pssd",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "PolitiFact: What we know about sexual function after antidepressants",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/politifact-antidepressants-pssd"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2026-07-30",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/dailysignal-antidepressants-pssd",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "The Daily Signal: The problem of Post-SSRI Sexual Dysfunction",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/dailysignal-antidepressants-pssd"
+ },
+ {
+  "community": "RxISK",
+  "date": "2026-07-29",
+  "drugs": [
+   "fluoxetine",
+   "clomipramine"
+  ],
+  "id": "blog:rxisk.org:16230",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile"
+  ],
+  "title": "Ordinary or Forgotten Women and Men",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "stimulant",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "psychological",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "cannabis",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/ordinary-or-forgotten-women-and-men/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2026-07-28",
+  "drugs": [
+   "fluoxetine",
+   "amitriptyline"
+  ],
+  "id": "blog:www.madinamerica.com:270766",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "A Story of Bad Science: How Defenders of Antidepressant Efficacy Make Their Case",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2026/07/a-story-of-bad-science-how-defenders-of-antidepressant-efficacy-make-their-case/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2026-07-28",
+  "drugs": [
+   "fluoxetine",
+   "clomipramine"
+  ],
+  "id": "blog:davidhealy.org:13868",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile"
+  ],
+  "title": "Can Stealing be Regulated",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "stimulant",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "psychological",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "cannabis",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://davidhealy.org/can-stealing-be-regulated/"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2026-07-27",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/reachlink-antidepressants-pssd",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "ReachLink: What nobody tells you about Antidepressants and PSSD",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/reachlink-antidepressants-pssd"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2026-07-14",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/dailymail-lauren-friedman-pssd",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness"
+  ],
+  "title": "Daily Mail: I may never enjoy sex because a pill that millions take has left me with completely numb genitals. By the time I learned about this devastating side effect, it was too late",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/dailymail-lauren-friedman-pssd"
+ },
+ {
+  "community": "RxISK",
+  "date": "2026-07-13",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:16152",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido"
+  ],
+  "title": "Triple Therapy for Enduring Sexual Dsyfunction",
+  "treatments": [
+   {
+    "id": "psychedelic",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "keto_fasting",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/triple-therapy-for-enduring-sexual-dsyfunction/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2026-07-06",
+  "drugs": [
+   "citalopram"
+  ],
+  "id": "blog:rxisk.org:16161",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "blunting"
+  ],
+  "title": "Adverse Events Need A Human Touch",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "stimulant",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "psychological",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "cannabis",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/adverse-events-need-a-human-touch/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2026-07-06",
+  "drugs": [
+   "fluoxetine",
+   "isotretinoin"
+  ],
+  "id": "blog:davidhealy.org:13799",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness"
+  ],
+  "title": "The Black Hole of Modernity",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://davidhealy.org/the-black-hole-of-modernity/"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2026-07-02",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/bluechew-pssd-treatment",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile"
+  ],
+  "title": "BlueChew: How to Get Help for Post-SSRI Sexual Dysfunction",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/bluechew-pssd-treatment"
+ },
+ {
+  "community": "David Healy",
+  "date": "2026-06-20",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:davidhealy.org:13778",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile"
+  ],
+  "title": "Regulators Bearing Gifts",
+  "treatments": [],
+  "url": "https://davidhealy.org/regulators-bearing-gifts/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2026-06-19",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:16138",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm"
+  ],
+  "title": "FDA Responds to Isotretinoin Petiton",
+  "treatments": [],
+  "url": "https://rxisk.org/fda-responds-to-isotretinoin-petiton/"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2026-06-09",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/el-pais-pssd-antidepressants",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido"
+  ],
+  "title": "El Pais: PSSD, when you stop taking antidepressants but attraction and libido do not return",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/el-pais-pssd-antidepressants"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2026-06-06",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine",
+   "escitalopram"
+  ],
+  "id": "blog:www.madinamerica.com:269952",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Approving a Drug for Children and Adolescents That Is More Likely to Induce Suicidality Than Relieve Anxiety Is Concerning",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2026/06/approving-a-drug-for-children-and-adolescents-that-is-more-likely-to-induce-suicidality-than-relieve-anxiety-is-concerning/"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2026-06-03",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/usatoday-pssd-what-is-it",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "cognitive"
+  ],
+  "title": "USA Today: A 23-year-old got candid about how medication ruined her sex life. How common is that?",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/usatoday-pssd-what-is-it"
+ },
+ {
+  "community": "RxISK",
+  "date": "2026-05-13",
+  "drugs": [
+   "fluoxetine",
+   "finasteride"
+  ],
+  "id": "blog:rxisk.org:16067",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Love Actually and Looping Disorders",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "brain_stim",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/love-actually-and-looping-disorders/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2026-05-13",
+  "drugs": [
+   "isotretinoin"
+  ],
+  "id": "blog:davidhealy.org:13770",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Grasping the Gene Genie",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://davidhealy.org/grasping-the-gene-genie/"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2026-05-07",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/unilad-pssd-lauren-speech",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "cognitive"
+  ],
+  "title": "Unilad: Woman reveals bizarre genital side effect after coming off SSRI drug prescribed to millions every year",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/unilad-pssd-lauren-speech"
+ },
+ {
+  "community": "David Healy",
+  "date": "2026-05-07",
+  "drugs": [
+   "finasteride"
+  ],
+  "id": "blog:davidhealy.org:13764",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Ending Enduring Sexual Dysfunctions",
+  "treatments": [],
+  "url": "https://davidhealy.org/ending-enduring-sexual-dysfunctions/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2026-05-04",
+  "drugs": [
+   "finasteride"
+  ],
+  "id": "blog:rxisk.org:16061",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "cognitive"
+  ],
+  "title": "Love Making Actually – the science of",
+  "treatments": [
+   {
+    "id": "brain_stim",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/love-making-actually-the-science-of/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2026-04-28",
+  "drugs": [],
+  "id": "blog:www.madinamerica.com:269288",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "When the Side Effect Doesn’t End: The Negligence Around Post-Antidepressant Sexual Dysfunction (PSSD)",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2026/04/when-the-side-effect-doesnt-end-the-negligence-around-post-antidepressant-sexual-dysfunction-pssd/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2026-04-28",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:16052",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "cognitive"
+  ],
+  "title": "Enduring Sexual Dysfunction World Congress",
+  "treatments": [
+   {
+    "id": "brain_stim",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/enduring-sexual-dysfunction-world-congress/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2026-04-28",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:davidhealy.org:13757",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Calling Isotretinoin and SSRI Problem Solvers",
+  "treatments": [],
+  "url": "https://davidhealy.org/calling-isotretinoin-and-ssri-problem-solvers/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2026-03-16",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:16011",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido"
+  ],
+  "title": "No Sex – We’re on Antidepressants",
+  "treatments": [
+   {
+    "id": "dopamine_agonist",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/no-sex-were-on-antidepressants/"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2026-03-12",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/https/wwwesquirecom/lifestyle/health/a70611558/ssri-genital-numbness-men",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Esquire: Uncomfortably Numb — My Life with a desensitized Penis",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/https/wwwesquirecom/lifestyle/health/a70611558/ssri-genital-numbness-men"
+ },
+ {
+  "community": "RxISK",
+  "date": "2026-02-22",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:15985",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Finasteride and Consent",
+  "treatments": [],
+  "url": "https://rxisk.org/finasteride-and-consent/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2026-02-22",
+  "drugs": [
+   "sertraline",
+   "paroxetine",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:davidhealy.org:13735",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido"
+  ],
+  "title": "Can We Avoid Being Eaten",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://davidhealy.org/can-we-avoid-being-eaten/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2026-01-21",
+  "drugs": [
+   "venlafaxine",
+   "bupropion"
+  ],
+  "id": "blog:www.madinamerica.com:267871",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "blunting",
+   "cognitive",
+   "sleep"
+  ],
+  "title": "Mitochondria and Energetic Failures: A New Understanding of Antidepressant Withdrawal? An Interview With Chris Masterjohn",
+  "treatments": [
+   {
+    "id": "bupropion",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "psychedelic",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "psychological",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "reinstatement",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2026/01/mitochondria-and-energetic-failures-new-understanding-antidepressant-withdrawal-chris-masterjohn/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2026-01-19",
+  "drugs": [
+   "sertraline",
+   "fluoxetine"
+  ],
+  "id": "blog:rxisk.org:15945",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido"
+  ],
+  "title": "Guilty Until Proven Innocent – Prima Facie",
+  "treatments": [],
+  "url": "https://rxisk.org/guilty-until-proven-innocent-prima-facie/"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2026-01-17",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/https/wwwiltalehtifi/shockingsymptomspssd/a/f3a303ff-c92d-41d6-b8c2-419891c30853-rjbmm",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "ILTalehti: The Shocking Symptoms Began",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/https/wwwiltalehtifi/shockingsymptomspssd/a/f3a303ff-c92d-41d6-b8c2-419891c30853-rjbmm"
+ },
+ {
+  "community": "RxISK",
+  "date": "2026-01-12",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "clomipramine",
+   "amitriptyline"
+  ],
+  "id": "blog:rxisk.org:15922",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "cognitive"
+  ],
+  "title": "Are HealthCare and Science Compatible?",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "worse"
+   },
+   {
+    "id": "psychedelic",
+    "outcome": "better"
+   },
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "keto_fasting",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "brain_stim",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/are-healthcare-and-science-compatible/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2026-01-07",
+  "drugs": [
+   "fluoxetine"
+  ],
+  "id": "blog:www.madinamerica.com:267629",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "cognitive"
+  ],
+  "title": "ADHD Diagnoses, Examining the Psyche, Withdrawal and PSSD Risks, ECT Harms and More: Robert Whitaker Answers Reader Questions",
+  "treatments": [
+   {
+    "id": "brain_stim",
+    "outcome": "worse"
+   },
+   {
+    "id": "reinstatement",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2026/01/adhd-diagnoses-withdrawal-pssd-risks-ect-harms-robert-whitaker-reader-questions/"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2025-12-23",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/sharyl-attkisson-pssd",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Full Measure: Epigenetics with Antonei Csoka",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/sharyl-attkisson-pssd"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2025-12-18",
+  "drugs": [],
+  "id": "blog:www.madinamerica.com:267243",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "erectile"
+  ],
+  "title": "We Must Stop the ADHD Prescribing Cascade, Not Perpetuate It",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2025/12/we-must-stop-the-adhd-prescribing-cascade-not-perpetuate-it/"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2025-12-04",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/the-sun-uk-pssd",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "The Sun: 'TRAUMATISED' Common drugs have destroyed my sex life — I feel like I’ve got a dead piece of meat in my pants",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/the-sun-uk-pssd"
+ },
+ {
+  "community": "David Healy",
+  "date": "2025-12-01",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "clomipramine",
+   "amitriptyline"
+  ],
+  "id": "blog:davidhealy.org:13669",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "cognitive"
+  ],
+  "title": "I Come to Praise SSRIs not to Bury Them",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "worse"
+   },
+   {
+    "id": "psychedelic",
+    "outcome": "better"
+   },
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "keto_fasting",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "brain_stim",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://davidhealy.org/i-come-to-praise-ssris-not-to-bury-them/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2025-11-19",
+  "drugs": [
+   "fluoxetine"
+  ],
+  "id": "blog:www.madinamerica.com:266812",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "blunting",
+   "anhedonia"
+  ],
+  "title": "Antidepressant Withdrawal: Finding an Astronomical Perspective – A Conversation with Safa Askeri",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2025/11/antidepressant-withdrawal-an-astronomical-perspective/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2025-11-19",
+  "drugs": [],
+  "id": "blog:rxisk.org:15879",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "cognitive",
+   "sensory"
+  ],
+  "title": "Erotic Sensory Shocks",
+  "treatments": [
+   {
+    "id": "psychological",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/visual-balance-and-erotic-sensory-shocks/"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2025-11-18",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/washington-examiner-pssd-new-york-times-magazine",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Washington Examiner: What have antidepressants done to Gen Z’s interest in relationships?",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/washington-examiner-pssd-new-york-times-magazine"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2025-11-12",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/new-york-times-magazine-pssd",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "orgasm",
+   "blunting"
+  ],
+  "title": "The New York Times Magazine: More Teens Are Taking Antidepressants. It Could Disrupt Their Sex Lives for Years.",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/new-york-times-magazine-pssd"
+ },
+ {
+  "community": "RxISK",
+  "date": "2025-11-10",
+  "drugs": [],
+  "id": "blog:rxisk.org:15820",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "sensory"
+  ],
+  "title": "Can Antidepressants Cause Visual Snow Syndrome?",
+  "treatments": [
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/can-antidepressants-cause-visual-snow-syndrome/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2025-10-08",
+  "drugs": [
+   "paroxetine",
+   "citalopram"
+  ],
+  "id": "blog:www.madinamerica.com:266034",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "blunting",
+   "cognitive"
+  ],
+  "title": "Medical Organizations Turn Blind Eye to Harms of Maternal Antidepressant Use: A Conversation With Adam Urato and Joanna Moncrieff",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2025/10/medical-organizations-turn-blind-eye-to-harms-maternal-antidepressant-use/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2025-09-02",
+  "drugs": [],
+  "id": "blog:rxisk.org:15770",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Back to the Future of Personal Care",
+  "treatments": [
+   {
+    "id": "psychedelic",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/back-to-the-future-of-personal-care/"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2025-08-29",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/tucker-carlson-pssd",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Tucker Carlson: SSRIs and School Shootings, FDA Corruption, and Why Everyone on Anti-Depressants Is Totally Unhappy",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/tucker-carlson-pssd"
+ },
+ {
+  "community": "RxISK",
+  "date": "2025-08-12",
+  "drugs": [
+   "sertraline"
+  ],
+  "id": "blog:rxisk.org:15759",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "blunting",
+   "cognitive",
+   "sensory"
+  ],
+  "title": "Lonesome Heroes can work Miracles",
+  "treatments": [
+   {
+    "id": "psychedelic",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/lonesome-heroes-can-work-miracles/"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2025-07-09",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/npr-pssd-and-antidepressant-withdrawal",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "blunting"
+  ],
+  "title": "NPR: After quitting antidepressants, some people suffer surprising, lingering symptoms",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/npr-pssd-and-antidepressant-withdrawal"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2025-07-09",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/medshadow-pssd",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "blunting"
+  ],
+  "title": "Medshadow: Blunted Before They Can Bloom — How Antidepressants Might Disrupt Sexual Development in Youth",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/medshadow-pssd"
+ },
+ {
+  "community": "PSSD Network: media",
+  "date": "2025-06-29",
+  "drugs": [],
+  "id": "blog:www.pssdnetwork.org:media/cover-up-for-profit-pssd",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "blunting"
+  ],
+  "title": "Cover-Up for Profit: How Psychiatry Suppressed the Truth About Irreversible PSSD—For Decades",
+  "treatments": [],
+  "url": "https://www.pssdnetwork.org/media/cover-up-for-profit-pssd"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2025-05-10",
+  "drugs": [
+   "sertraline",
+   "escitalopram"
+  ],
+  "id": "blog:www.madinamerica.com:263331",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "orgasm",
+   "blunting",
+   "anhedonia",
+   "cognitive",
+   "sleep"
+  ],
+  "title": "Two Decades of PSSD: A Life Stolen by Antidepressants",
+  "treatments": [
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2025/05/two-decades-of-pssd-a-life-stolen-by-antidepressants/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2025-03-22",
+  "drugs": [],
+  "id": "blog:www.madinamerica.com:262454",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile"
+  ],
+  "title": "The Editorial Demise of Psychotherapy and Psychosomatics Is Bad News For Us All",
+  "treatments": [
+   {
+    "id": "psychological",
+    "outcome": "mixed"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2025/03/the-editorial-demise-of-psychotherapy-and-psychosomatics-is-bad-news-for-us-all/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2025-03-15",
+  "drugs": [
+   "olanzapine",
+   "clozapine"
+  ],
+  "id": "blog:www.madinamerica.com:262338",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "cognitive"
+  ],
+  "title": "Do Critics of Biological Psychiatry Have an Alternative to a Life of “Whack-A-Mole”?",
+  "treatments": [
+   {
+    "id": "brain_stim",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2025/03/do-critics-of-biological-psychiatry-have-an-alternative-to-a-life-of-whack-a-mole/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2025-03-10",
+  "drugs": [
+   "fluoxetine",
+   "citalopram",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:15632",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "blunting",
+   "anhedonia"
+  ],
+  "title": "Over-Diagnosing or Under-Diagnosing",
+  "treatments": [],
+  "url": "https://rxisk.org/over-diagnosing-or-under-diagnosing/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2025-02-03",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine",
+   "citalopram",
+   "escitalopram",
+   "duloxetine",
+   "vortioxetine"
+  ],
+  "id": "blog:rxisk.org:15568",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "blunting",
+   "sleep",
+   "sensory"
+  ],
+  "title": "Restoring the Magic to Healthcare",
+  "treatments": [
+   {
+    "id": "stimulant",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "vortioxetine",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "psychedelic",
+    "outcome": "better"
+   },
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "cannabis",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/restoring-the-magic-to-healthcare/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2024-12-01",
+  "drugs": [
+   "mirtazapine",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:15399",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "sensory"
+  ],
+  "title": "SNOMED, Your Doctor and You – Having an Impact",
+  "treatments": [
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/snomed-your-doctor-and-you-having-an-impact/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2024-11-25",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "citalopram",
+   "escitalopram",
+   "venlafaxine",
+   "duloxetine",
+   "amitriptyline",
+   "mirtazapine",
+   "vortioxetine",
+   "olanzapine",
+   "ziprasidone",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:15388",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm",
+   "sensory"
+  ],
+  "title": "MHRA Adopts Code for Post-SSRI Sexual Dysfunction",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "vortioxetine",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "lithium",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/mhra-adopts-code-for-post-ssri-sexual-dysfunction/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2024-11-15",
+  "drugs": [
+   "mirtazapine"
+  ],
+  "id": "blog:www.madinamerica.com:260545",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm",
+   "blunting",
+   "anhedonia",
+   "cognitive"
+  ],
+  "title": "Therapy Can Harm Too",
+  "treatments": [
+   {
+    "id": "psychological",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2024/11/therapy-can-harm-too/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2024-11-07",
+  "drugs": [
+   "sertraline",
+   "paroxetine"
+  ],
+  "id": "blog:www.madinamerica.com:260351",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "anhedonia",
+   "cognitive",
+   "sleep"
+  ],
+  "title": "Why I Stopped Taking Antidepressants—and Was It Worth It?",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2024/11/why-i-stopped-taking-antidepressants-and-was-it-worth-it/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2024-10-06",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine",
+   "citalopram",
+   "escitalopram"
+  ],
+  "id": "blog:rxisk.org:15281",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "blunting",
+   "sleep"
+  ],
+  "title": "Antidepressants, Homicide and a Challenge",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "psychedelic",
+    "outcome": "better"
+   },
+   {
+    "id": "psychological",
+    "outcome": "better"
+   },
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/antidepressants-homicide-and-a-challenge/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2024-10-03",
+  "drugs": [
+   "sertraline",
+   "trazodone"
+  ],
+  "id": "blog:www.madinamerica.com:259591",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "anhedonia",
+   "cognitive"
+  ],
+  "title": "What Helped and What Hindered My Recovery from PSSD and Protracted Withdrawal from Antidepressants?",
+  "treatments": [
+   {
+    "id": "serotonin_antagonist",
+    "outcome": "none"
+   },
+   {
+    "id": "psychological",
+    "outcome": "better"
+   },
+   {
+    "id": "switch",
+    "outcome": "better"
+   },
+   {
+    "id": "keto_fasting",
+    "outcome": "better"
+   },
+   {
+    "id": "supplements",
+    "outcome": "better"
+   },
+   {
+    "id": "exercise",
+    "outcome": "better"
+   },
+   {
+    "id": "reinstatement",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2024/10/what-helped-and-what-hindered-my-recovery-from-protracted-withdrawal-from-antidepressants-and-pssd/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2024-10-01",
+  "drugs": [],
+  "id": "blog:www.madinamerica.com:259681",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido"
+  ],
+  "title": "Antidepressants Linked to Lasting Sexual Dysfunction, Study Finds",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2024/10/antidepressants-linked-to-lasting-sexual-dysfunction-study-finds/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2024-09-18",
+  "drugs": [],
+  "id": "blog:rxisk.org:15276",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "New Article about PSSD Epidemiology",
+  "treatments": [],
+  "url": "https://rxisk.org/new-article-about-pssd-epidemiology/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2024-09-08",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine",
+   "venlafaxine",
+   "mirtazapine"
+  ],
+  "id": "blog:rxisk.org:15206",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "blunting",
+   "cognitive",
+   "sensory"
+  ],
+  "title": "Madness, Normality and Antidepressant Dysregulation",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "psychedelic",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "lithium",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/madness-normality-and-antidepressant-dysregulation/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2024-09-07",
+  "drugs": [
+   "paroxetine",
+   "escitalopram"
+  ],
+  "id": "blog:www.madinamerica.com:259174",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "blunting",
+   "anhedonia",
+   "cognitive",
+   "sensory"
+  ],
+  "title": "The Iatrogenic Gaze: How We Forgot That Psychiatry Could Be Harmful",
+  "treatments": [
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "brain_stim",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2024/09/iatrogenic-gaze-psychiatry-harmful/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2024-09-05",
+  "drugs": [
+   "fluoxetine",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:15259",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "blunting",
+   "sleep"
+  ],
+  "title": "The Seductive Charm of Pharmacology",
+  "treatments": [
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/the-seductive-charm-of-pharmacology/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2024-08-09",
+  "drugs": [
+   "escitalopram"
+  ],
+  "id": "blog:www.madinamerica.com:258565",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "orgasm",
+   "anhedonia",
+   "sleep"
+  ],
+  "title": "I Am Carmen and I Have PSSD",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2024/08/i-am-carmen-and-i-have-pssd/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2024-08-07",
+  "drugs": [],
+  "id": "blog:rxisk.org:15207",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile",
+   "blunting",
+   "cognitive",
+   "sensory"
+  ],
+  "title": "Post-SSRI Sexual Dysfunction and Protracted Withdrawal Syndromes",
+  "treatments": [
+   {
+    "id": "laser",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "brain_stim",
+    "outcome": "better"
+   },
+   {
+    "id": "lithium",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/post-ssri-sexual-dysfunction-and-protracted-withdrawal-syndromes/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2024-08-03",
+  "drugs": [
+   "sertraline"
+  ],
+  "id": "blog:www.madinamerica.com:258321",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "The Clinical, Social, and Cultural Harm of an Iatrogenic Psychiatry",
+  "treatments": [
+   {
+    "id": "psychological",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2024/08/iatrogenic-psychiatry/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2024-08-01",
+  "drugs": [
+   "fluoxetine"
+  ],
+  "id": "blog:rxisk.org:15200",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "sensory"
+  ],
+  "title": "Complex Sensory Imbalances: New Remedies",
+  "treatments": [
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/complex-sensory-imbalances-new-remedies/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2024-07-26",
+  "drugs": [
+   "fluoxetine",
+   "paroxetine",
+   "citalopram",
+   "clomipramine",
+   "amitriptyline",
+   "mirtazapine"
+  ],
+  "id": "blog:rxisk.org:15192",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "sensory"
+  ],
+  "title": "Vision Weird, Vision Blurred and Visual Snow",
+  "treatments": [
+   {
+    "id": "psychedelic",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "psychological",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "lithium",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/vision-weird-vision-blurred-and-visual-snow/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2024-07-21",
+  "drugs": [
+   "mirtazapine"
+  ],
+  "id": "blog:rxisk.org:15184",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "sensory"
+  ],
+  "title": "Visual Snow, Visual Blur, Visual Weird",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "testosterone",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "lithium",
+    "outcome": "mixed"
+   }
+  ],
+  "url": "https://rxisk.org/visual-snow-visual-blur-visual-weird/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2024-07-09",
+  "drugs": [],
+  "id": "blog:www.madinamerica.com:257738",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "blunting"
+  ],
+  "title": "The Patient-Enemy: How Derrida Helps Explain Psychiatry’s Cruelty and Care",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2024/07/patient-enemy-derrida-cruelty-care/"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2024-06-28",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/australian-government-recognizes-pssd",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Australian government recognizes PSSD",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/australian-government-recognizes-pssd"
+ },
+ {
+  "community": "David Healy",
+  "date": "2024-06-21",
+  "drugs": [
+   "fluoxetine",
+   "paroxetine"
+  ],
+  "id": "blog:davidhealy.org:13251",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Challenging My Media to Disclose",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "brain_stim",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://davidhealy.org/challenging-my-media-to-disclose/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2024-06-12",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine",
+   "venlafaxine",
+   "clomipramine",
+   "mirtazapine",
+   "risperidone"
+  ],
+  "id": "blog:rxisk.org:15091",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "blunting",
+   "cognitive",
+   "sleep",
+   "sensory"
+  ],
+  "title": "The Fantasies of Psychopharmacology",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/the-fantasies-of-psychopharmacology/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2024-06-06",
+  "drugs": [],
+  "id": "blog:www.madinamerica.com:256942",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "cognitive"
+  ],
+  "title": "How to Explain Top Psychiatrists’ “Dr. Strangelove Exuberance” Unchecked by Reality",
+  "treatments": [
+   {
+    "id": "brain_stim",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2024/06/how-to-explain-top-psychiatrists-dr-strangelove-exuberance-unchecked-by-reality/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2024-05-27",
+  "drugs": [
+   "fluoxetine"
+  ],
+  "id": "blog:rxisk.org:15137",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "erectile",
+   "orgasm"
+  ],
+  "title": "FDA Sued for Failing to Act on RxISK’s Petition",
+  "treatments": [],
+  "url": "https://rxisk.org/fda-sued-for-failing-to-act-on-rxisks-petition/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2024-05-22",
+  "drugs": [],
+  "id": "blog:www.madinamerica.com:256641",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile"
+  ],
+  "title": "FDA Sued for Not Acting on Petition About Antidepressant Harms",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2024/05/fda-sued-for-not-acting-on-petition-about-antidepressant-harms/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2024-03-24",
+  "drugs": [
+   "sertraline",
+   "fluoxetine"
+  ],
+  "id": "blog:davidhealy.org:13150",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "blunting",
+   "cognitive"
+  ],
+  "title": "Zen and the Art of Psychopharmacology",
+  "treatments": [
+   {
+    "id": "psychedelic",
+    "outcome": "better"
+   },
+   {
+    "id": "psychological",
+    "outcome": "better"
+   },
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://davidhealy.org/zen-and-and-art-of-psychopharmacology/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2024-03-13",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:14969",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Transferring the Prize to the Research Fund",
+  "treatments": [
+   {
+    "id": "psychological",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/transferring-the-prize-to-the-research-fund/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2024-03-04",
+  "drugs": [
+   "sertraline",
+   "paroxetine",
+   "mirtazapine"
+  ],
+  "id": "blog:rxisk.org:14963",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "blunting"
+  ],
+  "title": "Sex, Death and the Royal College of Psychiatrists",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "brain_stim",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/sex-death-and-the-royal-college-of-psychiatrists/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2024-02-24",
+  "drugs": [
+   "sertraline"
+  ],
+  "id": "blog:www.madinamerica.com:254208",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile",
+   "cognitive"
+  ],
+  "title": "Depression: Psychiatry’s Discredited Theories and Drugs Versus a Sane Model and Approach",
+  "treatments": [
+   {
+    "id": "psychedelic",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "psychological",
+    "outcome": "worse"
+   },
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "cannabis",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2024/02/psychiatrys-discredited-theories/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2024-02-12",
+  "drugs": [
+   "citalopram",
+   "escitalopram"
+  ],
+  "id": "blog:rxisk.org:14925",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Why Shrink Yourself to Better than Well?",
+  "treatments": [],
+  "url": "https://rxisk.org/why-shrink-yourself-to-better-than-well/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2024-01-28",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine",
+   "citalopram",
+   "fluvoxamine",
+   "duloxetine",
+   "clomipramine",
+   "amitriptyline",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:14877",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile"
+  ],
+  "title": "Sex, Fertility, France and Serotonin Timeline",
+  "treatments": [
+   {
+    "id": "buspirone",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/sex-fertility-france-and-serotonin-timeline/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2024-01-28",
+  "drugs": [],
+  "id": "blog:davidhealy.org:13103",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Liberty, Equality and Fertility",
+  "treatments": [
+   {
+    "id": "cannabis",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://davidhealy.org/liberty-equality-and-fertility/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2024-01-21",
+  "drugs": [
+   "sertraline",
+   "fluoxetine"
+  ],
+  "id": "blog:rxisk.org:14856",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido"
+  ],
+  "title": "Medicine, Civilization and Cradles",
+  "treatments": [],
+  "url": "https://rxisk.org/the-cradle-of-civilization/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2024-01-07",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:14802",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "sensory"
+  ],
+  "title": "Drugs & Sex & Fertility – and SSRIs",
+  "treatments": [
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/drugs-sex-fertility-and-ssris/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-12-03",
+  "drugs": [
+   "mirtazapine",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:14686",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness"
+  ],
+  "title": "Lonesome Heroines, Forgotten Women and Consent",
+  "treatments": [
+   {
+    "id": "antibiotics",
+    "outcome": "better"
+   },
+   {
+    "id": "brain_stim",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "none"
+   }
+  ],
+  "url": "https://rxisk.org/lonesome-heroines-forgotten-women-and-consent/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-11-16",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "citalopram",
+   "mirtazapine",
+   "vortioxetine"
+  ],
+  "id": "blog:rxisk.org:14660",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "erectile",
+   "blunting"
+  ],
+  "title": "Silencing Doctors Silencing Safety",
+  "treatments": [
+   {
+    "id": "vortioxetine",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/silencing-doctors-silencing-safety/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-11-01",
+  "drugs": [],
+  "id": "blog:rxisk.org:14651",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "sensory"
+  ],
+  "title": "Empathy for Drug Induced Injuries",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "better"
+   },
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/empathy-for-drug-induced-injuries/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2023-10-28",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine",
+   "mirtazapine"
+  ],
+  "id": "blog:davidhealy.org:12982",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "blunting"
+  ],
+  "title": "Has Healthcare Gone Mad?",
+  "treatments": [
+   {
+    "id": "antibiotics",
+    "outcome": "worse"
+   },
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://davidhealy.org/has-healthcare-gone-mad/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2023-10-25",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "venlafaxine",
+   "bupropion"
+  ],
+  "id": "blog:www.madinamerica.com:250580",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "anhedonia",
+   "cognitive"
+  ],
+  "title": "May Cause Side Effects–Radical Acceptance and Psychiatric Drug Withdrawal: An Interview with Brooke Siem",
+  "treatments": [
+   {
+    "id": "bupropion",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2023/10/may-cause-side-effects-radical-acceptance-psychiatric-drug-withdrawal-brooke-siem/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-10-12",
+  "drugs": [],
+  "id": "blog:rxisk.org:14574",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "sensory"
+  ],
+  "title": "Treatment Complications: Good Expert Needed",
+  "treatments": [
+   {
+    "id": "dopamine_agonist",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/treatment-complications-good-expert-needed/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-10-05",
+  "drugs": [],
+  "id": "blog:rxisk.org:14531",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido"
+  ],
+  "title": "When the Personal becomes Political",
+  "treatments": [],
+  "url": "https://rxisk.org/when-the-personal-becomes-political/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-09-30",
+  "drugs": [
+   "fluoxetine",
+   "clomipramine",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:14545",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "blunting"
+  ],
+  "title": "New Test to Confirm a PSSD Diagnosis",
+  "treatments": [
+   {
+    "id": "psychedelic",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/new-test-to-confirm-a-pssd-diagnosis/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-09-25",
+  "drugs": [
+   "fluoxetine",
+   "paroxetine",
+   "citalopram",
+   "amitriptyline"
+  ],
+  "id": "blog:rxisk.org:14516",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile",
+   "blunting",
+   "anhedonia",
+   "cognitive",
+   "sensory"
+  ],
+  "title": "Withdrawal, PSSD and Cholinergic Drugs",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "physio",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "brain_stim",
+    "outcome": "better"
+   },
+   {
+    "id": "reinstatement",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/withdrawal-pssd-and-cholinergic-drugs/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-09-11",
+  "drugs": [
+   "sertraline",
+   "citalopram",
+   "vortioxetine"
+  ],
+  "id": "blog:rxisk.org:14395",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile",
+   "sensory"
+  ],
+  "title": "Visual Snow: A Looming Epidemic",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "vortioxetine",
+    "outcome": "worse"
+   },
+   {
+    "id": "psychedelic",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "supplements",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/visual-snow-a-looming-epidemic/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-08-30",
+  "drugs": [
+   "fluoxetine"
+  ],
+  "id": "blog:rxisk.org:14322",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile"
+  ],
+  "title": "What Counts? A Tale of Good and Evil",
+  "treatments": [
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/what-counts-a-tale-of-good-and-evil/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2023-08-23",
+  "drugs": [
+   "sertraline",
+   "fluoxetine"
+  ],
+  "id": "blog:www.madinamerica.com:248427",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido"
+  ],
+  "title": "The Media’s False Narrative About Depression Pills, Suicides, and Saving Lives",
+  "treatments": [
+   {
+    "id": "psychological",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2023/08/media-false-narrative-depression-pills/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-08-22",
+  "drugs": [
+   "fluoxetine",
+   "paroxetine",
+   "citalopram",
+   "vortioxetine"
+  ],
+  "id": "blog:rxisk.org:14306",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "How the Safety of Drugs was Destroyed",
+  "treatments": [
+   {
+    "id": "vortioxetine",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/how-the-safety-of-drugs-was-destroyed/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2023-08-18",
+  "drugs": [],
+  "id": "blog:www.madinamerica.com:248564",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "An Expert View on PSSD: ‘I Have a Hunch As to What Might Be Causing It’",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2023/08/an-expert-view-on-pssd-i-have-a-hunch-as-to-what-might-be-causing-it/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2023-07-20",
+  "drugs": [
+   "citalopram",
+   "venlafaxine"
+  ],
+  "id": "blog:www.madinamerica.com:247676",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm",
+   "blunting",
+   "cognitive",
+   "sleep"
+  ],
+  "title": "ChatGPT Changes Its Mind: Maybe Antidepressants Do More Harm Than Good",
+  "treatments": [
+   {
+    "id": "psychological",
+    "outcome": "better"
+   },
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2023/07/chatgpt-changes-its-mind-maybe-antidepressants-do-more-harm-than-good/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2023-07-06",
+  "drugs": [
+   "escitalopram"
+  ],
+  "id": "blog:www.madinamerica.com:247299",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "blunting"
+  ],
+  "title": "Antidepressants Can Cause ‘Chemical Castration’",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2023/07/antidepressants-can-cause-chemical-castration/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-07-05",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:14030",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "blunting"
+  ],
+  "title": "The Long Awaited PSSD Research Breakthrough?",
+  "treatments": [],
+  "url": "https://rxisk.org/the-long-awaited-pssd-research-breakthrough/"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2023-07-01",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/bbc-panorama-the-antidepressant-story-includes-segment-on-pssd",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "BBC Panorama “The Antidepressant Story” includes segment on PSSD",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/bbc-panorama-the-antidepressant-story-includes-segment-on-pssd"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-06-11",
+  "drugs": [],
+  "id": "blog:rxisk.org:14000",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "blunting",
+   "anhedonia",
+   "cognitive"
+  ],
+  "title": "Could Journalists be Doctors in Disguise",
+  "treatments": [],
+  "url": "https://rxisk.org/could-journalists-be-doctors-in-disguise/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2023-05-23",
+  "drugs": [
+   "sertraline",
+   "citalopram",
+   "venlafaxine"
+  ],
+  "id": "blog:www.madinamerica.com:245951",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "erectile",
+   "blunting",
+   "anhedonia",
+   "cognitive"
+  ],
+  "title": "Antidepressants Have Destroyed My Sexual Function and Range of Emotions",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2023/05/antidepressants-destroyed-sexual-function/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-05-15",
+  "drugs": [
+   "fluoxetine",
+   "paroxetine",
+   "citalopram",
+   "venlafaxine",
+   "mirtazapine"
+  ],
+  "id": "blog:rxisk.org:13966",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "sleep"
+  ],
+  "title": "Withdrawal Mysteries. Jon and Justin’s Journeys",
+  "treatments": [
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/withdrawal-mysteries-jon-and-justins-journeys/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2023-05-08",
+  "drugs": [],
+  "id": "blog:www.madinamerica.com:245511",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile"
+  ],
+  "title": "What Is the Risk of Permanent Sexual Dysfunction from Antidepressants?",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2023/05/what-is-the-risk-of-permanent-sexual-dysfunction-from-antidepressants/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-05-08",
+  "drugs": [
+   "paroxetine",
+   "vortioxetine"
+  ],
+  "id": "blog:rxisk.org:13981",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness"
+  ],
+  "title": "International Society of Sexual Medicine",
+  "treatments": [
+   {
+    "id": "vortioxetine",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/international-society-of-sexual-medicine/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-05-07",
+  "drugs": [
+   "vortioxetine"
+  ],
+  "id": "blog:rxisk.org:13967",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile",
+   "anhedonia"
+  ],
+  "title": "Sexual Mysteries. What is in a Touch?",
+  "treatments": [
+   {
+    "id": "vortioxetine",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/sexual-mysteries-what-is-in-a-touch/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-05-01",
+  "drugs": [],
+  "id": "blog:rxisk.org:13958",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile"
+  ],
+  "title": "PSSD Patients Needed for CCM Investigation",
+  "treatments": [],
+  "url": "https://rxisk.org/pssd-patients-needed-for-ccm-investigation/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-04-20",
+  "drugs": [],
+  "id": "blog:rxisk.org:13951",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "The Window to the Body and perhaps the Soul",
+  "treatments": [],
+  "url": "https://rxisk.org/the-window-to-the-body-and-perhaps-the-soul/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-04-12",
+  "drugs": [],
+  "id": "blog:rxisk.org:13949",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido"
+  ],
+  "title": "Touch Fibres, Autonomic Fibres and Kissing",
+  "treatments": [],
+  "url": "https://rxisk.org/touch-fibres-autonomic-fibres-and-kissing/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-03-08",
+  "drugs": [],
+  "id": "blog:rxisk.org:13925",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "PSSD and Small Fibre Neuropathy Investigation Runs Into Problems",
+  "treatments": [
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/pssd-and-small-fibre-neuropathy-investigation-runs-into-problems/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2023-02-27",
+  "drugs": [
+   "fluoxetine"
+  ],
+  "id": "blog:www.madinamerica.com:243234",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "blunting",
+   "anhedonia"
+  ],
+  "title": "Understanding the Neurobiology of Post-SSRI Sexual Dysfunction",
+  "treatments": [
+   {
+    "id": "buspirone",
+    "outcome": "worse"
+   },
+   {
+    "id": "flibanserin",
+    "outcome": "worse"
+   },
+   {
+    "id": "reinstatement",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2023/02/understanding-the-neurobiology-of-post-ssri-sexual-dysfunction/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-02-23",
+  "drugs": [],
+  "id": "blog:rxisk.org:13920",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Queen’s University PSSD Research Project",
+  "treatments": [],
+  "url": "https://rxisk.org/queens-university-pssd-research-project/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2023-02-01",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:13884",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "orgasm"
+  ],
+  "title": "Everything You Want to Know about Sex *",
+  "treatments": [],
+  "url": "https://rxisk.org/everything-you-want-to-know-about-sex/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2023-01-26",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine",
+   "mirtazapine",
+   "risperidone"
+  ],
+  "id": "blog:davidhealy.org:12548",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness"
+  ],
+  "title": "Relationship Based Medicine",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "brain_stim",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://davidhealy.org/relationship-based-medicine/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2023-01-23",
+  "drugs": [],
+  "id": "blog:davidhealy.org:12565",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Healy Podcasts",
+  "treatments": [
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://davidhealy.org/youtube-podcasts-blogs-and-related/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2023-01-17",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine"
+  ],
+  "id": "blog:davidhealy.org:12539",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "cognitive"
+  ],
+  "title": "We Won’t Get Fooled Again",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "psychological",
+    "outcome": "better"
+   },
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "reinstatement",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://davidhealy.org/we-wont-get-fooled-again/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2022-12-05",
+  "drugs": [
+   "sertraline",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:13829",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "A Cure for PSSD, PFS and Post-Isotretinoin Syndrome",
+  "treatments": [
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/a-cure-for-pssd-pfs-and-post-isotretinoin-syndrome/"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2022-12-01",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/dr-melanie-atlas-of-bc-centre-for-vulvar-health-interviews-emily-grey-on-pssd",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Dr. Melanie Atlas of BC Centre for Vulvar Health interviews Emily Grey on PSSD",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/dr-melanie-atlas-of-bc-centre-for-vulvar-health-interviews-emily-grey-on-pssd"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2022-12-01",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/annual-report",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Annual Report and Meeting Agenda",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/annual-report"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2022-11-16",
+  "drugs": [
+   "fluoxetine",
+   "paroxetine",
+   "clomipramine"
+  ],
+  "id": "blog:www.madinamerica.com:239641",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "blunting",
+   "cognitive",
+   "sensory"
+  ],
+  "title": "David Healy – Polluting Our Internal Environments: The Perils of Polypharmacy",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "better"
+   },
+   {
+    "id": "psychedelic",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2022/11/david-healy-polluting-our-internal-environments-perils-polypharmacy/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2022-10-31",
+  "drugs": [],
+  "id": "blog:rxisk.org:13759",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "cognitive",
+   "sensory"
+  ],
+  "title": "PSSD Patients Needed for Small Fibre Neuropathy Investigation",
+  "treatments": [],
+  "url": "https://rxisk.org/pssd-patients-needed-for-small-fibre-neuropathy-investigation/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2022-10-24",
+  "drugs": [
+   "paroxetine",
+   "clozapine",
+   "isotretinoin"
+  ],
+  "id": "blog:davidhealy.org:12443",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "mRNA Boosters and mRNA Boosterism",
+  "treatments": [
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://davidhealy.org/mrna-boosters-and-mrna-boosterism/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2022-10-10",
+  "drugs": [
+   "fluoxetine",
+   "paroxetine",
+   "venlafaxine",
+   "amitriptyline",
+   "quetiapine"
+  ],
+  "id": "blog:rxisk.org:13749",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile",
+   "blunting",
+   "cognitive",
+   "sleep",
+   "sensory"
+  ],
+  "title": "Antidepressant Neuropathy and the Color of Life",
+  "treatments": [
+   {
+    "id": "dopamine_agonist",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "reinstatement",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/antidepressant-neuropathy-and-the-color-of-life/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2022-10-05",
+  "drugs": [],
+  "id": "blog:www.madinamerica.com:238425",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm",
+   "blunting",
+   "anhedonia"
+  ],
+  "title": "The Hidden Epidemic of Sexual Dysfunction Experts Are Blaming on SSRI Antidepressants",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2022/10/hidden-epidemic-sexual-dysfunction-experts-blame-ssri-antidepressants/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2022-09-21",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:13729",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "cognitive"
+  ],
+  "title": "Sensory Receptors, Small Fibres and Neuropathy",
+  "treatments": [
+   {
+    "id": "supplements",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/sensory-receptors-small-fibres-and-neuropathy/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2022-09-10",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "vortioxetine"
+  ],
+  "id": "blog:www.madinamerica.com:237467",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile",
+   "sleep"
+  ],
+  "title": "Our RCT Fetish: How the “Gold Standard” for Research Has Led to A Societal Delusion About the Merits of Antidepressants",
+  "treatments": [
+   {
+    "id": "vortioxetine",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2022/09/our-societal-reliance-on-rcts-has-led-to-a-societal-delusion-about-the-merits-of-antidepressants/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2022-08-24",
+  "drugs": [],
+  "id": "blog:rxisk.org:13665",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "New Sex and Drugs Research Forum",
+  "treatments": [],
+  "url": "https://rxisk.org/new-sex-and-drugs-research-forum/"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2022-08-11",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/report-on-presentation-to-bc-union-of-social-workers",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "cognitive"
+  ],
+  "title": "Report on presentation to BC Union of Social Workers",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/report-on-presentation-to-bc-union-of-social-workers"
+ },
+ {
+  "community": "RxISK",
+  "date": "2022-08-03",
+  "drugs": [
+   "citalopram",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:13631",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile"
+  ],
+  "title": "Our Love Life Needs You to be Wiked",
+  "treatments": [],
+  "url": "https://rxisk.org/our-love-life-needs-you-to-be-wiked/"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2022-07-27",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/fox-news-show-host-tucker-carlson-mentions-pssd",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Fox News show host Tucker Carlson mentions PSSD",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/fox-news-show-host-tucker-carlson-mentions-pssd"
+ },
+ {
+  "community": "RxISK",
+  "date": "2022-06-27",
+  "drugs": [
+   "sertraline",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:13561",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "blunting"
+  ],
+  "title": "RxISK Research Fund and Prize",
+  "treatments": [],
+  "url": "https://rxisk.org/rxisk-research-fund-and-prize/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2022-06-21",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "fluvoxamine",
+   "finasteride",
+   "dutasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:13528",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "blunting",
+   "anhedonia"
+  ],
+  "title": "The Holy Grail: Searching for a Cure for PSSD",
+  "treatments": [
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/the-holy-grail-searching-for-a-cure-for-pssd/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2022-05-02",
+  "drugs": [
+   "citalopram"
+  ],
+  "id": "blog:rxisk.org:13467",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "orgasm",
+   "anhedonia",
+   "sleep"
+  ],
+  "title": "The Caste System in Medicine",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/the-caste-system-in-medicine/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2022-04-25",
+  "drugs": [],
+  "id": "blog:rxisk.org:13454",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "cognitive",
+   "sensory"
+  ],
+  "title": "Tsang/Shidlofsky Visual Snow Protocol",
+  "treatments": [
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/tsang-shidlofsky-visual-snow-protocol/"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2022-04-11",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/article-on-pssd-published-in-visions-magazine",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Article on PSSD published in Visions magazine",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/article-on-pssd-published-in-visions-magazine"
+ },
+ {
+  "community": "RxISK",
+  "date": "2022-03-07",
+  "drugs": [
+   "paroxetine",
+   "citalopram"
+  ],
+  "id": "blog:rxisk.org:13134",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "cognitive",
+   "sensory"
+  ],
+  "title": "New Study of Antidepressants and Vision Problems",
+  "treatments": [
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/new-study-of-antidepressants-and-vision-problems/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2022-03-01",
+  "drugs": [
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:13291",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile",
+   "orgasm"
+  ],
+  "title": "Welcome to Mondor, Frodo",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/welcome-to-mondor-frodo/"
+ },
+ {
+  "community": "PSSD Canada: stories",
+  "date": "2022-02-27",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:our-stories/emilys-story-video",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Emily’s story (video)",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/our-stories/emilys-story-video"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2022-02-17",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/petition-tabled-in-canadian-house-of-commons",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Petition tabled in Canadian House of Commons",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/petition-tabled-in-canadian-house-of-commons"
+ },
+ {
+  "community": "RxISK",
+  "date": "2022-02-04",
+  "drugs": [
+   "sertraline",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:13266",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile"
+  ],
+  "title": "Leader with a Mandate to Eliminate Contagion",
+  "treatments": [],
+  "url": "https://rxisk.org/leader-with-a-mandate-to-eliminate-contagion/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2022-02-04",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine",
+   "risperidone"
+  ],
+  "id": "blog:davidhealy.org:12094",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "blunting"
+  ],
+  "title": "Who’s Afraid of Science?",
+  "treatments": [],
+  "url": "https://davidhealy.org/whos-afraid-of-science/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2022-01-26",
+  "drugs": [
+   "fluoxetine"
+  ],
+  "id": "blog:davidhealy.org:12095",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "The Evidence that Counts for Us",
+  "treatments": [
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://davidhealy.org/the-evidence-that-counts-for-us/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2022-01-19",
+  "drugs": [
+   "paroxetine"
+  ],
+  "id": "blog:davidhealy.org:12085",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "blunting"
+  ],
+  "title": "The Evidence that Counts for FDA",
+  "treatments": [
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://davidhealy.org/the-evidence-that-counts-for-fda/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2022-01-14",
+  "drugs": [],
+  "id": "blog:rxisk.org:13236",
+  "partitions": [
+   "all"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Is Recovery from Medication Possible?",
+  "treatments": [
+   {
+    "id": "testosterone",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "psychedelic",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/is-recovery-from-medication-possible/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2022-01-05",
+  "drugs": [
+   "sertraline",
+   "bupropion"
+  ],
+  "id": "blog:rxisk.org:13135",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "orgasm",
+   "cognitive"
+  ],
+  "title": "Sex Please but We Are on Antidepressants",
+  "treatments": [
+   {
+    "id": "bupropion",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "physio",
+    "outcome": "better"
+   },
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/sex-please-but-we-are-on-antidepressants/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2021-12-28",
+  "drugs": [],
+  "id": "blog:rxisk.org:13127",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile"
+  ],
+  "title": "A Time for Post SSRI Sexual Dysfunction?",
+  "treatments": [],
+  "url": "https://rxisk.org/a-time-for-post-ssri-sexual-dysfunction/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2021-12-24",
+  "drugs": [],
+  "id": "blog:www.madinamerica.com:228661",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "blunting",
+   "cognitive",
+   "sleep"
+  ],
+  "title": "New Review: Antidepressants Come with Minimal Benefits, Several Risks",
+  "treatments": [
+   {
+    "id": "psychological",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2021/12/new-review-antidepressants-come-minimal-benefits-several-risks/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2021-12-19",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:13063",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile"
+  ],
+  "title": "Diagnostic Criteria for Enduring Sexual Dysfunction",
+  "treatments": [],
+  "url": "https://rxisk.org/diagnostic-criteria-for-enduring-sexual-dysfunction/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2021-11-08",
+  "drugs": [
+   "paroxetine",
+   "ziprasidone",
+   "isotretinoin"
+  ],
+  "id": "blog:davidhealy.org:11997",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Je Suis Charlie: You are Michael",
+  "treatments": [
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://davidhealy.org/je-suis-charlie-you-are-michael/"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2021-11-07",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/take-part-in-study-from-the-university-of-wittenherdecke",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Take part in study from the University of Witten/Herdecke",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/take-part-in-study-from-the-university-of-wittenherdecke"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2021-11-07",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/article-in-the-tyee-bc-independent-newspaper",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Article in The Tyee, BC independent newspaper",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/article-in-the-tyee-bc-independent-newspaper"
+ },
+ {
+  "community": "RxISK",
+  "date": "2021-10-04",
+  "drugs": [],
+  "id": "blog:rxisk.org:13009",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Love in a Time of Covid",
+  "treatments": [],
+  "url": "https://rxisk.org/love-in-a-time-of-covid/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2021-10-01",
+  "drugs": [
+   "isotretinoin"
+  ],
+  "id": "blog:davidhealy.org:11897",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido"
+  ],
+  "title": "They Used to Call It Medicine",
+  "treatments": [],
+  "url": "https://davidhealy.org/they-used-to-call-it-medicine/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2021-09-20",
+  "drugs": [
+   "fluoxetine",
+   "paroxetine"
+  ],
+  "id": "blog:davidhealy.org:11895",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Clinical Trials Are Unsafe",
+  "treatments": [
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://davidhealy.org/clinical-trials-are-unsafe/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2021-09-13",
+  "drugs": [],
+  "id": "blog:rxisk.org:12962",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Mind Softens Warning about Sexual Side Effects of Antidepressants",
+  "treatments": [],
+  "url": "https://rxisk.org/mind-softens-warning-about-sexual-side-effects-of-antidepressants/"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2021-09-09",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/online-educational-workshop-on-pssd",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Online Educational Workshop on PSSD",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/online-educational-workshop-on-pssd"
+ },
+ {
+  "community": "RxISK",
+  "date": "2021-08-22",
+  "drugs": [],
+  "id": "blog:rxisk.org:12982",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "From The Little Mermaid to Buffy the Vampire Slayer",
+  "treatments": [
+   {
+    "id": "brain_stim",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/from-the-little-mermaid-to-buffy-the-vampire-slayer/"
+ },
+ {
+  "community": "PSSD Canada: stories",
+  "date": "2021-06-22",
+  "drugs": [
+   "fluoxetine",
+   "escitalopram",
+   "venlafaxine",
+   "bupropion"
+  ],
+  "id": "blog:www.pssdcanada.ca:our-stories/tiffanys-story",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "blunting",
+   "anhedonia"
+  ],
+  "title": "Tiffany’s Story",
+  "treatments": [
+   {
+    "id": "bupropion",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://www.pssdcanada.ca/our-stories/tiffanys-story"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2021-06-16",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/international-society-for-sexual-medicine-webinar-on-pssd",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "International Society for Sexual Medicine webinar on PSSD",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/international-society-for-sexual-medicine-webinar-on-pssd"
+ },
+ {
+  "community": "David Healy",
+  "date": "2021-05-17",
+  "drugs": [
+   "sertraline",
+   "paroxetine"
+  ],
+  "id": "blog:davidhealy.org:11672",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm",
+   "blunting"
+  ],
+  "title": "Venus Rising: Women and Antidepressants",
+  "treatments": [
+   {
+    "id": "dopamine_agonist",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://davidhealy.org/venus-rising-women-and-antidepressants/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2021-04-30",
+  "drugs": [],
+  "id": "blog:rxisk.org:12863",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "blunting",
+   "anhedonia",
+   "cognitive"
+  ],
+  "title": "Farewell Marchino",
+  "treatments": [
+   {
+    "id": "antibiotics",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/farewell-marchino/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2021-04-24",
+  "drugs": [
+   "fluoxetine",
+   "paroxetine"
+  ],
+  "id": "blog:www.madinamerica.com:220991",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile",
+   "orgasm",
+   "blunting",
+   "sleep"
+  ],
+  "title": "Access Denied: Victims of Prescribed Harm Are Abandoned by Psychiatry",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2021/04/access-denied-prescribed-harm/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2021-04-21",
+  "drugs": [
+   "sertraline",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:12853",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "cognitive",
+   "sleep"
+  ],
+  "title": "Sex, No Sex, Sex, No Sex….",
+  "treatments": [
+   {
+    "id": "psychological",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/sex-no-sex-sex-no-sex/"
+ },
+ {
+  "community": "PSSD Canada: stories",
+  "date": "2021-04-09",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine",
+   "citalopram",
+   "fluvoxamine",
+   "isotretinoin"
+  ],
+  "id": "blog:www.pssdcanada.ca:our-stories/jesss-story",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "orgasm"
+  ],
+  "title": "Jess’s Story",
+  "treatments": [
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://www.pssdcanada.ca/our-stories/jesss-story"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2021-04-05",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine",
+   "venlafaxine",
+   "duloxetine",
+   "olanzapine",
+   "haloperidol"
+  ],
+  "id": "blog:www.madinamerica.com:220313",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile",
+   "orgasm",
+   "cognitive",
+   "sleep"
+  ],
+  "title": "Mental Health Survival Kit, Chapter 2: Is Psychiatry Evidence Based? (Part 5)",
+  "treatments": [
+   {
+    "id": "psychological",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2021/04/mental-health-survival-kit-chapter-2-part-5/"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2021-04-02",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/pssd-sufferer-interviewed-on-german-television",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "PSSD sufferer interviewed on German television",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/pssd-sufferer-interviewed-on-german-television"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2021-03-09",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/study-on-pssd-from-university-of-ottawa-seeks-interview-volunteers",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Study on PSSD from University of Ottawa seeks interview volunteers",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/study-on-pssd-from-university-of-ottawa-seeks-interview-volunteers"
+ },
+ {
+  "community": "David Healy",
+  "date": "2021-03-09",
+  "drugs": [
+   "sertraline",
+   "paroxetine"
+  ],
+  "id": "blog:davidhealy.org:11623",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "I can’t breathe",
+  "treatments": [],
+  "url": "https://davidhealy.org/i-cant-breathe/"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2021-03-06",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/presentation-to-therapeutics-initiative",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Presentation to Therapeutics Initiative",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/presentation-to-therapeutics-initiative"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2021-03-06",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/interview-with-pssd-canada-member-published-in-local-magazine",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Interview with PSSD Canada member published in local magazine",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/interview-with-pssd-canada-member-published-in-local-magazine"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2021-02-28",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/pssd-included-in-university-course-syllabus",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "PSSD included in university course syllabus",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/pssd-included-in-university-course-syllabus"
+ },
+ {
+  "community": "RxISK",
+  "date": "2021-02-19",
+  "drugs": [
+   "paroxetine",
+   "clozapine"
+  ],
+  "id": "blog:rxisk.org:12799",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "MAiD in Canada: Treatment Resistant Depression",
+  "treatments": [],
+  "url": "https://rxisk.org/maid-in-canada-treatment-resistant-depression/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2021-02-19",
+  "drugs": [
+   "paroxetine",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:davidhealy.org:11610",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "anhedonia"
+  ],
+  "title": "MAiD in Canada: Enduring Sexual Dysfunctions",
+  "treatments": [],
+  "url": "https://davidhealy.org/maid-in-canada-enduring-sexual-dysfunctions/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2021-02-12",
+  "drugs": [],
+  "id": "blog:davidhealy.org:11597",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Sex and Evidence Based Medicine",
+  "treatments": [],
+  "url": "https://davidhealy.org/sex-and-evidence-based-medicine/"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2021-01-30",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/6xuu3vlnj9r5segkkksdu23mllxikg",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Dr. Roberto Melcangi presenting on PSSD",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/6xuu3vlnj9r5segkkksdu23mllxikg"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2021-01-25",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/email-your-member-of-parliament",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Email your Member of Parliament!",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/email-your-member-of-parliament"
+ },
+ {
+  "community": "David Healy",
+  "date": "2021-01-25",
+  "drugs": [
+   "fluoxetine",
+   "duloxetine",
+   "risperidone"
+  ],
+  "id": "blog:davidhealy.org:11576",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido"
+  ],
+  "title": "Sex, Drugs and a Leap Year Proposal",
+  "treatments": [
+   {
+    "id": "psychological",
+    "outcome": "better"
+   },
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://davidhealy.org/sex-drugs-and-a-leap-year-proposal/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2021-01-18",
+  "drugs": [
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:12770",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness"
+  ],
+  "title": "Health Canada warns about Persistent Sexual Dysfunction after SSRIs & SNRIs",
+  "treatments": [],
+  "url": "https://rxisk.org/health-canada-warns-about-persistent-sexual-dysfunction-after-ssris-snris/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2021-01-17",
+  "drugs": [],
+  "id": "blog:davidhealy.org:11570",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido"
+  ],
+  "title": "Sex, Drugs and Bureaucrats",
+  "treatments": [],
+  "url": "https://davidhealy.org/sex-drugs-and-bureaucrats/"
+ },
+ {
+  "community": "PSSD Canada: news",
+  "date": "2020-12-27",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:news/communications-with-health-canada",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Communications with Health Canada",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/news/communications-with-health-canada"
+ },
+ {
+  "community": "RxISK",
+  "date": "2020-12-24",
+  "drugs": [],
+  "id": "blog:rxisk.org:12759",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "blunting"
+  ],
+  "title": "I Am Your Patient Too",
+  "treatments": [
+   {
+    "id": "psychological",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/i-am-your-patient-too/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2020-12-14",
+  "drugs": [],
+  "id": "blog:rxisk.org:12749",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "$100K and a List of Doctors",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/100k-and-a-list-of-doctors/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2020-12-01",
+  "drugs": [],
+  "id": "blog:rxisk.org:12735",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "RxISK Prize Closing the Gap",
+  "treatments": [],
+  "url": "https://rxisk.org/rxisk-prize-closing-the-gap/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2020-11-25",
+  "drugs": [],
+  "id": "blog:rxisk.org:12725",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "TRP Drugs and Herbs for Withdrawal and PSSD",
+  "treatments": [
+   {
+    "id": "lithium",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/trp-drugs-and-herbs-for-withdrawal-and-pssd/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2020-11-04",
+  "drugs": [
+   "sertraline",
+   "paroxetine",
+   "citalopram",
+   "venlafaxine"
+  ],
+  "id": "blog:rxisk.org:12713",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Managing SSRI Withdrawal: Another Way",
+  "treatments": [
+   {
+    "id": "microbiome_tx",
+    "outcome": "better"
+   },
+   {
+    "id": "supplements",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/managing-ssri-withdrawal-one-way/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2020-09-30",
+  "drugs": [],
+  "id": "blog:rxisk.org:12702",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "erectile",
+   "blunting"
+  ],
+  "title": "Dear Abby: Antidepressants and Marriage",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "none"
+   }
+  ],
+  "url": "https://rxisk.org/dear-abby-antidepressants-and-marriage/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2020-09-07",
+  "drugs": [],
+  "id": "blog:rxisk.org:12680",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Where’s Anonymous?",
+  "treatments": [],
+  "url": "https://rxisk.org/wheres-anonymous/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2020-08-23",
+  "drugs": [
+   "citalopram",
+   "escitalopram",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:12658",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "RxISK and Sharks",
+  "treatments": [
+   {
+    "id": "testosterone",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/rxisk-and-sharks/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2020-08-19",
+  "drugs": [],
+  "id": "blog:davidhealy.org:11468",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Stormy Weather II",
+  "treatments": [],
+  "url": "https://davidhealy.org/stormy-weather-ii/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2020-08-17",
+  "drugs": [
+   "finasteride"
+  ],
+  "id": "blog:davidhealy.org:11463",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "blunting"
+  ],
+  "title": "Stormy Weather I",
+  "treatments": [],
+  "url": "https://davidhealy.org/stormy-weather-i/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2020-08-16",
+  "drugs": [],
+  "id": "blog:rxisk.org:12648",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile",
+   "anhedonia"
+  ],
+  "title": "Bio Rip-off, Bio Delusions, Bio Hack?",
+  "treatments": [
+   {
+    "id": "psychological",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/bio-rip-off-bio-delusions-bio-hack/"
+ },
+ {
+  "community": "PSSD Canada: stories",
+  "date": "2020-07-16",
+  "drugs": [
+   "fluoxetine"
+  ],
+  "id": "blog:www.pssdcanada.ca:our-stories/jamess-story",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile",
+   "cognitive",
+   "sleep"
+  ],
+  "title": "James’s Story",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "psychological",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.pssdcanada.ca/our-stories/jamess-story"
+ },
+ {
+  "community": "RxISK",
+  "date": "2020-07-13",
+  "drugs": [
+   "paroxetine",
+   "venlafaxine",
+   "desvenlafaxine"
+  ],
+  "id": "blog:rxisk.org:12621",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile",
+   "cognitive"
+  ],
+  "title": "Helping H: SSRI Withdrawal",
+  "treatments": [
+   {
+    "id": "brain_stim",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/helping-h-ssri-withdrawal/"
+ },
+ {
+  "community": "PSSD Canada: stories",
+  "date": "2020-06-28",
+  "drugs": [],
+  "id": "blog:www.pssdcanada.ca:our-stories/submitted-by-a-parent-of-a-pssd-victim",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "blunting"
+  ],
+  "title": "Submitted by a parent of a PSSD sufferer",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/our-stories/submitted-by-a-parent-of-a-pssd-victim"
+ },
+ {
+  "community": "PSSD Canada: stories",
+  "date": "2020-06-10",
+  "drugs": [
+   "sertraline",
+   "citalopram"
+  ],
+  "id": "blog:www.pssdcanada.ca:our-stories/shawns-story",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm",
+   "blunting",
+   "anhedonia"
+  ],
+  "title": "Shawn’s Story",
+  "treatments": [
+   {
+    "id": "buspirone",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "cannabis",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.pssdcanada.ca/our-stories/shawns-story"
+ },
+ {
+  "community": "PSSD Canada: stories",
+  "date": "2020-06-10",
+  "drugs": [
+   "sertraline",
+   "fluoxetine"
+  ],
+  "id": "blog:www.pssdcanada.ca:our-stories/jakes-story",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile",
+   "cognitive"
+  ],
+  "title": "Jake’s Story",
+  "treatments": [
+   {
+    "id": "cannabis",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.pssdcanada.ca/our-stories/jakes-story"
+ },
+ {
+  "community": "PSSD Canada: stories",
+  "date": "2020-06-10",
+  "drugs": [
+   "citalopram",
+   "bupropion"
+  ],
+  "id": "blog:www.pssdcanada.ca:our-stories/emilys-story-1",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile",
+   "blunting"
+  ],
+  "title": "Emily’s Story",
+  "treatments": [
+   {
+    "id": "bupropion",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://www.pssdcanada.ca/our-stories/emilys-story-1"
+ },
+ {
+  "community": "PSSD Canada: stories",
+  "date": "2020-06-10",
+  "drugs": [
+   "paroxetine",
+   "venlafaxine"
+  ],
+  "id": "blog:www.pssdcanada.ca:our-stories/ellens-story",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "sleep"
+  ],
+  "title": "Ellen’s Story",
+  "treatments": [
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.pssdcanada.ca/our-stories/ellens-story"
+ },
+ {
+  "community": "PSSD Canada: stories",
+  "date": "2020-06-10",
+  "drugs": [
+   "escitalopram",
+   "venlafaxine"
+  ],
+  "id": "blog:www.pssdcanada.ca:our-stories/chriss-story",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile",
+   "blunting",
+   "anhedonia"
+  ],
+  "title": "Chris’s Story",
+  "treatments": [],
+  "url": "https://www.pssdcanada.ca/our-stories/chriss-story"
+ },
+ {
+  "community": "PSSD Canada: stories",
+  "date": "2020-06-10",
+  "drugs": [
+   "venlafaxine"
+  ],
+  "id": "blog:www.pssdcanada.ca:our-stories/als-story",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile",
+   "anhedonia",
+   "cognitive"
+  ],
+  "title": "Andrew’s Story",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "better"
+   },
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.pssdcanada.ca/our-stories/als-story"
+ },
+ {
+  "community": "David Healy",
+  "date": "2020-05-06",
+  "drugs": [
+   "sertraline"
+  ],
+  "id": "blog:davidhealy.org:11384",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness"
+  ],
+  "title": "The NICE before Christmas",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "lithium",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://davidhealy.org/the-nice-before-christmas/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2020-05-04",
+  "drugs": [
+   "finasteride"
+  ],
+  "id": "blog:rxisk.org:12570",
+  "partitions": [
+   "all",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Catch San Marino if you Can",
+  "treatments": [],
+  "url": "https://rxisk.org/catch-san-marino-if-you-can/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2020-03-18",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine",
+   "clomipramine",
+   "amitriptyline",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:davidhealy.org:11359",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "blunting"
+  ],
+  "title": "Does My Bias Look Big in This?",
+  "treatments": [
+   {
+    "id": "psychological",
+    "outcome": "better"
+   },
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://davidhealy.org/does-my-bias-look-big-in-this/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2020-02-18",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:12493",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "The Politics of PSSD",
+  "treatments": [],
+  "url": "https://rxisk.org/the-politics-of-pssd/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2020-02-03",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:12479",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "blunting",
+   "cognitive"
+  ],
+  "title": "Sex, Withdrawal and Boundaries",
+  "treatments": [],
+  "url": "https://rxisk.org/sex-withdrawal-and-boundaries/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2020-01-23",
+  "drugs": [
+   "fluoxetine",
+   "paroxetine",
+   "clomipramine",
+   "amitriptyline",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:12474",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "blunting"
+  ],
+  "title": "What’s Sex Got to Do with It",
+  "treatments": [
+   {
+    "id": "psychological",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "brain_stim",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/whats-sex-got-to-do-with-it/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2019-10-07",
+  "drugs": [
+   "fluoxetine",
+   "citalopram"
+  ],
+  "id": "blog:rxisk.org:12404",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness"
+  ],
+  "title": "RxISK Manifesto",
+  "treatments": [
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/rxisk-manifesto/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2019-09-25",
+  "drugs": [],
+  "id": "blog:rxisk.org:12345",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido"
+  ],
+  "title": "PSSD Patient Experiences",
+  "treatments": [],
+  "url": "https://rxisk.org/pssd-patient-experiences/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2019-09-14",
+  "drugs": [
+   "fluoxetine"
+  ],
+  "id": "blog:www.madinamerica.com:189068",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Is Remaking Psychiatric Care Possible?",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2019/09/is-remaking-psychiatric-care-possible/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2019-09-09",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:12384",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness"
+  ],
+  "title": "Business Opportunity courtesy of Impeto Medical",
+  "treatments": [
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/business-opportunity-courtesy-of-impeto-medical/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2019-09-04",
+  "drugs": [],
+  "id": "blog:rxisk.org:12375",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Device Wrecks & Regulators?",
+  "treatments": [],
+  "url": "https://rxisk.org/device-wrecks-regulators/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2019-08-19",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:12363",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile"
+  ],
+  "title": "Sudoscan Saga & Propecia/Finasteride Survey",
+  "treatments": [],
+  "url": "https://rxisk.org/sudoscan-saga-propecia-finasteride-survey/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2019-07-29",
+  "drugs": [],
+  "id": "blog:davidhealy.org:11262",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Decernimus Ergo Summus: Citizen’s Assemblies",
+  "treatments": [
+   {
+    "id": "dopamine_agonist",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://davidhealy.org/decernimus-ergo-summus-citizens-assemblies/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2019-07-01",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:12330",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Montelukast, Fluoroquinolone, Psychotropic Withdrawal & Toxicity",
+  "treatments": [
+   {
+    "id": "dopamine_agonist",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/montelukast-fluoroquinolone-psychotropic-withdrawal-toxicity/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2019-06-17",
+  "drugs": [
+   "fluoxetine"
+  ],
+  "id": "blog:davidhealy.org:11227",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "blunting"
+  ],
+  "title": "Ordinarily Well: Storm in a D Cup",
+  "treatments": [],
+  "url": "https://davidhealy.org/ordinarily-well/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2019-06-15",
+  "drugs": [],
+  "id": "blog:www.madinamerica.com:182680",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "EMA Acknowledges Persistent Sexual Dysfunction After SSRIs & SNRIs",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2019/06/ema-acknowledges-persistent-sexual-dysfunction-ssris-snris/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2019-06-11",
+  "drugs": [
+   "clomipramine",
+   "vortioxetine"
+  ],
+  "id": "blog:rxisk.org:12304",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile"
+  ],
+  "title": "EMA Acknowledges Persistent Sexual Dysfunction After SSRIs & SNRIs",
+  "treatments": [
+   {
+    "id": "vortioxetine",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/ema-acknowledges-persistent-sexual-dysfunction-after-ssris-snris/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2019-05-14",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:12282",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido"
+  ],
+  "title": "Neutered Britain: Sex and Drugs",
+  "treatments": [],
+  "url": "https://rxisk.org/neutered-britain-sex-and-drugs/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2019-04-22",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:12273",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm",
+   "anhedonia"
+  ],
+  "title": "Xarelto and Sex",
+  "treatments": [
+   {
+    "id": "physio",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/xarelto-and-sex/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2019-04-09",
+  "drugs": [],
+  "id": "blog:rxisk.org:12257",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "RxISK Rorschach: Do not Go Gentle",
+  "treatments": [],
+  "url": "https://rxisk.org/rxisk-rorschach-do-not-go-gentle/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2019-04-01",
+  "drugs": [
+   "paroxetine",
+   "fluvoxamine"
+  ],
+  "id": "blog:www.madinamerica.com:178228",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile",
+   "cognitive",
+   "sleep",
+   "sensory"
+  ],
+  "title": "Lasting Damage from Prescribed Drugs",
+  "treatments": [
+   {
+    "id": "lithium",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2019/04/lasting-damage-from-prescribed-drugs/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2019-04-01",
+  "drugs": [
+   "finasteride"
+  ],
+  "id": "blog:rxisk.org:12249",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Assisted Dying: Going Gentle or Not so Gentle",
+  "treatments": [],
+  "url": "https://rxisk.org/assisted-dying-going-gentle-or-not-so-gentle/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2019-03-18",
+  "drugs": [],
+  "id": "blog:rxisk.org:12240",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm"
+  ],
+  "title": "Encountering Doctors",
+  "treatments": [],
+  "url": "https://rxisk.org/encountering-doctors/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2019-01-10",
+  "drugs": [],
+  "id": "blog:rxisk.org:12156",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "PSSD and Hancock’s Half Brexit",
+  "treatments": [],
+  "url": "https://rxisk.org/pssd-and-hancocks-half-brexit/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2018-10-29",
+  "drugs": [
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:12090",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile"
+  ],
+  "title": "Post-Retinoid Sexual Dysfunction (PRSD) Petition",
+  "treatments": [],
+  "url": "https://rxisk.org/petition-about-isotretinoin-sexual-side-effects/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2018-10-25",
+  "drugs": [
+   "fluoxetine",
+   "trazodone",
+   "finasteride"
+  ],
+  "id": "blog:rxisk.org:12078",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile",
+   "blunting",
+   "cognitive",
+   "sleep"
+  ],
+  "title": "Skin and Drugs and Sex",
+  "treatments": [
+   {
+    "id": "buspirone",
+    "outcome": "better"
+   },
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "serotonin_antagonist",
+    "outcome": "better"
+   },
+   {
+    "id": "testosterone",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "flibanserin",
+    "outcome": "better"
+   },
+   {
+    "id": "antibiotics",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/skin-and-drugs-and-sex/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2018-10-22",
+  "drugs": [
+   "fluoxetine",
+   "finasteride"
+  ],
+  "id": "blog:davidhealy.org:11100",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "sleep"
+  ],
+  "title": "Khashoggi and Pandemrix",
+  "treatments": [],
+  "url": "https://davidhealy.org/khashoggi-and-pandemrix/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2018-10-15",
+  "drugs": [
+   "fluoxetine",
+   "citalopram"
+  ],
+  "id": "blog:rxisk.org:12017",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile",
+   "blunting",
+   "cognitive"
+  ],
+  "title": "Can Antidepressants Make You Less Attractive?",
+  "treatments": [],
+  "url": "https://rxisk.org/can-antidepressants-make-you-less-attractive/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2018-07-04",
+  "drugs": [
+   "fluoxetine"
+  ],
+  "id": "blog:rxisk.org:11835",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile"
+  ],
+  "title": "PSSD In The Guardian, U.S. News & Lyon Capitale",
+  "treatments": [],
+  "url": "https://rxisk.org/pssd-in-the-guardian-u-s-news-lyon-capitale/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2018-06-27",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine",
+   "citalopram",
+   "escitalopram",
+   "venlafaxine",
+   "duloxetine",
+   "desvenlafaxine",
+   "vortioxetine",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:www.madinamerica.com:159831",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm",
+   "cognitive"
+  ],
+  "title": "Citizens Petition Calls for Sexual Side Effect Warnings",
+  "treatments": [
+   {
+    "id": "vortioxetine",
+    "outcome": "worse"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2018/06/citizens-petition-calls-sexual-side-effect-warnings-antidepressants/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2018-06-20",
+  "drugs": [
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:11843",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "What to do about Sex",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "testosterone",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "naltrexone",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/what-to-do-about-sex/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2018-06-20",
+  "drugs": [
+   "fluoxetine",
+   "paroxetine"
+  ],
+  "id": "blog:davidhealy.org:11013",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "What to do about Suicide",
+  "treatments": [],
+  "url": "https://davidhealy.org/what-to-do-about-suicide/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2018-06-07",
+  "drugs": [],
+  "id": "blog:rxisk.org:11816",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "erectile"
+  ],
+  "title": "Antidepressants, Sex and Thermal Thresholds",
+  "treatments": [
+   {
+    "id": "testosterone",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/antidepressants-sex-and-thermal-thresholds/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2018-05-04",
+  "drugs": [
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:11761",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile"
+  ],
+  "title": "Enduring Sexual Dysfunction: 300 Cases",
+  "treatments": [],
+  "url": "https://rxisk.org/enduring-sexual-dysfunction-300-cases/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2018-04-17",
+  "drugs": [
+   "sertraline",
+   "paroxetine",
+   "citalopram"
+  ],
+  "id": "blog:rxisk.org:11772",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "cognitive"
+  ],
+  "title": "Dependence on Antidepressants and The New York Times",
+  "treatments": [
+   {
+    "id": "dopamine_agonist",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "psychological",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/dependence-on-antidepressants-and-the-new-york-times/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2018-03-20",
+  "drugs": [],
+  "id": "blog:rxisk.org:11753",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "blunting",
+   "cognitive",
+   "sensory"
+  ],
+  "title": "PSSD, Withdrawal & Small Fiber Neuropathy?",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/pssd-withdrawal-small-fiber-neuropathy/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2018-03-12",
+  "drugs": [
+   "citalopram",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:11743",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "erectile",
+   "blunting"
+  ],
+  "title": "Venus Not Rising",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "psychological",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "brain_stim",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/venus-not-rising/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2018-03-11",
+  "drugs": [
+   "fluoxetine",
+   "escitalopram",
+   "quetiapine"
+  ],
+  "id": "blog:www.madinamerica.com:153530",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "anhedonia",
+   "sensory"
+  ],
+  "title": "Psychiatry Poured Oil Down the Hill I Was Climbing",
+  "treatments": [
+   {
+    "id": "exercise",
+    "outcome": "worse"
+   },
+   {
+    "id": "reinstatement",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://www.madinamerica.com/2018/03/psychiatry-poured-oil-hill-climbing/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2018-01-29",
+  "drugs": [],
+  "id": "blog:rxisk.org:11722",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile"
+  ],
+  "title": "Psychotropic Drug Dependence in Scotland: Petition PE01651",
+  "treatments": [],
+  "url": "https://rxisk.org/psychotropic-drug-dependence-in-scotland-petition-pe01651/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2018-01-19",
+  "drugs": [
+   "duloxetine",
+   "amitriptyline",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:11695",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile"
+  ],
+  "title": "Bladder and Bowel Problems After Antidepressants",
+  "treatments": [
+   {
+    "id": "physio",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/bladder-and-bowel-problems-after-antidepressants/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2017-12-07",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:11674",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "cognitive"
+  ],
+  "title": "POIS: A Whole New Meaning to Man Flu",
+  "treatments": [],
+  "url": "https://rxisk.org/pois-a-whole-new-meaning-to-man-flu/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2017-11-21",
+  "drugs": [
+   "fluoxetine",
+   "duloxetine",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:11421",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "erectile",
+   "orgasm"
+  ],
+  "title": "Post-SSRI Sexual Dysfunction: Getting a Diagnosis",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/post-ssri-sexual-dysfunction-getting-a-diagnosis/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2017-11-07",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:11636",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Here We Stand, We Can Do No Other",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "physio",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/here-we-stand-we-can-do-no-other/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2017-11-04",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:www.madinamerica.com:122464",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "sensory"
+  ],
+  "title": "Dr. David Healy: Seeking a Cure for Protracted, Medication-Related Sexual Dysfunction",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2017/11/dr-david-healy-seeking-cure-protracted-medication-related-sexual-dysfunction/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2017-10-25",
+  "drugs": [],
+  "id": "blog:rxisk.org:11593",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "RxISK Prize: Stigma and Recovery",
+  "treatments": [
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/rxisk-prize-stigma-and-recovery/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2017-10-16",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:11578",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile"
+  ],
+  "title": "RxISK Prize: Global Impact",
+  "treatments": [],
+  "url": "https://rxisk.org/rxisk-prize-global-impact/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2017-10-09",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:11549",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "RxISK Prize: Relationships",
+  "treatments": [],
+  "url": "https://rxisk.org/rxisk-prize-relationships/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2017-10-04",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:11536",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness"
+  ],
+  "title": "RxISK Prize: No Nos",
+  "treatments": [],
+  "url": "https://rxisk.org/rxisk-prize-no-nos/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2017-09-26",
+  "drugs": [
+   "finasteride"
+  ],
+  "id": "blog:rxisk.org:11526",
+  "partitions": [
+   "all"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "cognitive"
+  ],
+  "title": "RxISK Prize: The Golden Rule",
+  "treatments": [
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/rxisk-prize-the-golden-rule/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2017-09-18",
+  "drugs": [],
+  "id": "blog:rxisk.org:11495",
+  "partitions": [
+   "all"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido"
+  ],
+  "title": "RxISK Prize: How you can help",
+  "treatments": [],
+  "url": "https://rxisk.org/rxisk-prize-how-you-can-help/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2017-09-12",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:11477",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness"
+  ],
+  "title": "Launching the RxISK Prize",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "dopamine_agonist",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/launching-the-rxisk-prize/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2017-09-12",
+  "drugs": [
+   "finasteride"
+  ],
+  "id": "blog:davidhealy.org:10851",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "RxISK Prize",
+  "treatments": [],
+  "url": "https://davidhealy.org/rxisk-prize/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2017-07-17",
+  "drugs": [
+   "olanzapine",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:11405",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Withdrawal & PSSD: Terminal Diagnoses?",
+  "treatments": [
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "exercise",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/withdrawal-pssd-terminal-diagnoses/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2017-04-24",
+  "drugs": [
+   "citalopram"
+  ],
+  "id": "blog:rxisk.org:11356",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "orgasm"
+  ],
+  "title": "Drug Wrecked: Where Does Change Come From?",
+  "treatments": [],
+  "url": "https://rxisk.org/drug-wrecked-where-does-change-come-from/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2017-03-24",
+  "drugs": [],
+  "id": "blog:www.madinamerica.com:109088",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Daryl: Prescribed Antidepressant Drugs At 9 Years Old",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2017/03/daryl-prescribed-antidepressant-drugs-9-years-old/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2017-03-23",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine",
+   "citalopram",
+   "escitalopram",
+   "venlafaxine",
+   "duloxetine",
+   "desvenlafaxine"
+  ],
+  "id": "blog:rxisk.org:11282",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm"
+  ],
+  "title": "The Pills That Steal Sex",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/the-pills-that-steal-sex/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2017-01-31",
+  "drugs": [],
+  "id": "blog:www.madinamerica.com:89097",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "blunting"
+  ],
+  "title": "Venomagnosia",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2017/01/venomagnosia/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2017-01-30",
+  "drugs": [],
+  "id": "blog:davidhealy.org:9216",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "blunting"
+  ],
+  "title": "Venomagnosia",
+  "treatments": [],
+  "url": "https://davidhealy.org/venomagnosia/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2017-01-12",
+  "drugs": [],
+  "id": "blog:rxisk.org:11194",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "The Early History of PSSD",
+  "treatments": [],
+  "url": "https://rxisk.org/the-early-history-of-pssd/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2016-06-27",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine",
+   "citalopram",
+   "escitalopram",
+   "clomipramine"
+  ],
+  "id": "blog:rxisk.org:10544",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm"
+  ],
+  "title": "How Common is Post-SSRI Sexual Dysfunction (PSSD)?",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "herbal",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/how-common-is-post-ssri-sexual-dysfunction-pssd/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2016-03-16",
+  "drugs": [],
+  "id": "blog:rxisk.org:10482",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Medication and Withdrawal",
+  "treatments": [],
+  "url": "https://rxisk.org/medication-and-withdrawal/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2016-01-25",
+  "drugs": [
+   "citalopram",
+   "fluvoxamine",
+   "olanzapine"
+  ],
+  "id": "blog:davidhealy.org:8826",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile",
+   "cognitive"
+  ],
+  "title": "Pharmaceutical Rape: Cast of Characters",
+  "treatments": [
+   {
+    "id": "psychological",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://davidhealy.org/pharmaceutical-rape-cast-of-characters/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2016-01-18",
+  "drugs": [
+   "fluvoxamine"
+  ],
+  "id": "blog:rxisk.org:5312",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "blunting",
+   "anhedonia",
+   "cognitive",
+   "sleep"
+  ],
+  "title": "Is FSM a treatment for Post-SSRI Sexual Dysfunction (PSSD)?",
+  "treatments": [
+   {
+    "id": "testosterone",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/is-fsm-a-treatment-for-post-ssri-sexual-dysfunction-pssd/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2015-12-31",
+  "drugs": [
+   "amitriptyline"
+  ],
+  "id": "blog:rxisk.org:10175",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness"
+  ],
+  "title": "Greg’s Dilemma: Feeling Blue",
+  "treatments": [],
+  "url": "https://rxisk.org/gregs-dilemma-feeling-blue/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2015-12-21",
+  "drugs": [
+   "fluoxetine"
+  ],
+  "id": "blog:rxisk.org:10115",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "cognitive"
+  ],
+  "title": "Greg’s Dilemma: Riding a Backwards Bike",
+  "treatments": [
+   {
+    "id": "testosterone",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "brain_stim",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/gregs-dilemma-riding-a-backwards-bike/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2015-10-13",
+  "drugs": [
+   "finasteride"
+  ],
+  "id": "blog:rxisk.org:5174",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm",
+   "anhedonia",
+   "cognitive"
+  ],
+  "title": "Tracking Down the Cause of Withdrawal and PSSD",
+  "treatments": [
+   {
+    "id": "laser",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/tracking-down-the-cause-of-withdrawal-and-pssd/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2015-06-22",
+  "drugs": [
+   "sertraline",
+   "paroxetine",
+   "escitalopram",
+   "venlafaxine",
+   "duloxetine",
+   "mirtazapine",
+   "bupropion",
+   "quetiapine"
+  ],
+  "id": "blog:rxisk.org:5015",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness"
+  ],
+  "title": "Drugs and Smell: Smells of SHIT",
+  "treatments": [
+   {
+    "id": "bupropion",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "pde5",
+    "outcome": "worse"
+   },
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "supplements",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/drugs-and-smell-smells-of-shit/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2015-04-14",
+  "drugs": [],
+  "id": "blog:www.madinamerica.com:57228",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "More Evidence Antidepressants Might Induce Sexual Dysfunction Even After Stopping Them",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2015/04/evidence-antidepressants-might-induce-sexual-dysfunction-even-stopping/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2015-01-05",
+  "drugs": [
+   "fluoxetine",
+   "finasteride"
+  ],
+  "id": "blog:rxisk.org:4518",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "cognitive"
+  ],
+  "title": "The Mysteries of Love",
+  "treatments": [
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "reinstatement",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/the-mysteries-of-love/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2014-11-26",
+  "drugs": [],
+  "id": "blog:rxisk.org:4531",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "erectile"
+  ],
+  "title": "Rethink at Rethink?",
+  "treatments": [
+   {
+    "id": "testosterone",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/rethink-at-rethink/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2014-10-28",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:4509",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "orgasm"
+  ],
+  "title": "Asexuality: A Curious Parallel",
+  "treatments": [],
+  "url": "https://rxisk.org/asexuality-a-curious-parallel/"
+ },
+ {
+  "community": "Mad in America",
+  "date": "2014-08-25",
+  "drugs": [],
+  "id": "blog:www.madinamerica.com:46175",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile"
+  ],
+  "title": "Wikipedia Page Gone, But RxISK Presses On to Educate about Post-SSRI Sexual Dysfunction",
+  "treatments": [],
+  "url": "https://www.madinamerica.com/2014/08/reports-post-ssri-persistent-sexual-dysfunction/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2014-08-13",
+  "drugs": [],
+  "id": "blog:rxisk.org:4293",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "Thalidomide: From Disaster to Recovery",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/thalidomide-from-disaster-to-recovery/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2014-07-15",
+  "drugs": [
+   "citalopram",
+   "fluvoxamine"
+  ],
+  "id": "blog:rxisk.org:4257",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido"
+  ],
+  "title": "A PSSD Story",
+  "treatments": [],
+  "url": "https://rxisk.org/a-pssd-story/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2014-07-11",
+  "drugs": [
+   "paroxetine",
+   "escitalopram"
+  ],
+  "id": "blog:rxisk.org:4287",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "erectile"
+  ],
+  "title": "Recovering from PSSD",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "naltrexone",
+    "outcome": "better"
+   },
+   {
+    "id": "exercise",
+    "outcome": "better"
+   }
+  ],
+  "url": "https://rxisk.org/recovering-from-pssd/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2014-07-09",
+  "drugs": [
+   "fluoxetine",
+   "paroxetine",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:4279",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile"
+  ],
+  "title": "PSSD – One Hundred and Twenty Cases",
+  "treatments": [],
+  "url": "https://rxisk.org/pssd-one-hundred-and-twenty-cases/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2014-07-07",
+  "drugs": [
+   "fluoxetine",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:4255",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "anhedonia"
+  ],
+  "title": "Wikipedia Editor Inserts Foot in Mouth",
+  "treatments": [
+   {
+    "id": "psychological",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/wikipedia-editor-inserts-foot-in-mouth/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2014-02-13",
+  "drugs": [
+   "mirtazapine",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:3855",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile",
+   "sleep"
+  ],
+  "title": "Post Finasteride Syndrome: PFS",
+  "treatments": [],
+  "url": "https://rxisk.org/post-finasteride-syndrome-pfs/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2014-02-12",
+  "drugs": [
+   "fluoxetine",
+   "escitalopram",
+   "duloxetine",
+   "bupropion"
+  ],
+  "id": "blog:rxisk.org:3847",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile"
+  ],
+  "title": "Wikipedia Falls: Post-SSRI Sexual Dysfunction",
+  "treatments": [
+   {
+    "id": "bupropion",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/post-ssri-sexual-dysfunction-wikipedia-falls/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2014-02-11",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine",
+   "citalopram",
+   "escitalopram",
+   "fluvoxamine",
+   "venlafaxine",
+   "bupropion",
+   "finasteride"
+  ],
+  "id": "blog:rxisk.org:3845",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm",
+   "anhedonia"
+  ],
+  "title": "Wikipedia Stumbles: Post-SSRI Sexual Dysfunction",
+  "treatments": [
+   {
+    "id": "bupropion",
+    "outcome": "better"
+   },
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "dopamine_agonist",
+    "outcome": "better"
+   },
+   {
+    "id": "serotonin_antagonist",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "herbal",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "switch",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "brain_stim",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/post-ssri-sexual-dysfunction-pssd-wikipedia-stumbles/"
+ },
+ {
+  "community": "David Healy",
+  "date": "2014-02-11",
+  "drugs": [
+   "paroxetine",
+   "escitalopram",
+   "duloxetine",
+   "desvenlafaxine",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:davidhealy.org:6163",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm",
+   "blunting"
+  ],
+  "title": "Sexual Dysfunction Enduring After Treatment Halts: s-DEATH",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://davidhealy.org/sexual-dysfunction-enduring-after-treatment-halts-s-death/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2014-02-10",
+  "drugs": [
+   "paroxetine",
+   "escitalopram",
+   "duloxetine",
+   "desvenlafaxine",
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:3889",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm",
+   "blunting"
+  ],
+  "title": "Sexual Dysfunction Enduring After Treatment Halts: Sexual-DEATH",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/sexual-dysfunction-enduring-after-treatment-halts-sexual-death/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2013-12-10",
+  "drugs": [
+   "finasteride",
+   "isotretinoin"
+  ],
+  "id": "blog:rxisk.org:3729",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm",
+   "anhedonia"
+  ],
+  "title": "Accutane: 30 Years of Trading our Sex Lives for Clear Skin",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "none"
+   },
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/accutane-30-years-of-trading-our-sex-lives-for-clear-skin/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2013-08-01",
+  "drugs": [],
+  "id": "blog:rxisk.org:3093",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido"
+  ],
+  "title": "Treating PSSD",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "dopamine_agonist",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "serotonin_antagonist",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "brain_stim",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/treating-pssd/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2013-07-24",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine",
+   "citalopram",
+   "escitalopram",
+   "fluvoxamine",
+   "venlafaxine",
+   "duloxetine",
+   "desvenlafaxine",
+   "ziprasidone"
+  ],
+  "id": "blog:rxisk.org:2960",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": false,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [],
+  "title": "No Sex and the City",
+  "treatments": [
+   {
+    "id": "serotonin_antagonist",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "antibiotics",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/no-sex-and-the-city/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2013-07-17",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "escitalopram",
+   "bupropion"
+  ],
+  "id": "blog:rxisk.org:2957",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm",
+   "blunting",
+   "anhedonia",
+   "sleep"
+  ],
+  "title": "PSSD: If a Drug Caused Blindness?",
+  "treatments": [
+   {
+    "id": "bupropion",
+    "outcome": "better"
+   },
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/pssd-if-a-drug-caused-blindness/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2013-07-10",
+  "drugs": [
+   "sertraline",
+   "fluoxetine",
+   "paroxetine",
+   "citalopram",
+   "duloxetine",
+   "desvenlafaxine",
+   "bupropion",
+   "ziprasidone",
+   "finasteride"
+  ],
+  "id": "blog:rxisk.org:2944",
+  "partitions": [
+   "all",
+   "ssri_snri",
+   "ap_mirt"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "genital_numbness",
+   "blunting",
+   "anhedonia"
+  ],
+  "title": "Drugs and Sex Don’t Go",
+  "treatments": [
+   {
+    "id": "bupropion",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "dopamine_agonist",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "serotonin_antagonist",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/drugs-and-sex-dont-go/"
+ },
+ {
+  "community": "RxISK",
+  "date": "2013-03-27",
+  "drugs": [
+   "escitalopram"
+  ],
+  "id": "blog:rxisk.org:9985",
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
+  "recovery": true,
+  "replies": 0,
+  "source": "blog",
+  "symptoms": [
+   "libido",
+   "erectile"
+  ],
+  "title": "Buried Alive: Post-SSRI Sexual Dysfunction (PSSD)",
+  "treatments": [
+   {
+    "id": "pde5",
+    "outcome": "mentioned"
+   },
+   {
+    "id": "dopamine_agonist",
+    "outcome": "mentioned"
+   }
+  ],
+  "url": "https://rxisk.org/buried-alive-post-ssri-sexual-dysfunction-pssd/"
+ }
+]

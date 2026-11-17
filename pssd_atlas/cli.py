@@ -5,15 +5,16 @@ from __future__ import annotations
 import argparse
 import csv
 import datetime as dt
+import hashlib
 import json
 import sys
 from pathlib import Path
 
-from . import classify, config, europepmc, faers, pubmed, report, server, trials
+from . import blogs, classify, community, config, europepmc, faers, pubmed, reddit, report, server, trials
 from .http import Client
 
 SCOPE_RANK = {"core": 0, "related": 1, "adjacent": 2}
-SOURCES = ("pubmed", "preprints", "trials", "faers")
+SOURCES = ("pubmed", "preprints", "trials", "faers", "reddit", "blogs")
 
 
 def _log(msg: str) -> None:
@@ -142,6 +143,30 @@ def cmd_update(args, log=_log) -> int:
     if fa is None:
         fa = _read(data / "faers.json", {"rows": [], "reactions": [], "n_reports": 0, "composite_terms": []})
 
+    # Patient reports. Raw post text is kept in a local, git-ignored store so that posts
+    # accumulate across runs (Reddit only serves recent ones) and tags can be re-derived
+    # when the config changes; only text-free tags are published.
+    raw_path = Path(args.raw) / "posts.json"
+    raw_posts = {p["id"]: p for p in _read(raw_path, [])}
+
+    configured = True
+
+    def get_reddit():
+        nonlocal configured
+        try:
+            return reddit.collect(Client(min_interval=1.1), cfg.reddit, log=log)
+        except reddit.MissingCredentials as e:
+            log(f"- reddit: skipped, {e}")
+            configured = False
+            return []
+
+    fetched = run("reddit", get_reddit) or []
+    if "reddit" in status:
+        status["reddit"]["configured"] = configured
+    fetched += run("blogs", lambda: blogs.collect(cfg.blogs, log=log)) or []
+    raw_posts.update((p["id"], p) for p in fetched)
+    posts = rebuild_community(cfg, data, raw_path, raw_posts)
+
     new_papers = [p for p in papers if p["id"] not in old_papers]
     new_trials = [t for t in trial_list if t["id"] not in old_trials]
     meta.update(generated=today, version=1)
@@ -152,7 +177,7 @@ def cmd_update(args, log=_log) -> int:
     write_csv(data, papers, trial_list, fa)
     report.build(cfg, data, Path(args.report))
 
-    log(f"\n{len(papers)} papers, {len(trial_list)} trials, {len(fa['rows'])} drug-reaction pairs")
+    log(f"\n{len(papers)} papers, {len(trial_list)} trials, {len(fa['rows'])} drug-reaction pairs, {len(posts)} patient posts")
     if old_papers or old_trials:
         log(f"New since last update: {len(new_papers)} papers, {len(new_trials)} trials")
         for p in new_papers[:30]:
@@ -161,6 +186,38 @@ def cmd_update(args, log=_log) -> int:
             log(f"  + [trial] {t['brief_title'][:110]}  {t['url']}")
     log(f"Report: {args.report}")
     return 1 if failures else 0
+
+
+def rebuild_community(cfg, data: Path, raw_path: Path, raw_posts: dict) -> list[dict]:
+    """Re-derive the published, text-free tags from the local post store."""
+    if raw_posts:
+        _write(raw_path, list(raw_posts.values()))
+        posts = sorted((community.extract(p, cfg) for p in raw_posts.values()),
+                       key=lambda r: (r["date"], r["id"]), reverse=True)
+    else:
+        posts = _read(data / "community.json", [])   # no local text store: keep the published tags
+    _write(data / "community.json", posts)
+    return posts
+
+
+def cmd_import(args) -> int:
+    """Add pages or notes you saved yourself (.html, .txt, .md) as patient reports."""
+    cfg, data = config.load(args.config), Path(args.data)
+    raw_path = Path(args.raw) / "posts.json"
+    raw_posts = {p["id"]: p for p in _read(raw_path, [])}
+    for name in args.files:
+        f = Path(name)
+        text = f.read_text(encoding="utf-8", errors="replace")
+        if f.suffix.lower() in (".html", ".htm"):
+            text = blogs.strip_html(text)
+        key = hashlib.sha256(text.encode()).hexdigest()[:12]
+        raw_posts[f"import:{key}"] = {"id": f"import:{key}", "source": "import", "community": args.source,
+                                       "url": args.url or "", "date": args.date or "", "title": "", "text": text,
+                                       "replies": 0}
+    posts = rebuild_community(cfg, data, raw_path, raw_posts)
+    report.build(cfg, data, Path(args.report))
+    _log(f"Imported {len(args.files)} file(s); {len(posts)} patient reports and articles in total")
+    return 0
 
 
 def write_csv(data: Path, papers, trial_list, fa) -> None:
@@ -205,6 +262,7 @@ def main(argv=None) -> int:
     ap.add_argument("--config", type=Path, default=None, help="alternative config.toml")
     ap.add_argument("--data", default="data", help="data directory (default: data)")
     ap.add_argument("--report", default="docs/index.html", help="report path (default: docs/index.html)")
+    ap.add_argument("--raw", default="data_raw", help="local, uncommitted store for patient post text")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
     up = sub.add_parser("update", help="fetch all sources, re-tag, rebuild the report")
@@ -225,6 +283,13 @@ def main(argv=None) -> int:
     sv.add_argument("--port", type=int, default=8765)
     sv.add_argument("--cache", default=".cache", help="HTTP cache directory")
     sv.set_defaults(fn=lambda a: server.serve(a, cmd_update))
+
+    im = sub.add_parser("import", help="add pages you saved from a forum (html/txt/md) as patient reports")
+    im.add_argument("files", nargs="+")
+    im.add_argument("--source", default="Imported", help="where they came from, e.g. 'PSSD Forum'")
+    im.add_argument("--url", help="link to the original page")
+    im.add_argument("--date", metavar="YYYY-MM-DD")
+    im.set_defaults(fn=cmd_import)
 
     args = ap.parse_args(argv)
     return args.fn(args)

@@ -33,7 +33,7 @@ def serve(args, run_update) -> int:
         return 1
 
     def worker(include_faers: bool):
-        ns = argparse.Namespace(config=args.config, data=args.data, report=args.report, cache=args.cache,
+        ns = argparse.Namespace(config=args.config, data=args.data, report=args.report, cache=args.cache, raw=args.raw,
                                 no_cache=False, cache_days=0.0, skip=None)
         try:
             if include_faers:

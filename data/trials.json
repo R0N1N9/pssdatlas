@@ -18,6 +18,9 @@
    "Ginkgo Biloba",
    "Sex Therapy (genital focus)"
   ],
+  "partitions": [
+   "all"
+  ],
   "phases": [
    "PHASE2"
   ],
@@ -46,6 +49,10 @@
   ],
   "interventions": [
    "Gaitril"
+  ],
+  "partitions": [
+   "all",
+   "ssri_snri"
   ],
   "phases": [
    "PHASE4"
@@ -76,6 +83,9 @@
   "interventions": [
    "Maca Root"
   ],
+  "partitions": [
+   "all"
+  ],
   "phases": [
    "PHASE3"
   ],
@@ -103,6 +113,10 @@
   ],
   "interventions": [
    "Ropinirole (Requip)"
+  ],
+  "partitions": [
+   "all",
+   "ssri_snri"
   ],
   "phases": [
    "PHASE4"
@@ -133,6 +147,10 @@
   "interventions": [
    "sildenafil"
   ],
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
   "phases": [
    "PHASE4"
   ],
@@ -160,6 +178,10 @@
   ],
   "interventions": [
    "Duloxetine"
+  ],
+  "partitions": [
+   "all",
+   "ssri_snri"
   ],
   "phases": [
    "PHASE4"
@@ -190,6 +212,9 @@
    "Maca Root",
    "Placebo"
   ],
+  "partitions": [
+   "all"
+  ],
   "phases": [
    "PHASE3"
   ],
@@ -219,6 +244,10 @@
    "Trazodone",
    "Placebo"
   ],
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
   "phases": [
    "NA"
   ],
@@ -244,6 +273,10 @@
   "intervention_tags": [],
   "interventions": [
    "Exercise"
+  ],
+  "partitions": [
+   "all",
+   "ssri_snri"
   ],
   "phases": [
    "NA"
@@ -275,6 +308,10 @@
    "Escitalopram",
    "Placebo"
   ],
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
   "phases": [
    "PHASE3"
   ],
@@ -305,6 +342,10 @@
    "Vilazodone",
    "Sertraline"
   ],
+  "partitions": [
+   "all",
+   "ssri_snri"
+  ],
   "phases": [
    "PHASE4"
   ],
@@ -333,6 +374,10 @@
   "interventions": [
    "Abilify Maintena"
   ],
+  "partitions": [
+   "all",
+   "ap_mirt"
+  ],
   "phases": [
    "PHASE4"
   ],
@@ -360,6 +405,9 @@
   ],
   "interventions": [
    "mindfulness-based cognitive therapy"
+  ],
+  "partitions": [
+   "all"
   ],
   "phases": [
    "NA"

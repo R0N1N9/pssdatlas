@@ -21,6 +21,11 @@ def payload(cfg: Config, data: Path) -> dict:
         "papers": _read(data / "papers.json", []),
         "trials": _read(data / "trials.json", []),
         "faers": _read(data / "faers.json", {"rows": [], "reactions": [], "n_reports": 0}),
+        "community": _read(data / "community.json", []),
+        "partitions": [{"id": p.id, "label": p.label, "description": p.description, "drugs": sorted(p.drugs),
+                        "everything": p.everything} for p in cfg.partitions],
+        "symptoms": [{"id": s.id, "label": s.label} for s in cfg.symptoms],
+        "communityInterventions": [{"id": i.id, "label": i.label} for i in cfg.community_interventions],
         "studyTypes": [{"id": i, "label": l} for i, l in classify.STUDY_TYPES],
         "humanPrimary": sorted(classify.HUMAN_PRIMARY),
         "hypotheses": [{"id": h.id, "label": h.label, "kind": h.kind, "description": h.description}
@@ -34,6 +39,8 @@ def build(cfg: Config, data: Path, out: Path) -> None:
     blob = json.dumps(payload(cfg, data), ensure_ascii=False, separators=(",", ":"))
     # Keep the embedded JSON from terminating the <script> element or opening a comment.
     blob = blob.replace("</", "<\\/").replace("<!--", "<\\!--")
-    html = TEMPLATE.read_text(encoding="utf-8").replace("/*__DATA__*/null", blob)
+    app = TEMPLATE.with_name("app.js").read_text(encoding="utf-8")
+    # Replace the script first so text inside the data can never be mistaken for the placeholder.
+    html = TEMPLATE.read_text(encoding="utf-8").replace("/*__APP__*/", app).replace("/*__DATA__*/null", blob)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(html, encoding="utf-8")
