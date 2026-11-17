@@ -494,6 +494,11 @@ terms = ['antipsychotic', 'neuroleptic', '\bNaSSA\b']
 # --------------------------------------------------------------------------
 
 [community.reddit]
+# Off by default. Reddit's Responsible Builder Policy requires explicit approval
+# before any API access, says research use must go through its Reddit for
+# Researchers programme, and prohibits processing data to infer health
+# characteristics of users. Enable this only once Reddit has approved your use.
+enabled = false
 # Newest posts from these subreddits (Reddit serves at most ~1000 per listing).
 subreddits = ["PSSD"]
 # Extra searches to reach older posts about under-represented drugs.

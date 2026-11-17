@@ -91,20 +91,19 @@ in the config.
 
 | Source | How | Status |
 |---|---|---|
-| Reddit | Official API | Needs your own free API app, and a home connection: Reddit refuses many cloud and VPN addresses |
+| Reddit | Official API | Off by default: needs Reddit's approval (see below) |
 | RxISK, David Healy, Mad in America | Each site's WordPress search API | Works out of the box |
 | PSSD Network, PSSD Canada | RSS feeds (most recent items only) | Works out of the box |
 | pssdforum.org, survivingantidepressants.org | Not crawled: both block automated access | Use `import` for pages you saved yourself |
 
-For Reddit, create a "script" app at https://www.reddit.com/prefs/apps and set:
-
-```bash
-export REDDIT_CLIENT_ID=your-client-id
-```
-
-```bash
-export REDDIT_CLIENT_SECRET=your-client-secret
-```
+Reddit collection is **off by default**. Reddit's
+[Responsible Builder Policy](https://support.reddithelp.com/hc/en-us/articles/42728983564564-Responsible-Builder-Policy)
+requires explicit approval before any API access, says research use must go
+through its Reddit for Researchers programme, and prohibits processing data to
+infer health characteristics of users. Apply through the link in that policy;
+if approved, set `enabled = true` under `[community.reddit]` and provide
+`REDDIT_CLIENT_ID` and `REDDIT_CLIENT_SECRET` as environment variables. The
+collector has only been tested against a stand-in, never against Reddit itself.
 
 To add a forum thread you saved from your own browser:
 

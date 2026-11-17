@@ -334,7 +334,7 @@
   function drawPatients() {
     const box = $('ptBody'), all = posts(); box.replaceChildren();
     if (!D.community.some(p => p.source !== 'blog')) {
-      box.append(h('div', { class: 'note' }, 'No patient posts have been collected yet. Reddit needs a free API key: create a "script" app at reddit.com/prefs/apps, set the environment variables REDDIT_CLIENT_ID and REDDIT_CLIENT_SECRET, then run an update. Pages saved from forums can be added with the import command. See the README.'));
+      box.append(h('div', { class: 'note' }, 'No patient posts have been collected yet. Reddit collection is switched off because Reddit requires approval before any API access, and the two patient forums block automated access. Pages you saved yourself can be added with the import command. See the README.'));
       return drawArticles(box);
     }
     if (!all.length) { box.append(h('p', null, 'No collected patient posts mention the drugs in this view.')); return drawArticles(box); }

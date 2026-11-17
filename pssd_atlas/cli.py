@@ -153,6 +153,10 @@ def cmd_update(args, log=_log) -> int:
 
     def get_reddit():
         nonlocal configured
+        if not cfg.reddit.get("enabled"):
+            log("- reddit: off (needs Reddit's approval first; see README)")
+            configured = False
+            return []
         try:
             return reddit.collect(Client(min_interval=1.1), cfg.reddit, log=log)
         except reddit.MissingCredentials as e:
