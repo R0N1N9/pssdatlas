@@ -1,0 +1,398 @@
+drug,tissue,timepoint,panel_group,human_symbol,rat_symbol,status,mean_norm_count,log2FC,hedges_g,mod_p,mod_fdr,welch_p,welch_fdr,deseq2_log2FC_published,deseq2_p_published,deseq2_padj_published,panel_only_fdr
+paroxetine,hypothalamus,T0,sodium/sensory channels,SCN9A,SCN9A,tested,639.8,0.3655,0.8666,0.1007,0.7139,0.2093,0.8147,0.361,0.08015,0.9371,0.4231
+paroxetine,hypothalamus,T0,sodium/sensory channels,SCN10A,SCN10A,below expression filter (mean normalised count < 10),9.919,,,,,,,-0.2569,0.6277,0.9958,
+paroxetine,hypothalamus,T0,sodium/sensory channels,SCN11A,SCN11A,tested,37.97,-0.06768,-0.9017,0.695,0.9337,0.1938,0.8147,-0.07599,0.7571,0.9958,0.8845
+paroxetine,hypothalamus,T0,sodium/sensory channels,TRPV1,TRPV1,tested,61.99,-0.4367,-1.269,0.06207,0.6934,0.1048,0.8147,-0.4544,0.06851,0.8938,0.3874
+paroxetine,hypothalamus,T0,sodium/sensory channels,TRPM8,TRPM8,tested,17.29,-0.6465,-1.26,0.06875,0.6999,0.1107,0.8147,-0.6416,0.1205,0.9841,0.3874
+paroxetine,hypothalamus,T0,sodium/sensory channels,TRPA1,TRPA1,tested,28.78,-0.1601,-0.3766,0.5595,0.8983,0.5634,0.8994,-0.1556,0.6433,0.9958,0.7833
+paroxetine,hypothalamus,T0,sodium/sensory channels,PIEZO2,PIEZO2,tested,56.27,0.09525,0.1685,0.7534,0.9454,0.8,0.9571,0.2055,0.5323,0.9958,0.9159
+paroxetine,hypothalamus,T0,sodium/sensory channels,ASIC3,ASIC3,tested,30.51,0.133,0.3231,0.6177,0.9112,0.6211,0.9137,0.1562,0.6255,0.9958,0.8107
+paroxetine,hypothalamus,T0,serotonin,SLC6A4,SLC6A4,below expression filter (mean normalised count < 10),3.331,,,,,,,0.2001,0.822,0.9958,
+paroxetine,hypothalamus,T0,serotonin,HTR1A,HTR1A,tested,119.2,-0.1111,-0.5341,0.4646,0.8636,0.4185,0.8637,-0.1125,0.5129,0.9958,0.7833
+paroxetine,hypothalamus,T0,serotonin,HTR1B,HTR1B,tested,158.7,0.2089,0.8625,0.1923,0.7502,0.2126,0.8147,0.1968,0.2442,0.9958,0.6213
+paroxetine,hypothalamus,T0,serotonin,HTR2A,HTR2A,tested,166.5,0.4006,2.425,0.008725,0.6869,0.007641,0.8147,0.4072,0.004522,0.5073,0.3665
+paroxetine,hypothalamus,T0,serotonin,HTR2C,HTR2C,tested,3814.0,0.1454,0.6151,0.2481,0.7737,0.376,0.8488,0.1607,0.2117,0.9958,0.6512
+paroxetine,hypothalamus,T0,serotonin,HTR3A,HTR3A,tested,225.1,0.1007,0.3666,0.5295,0.8882,0.573,0.9027,0.1011,0.5477,0.9958,0.7833
+paroxetine,hypothalamus,T0,serotonin,HTR7,HTR7,tested,783.6,-0.157,-0.7201,0.2144,0.7576,0.307,0.826,-0.1479,0.2432,0.9958,0.6262
+paroxetine,hypothalamus,T0,serotonin,TPH2,TPH2,tested,20.21,-0.001983,-0.004425,0.9947,0.9998,0.9946,0.9999,-0.03957,0.918,0.9958,0.9947
+paroxetine,hypothalamus,T0,dopamine,DRD1,DRD1,tested,243.4,-0.2954,-0.6989,0.1918,0.7502,0.3247,0.83,-0.3609,0.1167,0.9833,0.6213
+paroxetine,hypothalamus,T0,dopamine,DRD2,DRD2,tested,371.6,-0.04595,-0.1521,0.7776,0.9506,0.8133,0.9606,-0.04761,0.7771,0.9958,0.9159
+paroxetine,hypothalamus,T0,dopamine,DRD3,DRD3,tested,10.16,-0.3318,-0.3617,0.5167,0.8835,0.5779,0.9029,-0.3627,0.542,0.9958,0.7833
+paroxetine,hypothalamus,T0,dopamine,TH,TH,tested,1098.0,0.214,0.2844,0.5508,0.8949,0.6603,0.9221,0.2324,0.6038,0.9958,0.7833
+paroxetine,hypothalamus,T0,dopamine,SLC6A3,SLC6A3,tested,269.6,0.7933,0.3389,0.4738,0.8665,0.6016,0.9096,0.8005,0.4925,0.9958,0.7833
+paroxetine,hypothalamus,T0,neurosteroid/steroid,SRD5A1,SRD5A1,tested,632.0,0.07159,0.3695,0.5364,0.8901,0.5716,0.9025,0.07263,0.5482,0.9958,0.7833
+paroxetine,hypothalamus,T0,neurosteroid/steroid,SRD5A2,SRD5A2,below expression filter (mean normalised count < 10),1.761,,,,,,,-0.2247,0.858,0.9958,
+paroxetine,hypothalamus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C12,below expression filter (mean normalised count < 10),2.493,,,,,,,0.4891,0.6916,0.9958,
+paroxetine,hypothalamus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C13,below expression filter (mean normalised count < 10),7.233,,,,,,,0.507,0.4301,0.9958,
+paroxetine,hypothalamus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C14,tested,73.97,0.2485,0.3578,0.4839,0.8704,0.5823,0.9039,0.2883,0.4028,0.9958,0.7833
+paroxetine,hypothalamus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C19,tested,69.1,0.7299,1.467,0.0186,0.6869,0.0635,0.8147,0.7878,0.006413,0.5537,0.3874
+paroxetine,hypothalamus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C2,below expression filter (mean normalised count < 10),0.1953,,,,,,,-1.075,0.7599,0.9958,
+paroxetine,hypothalamus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C3,below expression filter (mean normalised count < 10),0.2075,,,,,,,0.3902,0.9121,0.9958,
+paroxetine,hypothalamus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C8,tested,87.44,0.01569,0.03077,0.9536,0.9906,0.9625,0.993,-0.03999,0.8898,0.9958,0.9769
+paroxetine,hypothalamus,T0,neurosteroid/steroid,HSD3B family,HSD3B7,tested,252.0,-0.03492,-0.1349,0.8172,0.9606,0.8355,0.965,-0.01754,0.9109,0.9958,0.9159
+paroxetine,hypothalamus,T0,neurosteroid/steroid,TSPO,TSPO,tested,89.42,0.3054,1.184,0.1006,0.7139,0.104,0.8147,0.3209,0.1022,0.9644,0.4231
+paroxetine,hypothalamus,T0,neurosteroid/steroid,STAR,STAR,tested,36.95,-0.05658,-0.1542,0.815,0.9603,0.8114,0.9597,-0.06512,0.823,0.9958,0.9159
+paroxetine,hypothalamus,T0,neurosteroid/steroid,CYP11A1,CYP11A1,tested,14.29,0.5803,0.9524,0.1384,0.7307,0.2096,0.8147,0.44,0.3412,0.9958,0.5284
+paroxetine,hypothalamus,T0,neurosteroid/steroid,GABRD,GABRD,tested,389.0,-1.078,-0.5895,0.2237,0.7617,0.3976,0.8574,-0.3497,0.6983,0.9958,0.6262
+paroxetine,hypothalamus,T0,neurosteroid/steroid,GABRA4,GABRA4,tested,758.0,-0.2784,-0.3657,0.4465,0.8583,0.5794,0.9029,-0.1661,0.7153,0.9958,0.7833
+paroxetine,hypothalamus,T0,hormonal,AR,AR,tested,84.4,0.4919,1.045,0.07378,0.7024,0.1724,0.8147,0.4145,0.1217,0.9841,0.3874
+paroxetine,hypothalamus,T0,hormonal,ESR1,ESR1,tested,56.25,0.1778,0.4268,0.4716,0.8659,0.5136,0.888,0.1612,0.5474,0.9958,0.7833
+paroxetine,hypothalamus,T0,hormonal,ESR2,ESR2,tested,18.24,-0.1407,-0.4202,0.6017,0.9072,0.5256,0.8907,-0.1788,0.6384,0.9958,0.8107
+paroxetine,hypothalamus,T0,hormonal,PRL,,absent from supplementary table,,,,,,,,,,,
+paroxetine,hypothalamus,T0,hormonal,PRLR,PRLR,tested,18.67,1.028,1.024,0.06786,0.6999,0.1821,0.8147,0.7109,0.1921,0.9958,0.3874
+paroxetine,hypothalamus,T0,other,NOS1,NOS1,tested,564.0,0.1421,0.3362,0.5029,0.878,0.607,0.9098,0.1669,0.4253,0.9958,0.7833
+paroxetine,hypothalamus,T0,other,PDE5A,PDE5A,tested,54.57,0.287,0.4754,0.3771,0.8286,0.4722,0.8762,0.3415,0.3044,0.9958,0.7833
+paroxetine,hypothalamus,T0,other,OXT,OXT,tested,4363.0,-0.423,-1.007,0.05569,0.692,0.157,0.8147,-0.4416,0.0256,0.7271,0.3874
+paroxetine,hypothalamus,T0,other,OXTR,OXTR,tested,179.1,-0.01911,-0.07703,0.9008,0.9794,0.9071,0.9793,0.0008858,0.9957,0.9998,0.9701
+paroxetine,hypothalamus,T0,other,MC4R,MC4R,tested,96.86,-0.3138,-2.111,0.04378,0.6869,0.02201,0.8147,-0.3141,0.06752,0.8891,0.3874
+paroxetine,hypothalamus,T0,other,SIGMAR1,SIGMAR1,tested,1631.0,-0.0795,-0.7734,0.3051,0.7959,0.2798,0.8169,-0.08048,0.3174,0.9958,0.7538
+paroxetine,hypothalamus,T0,other,ADRA2A,ADRA2A,tested,630.5,0.02129,0.1458,0.8287,0.9634,0.8245,0.9619,0.03171,0.7612,0.9958,0.9159
+paroxetine,hypothalamus,T0,other,HRH1,HRH1,tested,198.4,0.07497,0.4638,0.5462,0.8929,0.5024,0.8858,0.0887,0.512,0.9958,0.7833
+paroxetine,hypothalamus,T0,other,BDNF,BDNF,tested,458.5,0.01228,0.04859,0.9304,0.9854,0.941,0.9877,0.0001492,0.9992,0.9998,0.9769
+paroxetine,hypothalamus,T1,sodium/sensory channels,SCN9A,SCN9A,tested,387.0,0.03053,0.07223,0.895,0.9982,0.9136,0.9982,-0.03983,0.8737,0.9998,0.9656
+paroxetine,hypothalamus,T1,sodium/sensory channels,SCN10A,SCN10A,below expression filter (mean normalised count < 10),5.615,,,,,,,-0.7158,0.2792,0.9998,
+paroxetine,hypothalamus,T1,sodium/sensory channels,SCN11A,SCN11A,tested,20.41,0.2969,0.6128,0.371,0.9982,0.3816,0.9982,0.2225,0.5609,0.9998,0.9475
+paroxetine,hypothalamus,T1,sodium/sensory channels,TRPV1,TRPV1,tested,40.82,-0.05766,-0.164,0.8166,0.9982,0.8037,0.9982,0.01026,0.9699,0.9998,0.9656
+paroxetine,hypothalamus,T1,sodium/sensory channels,TRPM8,TRPM8,tested,10.4,-0.08629,-0.1636,0.8206,0.9982,0.8043,0.9982,0.06812,0.8851,0.9998,0.9656
+paroxetine,hypothalamus,T1,sodium/sensory channels,TRPA1,TRPA1,tested,12.7,-0.5253,-0.59,0.3142,0.9982,0.3998,0.9982,-0.2478,0.589,0.9998,0.9475
+paroxetine,hypothalamus,T1,sodium/sensory channels,PIEZO2,PIEZO2,tested,48.06,-0.3563,-0.4456,0.4112,0.9982,0.4983,0.9982,-0.4369,0.3308,0.9998,0.9475
+paroxetine,hypothalamus,T1,sodium/sensory channels,ASIC3,ASIC3,tested,24.03,-0.02814,-0.0543,0.932,0.9982,0.9339,0.9982,-0.1012,0.7943,0.9998,0.9798
+paroxetine,hypothalamus,T1,serotonin,SLC6A4,SLC6A4,below expression filter (mean normalised count < 10),1.977,,,,,,,0.9832,0.384,0.9998,
+paroxetine,hypothalamus,T1,serotonin,HTR1A,HTR1A,tested,60.13,0.3133,0.7395,0.2478,0.9982,0.293,0.9982,0.2632,0.3617,0.9998,0.9475
+paroxetine,hypothalamus,T1,serotonin,HTR1B,HTR1B,tested,95.23,0.3303,0.7474,0.2187,0.9982,0.2838,0.9982,0.2924,0.2846,0.9998,0.9475
+paroxetine,hypothalamus,T1,serotonin,HTR2A,HTR2A,tested,91.18,-0.0009326,-0.001797,0.9974,0.9997,0.9978,0.9996,0.05058,0.8606,0.9998,0.9974
+paroxetine,hypothalamus,T1,serotonin,HTR2C,HTR2C,tested,2623.0,0.02988,0.09594,0.8636,0.9982,0.8857,0.9982,0.06656,0.7204,0.9998,0.9656
+paroxetine,hypothalamus,T1,serotonin,HTR3A,HTR3A,tested,153.9,-0.1229,-0.6591,0.4391,0.9982,0.3509,0.9982,-0.1023,0.5411,0.9998,0.9475
+paroxetine,hypothalamus,T1,serotonin,HTR7,HTR7,tested,544.3,-0.03461,-0.09617,0.8638,0.9982,0.8828,0.9982,0.002499,0.9903,0.9998,0.9656
+paroxetine,hypothalamus,T1,serotonin,TPH2,TPH2,tested,14.24,0.3317,0.6306,0.3665,0.9982,0.3456,0.9982,0.3201,0.4695,0.9998,0.9475
+paroxetine,hypothalamus,T1,dopamine,DRD1,DRD1,tested,150.7,0.09169,0.3179,0.6312,0.9982,0.625,0.9982,0.1177,0.5567,0.9998,0.9656
+paroxetine,hypothalamus,T1,dopamine,DRD2,DRD2,tested,219.6,0.001679,0.00604,0.9925,0.9984,0.9926,0.9987,0.036,0.8416,0.9998,0.9974
+paroxetine,hypothalamus,T1,dopamine,DRD3,DRD3,below expression filter (mean normalised count < 10),5.363,,,,,,,-0.4641,0.4969,0.9998,
+paroxetine,hypothalamus,T1,dopamine,TH,TH,tested,610.9,-0.07636,-0.1228,0.8103,0.9982,0.8495,0.9982,-0.1346,0.6773,0.9998,0.9656
+paroxetine,hypothalamus,T1,dopamine,SLC6A3,SLC6A3,tested,101.5,0.7609,0.3589,0.4707,0.9982,0.5871,0.9982,0.08348,0.9392,0.9998,0.965
+paroxetine,hypothalamus,T1,neurosteroid/steroid,SRD5A1,SRD5A1,tested,373.7,0.06133,0.192,0.7455,0.9982,0.7688,0.9982,0.09496,0.6248,0.9998,0.9656
+paroxetine,hypothalamus,T1,neurosteroid/steroid,SRD5A2,SRD5A2,below expression filter (mean normalised count < 10),0.8356,,,,,,,0.8877,0.6143,0.9998,
+paroxetine,hypothalamus,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C12,below expression filter (mean normalised count < 10),2.823,,,,,,,0.4076,0.6463,0.9998,
+paroxetine,hypothalamus,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C13,below expression filter (mean normalised count < 10),5.722,,,,,,,-0.5141,0.5721,0.9998,
+paroxetine,hypothalamus,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C14,tested,37.51,0.1482,0.2121,0.7032,0.9982,0.7435,0.9982,0.1135,0.7843,0.9998,0.9656
+paroxetine,hypothalamus,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C19,tested,37.62,-0.819,-2.119,0.009912,0.9982,0.01821,0.9982,-0.847,0.008981,0.9998,0.4064
+paroxetine,hypothalamus,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C8,tested,67.4,-0.5632,-1.762,0.02569,0.9982,0.03378,0.9982,-0.5669,0.0223,0.9998,0.5267
+paroxetine,hypothalamus,T1,neurosteroid/steroid,HSD3B family,HSD3B7,tested,161.8,0.05309,0.228,0.7545,0.9982,0.7236,0.9982,0.03605,0.841,0.9998,0.9656
+paroxetine,hypothalamus,T1,neurosteroid/steroid,TSPO,TSPO,tested,71.57,0.1079,0.2946,0.6484,0.9982,0.6523,0.9982,0.09629,0.7161,0.9998,0.9656
+paroxetine,hypothalamus,T1,neurosteroid/steroid,STAR,STAR,tested,28.18,-0.1707,-0.3668,0.5768,0.9982,0.5784,0.9982,-0.1012,0.7726,0.9998,0.9656
+paroxetine,hypothalamus,T1,neurosteroid/steroid,CYP11A1,CYP11A1,tested,10.57,0.4638,0.4636,0.4212,0.9982,0.4991,0.9982,0.7639,0.2294,0.9998,0.9475
+paroxetine,hypothalamus,T1,neurosteroid/steroid,GABRD,GABRD,tested,445.1,0.656,0.5143,0.3091,0.9982,0.4516,0.9982,0.3317,0.6139,0.9998,0.9475
+paroxetine,hypothalamus,T1,neurosteroid/steroid,GABRA4,GABRA4,tested,593.7,0.06092,0.08227,0.8703,0.9982,0.898,0.9982,0.03634,0.9206,0.9998,0.9656
+paroxetine,hypothalamus,T1,hormonal,AR,AR,tested,53.5,0.3449,0.5996,0.3032,0.9982,0.379,0.9982,0.2755,0.4162,0.9998,0.9475
+paroxetine,hypothalamus,T1,hormonal,ESR1,ESR1,tested,32.47,0.2898,0.5127,0.3979,0.9982,0.4364,0.9982,0.3141,0.3946,0.9998,0.9475
+paroxetine,hypothalamus,T1,hormonal,ESR2,ESR2,tested,11.54,0.3699,0.5439,0.3984,0.9982,0.4205,0.9982,0.4111,0.4278,0.9998,0.9475
+paroxetine,hypothalamus,T1,hormonal,PRL,,absent from supplementary table,,,,,,,,,,,
+paroxetine,hypothalamus,T1,hormonal,PRLR,PRLR,tested,10.25,0.2883,0.294,0.608,0.9982,0.6512,0.9982,0.1346,0.8313,0.9998,0.9656
+paroxetine,hypothalamus,T1,other,NOS1,NOS1,tested,313.5,0.3653,0.6513,0.2312,0.9982,0.3303,0.9982,0.3512,0.2378,0.9998,0.9475
+paroxetine,hypothalamus,T1,other,PDE5A,PDE5A,tested,24.12,0.3758,0.6376,0.3061,0.9982,0.3496,0.9982,0.3208,0.4311,0.9998,0.9475
+paroxetine,hypothalamus,T1,other,OXT,OXT,tested,3539.0,0.06459,0.06669,0.8924,0.9982,0.9189,0.9982,0.3295,0.5772,0.9998,0.9656
+paroxetine,hypothalamus,T1,other,OXTR,OXTR,tested,89.15,0.2064,0.7266,0.3158,0.9982,0.282,0.9982,0.2262,0.2869,0.9998,0.9475
+paroxetine,hypothalamus,T1,other,MC4R,MC4R,tested,57.55,-0.06955,-0.2492,0.7437,0.9982,0.709,0.9982,-0.004084,0.9861,0.9998,0.9656
+paroxetine,hypothalamus,T1,other,SIGMAR1,SIGMAR1,tested,1174.0,0.2148,0.6525,0.2589,0.9982,0.3448,0.9982,0.2404,0.2362,0.9998,0.9475
+paroxetine,hypothalamus,T1,other,ADRA2A,ADRA2A,tested,418.1,0.0608,0.3498,0.6533,0.9982,0.6003,0.9982,0.05672,0.6811,0.9998,0.9656
+paroxetine,hypothalamus,T1,other,HRH1,HRH1,tested,116.3,0.02614,0.1407,0.8728,0.9982,0.8286,0.9982,0.02371,0.8948,0.9998,0.9656
+paroxetine,hypothalamus,T1,other,BDNF,BDNF,tested,300.6,-0.1737,-0.6519,0.321,0.9982,0.3394,0.9982,-0.1457,0.399,0.9998,0.9475
+paroxetine,nucleus_accumbens,T0,sodium/sensory channels,SCN9A,SCN9A,tested,98.66,-0.0233,-0.03814,0.9443,0.9831,0.9532,0.9854,0.03498,0.873,0.9667,0.9729
+paroxetine,nucleus_accumbens,T0,sodium/sensory channels,SCN10A,SCN10A,below expression filter (mean normalised count < 10),4.22,,,,,,,-0.1554,0.4055,,
+paroxetine,nucleus_accumbens,T0,sodium/sensory channels,SCN11A,SCN11A,tested,11.43,-0.5844,-0.5399,0.3662,0.7236,0.4177,0.77,-0.1527,0.4652,,0.6293
+paroxetine,nucleus_accumbens,T0,sodium/sensory channels,TRPV1,TRPV1,tested,40.01,-0.1981,-0.4803,0.4685,0.7765,0.4645,0.7927,-0.1447,0.496,0.8308,0.6925
+paroxetine,nucleus_accumbens,T0,sodium/sensory channels,TRPM8,TRPM8,below expression filter (mean normalised count < 10),4.214,,,,,,,-0.06036,0.7652,,
+paroxetine,nucleus_accumbens,T0,sodium/sensory channels,TRPA1,TRPA1,below expression filter (mean normalised count < 10),4.438,,,,,,,-0.01413,0.9404,,
+paroxetine,nucleus_accumbens,T0,sodium/sensory channels,PIEZO2,PIEZO2,below expression filter (mean normalised count < 10),8.536,,,,,,,0.07987,0.7025,,
+paroxetine,nucleus_accumbens,T0,sodium/sensory channels,ASIC3,ASIC3,tested,12.96,-0.5669,-1.739,0.1024,0.5153,0.03669,0.6043,-0.3074,0.1732,,0.387
+paroxetine,nucleus_accumbens,T0,serotonin,SLC6A4,SLC6A4,below expression filter (mean normalised count < 10),0.7465,,,,,,,-0.05817,0.582,,
+paroxetine,nucleus_accumbens,T0,serotonin,HTR1A,HTR1A,tested,43.15,-0.1473,-0.1332,0.8028,0.9385,0.8375,0.9492,0.008899,0.968,0.9924,0.9412
+paroxetine,nucleus_accumbens,T0,serotonin,HTR1B,HTR1B,tested,149.5,-0.805,-1.354,0.02911,0.4519,0.07663,0.6201,-0.5166,0.01491,0.2507,0.1979
+paroxetine,nucleus_accumbens,T0,serotonin,HTR2A,HTR2A,tested,180.2,-0.1145,-0.159,0.7637,0.9212,0.8062,0.9381,-0.01492,0.9467,0.9876,0.9273
+paroxetine,nucleus_accumbens,T0,serotonin,HTR2C,HTR2C,tested,2988.0,-0.2288,-0.4904,0.3645,0.7218,0.4622,0.7912,-0.1408,0.4668,0.8171,0.6293
+paroxetine,nucleus_accumbens,T0,serotonin,HTR3A,HTR3A,tested,241.6,-0.2958,-0.5791,0.2976,0.6772,0.3994,0.7609,-0.163,0.4221,0.7912,0.6293
+paroxetine,nucleus_accumbens,T0,serotonin,HTR7,HTR7,tested,166.6,-0.04323,-0.05526,0.9163,0.9751,0.9313,0.9803,-0.01653,0.9415,0.986,0.9729
+paroxetine,nucleus_accumbens,T0,serotonin,TPH2,TPH2,tested,26.4,0.04362,0.05133,0.9276,0.9776,0.9363,0.9808,0.05361,0.8107,0.9522,0.9729
+paroxetine,nucleus_accumbens,T0,dopamine,DRD1,DRD1,tested,4888.0,-0.8115,-0.9867,0.08018,0.5001,0.1778,0.659,-0.3855,0.08419,0.4571,0.3617
+paroxetine,nucleus_accumbens,T0,dopamine,DRD2,DRD2,tested,2035.0,-0.8792,-0.9702,0.08378,0.5026,0.1874,0.6609,-0.3608,0.1099,0.4945,0.3617
+paroxetine,nucleus_accumbens,T0,dopamine,DRD3,DRD3,tested,34.78,-1.111,-1.654,0.01628,0.4314,0.04977,0.6141,-0.5771,0.01028,0.2172,0.1384
+paroxetine,nucleus_accumbens,T0,dopamine,TH,TH,tested,14.03,0.4345,0.8239,0.2692,0.658,0.2348,0.6833,0.2599,0.2498,,0.6101
+paroxetine,nucleus_accumbens,T0,dopamine,SLC6A3,SLC6A3,below expression filter (mean normalised count < 10),0.7404,,,,,,,0.05754,0.4585,,
+paroxetine,nucleus_accumbens,T0,neurosteroid/steroid,SRD5A1,SRD5A1,tested,380.0,-0.102,-0.32,0.5764,0.836,0.6275,0.8645,-0.06803,0.6785,0.9073,0.7403
+paroxetine,nucleus_accumbens,T0,neurosteroid/steroid,SRD5A2,SRD5A2,below expression filter (mean normalised count < 10),1.723,,,,,,,0.05597,0.7274,,
+paroxetine,nucleus_accumbens,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C12,below expression filter (mean normalised count < 10),1.169,,,,,,,-0.07025,0.5409,,
+paroxetine,nucleus_accumbens,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C13,below expression filter (mean normalised count < 10),6.575,,,,,,,-0.07571,0.7146,,
+paroxetine,nucleus_accumbens,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C14,tested,58.39,1.561,0.9836,0.08511,0.5028,0.1914,0.663,0.5186,,,0.3617
+paroxetine,nucleus_accumbens,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C19,tested,96.74,0.7162,0.7874,0.159,0.5687,0.2628,0.6956,0.4276,0.05713,0.3984,0.4506
+paroxetine,nucleus_accumbens,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C2,below expression filter (mean normalised count < 10),3.879,,,,,,,-0.04181,0.8365,,
+paroxetine,nucleus_accumbens,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C3,below expression filter (mean normalised count < 10),0.2462,,,,,,,-0.001333,0.9813,,
+paroxetine,nucleus_accumbens,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C8,tested,77.9,0.9205,1.933,0.007301,0.3923,0.02419,0.5902,0.5963,0.004658,0.1551,0.1096
+paroxetine,nucleus_accumbens,T0,neurosteroid/steroid,HSD3B family,HSD3B7,tested,154.0,-0.2247,-1.253,0.1252,0.5326,0.1179,0.6407,-0.1905,0.1736,0.5805,0.387
+paroxetine,nucleus_accumbens,T0,neurosteroid/steroid,TSPO,TSPO,tested,18.08,0.2551,0.3258,0.5879,0.8408,0.6156,0.8612,0.08967,0.6899,,0.7403
+paroxetine,nucleus_accumbens,T0,neurosteroid/steroid,STAR,STAR,tested,31.46,-0.003319,-0.008738,0.9901,0.9961,0.9894,0.9959,0.03152,0.8829,0.9692,0.9901
+paroxetine,nucleus_accumbens,T0,neurosteroid/steroid,CYP11A1,CYP11A1,tested,10.87,-0.3721,-0.695,0.3702,0.7259,0.31,0.7209,-0.2006,0.3702,,0.6293
+paroxetine,nucleus_accumbens,T0,neurosteroid/steroid,GABRD,GABRD,tested,913.4,-0.227,-0.3375,0.5209,0.8089,0.603,0.8551,-0.1466,0.499,0.832,0.7084
+paroxetine,nucleus_accumbens,T0,neurosteroid/steroid,GABRA4,GABRA4,tested,956.2,-0.6225,-1.735,0.009243,0.4061,0.03223,0.5977,-0.5263,0.002011,0.09939,0.1096
+paroxetine,nucleus_accumbens,T0,hormonal,AR,AR,below expression filter (mean normalised count < 10),9.394,,,,,,,0.09144,0.6726,,
+paroxetine,nucleus_accumbens,T0,hormonal,ESR1,ESR1,below expression filter (mean normalised count < 10),6.949,,,,,,,-0.3988,0.0563,,
+paroxetine,nucleus_accumbens,T0,hormonal,ESR2,ESR2,tested,10.78,-0.4916,-1.033,0.2225,0.6229,0.1439,0.6509,-0.2539,0.2597,,0.5404
+paroxetine,nucleus_accumbens,T0,hormonal,PRL,,absent from supplementary table,,,,,,,,,,,
+paroxetine,nucleus_accumbens,T0,hormonal,PRLR,PRLR,below expression filter (mean normalised count < 10),2.226,,,,,,,-0.1465,0.3576,,
+paroxetine,nucleus_accumbens,T0,other,NOS1,NOS1,tested,401.5,-0.4738,-1.898,0.009668,0.4061,0.02155,0.5837,-0.4214,0.004249,0.1486,0.1096
+paroxetine,nucleus_accumbens,T0,other,PDE5A,PDE5A,tested,39.95,0.2869,0.3724,0.5093,0.8021,0.5816,0.8441,0.2396,0.2883,0.7008,0.7084
+paroxetine,nucleus_accumbens,T0,other,OXT,OXT,below expression filter (mean normalised count < 10),5.874,,,,,,,0.06641,0.6211,,
+paroxetine,nucleus_accumbens,T0,other,OXTR,OXTR,tested,81.62,0.3308,0.4278,0.4333,0.7594,0.521,0.8202,0.2476,0.2724,0.6868,0.6925
+paroxetine,nucleus_accumbens,T0,other,MC4R,MC4R,tested,160.6,-0.2711,-0.3917,0.4668,0.7764,0.56,0.8361,-0.0954,0.6638,0.9015,0.6925
+paroxetine,nucleus_accumbens,T0,other,SIGMAR1,SIGMAR1,tested,683.0,0.07443,1.446,0.3402,0.706,0.09662,0.6314,0.07301,0.3334,0.736,0.6293
+paroxetine,nucleus_accumbens,T0,other,ADRA2A,ADRA2A,tested,213.3,0.7661,0.869,0.1199,0.5299,0.2238,0.6774,0.4734,0.0363,0.3464,0.387
+paroxetine,nucleus_accumbens,T0,other,HRH1,HRH1,tested,65.87,-0.04061,-0.1526,0.8335,0.9468,0.8189,0.9433,-0.06427,0.7202,0.9217,0.9446
+paroxetine,nucleus_accumbens,T0,other,BDNF,BDNF,tested,76.04,1.445,0.7313,0.1796,0.5896,0.3095,0.7205,0.3477,0.03375,0.3392,0.4696
+paroxetine,nucleus_accumbens,T1,sodium/sensory channels,SCN9A,SCN9A,tested,120.2,0.1815,0.4516,0.4224,0.8009,0.4923,0.8397,0.121,0.4199,0.9706,0.6161
+paroxetine,nucleus_accumbens,T1,sodium/sensory channels,SCN10A,SCN10A,below expression filter (mean normalised count < 10),4.183,,,,,,,0.02688,0.7599,0.9855,
+paroxetine,nucleus_accumbens,T1,sodium/sensory channels,SCN11A,SCN11A,tested,10.74,0.6903,1.176,0.1184,0.6605,0.1169,0.7751,0.1728,0.1971,0.9175,0.3802
+paroxetine,nucleus_accumbens,T1,sodium/sensory channels,TRPV1,TRPV1,tested,48.83,-0.12,-0.2651,0.6537,0.8924,0.6815,0.9021,-0.05655,0.7127,0.9807,0.7561
+paroxetine,nucleus_accumbens,T1,sodium/sensory channels,TRPM8,TRPM8,below expression filter (mean normalised count < 10),4.025,,,,,,,0.1258,0.1684,0.9081,
+paroxetine,nucleus_accumbens,T1,sodium/sensory channels,TRPA1,TRPA1,below expression filter (mean normalised count < 10),7.869,,,,,,,0.1074,0.3753,0.9694,
+paroxetine,nucleus_accumbens,T1,sodium/sensory channels,PIEZO2,PIEZO2,below expression filter (mean normalised count < 10),9.02,,,,,,,-0.05121,0.6494,0.9746,
+paroxetine,nucleus_accumbens,T1,sodium/sensory channels,ASIC3,ASIC3,tested,12.71,-0.1826,-0.3067,0.6491,0.8904,0.6508,0.8936,-0.01505,0.9127,0.9998,0.7561
+paroxetine,nucleus_accumbens,T1,serotonin,SLC6A4,SLC6A4,below expression filter (mean normalised count < 10),0.4843,,,,,,,0.02357,0.5483,0.9746,
+paroxetine,nucleus_accumbens,T1,serotonin,HTR1A,HTR1A,tested,35.0,0.09854,0.1301,0.8091,0.944,0.8436,0.9534,-0.01588,0.9135,0.9998,0.8581
+paroxetine,nucleus_accumbens,T1,serotonin,HTR1B,HTR1B,tested,146.3,-0.2245,-0.8707,0.1811,0.6793,0.2163,0.7751,-0.1756,0.1918,0.9141,0.5069
+paroxetine,nucleus_accumbens,T1,serotonin,HTR2A,HTR2A,tested,233.6,-0.3386,-0.5281,0.3082,0.7477,0.4295,0.8141,-0.1898,0.216,0.9249,0.524
+paroxetine,nucleus_accumbens,T1,serotonin,HTR2C,HTR2C,tested,3372.0,-0.242,-0.368,0.4632,0.82,0.5896,0.8745,-0.2002,0.1922,0.9141,0.6235
+paroxetine,nucleus_accumbens,T1,serotonin,HTR3A,HTR3A,tested,277.8,0.3599,1.01,0.08337,0.66,0.1596,0.7751,0.2373,0.09433,0.8843,0.3802
+paroxetine,nucleus_accumbens,T1,serotonin,HTR7,HTR7,tested,189.2,0.5271,0.9133,0.09698,0.6602,0.1907,0.7751,0.2857,0.06287,0.8806,0.3802
+paroxetine,nucleus_accumbens,T1,serotonin,TPH2,TPH2,tested,27.48,-0.3506,-0.7274,0.2628,0.7247,0.2901,0.783,-0.1698,0.2622,0.9478,0.5185
+paroxetine,nucleus_accumbens,T1,dopamine,DRD1,DRD1,tested,5240.0,-0.2919,-0.9476,0.09666,0.6602,0.1992,0.7751,-0.204,0.1153,0.8893,0.3802
+paroxetine,nucleus_accumbens,T1,dopamine,DRD2,DRD2,tested,2347.0,-0.3349,-1.077,0.06177,0.66,0.1312,0.7751,-0.2591,0.04818,0.879,0.3802
+paroxetine,nucleus_accumbens,T1,dopamine,DRD3,DRD3,tested,35.81,-0.5474,-1.24,0.06814,0.66,0.1361,0.7751,-0.2926,0.05634,0.879,0.3802
+paroxetine,nucleus_accumbens,T1,dopamine,TH,TH,tested,13.29,-0.1571,-0.2655,0.6913,0.9053,0.6828,0.9024,-0.05702,0.6776,0.9746,0.7561
+paroxetine,nucleus_accumbens,T1,dopamine,SLC6A3,SLC6A3,below expression filter (mean normalised count < 10),2.279,,,,,,,-0.03238,0.5746,0.9746,
+paroxetine,nucleus_accumbens,T1,neurosteroid/steroid,SRD5A1,SRD5A1,tested,380.2,0.08,0.4237,0.5091,0.839,0.5177,0.8501,0.06339,0.5715,0.9746,0.6364
+paroxetine,nucleus_accumbens,T1,neurosteroid/steroid,SRD5A2,SRD5A2,below expression filter (mean normalised count < 10),1.596,,,,,,,-0.003187,0.9556,0.9998,
+paroxetine,nucleus_accumbens,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C12,below expression filter (mean normalised count < 10),1.17,,,,,,,-0.00752,0.8848,0.9932,
+paroxetine,nucleus_accumbens,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C13,below expression filter (mean normalised count < 10),6.317,,,,,,,0.08098,0.4863,0.9746,
+paroxetine,nucleus_accumbens,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C14,tested,24.34,0.585,0.9923,0.1195,0.6605,0.1603,0.7751,0.2197,0.1341,0.8999,0.3802
+paroxetine,nucleus_accumbens,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C19,tested,60.59,-0.4053,-0.537,0.3144,0.7509,0.424,0.8124,-0.1877,0.206,0.9236,0.524
+paroxetine,nucleus_accumbens,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C2,below expression filter (mean normalised count < 10),3.528,,,,,,,-0.05568,0.4734,0.9746,
+paroxetine,nucleus_accumbens,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C8,tested,95.89,0.08539,0.2305,0.6907,0.9052,0.7227,0.9149,0.03568,0.8112,0.9855,0.7561
+paroxetine,nucleus_accumbens,T1,neurosteroid/steroid,HSD3B family,HSD3B7,tested,139.2,-0.1558,-0.7101,0.3029,0.744,0.3015,0.783,-0.1178,0.3671,0.968,0.524
+paroxetine,nucleus_accumbens,T1,neurosteroid/steroid,TSPO,TSPO,tested,14.06,0.4782,0.8166,0.2349,0.7109,0.2333,0.7751,0.1453,0.2947,0.9531,0.5185
+paroxetine,nucleus_accumbens,T1,neurosteroid/steroid,STAR,STAR,tested,34.99,-0.4182,-0.8149,0.1883,0.6859,0.2382,0.7751,-0.2011,0.1858,0.9128,0.5069
+paroxetine,nucleus_accumbens,T1,neurosteroid/steroid,CYP11A1,CYP11A1,tested,16.32,0.001699,0.002604,0.9966,0.999,0.9968,0.999,-0.01116,0.9356,0.9998,0.9966
+paroxetine,nucleus_accumbens,T1,neurosteroid/steroid,GABRD,GABRD,tested,1013.0,-0.2397,-0.5865,0.2667,0.7268,0.3867,0.8007,-0.1359,0.3478,0.9655,0.5185
+paroxetine,nucleus_accumbens,T1,neurosteroid/steroid,GABRA4,GABRA4,tested,1017.0,-0.3489,-1.457,0.02295,0.66,0.05863,0.7751,-0.2813,0.0177,0.7973,0.3802
+paroxetine,nucleus_accumbens,T1,hormonal,AR,AR,tested,10.11,-0.4165,-0.4032,0.4898,0.831,0.5384,0.8577,-0.05448,0.6368,0.9746,0.6349
+paroxetine,nucleus_accumbens,T1,hormonal,ESR1,ESR1,below expression filter (mean normalised count < 10),7.271,,,,,,,-0.08756,0.4808,0.9746,
+paroxetine,nucleus_accumbens,T1,hormonal,ESR2,ESR2,below expression filter (mean normalised count < 10),8.837,,,,,,,-0.1041,0.4114,0.9697,
+paroxetine,nucleus_accumbens,T1,hormonal,PRL,,absent from supplementary table,,,,,,,,,,,
+paroxetine,nucleus_accumbens,T1,hormonal,PRLR,PRLR,below expression filter (mean normalised count < 10),1.592,,,,,,,0.03965,0.5892,0.9746,
+paroxetine,nucleus_accumbens,T1,other,NOS1,NOS1,tested,459.6,-0.2517,-0.4287,0.4015,0.7913,0.5325,0.8559,-0.1982,0.1943,0.9148,0.611
+paroxetine,nucleus_accumbens,T1,other,PDE5A,PDE5A,tested,37.76,-0.4556,-1.126,0.09998,0.6602,0.1387,0.7751,-0.2088,0.174,0.9081,0.3802
+paroxetine,nucleus_accumbens,T1,other,OXT,OXT,tested,11.66,2.27,0.9571,0.09125,0.6602,0.1794,0.7751,0.0543,0.2436,0.9389,0.3802
+paroxetine,nucleus_accumbens,T1,other,OXTR,OXTR,tested,107.7,-0.2444,-0.4663,0.3883,0.7839,0.4816,0.835,-0.1441,0.348,0.9655,0.611
+paroxetine,nucleus_accumbens,T1,other,MC4R,MC4R,tested,182.6,0.4085,0.5871,0.2599,0.7227,0.4061,0.8056,0.1043,0.4938,0.9746,0.5185
+paroxetine,nucleus_accumbens,T1,other,SIGMAR1,SIGMAR1,tested,673.4,0.2857,1.827,0.01713,0.66,0.0337,0.7751,0.2576,0.009361,0.7459,0.3802
+paroxetine,nucleus_accumbens,T1,other,ADRA2A,ADRA2A,tested,212.8,0.03232,0.05655,0.9118,0.9762,0.9297,0.981,0.01679,0.9128,0.9998,0.9386
+paroxetine,nucleus_accumbens,T1,other,HRH1,HRH1,tested,67.23,0.3061,0.7757,0.2069,0.6979,0.2578,0.7768,0.1939,0.2011,0.9216,0.5173
+paroxetine,nucleus_accumbens,T1,other,BDNF,BDNF,tested,53.34,-0.6592,-0.3742,0.4557,0.8165,0.5687,0.8657,-0.05087,0.6384,0.9746,0.6235
+finasteride,hypothalamus,T0,sodium/sensory channels,SCN9A,SCN9A,tested,477.0,-0.406,-2.154,0.002783,0.2954,0.01406,0.7344,-0.3862,0.0006296,0.06678,0.03819
+finasteride,hypothalamus,T0,sodium/sensory channels,SCN10A,SCN10A,below expression filter (mean normalised count < 10),7.726,,,,,,,-0.6062,0.258,,
+finasteride,hypothalamus,T0,sodium/sensory channels,SCN11A,SCN11A,tested,18.54,0.4245,0.7558,0.2201,0.6622,0.2764,0.7487,0.2994,0.4353,0.8792,0.4749
+finasteride,hypothalamus,T0,sodium/sensory channels,TRPV1,TRPV1,tested,43.62,-0.2024,-0.7373,0.3017,0.7064,0.2954,0.7502,-0.1758,0.4663,0.8908,0.593
+finasteride,hypothalamus,T0,sodium/sensory channels,TRPM8,TRPM8,tested,18.64,0.02485,0.05297,0.9339,0.9807,0.9343,0.9804,0.03349,0.9312,0.9914,0.9931
+finasteride,hypothalamus,T0,sodium/sensory channels,TRPA1,TRPA1,tested,23.61,-0.3943,-1.059,0.1399,0.6244,0.1448,0.7408,-0.3807,0.2516,0.8185,0.4749
+finasteride,hypothalamus,T0,sodium/sensory channels,PIEZO2,PIEZO2,tested,92.88,-0.3562,-0.726,0.1775,0.6374,0.2848,0.7488,-0.368,0.1613,0.7715,0.4749
+finasteride,hypothalamus,T0,sodium/sensory channels,ASIC3,ASIC3,tested,16.71,-0.06638,-0.1097,0.8521,0.9534,0.8695,0.958,-0.2936,0.4699,0.8917,0.9704
+finasteride,hypothalamus,T0,serotonin,SLC6A4,SLC6A4,below expression filter (mean normalised count < 10),1.831,,,,,,,-1.139,0.3652,,
+finasteride,hypothalamus,T0,serotonin,HTR1A,HTR1A,tested,87.11,-0.1946,-0.5354,0.3445,0.7303,0.4174,0.7783,-0.1904,0.4032,0.8713,0.614
+finasteride,hypothalamus,T0,serotonin,HTR1B,HTR1B,tested,155.2,-0.1848,-1.57,0.09529,0.5992,0.04925,0.7344,-0.17,0.198,0.7889,0.4749
+finasteride,hypothalamus,T0,serotonin,HTR2A,HTR2A,tested,196.3,0.00131,0.007925,0.9907,0.9979,0.9901,0.9977,0.02308,0.8593,0.9788,0.9931
+finasteride,hypothalamus,T0,serotonin,HTR2C,HTR2C,tested,3994.0,-0.07736,-0.3643,0.4802,0.8051,0.5758,0.8469,-0.08064,0.4776,0.8944,0.6563
+finasteride,hypothalamus,T0,serotonin,HTR3A,HTR3A,tested,153.4,0.03866,0.1037,0.8432,0.952,0.8716,0.9586,0.005862,0.9766,0.996,0.9704
+finasteride,hypothalamus,T0,serotonin,HTR7,HTR7,tested,679.5,-0.05219,-0.769,0.4317,0.779,0.2605,0.7463,-0.05924,0.4349,0.8792,0.6553
+finasteride,hypothalamus,T0,serotonin,TPH2,TPH2,tested,13.17,-0.04218,-0.08064,0.9016,0.9719,0.9005,0.9691,-0.08132,0.8558,0.9783,0.9931
+finasteride,hypothalamus,T0,dopamine,DRD1,DRD1,tested,199.7,0.16,0.4526,0.3928,0.7555,0.4897,0.8071,0.1432,0.4513,0.8845,0.6442
+finasteride,hypothalamus,T0,dopamine,DRD2,DRD2,tested,244.0,0.2133,0.9317,0.1245,0.6167,0.1808,0.7408,0.2194,0.1311,0.7617,0.4749
+finasteride,hypothalamus,T0,dopamine,DRD3,DRD3,tested,10.89,0.1866,0.3554,0.6034,0.8615,0.5885,0.8517,0.2106,0.6615,,0.7731
+finasteride,hypothalamus,T0,dopamine,TH,TH,tested,596.9,0.774,2.456,0.0004258,0.278,0.007862,0.7344,0.7512,1.81e-06,0.00179,0.01746
+finasteride,hypothalamus,T0,dopamine,SLC6A3,SLC6A3,tested,145.2,1.679,1.437,0.0103,0.4053,0.06813,0.7344,1.44,0.0382,0.5758,0.1055
+finasteride,hypothalamus,T0,neurosteroid/steroid,SRD5A1,SRD5A1,tested,514.4,0.05644,0.5599,0.4706,0.8,0.4002,0.772,0.05108,0.5663,0.9159,0.6563
+finasteride,hypothalamus,T0,neurosteroid/steroid,SRD5A2,SRD5A2,below expression filter (mean normalised count < 10),1.581,,,,,,,0.1794,0.8959,,
+finasteride,hypothalamus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C12,below expression filter (mean normalised count < 10),3.4,,,,,,,-0.8809,0.353,,
+finasteride,hypothalamus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C13,below expression filter (mean normalised count < 10),6.85,,,,,,,-0.7105,0.2454,,
+finasteride,hypothalamus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C14,tested,37.25,-0.006163,-0.01436,0.9805,0.9946,0.9825,0.9957,0.006068,0.9838,0.9964,0.9931
+finasteride,hypothalamus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C15,tested,84.32,0.181,1.075,0.1963,0.6504,0.1425,0.7408,0.1764,0.3149,0.8389,0.4749
+finasteride,hypothalamus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C19,tested,40.36,-0.6148,-1.718,0.01689,0.4429,0.04428,0.7344,-0.6972,0.007755,0.2732,0.1385
+finasteride,hypothalamus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C2,below expression filter (mean normalised count < 10),0.4202,,,,,,,0.9493,0.7046,,
+finasteride,hypothalamus,T0,neurosteroid/steroid,HSD3B family,HSD3B7,tested,138.2,0.1764,0.5219,0.3444,0.7303,0.4391,0.7866,0.1272,0.5283,0.907,0.614
+finasteride,hypothalamus,T0,neurosteroid/steroid,TSPO,TSPO,tested,54.33,0.357,0.7739,0.1756,0.6355,0.2562,0.7463,0.2849,0.2837,0.8276,0.4749
+finasteride,hypothalamus,T0,neurosteroid/steroid,STAR,STAR,tested,35.4,-0.1787,-0.483,0.4475,0.7885,0.4623,0.7947,-0.1321,0.644,0.9307,0.6553
+finasteride,hypothalamus,T0,neurosteroid/steroid,CYP11A1,CYP11A1,below expression filter (mean normalised count < 10),7.318,,,,,,,0.5874,0.3072,,
+finasteride,hypothalamus,T0,neurosteroid/steroid,GABRD,GABRD,tested,587.4,-0.04981,-0.1022,0.8325,0.9476,0.8753,0.9601,-0.09071,0.6717,0.9389,0.9704
+finasteride,hypothalamus,T0,neurosteroid/steroid,GABRA4,GABRA4,tested,1326.0,-0.2201,-0.5077,0.3037,0.7076,0.4548,0.7933,-0.2638,0.1681,0.7768,0.593
+finasteride,hypothalamus,T0,hormonal,AR,AR,tested,124.4,-0.2673,-0.9328,0.1242,0.6159,0.1801,0.7408,-0.2433,0.1832,0.7857,0.4749
+finasteride,hypothalamus,T0,hormonal,ESR1,ESR1,tested,41.78,-0.126,-0.3483,0.5738,0.8466,0.5919,0.8536,-0.1642,0.525,0.9068,0.759
+finasteride,hypothalamus,T0,hormonal,ESR2,ESR2,tested,17.44,-0.4704,-0.9725,0.1488,0.6282,0.1734,0.7408,-0.4269,0.2825,0.8276,0.4749
+finasteride,hypothalamus,T0,hormonal,PRL,PRL,below expression filter (mean normalised count < 10),1.237,,,,,,,-3.958,0.07507,,
+finasteride,hypothalamus,T0,hormonal,PRLR,PRLR,tested,30.66,-0.7254,-1.262,0.03951,0.5285,0.1088,0.7375,-0.8858,0.01278,0.3628,0.27
+finasteride,hypothalamus,T0,other,NOS1,NOS1,tested,509.6,-0.2252,-0.6522,0.2094,0.6564,0.3373,0.7593,-0.1958,0.2635,0.8203,0.4749
+finasteride,hypothalamus,T0,other,PDE5A,PDE5A,tested,46.11,-0.2858,-0.9457,0.168,0.6338,0.1753,0.7408,-0.318,0.2006,0.7891,0.4749
+finasteride,hypothalamus,T0,other,OXT,OXT,tested,3420.0,1.085,1.775,0.002794,0.2954,0.02813,0.7344,1.101,0.003367,0.1674,0.03819
+finasteride,hypothalamus,T0,other,OXTR,OXTR,tested,107.9,0.1337,0.585,0.3694,0.7434,0.3988,0.772,0.08287,0.6249,0.9279,0.6311
+finasteride,hypothalamus,T0,other,MC4R,MC4R,tested,59.67,0.08573,0.2577,0.6687,0.8855,0.6898,0.8925,0.0294,0.8961,0.9844,0.8309
+finasteride,hypothalamus,T0,other,SIGMAR1,SIGMAR1,tested,989.8,0.1791,1.227,0.05733,0.5656,0.09423,0.7375,0.1714,0.07436,0.7024,0.3358
+finasteride,hypothalamus,T0,other,ADRA2A,ADRA2A,tested,410.7,0.136,0.8175,0.1973,0.6509,0.2338,0.7427,0.1304,0.2584,0.8203,0.4749
+finasteride,hypothalamus,T0,other,HRH1,HRH1,tested,133.1,-0.001377,-0.005002,0.9931,0.9979,0.9938,0.9984,0.02116,0.9041,0.9853,0.9931
+finasteride,hypothalamus,T0,other,BDNF,BDNF,tested,374.3,0.07888,0.5291,0.4207,0.7731,0.4226,0.7791,0.09092,0.399,0.8699,0.6553
+finasteride,hypothalamus,T1,sodium/sensory channels,SCN9A,SCN9A,tested,1100.0,0.0657,0.2569,0.6288,0.9719,0.6918,0.9822,0.07398,0.5927,0.9998,0.8924
+finasteride,hypothalamus,T1,sodium/sensory channels,SCN10A,SCN10A,tested,11.83,-0.04588,-0.1485,0.8688,0.9909,0.8183,0.9904,-0.03489,0.9367,0.9998,0.9271
+finasteride,hypothalamus,T1,sodium/sensory channels,SCN11A,SCN11A,tested,43.99,0.2012,0.3816,0.5011,0.9669,0.5607,0.9822,0.1723,0.588,0.9998,0.8722
+finasteride,hypothalamus,T1,sodium/sensory channels,TRPV1,TRPV1,tested,83.46,0.3982,2.964,0.01115,0.9641,0.004697,0.9822,0.4099,0.01822,0.9998,0.4907
+finasteride,hypothalamus,T1,sodium/sensory channels,TRPM8,TRPM8,tested,16.1,-0.2344,-0.5392,0.4397,0.9669,0.4218,0.9822,-0.2053,0.6116,0.9998,0.8414
+finasteride,hypothalamus,T1,sodium/sensory channels,TRPA1,TRPA1,tested,40.76,-0.07209,-0.3226,0.6965,0.9787,0.6253,0.9822,-0.0535,0.8268,0.9998,0.8924
+finasteride,hypothalamus,T1,sodium/sensory channels,PIEZO2,PIEZO2,tested,60.1,0.00739,0.018,0.9753,0.9986,0.9776,0.9984,0.02185,0.9329,0.9998,0.9979
+finasteride,hypothalamus,T1,sodium/sensory channels,ASIC3,ASIC3,tested,34.45,0.2617,0.947,0.226,0.9641,0.1773,0.9822,0.2595,0.345,0.9998,0.8414
+finasteride,hypothalamus,T1,serotonin,SLC6A4,SLC6A4,below expression filter (mean normalised count < 10),2.708,,,,,,,-0.6833,0.4429,0.9998,
+finasteride,hypothalamus,T1,serotonin,HTR1A,HTR1A,tested,149.0,-0.1286,-0.4294,0.4636,0.9669,0.5167,0.9822,-0.1041,0.566,0.9998,0.85
+finasteride,hypothalamus,T1,serotonin,HTR1B,HTR1B,tested,198.1,-0.2653,-0.8067,0.1642,0.9641,0.2375,0.9822,-0.2623,0.1648,0.9998,0.8414
+finasteride,hypothalamus,T1,serotonin,HTR2A,HTR2A,tested,305.7,-0.1494,-0.4442,0.4137,0.9656,0.5133,0.9822,-0.1107,0.5295,0.9998,0.8414
+finasteride,hypothalamus,T1,serotonin,HTR2C,HTR2C,tested,4529.0,-0.06177,-0.3591,0.5154,0.9669,0.5848,0.9822,-0.06698,0.5083,0.9998,0.8722
+finasteride,hypothalamus,T1,serotonin,HTR3A,HTR3A,tested,246.3,-0.07086,-0.2601,0.6477,0.9753,0.6871,0.9822,-0.06405,0.6916,0.9998,0.8924
+finasteride,hypothalamus,T1,serotonin,HTR7,HTR7,tested,743.0,-0.1287,-1.011,0.1479,0.9641,0.1607,0.9822,-0.134,0.1481,0.9998,0.8414
+finasteride,hypothalamus,T1,serotonin,TPH2,TPH2,tested,21.61,0.1176,0.346,0.641,0.9738,0.6072,0.9822,0.07931,0.813,0.9998,0.8924
+finasteride,hypothalamus,T1,dopamine,DRD1,DRD1,tested,238.3,-0.2062,-1.365,0.07885,0.9641,0.07962,0.9822,-0.1949,0.1081,0.9998,0.8414
+finasteride,hypothalamus,T1,dopamine,DRD2,DRD2,tested,371.3,0.02377,0.07774,0.885,0.9909,0.9045,0.9949,0.005986,0.972,0.9998,0.9271
+finasteride,hypothalamus,T1,dopamine,DRD3,DRD3,tested,19.61,-0.6165,-0.6675,0.2297,0.9641,0.3193,0.9822,-0.6033,0.2495,0.9998,0.8414
+finasteride,hypothalamus,T1,dopamine,TH,TH,tested,1047.0,-0.08438,-0.0971,0.8435,0.9889,0.8817,0.993,-0.3114,0.5714,0.9998,0.9271
+finasteride,hypothalamus,T1,dopamine,SLC6A3,SLC6A3,tested,282.7,0.6465,0.267,0.5882,0.9673,0.6846,0.9822,-1.028,,,0.8924
+finasteride,hypothalamus,T1,neurosteroid/steroid,SRD5A1,SRD5A1,tested,642.6,-0.04757,-0.223,0.6919,0.9775,0.7307,0.9861,-0.04436,0.7271,0.9998,0.8924
+finasteride,hypothalamus,T1,neurosteroid/steroid,SRD5A2,SRD5A2,below expression filter (mean normalised count < 10),3.699,,,,,,,-0.8772,0.2962,0.9998,
+finasteride,hypothalamus,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C12,below expression filter (mean normalised count < 10),2.128,,,,,,,0.9616,0.4024,0.9998,
+finasteride,hypothalamus,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C13,tested,10.48,0.6539,0.8772,0.1597,0.9641,0.2352,0.9822,0.4837,0.3946,0.9998,0.8414
+finasteride,hypothalamus,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C14,tested,70.31,0.5505,0.6601,0.2143,0.9641,0.3291,0.9822,0.4546,0.286,0.9998,0.8414
+finasteride,hypothalamus,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C15,tested,116.0,0.3652,0.9486,0.11,0.9641,0.2139,0.9822,0.313,0.1582,0.9998,0.8414
+finasteride,hypothalamus,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C19,tested,80.92,0.3073,0.5416,0.3189,0.9641,0.4286,0.9822,0.2027,0.5263,0.9998,0.8414
+finasteride,hypothalamus,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C2,below expression filter (mean normalised count < 10),1.319,,,,,,,-0.6905,0.6147,0.9998,
+finasteride,hypothalamus,T1,neurosteroid/steroid,HSD3B family,HSD3B1,below expression filter (mean normalised count < 10),0.4122,,,,,,,-2.36,0.3629,0.9998,
+finasteride,hypothalamus,T1,neurosteroid/steroid,HSD3B family,HSD3B3,below expression filter (mean normalised count < 10),0.2835,,,,,,,-1.833,0.6035,0.9998,
+finasteride,hypothalamus,T1,neurosteroid/steroid,HSD3B family,HSD3B7,tested,225.4,0.1331,0.6793,0.3004,0.9641,0.3419,0.9822,0.1221,0.3742,0.9998,0.8414
+finasteride,hypothalamus,T1,neurosteroid/steroid,TSPO,TSPO,tested,99.03,0.3312,0.9323,0.1267,0.9641,0.2083,0.9822,0.2994,0.1555,0.9998,0.8414
+finasteride,hypothalamus,T1,neurosteroid/steroid,STAR,STAR,tested,56.4,0.167,1.151,0.278,0.9641,0.1105,0.9822,0.1634,0.4225,0.9998,0.8414
+finasteride,hypothalamus,T1,neurosteroid/steroid,CYP11A1,CYP11A1,tested,15.03,-0.04485,-0.1126,0.8771,0.9909,0.8613,0.9922,-0.04409,0.9132,0.9998,0.9271
+finasteride,hypothalamus,T1,neurosteroid/steroid,GABRD,GABRD,tested,87.76,-0.7013,-0.5493,0.2835,0.9641,0.4064,0.9822,-0.8098,0.2767,0.9998,0.8414
+finasteride,hypothalamus,T1,neurosteroid/steroid,GABRA4,GABRA4,tested,515.9,-0.3291,-0.6826,0.1957,0.9641,0.313,0.9822,-0.3585,0.1361,0.9998,0.8414
+finasteride,hypothalamus,T1,hormonal,AR,AR,tested,177.7,-0.166,-0.2709,0.5969,0.9673,0.6773,0.9822,-0.1021,0.736,0.9998,0.8924
+finasteride,hypothalamus,T1,hormonal,ESR1,ESR1,tested,84.15,-0.05354,-0.1174,0.8306,0.9879,0.8565,0.9916,-0.004661,0.9855,0.9998,0.9271
+finasteride,hypothalamus,T1,hormonal,ESR2,ESR2,tested,31.47,-0.2345,-0.5222,0.4008,0.9652,0.4337,0.9822,-0.1947,0.5361,0.9998,0.8414
+finasteride,hypothalamus,T1,hormonal,PRL,,absent from supplementary table,,,,,,,,,,,
+finasteride,hypothalamus,T1,hormonal,PRLR,PRLR,tested,45.76,2.014e-05,3.192e-05,1.0,1.0,1.0,1.0,0.1032,0.7853,0.9998,1.0
+finasteride,hypothalamus,T1,other,NOS1,NOS1,tested,813.7,-0.2476,-0.4615,0.365,0.9641,0.4896,0.9822,-0.1879,0.4454,0.9998,0.8414
+finasteride,hypothalamus,T1,other,PDE5A,PDE5A,tested,68.29,0.1306,0.2144,0.6863,0.9774,0.7393,0.9869,0.1423,0.6602,0.9998,0.8924
+finasteride,hypothalamus,T1,other,OXT,OXT,tested,5288.0,0.3235,0.3845,0.4398,0.9669,0.5602,0.9822,0.1816,0.7148,0.9998,0.8414
+finasteride,hypothalamus,T1,other,OXTR,OXTR,tested,211.2,-0.05633,-0.1465,0.7837,0.9854,0.8201,0.9904,-0.03502,0.8632,0.9998,0.9271
+finasteride,hypothalamus,T1,other,MC4R,MC4R,tested,100.6,0.1502,0.5211,0.4031,0.9656,0.4536,0.9822,0.1307,0.5061,0.9998,0.8414
+finasteride,hypothalamus,T1,other,SIGMAR1,SIGMAR1,tested,1581.0,0.09244,0.5734,0.3282,0.9641,0.3967,0.9822,0.09713,0.3331,0.9998,0.8414
+finasteride,hypothalamus,T1,other,ADRA2A,ADRA2A,tested,649.0,0.1256,0.7002,0.2498,0.9641,0.3003,0.9822,0.1243,0.2723,0.9998,0.8414
+finasteride,hypothalamus,T1,other,HRH1,HRH1,tested,222.3,-0.05582,-0.184,0.7414,0.9807,0.7754,0.9869,-0.05723,0.7412,0.9998,0.9062
+finasteride,hypothalamus,T1,other,BDNF,BDNF,tested,537.7,-0.04246,-0.217,0.7099,0.9788,0.737,0.9869,-0.04312,0.7232,0.9998,0.8924
+finasteride,hippocampus,T0,sodium/sensory channels,SCN9A,SCN9A,tested,22.51,-0.4479,-0.4881,0.3574,0.8745,0.466,0.9253,-0.3379,0.4818,,0.8719
+finasteride,hippocampus,T0,sodium/sensory channels,SCN10A,SCN10A,below expression filter (mean normalised count < 10),0.7437,,,,,,,1.162,0.5033,,
+finasteride,hippocampus,T0,sodium/sensory channels,SCN11A,SCN11A,below expression filter (mean normalised count < 10),3.135,,,,,,,0.8261,0.482,,
+finasteride,hippocampus,T0,sodium/sensory channels,TRPV1,TRPV1,tested,39.73,0.1323,0.4326,0.5272,0.9187,0.5121,0.9328,0.1274,0.6353,,0.8719
+finasteride,hippocampus,T0,sodium/sensory channels,TRPM8,TRPM8,below expression filter (mean normalised count < 10),2.901,,,,,,,1.086,0.2758,,
+finasteride,hippocampus,T0,sodium/sensory channels,TRPA1,TRPA1,below expression filter (mean normalised count < 10),6.02,,,,,,,-0.9436,0.171,,
+finasteride,hippocampus,T0,sodium/sensory channels,PIEZO2,PIEZO2,tested,201.0,-0.2337,-0.7337,0.1997,0.8155,0.2823,0.8852,-0.2468,0.1862,,0.8719
+finasteride,hippocampus,T0,sodium/sensory channels,ASIC3,ASIC3,tested,10.57,-0.5204,-0.7666,0.2162,0.8245,0.2599,0.8823,-0.5553,0.2925,,0.8719
+finasteride,hippocampus,T0,serotonin,SLC6A4,SLC6A4,below expression filter (mean normalised count < 10),0.8319,,,,,,,-0.3019,0.8664,,
+finasteride,hippocampus,T0,serotonin,HTR1A,HTR1A,tested,417.5,0.03778,0.2304,0.7199,0.9605,0.7212,0.968,0.03721,0.7482,,0.8719
+finasteride,hippocampus,T0,serotonin,HTR1B,HTR1B,tested,165.4,-0.08709,-0.2514,0.6467,0.9458,0.6998,0.9653,-0.06528,0.7446,,0.8719
+finasteride,hippocampus,T0,serotonin,HTR2A,HTR2A,tested,186.2,-0.08496,-0.1772,0.73,0.962,0.786,0.976,-0.04324,0.8548,,0.8719
+finasteride,hippocampus,T0,serotonin,HTR2C,HTR2C,tested,2025.0,-0.09952,-0.251,0.6142,0.939,0.6976,0.965,-0.09251,0.6201,,0.8719
+finasteride,hippocampus,T0,serotonin,HTR3A,HTR3A,tested,179.8,0.01529,0.06626,0.914,0.99,0.9198,0.9927,0.001994,0.9898,,0.9568
+finasteride,hippocampus,T0,serotonin,HTR7,HTR7,tested,217.1,0.05159,0.1307,0.803,0.9731,0.8399,0.9829,0.02409,0.9093,,0.8833
+finasteride,hippocampus,T0,serotonin,TPH2,TPH2,tested,41.62,-0.08123,-0.1684,0.7662,0.969,0.7934,0.9767,-0.07534,0.8129,,0.8719
+finasteride,hippocampus,T0,dopamine,DRD1,DRD1,tested,166.3,0.0965,0.3569,0.5449,0.9213,0.6004,0.9472,0.07071,0.6777,,0.8719
+finasteride,hippocampus,T0,dopamine,DRD2,DRD2,tested,46.42,0.1575,0.5883,0.4123,0.889,0.3777,0.9046,0.1708,0.4884,,0.8719
+finasteride,hippocampus,T0,dopamine,DRD3,,absent from supplementary table,,,,,,,,,,,
+finasteride,hippocampus,T0,dopamine,TH,TH,tested,20.0,0.005881,0.01089,0.9854,0.9981,0.9865,0.9983,0.07922,0.8419,,0.9854
+finasteride,hippocampus,T0,dopamine,SLC6A3,SLC6A3,below expression filter (mean normalised count < 10),0.8865,,,,,,,-0.4206,0.8306,,
+finasteride,hippocampus,T0,neurosteroid/steroid,SRD5A1,SRD5A1,tested,466.3,0.1204,0.8628,0.2234,0.8285,0.2126,0.8612,0.1188,0.2636,,0.8719
+finasteride,hippocampus,T0,neurosteroid/steroid,SRD5A2,SRD5A2,below expression filter (mean normalised count < 10),2.99,,,,,,,1.144,0.2006,,
+finasteride,hippocampus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C12,below expression filter (mean normalised count < 10),2.222,,,,,,,-0.06887,0.9521,,
+finasteride,hippocampus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C13,below expression filter (mean normalised count < 10),9.363,,,,,,,-0.3113,0.559,,
+finasteride,hippocampus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C14,tested,22.29,0.2655,0.61,0.3472,0.8742,0.3627,0.8987,0.2735,0.4404,,0.8719
+finasteride,hippocampus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C15,tested,90.97,-0.05613,-0.2049,0.7436,0.9641,0.7581,0.9713,-0.07986,0.6907,,0.8719
+finasteride,hippocampus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C19,tested,60.57,-0.3185,-0.6801,0.233,0.8315,0.3138,0.8876,-0.3456,0.2171,,0.8719
+finasteride,hippocampus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C2,below expression filter (mean normalised count < 10),0.5044,,,,,,,0.2191,0.9321,,
+finasteride,hippocampus,T0,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C3,below expression filter (mean normalised count < 10),0.2586,,,,,,,1.619,0.6461,,
+finasteride,hippocampus,T0,neurosteroid/steroid,HSD3B family,HSD3B1,below expression filter (mean normalised count < 10),0.3273,,,,,,,-1.785,0.5882,,
+finasteride,hippocampus,T0,neurosteroid/steroid,HSD3B family,HSD3B7,tested,165.0,0.178,0.6492,0.2789,0.8475,0.3317,0.8917,0.1763,0.3116,,0.8719
+finasteride,hippocampus,T0,neurosteroid/steroid,TSPO,TSPO,tested,26.61,0.2408,0.4637,0.4315,0.8952,0.4847,0.9271,0.2129,0.5535,,0.8719
+finasteride,hippocampus,T0,neurosteroid/steroid,STAR,STAR,tested,27.8,-0.06025,-0.2651,0.7624,0.9688,0.6834,0.961,-0.07375,0.8014,,0.8719
+finasteride,hippocampus,T0,neurosteroid/steroid,CYP11A1,CYP11A1,tested,16.52,0.2071,0.3104,0.5878,0.9291,0.6319,0.949,0.216,0.6425,,0.8719
+finasteride,hippocampus,T0,neurosteroid/steroid,GABRD,GABRD,tested,602.9,0.05642,0.1733,0.738,0.9637,0.7887,0.9761,0.04412,0.7943,,0.8719
+finasteride,hippocampus,T0,neurosteroid/steroid,GABRA4,GABRA4,tested,1081.0,-0.07122,-0.24,0.6426,0.9451,0.7102,0.9663,-0.07894,0.6124,,0.8719
+finasteride,hippocampus,T0,hormonal,AR,AR,tested,60.15,0.4046,0.5776,0.274,0.8474,0.3868,0.9046,0.4578,0.1895,,0.8719
+finasteride,hippocampus,T0,hormonal,ESR1,ESR1,below expression filter (mean normalised count < 10),6.325,,,,,,,-0.2663,0.683,,
+finasteride,hippocampus,T0,hormonal,ESR2,ESR2,below expression filter (mean normalised count < 10),3.331,,,,,,,-0.8432,0.3109,,
+finasteride,hippocampus,T0,hormonal,PRL,PRL,below expression filter (mean normalised count < 10),20.49,,,,,,,-22.23,,,
+finasteride,hippocampus,T0,hormonal,PRLR,PRLR,below expression filter (mean normalised count < 10),4.653,,,,,,,-0.6775,0.3673,,
+finasteride,hippocampus,T0,other,NOS1,NOS1,tested,231.5,0.2611,0.4261,0.3994,0.8854,0.5153,0.9328,0.2277,0.4238,,0.8719
+finasteride,hippocampus,T0,other,PDE5A,PDE5A,tested,92.59,-0.3099,-0.6273,0.2503,0.8388,0.3506,0.8965,-0.3473,0.2039,,0.8719
+finasteride,hippocampus,T0,other,OXT,OXT,below expression filter (mean normalised count < 10),3.134,,,,,,,-1.869,0.1273,,
+finasteride,hippocampus,T0,other,OXTR,OXTR,tested,65.59,-0.2861,-0.7217,0.2233,0.8285,0.2879,0.8852,-0.2684,0.301,,0.8719
+finasteride,hippocampus,T0,other,MC4R,MC4R,tested,33.53,0.2137,0.5824,0.3728,0.8796,0.3878,0.9046,0.1865,0.5365,,0.8719
+finasteride,hippocampus,T0,other,SIGMAR1,SIGMAR1,tested,1109.0,0.07369,0.5781,0.3829,0.8828,0.3836,0.9046,0.07439,0.4162,,0.8719
+finasteride,hippocampus,T0,other,ADRA2A,ADRA2A,tested,235.9,0.01811,0.0475,0.9278,0.9907,0.941,0.9934,0.0222,0.9122,,0.9568
+finasteride,hippocampus,T0,other,HRH1,HRH1,tested,128.8,0.1974,1.129,0.1471,0.7866,0.1234,0.8337,0.1987,0.2028,,0.8719
+finasteride,hippocampus,T0,other,BDNF,BDNF,tested,1061.0,-0.08044,-0.3608,0.5096,0.9165,0.5798,0.9437,-0.08439,0.5114,,0.8719
+finasteride,hippocampus,T1,sodium/sensory channels,SCN9A,SCN9A,tested,20.7,-0.0002656,-0.00083,0.9991,0.9997,0.999,0.9997,-0.002879,0.9932,0.9997,0.9991
+finasteride,hippocampus,T1,sodium/sensory channels,SCN10A,SCN10A,below expression filter (mean normalised count < 10),1.41,,,,,,,-1.237,0.3582,0.9997,
+finasteride,hippocampus,T1,sodium/sensory channels,SCN11A,SCN11A,below expression filter (mean normalised count < 10),5.21,,,,,,,0.3692,0.5791,0.9997,
+finasteride,hippocampus,T1,sodium/sensory channels,TRPV1,TRPV1,tested,40.17,0.121,0.3016,0.6214,0.9741,0.6446,0.9745,0.08716,0.7581,0.9997,0.9174
+finasteride,hippocampus,T1,sodium/sensory channels,TRPM8,TRPM8,below expression filter (mean normalised count < 10),2.989,,,,,,,-0.2896,0.7781,0.9997,
+finasteride,hippocampus,T1,sodium/sensory channels,TRPA1,TRPA1,below expression filter (mean normalised count < 10),4.177,,,,,,,-1.266,0.1091,0.9997,
+finasteride,hippocampus,T1,sodium/sensory channels,PIEZO2,PIEZO2,tested,148.7,-0.06134,-0.1581,0.7713,0.9834,0.8086,0.9856,-0.09766,0.6516,0.9997,0.9465
+finasteride,hippocampus,T1,sodium/sensory channels,ASIC3,ASIC3,tested,11.33,-0.3623,-0.7963,0.2782,0.9666,0.2466,0.9745,-0.3957,0.396,0.9997,0.9112
+finasteride,hippocampus,T1,serotonin,SLC6A4,SLC6A4,below expression filter (mean normalised count < 10),0.5822,,,,,,,1.783,0.4484,0.9997,
+finasteride,hippocampus,T1,serotonin,HTR1A,HTR1A,tested,402.7,0.1382,0.3766,0.4774,0.9666,0.5659,0.9745,0.1138,0.5685,0.9997,0.9112
+finasteride,hippocampus,T1,serotonin,HTR1B,HTR1B,tested,163.8,0.4108,1.034,0.07614,0.9666,0.1472,0.9745,0.3898,0.08356,0.9997,0.9112
+finasteride,hippocampus,T1,serotonin,HTR2A,HTR2A,tested,164.1,0.1837,0.2956,0.5617,0.968,0.6576,0.9745,0.08083,0.7847,0.9997,0.9174
+finasteride,hippocampus,T1,serotonin,HTR2C,HTR2C,tested,1779.0,0.146,0.3971,0.4401,0.9666,0.5444,0.9745,0.128,0.5034,0.9997,0.9112
+finasteride,hippocampus,T1,serotonin,HTR3A,HTR3A,tested,189.9,-0.0731,-0.2684,0.6484,0.9746,0.6779,0.9752,-0.0692,0.6918,0.9997,0.9174
+finasteride,hippocampus,T1,serotonin,HTR7,HTR7,tested,219.3,0.2353,0.8212,0.1698,0.9666,0.2302,0.9745,0.2378,0.1735,0.9997,0.9112
+finasteride,hippocampus,T1,serotonin,TPH2,TPH2,tested,36.46,0.2225,0.4497,0.4397,0.9666,0.5067,0.9745,0.1549,0.6308,0.9997,0.9112
+finasteride,hippocampus,T1,dopamine,DRD1,DRD1,tested,239.3,0.03411,0.1486,0.8073,0.986,0.8172,0.9856,0.03528,0.8176,0.9997,0.9465
+finasteride,hippocampus,T1,dopamine,DRD2,DRD2,tested,69.41,-0.0601,-0.1607,0.7833,0.9841,0.8064,0.9856,-0.01778,0.9424,0.9997,0.9465
+finasteride,hippocampus,T1,dopamine,DRD3,DRD3,below expression filter (mean normalised count < 10),0.659,,,,,,,-0.1699,0.9281,0.9997,
+finasteride,hippocampus,T1,dopamine,TH,TH,tested,32.27,0.004764,0.01326,0.9839,0.9986,0.9838,0.9982,0.04792,0.8685,0.9997,0.9991
+finasteride,hippocampus,T1,dopamine,SLC6A3,SLC6A3,below expression filter (mean normalised count < 10),0.8166,,,,,,,0.6289,0.7375,0.9997,
+finasteride,hippocampus,T1,neurosteroid/steroid,SRD5A1,SRD5A1,tested,592.4,0.08945,0.4371,0.464,0.9666,0.5087,0.9745,0.08502,0.5137,0.9997,0.9112
+finasteride,hippocampus,T1,neurosteroid/steroid,SRD5A2,SRD5A2,below expression filter (mean normalised count < 10),2.479,,,,,,,0.05275,0.9561,0.9997,
+finasteride,hippocampus,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C12,below expression filter (mean normalised count < 10),4.349,,,,,,,0.1339,0.8638,0.9997,
+finasteride,hippocampus,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C13,tested,13.14,0.2629,0.479,0.4561,0.9666,0.473,0.9745,0.2279,0.6152,0.9997,0.9112
+finasteride,hippocampus,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C14,tested,17.53,-0.1202,-0.4518,0.6154,0.9738,0.514,0.9745,-0.1524,0.6732,0.9997,0.9174
+finasteride,hippocampus,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C15,tested,103.4,-0.09279,-0.2334,0.6746,0.9754,0.7281,0.9779,-0.1525,0.5262,0.9997,0.9174
+finasteride,hippocampus,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C19,tested,89.91,-0.2873,-0.7452,0.2049,0.9666,0.2719,0.9745,-0.2746,0.2518,0.9997,0.9112
+finasteride,hippocampus,T1,neurosteroid/steroid,AKR1C family (3alpha-HSD),AKR1C2,below expression filter (mean normalised count < 10),0.5838,,,,,,,0.4829,0.8431,0.9997,
+finasteride,hippocampus,T1,neurosteroid/steroid,HSD3B family,HSD3B7,tested,175.9,-0.2016,-0.7314,0.23,0.9666,0.2794,0.9745,-0.1986,0.2594,0.9997,0.9112
+finasteride,hippocampus,T1,neurosteroid/steroid,TSPO,TSPO,tested,41.3,0.1026,0.1946,0.7276,0.9801,0.7637,0.9802,0.1568,0.6313,0.9997,0.9465
+finasteride,hippocampus,T1,neurosteroid/steroid,STAR,STAR,tested,23.26,-0.1545,-0.2734,0.6389,0.9745,0.6769,0.975,-0.08638,0.8223,0.9997,0.9174
+finasteride,hippocampus,T1,neurosteroid/steroid,CYP11A1,CYP11A1,tested,18.33,0.2659,0.5642,0.387,0.9666,0.395,0.9745,0.2952,0.4507,0.9997,0.9112
+finasteride,hippocampus,T1,neurosteroid/steroid,GABRD,GABRD,tested,734.8,0.009663,0.02872,0.956,0.9973,0.9647,0.9974,0.03414,0.8489,0.9997,0.9991
+finasteride,hippocampus,T1,neurosteroid/steroid,GABRA4,GABRA4,tested,1072.0,0.09352,0.389,0.4824,0.9666,0.5598,0.9745,0.07766,0.587,0.9997,0.9112
+finasteride,hippocampus,T1,hormonal,AR,AR,tested,54.04,0.4119,0.551,0.2977,0.9666,0.4049,0.9745,0.3727,0.3356,0.9997,0.9112
+finasteride,hippocampus,T1,hormonal,ESR1,ESR1,below expression filter (mean normalised count < 10),7.068,,,,,,,0.02818,0.9601,0.9997,
+finasteride,hippocampus,T1,hormonal,ESR2,ESR2,below expression filter (mean normalised count < 10),2.902,,,,,,,-0.5519,0.5367,0.9997,
+finasteride,hippocampus,T1,hormonal,PRL,,absent from supplementary table,,,,,,,,,,,
+finasteride,hippocampus,T1,hormonal,PRLR,PRLR,below expression filter (mean normalised count < 10),2.896,,,,,,,-1.199,0.2496,0.9997,
+finasteride,hippocampus,T1,other,NOS1,NOS1,tested,254.5,0.2966,0.3679,0.4614,0.9666,0.5725,0.9745,0.2227,0.6406,0.9997,0.9112
+finasteride,hippocampus,T1,other,PDE5A,PDE5A,tested,92.88,0.2893,0.4869,0.3572,0.9666,0.4586,0.9745,0.283,0.3704,0.9997,0.9112
+finasteride,hippocampus,T1,other,OXT,OXT,below expression filter (mean normalised count < 10),1.312,,,,,,,0.03259,0.9808,0.9997,
+finasteride,hippocampus,T1,other,OXTR,OXTR,tested,57.7,0.04789,0.1119,0.8446,0.9901,0.8621,0.9908,0.0784,0.7686,0.9997,0.9573
+finasteride,hippocampus,T1,other,MC4R,MC4R,tested,26.83,0.01323,0.04458,0.9526,0.9973,0.9448,0.9974,0.03419,0.9096,0.9997,0.9991
+finasteride,hippocampus,T1,other,SIGMAR1,SIGMAR1,tested,1120.0,-0.1016,-0.5025,0.3877,0.9666,0.4451,0.9745,-0.1011,0.4213,0.9997,0.9112
+finasteride,hippocampus,T1,other,ADRA2A,ADRA2A,tested,245.8,0.1174,1.078,0.2546,0.9666,0.1566,0.9745,0.1227,0.2894,0.9997,0.9112
+finasteride,hippocampus,T1,other,HRH1,HRH1,tested,124.2,0.1642,1.038,0.2158,0.9666,0.1431,0.9745,0.157,0.3108,0.9997,0.9112
+finasteride,hippocampus,T1,other,BDNF,BDNF,tested,985.0,-0.05806,-0.2535,0.6496,0.9746,0.6969,0.9773,-0.06563,0.6333,0.9997,0.9174
