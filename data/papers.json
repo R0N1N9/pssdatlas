@@ -1064,7 +1064,9 @@
   "scope": "adjacent",
   "source": "pubmed",
   "study_type": "observational",
-  "symptoms": [],
+  "symptoms": [
+   "tissue_change"
+  ],
   "title": "Selective serotonin reuptake inhibitor and serotonin-norepinephrine reuptake inhibitor use and sexual dysfunction: a pharmacovigilance analysis.",
   "url": "https://pubmed.ncbi.nlm.nih.gov/41877765/",
   "year": 2026
@@ -2802,7 +2804,8 @@
   "study_type": "case_report",
   "symptoms": [
    "genital_numbness",
-   "erectile"
+   "erectile",
+   "spontaneous_erections"
   ],
   "title": "Insights into the peripheral nature of persistent sexual dysfunction associated with post-finasteride, post-SSRI and post-accutane syndromes: lessons learned from a case study.",
   "url": "https://pubmed.ncbi.nlm.nih.gov/39934554/",
@@ -5011,7 +5014,9 @@
   "scope": "related",
   "source": "pubmed",
   "study_type": "observational",
-  "symptoms": [],
+  "symptoms": [
+   "tissue_change"
+  ],
   "title": "Are finasteride-related penile curvature/Peyronie's disease Adverse Event Reports worthy of further clinical investigation? Disproportionality analysis based on both the Food and Drug Administration (FDA) and the European Medicines Agency (EMA) pharmacovigilance databases.",
   "url": "https://pubmed.ncbi.nlm.nih.gov/35513712/",
   "year": 2022
@@ -6002,7 +6007,9 @@
   "scope": "related",
   "source": "pubmed",
   "study_type": "observational",
-  "symptoms": [],
+  "symptoms": [
+   "tissue_change"
+  ],
   "title": "Differential Gene Expression in Post-Finasteride Syndrome Patients.",
   "url": "https://pubmed.ncbi.nlm.nih.gov/34247957/",
   "year": 2021
@@ -7328,7 +7335,8 @@
   "study_type": "other",
   "symptoms": [
    "erectile",
-   "orgasm"
+   "orgasm",
+   "spontaneous_erections"
   ],
   "title": "Introduction: Rare and unusual andrologic syndromes that clinicians should be aware of.",
   "url": "https://pubmed.ncbi.nlm.nih.gov/32033721/",
@@ -9795,7 +9803,8 @@
   "study_type": "other",
   "symptoms": [
    "erectile",
-   "cognitive"
+   "cognitive",
+   "tissue_change"
   ],
   "title": "Neuroactive steroid levels and psychiatric and andrological features in post-finasteride patients.",
   "url": "https://pubmed.ncbi.nlm.nih.gov/28408350/",
@@ -11159,7 +11168,8 @@
   "study_type": "review",
   "symptoms": [
    "erectile",
-   "cognitive"
+   "cognitive",
+   "tissue_change"
   ],
   "title": "Safety concerns regarding 5α reductase inhibitors for the treatment of androgenetic alopecia.",
   "url": "https://pubmed.ncbi.nlm.nih.gov/25871957/",
@@ -11388,7 +11398,8 @@
   "study_type": "review",
   "symptoms": [
    "erectile",
-   "orgasm"
+   "orgasm",
+   "tissue_change"
   ],
   "title": "Female sexual dysfunction.",
   "url": "https://pubmed.ncbi.nlm.nih.gov/25841603/",

@@ -333,6 +333,10 @@ reactions = [
   "EJACULATION DELAYED",
   "FEMALE ORGASMIC DISORDER",
   "FEMALE SEXUAL AROUSAL DISORDER",
+  "PENILE SIZE REDUCED",
+  "GENITAL ATROPHY",
+  "TESTICULAR ATROPHY",
+  "PEYRONIE'S DISEASE",
   "EMOTIONAL POVERTY",
   "ANHEDONIA",
   "APATHY",
@@ -620,6 +624,17 @@ patterns = ['insomnia', 'sleep disturbance', 'sleep disorder', 'sleepiness', 'so
 id = "sensory"
 label = "Other sensory changes"
 patterns = ['skin numb', 'reduced (taste|smell)', 'tinnitus', 'visual snow', 'blurr(y|ed) vision', 'no goosebumps']
+
+[[community.symptom]]
+id = "spontaneous_erections"
+label = "Loss of spontaneous / nocturnal erections"
+patterns = ['nocturnal (penile )?(tumescence|erections?)', '(morning|spontaneous|sleep[- ]related|night[- ]?time) (erections?|wood)', '\bNPT\b']
+
+[[community.symptom]]
+id = "tissue_change"
+label = "Genital tissue change (size, shape, fibrosis)"
+patterns = ['fibros', 'atroph', 'shrinkage', 'shrunk', 'shrinking', 'penile (size|length|shorten|curvature|tissue|girth)', 'peyronie',
+            'corpor(a|us) cavernos', 'hard flaccid', 'collagen', 'testicular (size|volume)', 'hourglass']
 
 [[community.symptom]]
 id = "dissociation"

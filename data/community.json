@@ -607,7 +607,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "cognitive"
+   "cognitive",
+   "tissue_change"
   ],
   "title": "Love Actually and Looping Disorders",
   "treatments": [
@@ -699,7 +700,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "cognitive"
+   "cognitive",
+   "tissue_change"
   ],
   "title": "Love Making Actually – the science of",
   "treatments": [
@@ -743,7 +745,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "cognitive"
+   "cognitive",
+   "tissue_change"
   ],
   "title": "Enduring Sexual Dysfunction World Congress",
   "treatments": [
@@ -1071,6 +1074,7 @@
    "libido",
    "erectile",
    "orgasm",
+   "tissue_change",
    "akathisia"
   ],
   "title": "We Must Stop the ADHD Prescribing Cascade, Not Perpetuate It",
@@ -1356,6 +1360,7 @@
    "blunting",
    "cognitive",
    "sensory",
+   "tissue_change",
    "akathisia"
   ],
   "title": "Lonesome Heroes can work Miracles",
@@ -1704,7 +1709,8 @@
    "orgasm",
    "blunting",
    "anhedonia",
-   "cognitive"
+   "cognitive",
+   "tissue_change"
   ],
   "title": "Therapy Can Harm Too",
   "treatments": [
@@ -1989,7 +1995,8 @@
   "symptoms": [
    "libido",
    "blunting",
-   "sleep"
+   "sleep",
+   "tissue_change"
   ],
   "title": "The Seductive Charm of Pharmacology",
   "treatments": [
@@ -2646,7 +2653,8 @@
    "libido",
    "erectile",
    "orgasm",
-   "sensory"
+   "sensory",
+   "tissue_change"
   ],
   "title": "Drugs & Sex & Fertility – and SSRIs",
   "treatments": [
@@ -3453,7 +3461,8 @@
   "source": "blog",
   "symptoms": [
    "genital_numbness",
-   "libido"
+   "libido",
+   "tissue_change"
   ],
   "title": "Touch Fibres, Autonomic Fibres and Kissing",
   "treatments": [],
@@ -5289,7 +5298,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "cognitive"
+   "cognitive",
+   "tissue_change"
   ],
   "title": "TRP Drugs and Herbs for Withdrawal and PSSD",
   "treatments": [
@@ -5484,7 +5494,8 @@
    "erectile",
    "orgasm",
    "cognitive",
-   "sleep"
+   "sleep",
+   "tissue_change"
   ],
   "title": "James’s Story",
   "treatments": [
@@ -5579,6 +5590,8 @@
    "orgasm",
    "blunting",
    "anhedonia",
+   "spontaneous_erections",
+   "tissue_change",
    "dissociation"
   ],
   "title": "Shawn’s Story",
@@ -5614,6 +5627,8 @@
    "libido",
    "erectile",
    "cognitive",
+   "spontaneous_erections",
+   "tissue_change",
    "dissociation"
   ],
   "title": "Jake’s Story",
@@ -5705,7 +5720,8 @@
    "libido",
    "erectile",
    "blunting",
-   "anhedonia"
+   "anhedonia",
+   "tissue_change"
   ],
   "title": "Chris’s Story",
   "treatments": [],
@@ -5732,7 +5748,8 @@
    "erectile",
    "orgasm",
    "anhedonia",
-   "cognitive"
+   "cognitive",
+   "spontaneous_erections"
   ],
   "title": "Andrew’s Story",
   "treatments": [
@@ -5976,7 +5993,8 @@
   "source": "blog",
   "symptoms": [
    "genital_numbness",
-   "libido"
+   "libido",
+   "spontaneous_erections"
   ],
   "title": "PSSD Patient Experiences",
   "treatments": [],
@@ -6238,6 +6256,7 @@
    "erectile",
    "orgasm",
    "anhedonia",
+   "spontaneous_erections",
    "dissociation"
   ],
   "title": "Xarelto and Sex",
@@ -6541,7 +6560,8 @@
    "libido",
    "erectile",
    "orgasm",
-   "cognitive"
+   "cognitive",
+   "tissue_change"
   ],
   "title": "Citizens Petition Calls for Sexual Side Effect Warnings",
   "treatments": [
@@ -6888,7 +6908,8 @@
    "genital_numbness",
    "erectile",
    "orgasm",
-   "cognitive"
+   "cognitive",
+   "spontaneous_erections"
   ],
   "title": "Post-SSRI Sexual Dysfunction: Getting a Diagnosis",
   "treatments": [
@@ -7752,7 +7773,8 @@
   "source": "blog",
   "symptoms": [
    "genital_numbness",
-   "erectile"
+   "erectile",
+   "spontaneous_erections"
   ],
   "title": "Recovering from PSSD",
   "treatments": [
@@ -7848,7 +7870,9 @@
   "symptoms": [
    "libido",
    "erectile",
-   "sleep"
+   "sleep",
+   "spontaneous_erections",
+   "tissue_change"
   ],
   "title": "Post Finasteride Syndrome: PFS",
   "treatments": [],
@@ -8046,7 +8070,9 @@
    "libido",
    "erectile",
    "orgasm",
-   "anhedonia"
+   "anhedonia",
+   "spontaneous_erections",
+   "tissue_change"
   ],
   "title": "Accutane: 30 Years of Trading our Sex Lives for Clear Skin",
   "treatments": [
@@ -8203,6 +8229,7 @@
    "orgasm",
    "blunting",
    "anhedonia",
+   "tissue_change",
    "dissociation"
   ],
   "title": "Drugs and Sex Don’t Go",
