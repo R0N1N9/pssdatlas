@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import tomllib
 from pathlib import Path
 
 from . import classify
@@ -21,6 +22,7 @@ def payload(cfg: Config, data: Path) -> dict:
         "papers": _read(data / "papers.json", []),
         "trials": _read(data / "trials.json", []),
         "faers": _read(data / "faers.json", {"rows": [], "reactions": [], "n_reports": 0}),
+        "guide": tomllib.loads(TEMPLATE.with_name("guide.toml").read_text(encoding="utf-8")),
         "targets": _read(data / "targets.json", {"targets": [], "binding": {}}),
         "drugClasses": {d["name"]: d.get("class", "") for d in cfg.faers_drugs},
         "community": _read(data / "community.json", []),

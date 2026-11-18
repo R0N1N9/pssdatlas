@@ -857,3 +857,43 @@ rationale = "Blocked by mirtazapine."
 symbol = "SIGMAR1"
 hypothesis = "serotonin"
 rationale = "Bound by several SSRIs; modulates ion channels."
+
+[[target]]
+symbol = "OPRM1"
+hypothesis = "experience"
+rationale = "Mu opioid receptor: pleasure ('liking') and spinal sensory gating."
+
+[[target]]
+symbol = "CNR1"
+hypothesis = "experience"
+rationale = "CB1 cannabinoid receptor: pleasure and sensory modulation."
+
+[[target]]
+symbol = "NTRK1"
+hypothesis = "neuropathy"
+rationale = "TrkA, the nerve growth factor receptor that maintains small sensory fibres."
+
+[[target]]
+symbol = "TACR1"
+hypothesis = "neuropathy"
+rationale = "NK1 receptor for substance P at the spinal sensory relay."
+
+[[target]]
+symbol = "HCRTR2"
+hypothesis = "experience"
+rationale = "Orexin receptor: wakefulness and the feeling of sleepiness."
+
+[[target]]
+symbol = "CHRM1"
+hypothesis = "experience"
+rationale = "Muscarinic receptor strongly blocked by olanzapine and clozapine; cognition."
+
+[[target]]
+symbol = "CHRM3"
+hypothesis = "vascular"
+rationale = "Muscarinic receptor in smooth muscle and glands."
+
+[[target]]
+symbol = "TGFB1"
+hypothesis = "vascular"
+rationale = "Main pro-scarring signal in erectile tissue deprived of oxygen."

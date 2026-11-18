@@ -16,4 +16,4 @@ build-backend = "setuptools.build_meta"
 packages = ["pssd_atlas"]
 
 [tool.setuptools.package-data]
-pssd_atlas = ["config.toml", "template.html", "app.js"]
+pssd_atlas = ["config.toml", "template.html", "app.js", "guide.toml"]

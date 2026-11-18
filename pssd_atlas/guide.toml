@@ -1,0 +1,227 @@
+# Background guide shown in the report.
+#
+# This is a hand-written orientation, compiled from general physiology rather than
+# derived from the atlas data. Edit freely. `genes` link a row to the target dossiers;
+# `symptoms` on a brief pull live paper counts from the atlas.
+
+note = "General background compiled from standard physiology and pharmacology. It has not been checked line by line against primary sources, how much each part contributes to persistent post-drug symptoms is unknown, and none of it is medical advice."
+
+# ---------------------------------------------------------------------------
+# The pathway from touch to feeling
+# ---------------------------------------------------------------------------
+
+[[pathway]]
+group = "Body: from skin to spinal cord"
+stage = "Skin endings"
+what = "Pressure, stretch and temperature are converted into electrical signals."
+molecules = "PIEZO2 (light touch), TRPV1 (heat), TRPM8 (cold), TRPA1 (irritants), ASIC3 (acid)"
+genes = ["PIEZO2", "TRPV1", "TRPM8", "TRPA1", "ASIC3"]
+
+[[pathway]]
+group = "Body: from skin to spinal cord"
+stage = "Nerve fibre"
+what = "The signal travels along the pudendal and dorsal genital nerves."
+molecules = "Sodium channels Nav1.7, Nav1.8 and Nav1.9; potassium channels set the firing threshold"
+genes = ["SCN9A", "SCN10A", "SCN11A"]
+
+[[pathway]]
+group = "Body: from skin to spinal cord"
+stage = "Fibre maintenance"
+what = "Sensory fibres are kept alive and regrown."
+molecules = "Nerve growth factor and its receptor TrkA, BDNF, androgens"
+genes = ["NTRK1", "AR"]
+
+[[pathway]]
+group = "Body: from skin to spinal cord"
+stage = "Spinal cord entry"
+what = "The first relay, where the signal can be amplified or damped."
+molecules = "Glutamate (AMPA and NMDA receptors), substance P (NK1 receptor), CGRP"
+genes = ["TACR1"]
+
+[[pathway]]
+group = "Body: from skin to spinal cord"
+stage = "Spinal gating"
+what = "Fibres descending from the brain turn the gain up or down. This is where drugs that change serotonin and noradrenaline most plausibly alter sensation; it is also how they relieve pain."
+molecules = "Serotonin (5-HT1A, 5-HT1B, 5-HT2, 5-HT3, 5-HT7), noradrenaline (alpha-2), GABA, glycine, opioids"
+genes = ["HTR1A", "HTR1B", "HTR2A", "HTR3A", "HTR7", "ADRA2A", "OPRM1"]
+
+[[pathway]]
+group = "Mind: from signal to feeling"
+stage = "Registering touch"
+what = "The thalamus and sensory cortex locate and register the signal."
+molecules = "Glutamate, GABA"
+genes = []
+
+[[pathway]]
+group = "Mind: from signal to feeling"
+stage = "Liking: erotic and pleasant quality"
+what = "The insula, anterior cingulate and reward hot spots give sensation its pleasurable quality."
+molecules = "Opioids (mu receptor), endocannabinoids (CB1 receptor)"
+genes = ["OPRM1", "CNR1"]
+
+[[pathway]]
+group = "Mind: from signal to feeling"
+stage = "Wanting: desire and anticipation"
+what = "The hypothalamus (medial preoptic area) and nucleus accumbens generate sexual motivation."
+molecules = "Dopamine (D1, D2, D3 receptors)"
+genes = ["DRD2", "DRD3"]
+
+[[pathway]]
+group = "Mind: from signal to feeling"
+stage = "Brake on desire and orgasm"
+what = "Serotonin inhibits desire and the descending signal for erection and orgasm."
+molecules = "Serotonin (5-HT2C, 5-HT2A, 5-HT1A receptors), serotonin transporter"
+genes = ["HTR2C", "HTR2A", "HTR1A", "SLC6A4"]
+
+[[pathway]]
+group = "Mind: from signal to feeling"
+stage = "Arousal command"
+what = "Hypothalamic neurons send the signal for erection down the spinal cord."
+molecules = "Oxytocin (oxytocin receptor), melanocortins (MC4 receptor)"
+genes = ["OXTR", "MC4R"]
+
+[[pathway]]
+group = "Mind: from signal to feeling"
+stage = "Alertness, sleepiness and bodily arousal"
+what = "Brainstem and hypothalamic systems set wakefulness and physical arousal."
+molecules = "Noradrenaline (alpha-1, alpha-2, beta), histamine (H1), orexin, acetylcholine (muscarinic)"
+genes = ["ADRA2A", "HRH1", "HCRTR2", "CHRM1", "CHRM3"]
+
+[[pathway]]
+group = "Mind: from signal to feeling"
+stage = "Background tone"
+what = "Hormones and neurosteroids set how responsive the whole system is."
+molecules = "Testosterone, oestrogen, prolactin; neurosteroids acting on GABA-A receptors"
+genes = ["AR", "ESR1", "PRLR", "SRD5A1", "SRD5A2", "AKR1C2", "TSPO", "GABRD", "GABRA4"]
+
+[[pathway]]
+group = "Genital tissue"
+stage = "Erection and engorgement"
+what = "Nerve signals relax smooth muscle so the tissue fills with blood; noradrenaline keeps it flaccid."
+molecules = "Nitric oxide, cGMP, PDE5; acetylcholine"
+genes = ["NOS1", "PDE5A"]
+
+[[pathway]]
+group = "Genital tissue"
+stage = "Tissue health"
+what = "Regular oxygenation keeps smooth muscle healthy; prolonged low oxygen favours scarring."
+molecules = "TGF-beta (pro-scarring), androgens (protective)"
+genes = ["TGFB1", "AR"]
+
+# ---------------------------------------------------------------------------
+# Topic briefs
+# ---------------------------------------------------------------------------
+
+[[brief]]
+id = "reversal"
+title = "Can body and mind return to the pre-drug state?"
+summary = "Unknown. Recovery is reported, but no study has followed a defined group from onset, so there are no recovery rates, and no treatment has been shown to work."
+points = [
+  "Case series and patient surveys include people who improved partly or fully, sometimes after years, and people who had not improved when surveyed.",
+  "The nervous system adapts forward rather than rolling back; recovery, where it occurs, is re-adaptation.",
+  "Reversibility depends on a fact not yet established: a lasting change in gene regulation or receptor signalling is reversible in principle, whereas lost nerve fibres depend on slower, less certain regrowth.",
+  "Non-sexual symptoms (fog, anhedonia, loss of sleepiness, dissociation) can also come from the after-effects of psychosis, severe insomnia or akathisia, each of which has its own, often better, course of recovery.",
+  "Adding further psychoactive drugs is the most common way people report making things worse.",
+]
+tests = [
+  "Genital and non-genital quantitative sensory testing",
+  "Skin biopsy for small-fibre neuropathy",
+  "Hormone panel",
+  "Sleep study",
+]
+symptoms = ["genital_numbness", "cognitive", "anhedonia", "blunting", "sleep", "dissociation", "akathisia"]
+
+[[brief]]
+id = "numbness"
+title = "Genital numbness and loss of erogenous sensation"
+summary = "The decisive open question is whether the fault is peripheral (genital nerves) or central (spinal gating and brain). The answer determines the target, the tissue a drug must reach and the test used to find it."
+points = [
+  "Several SSRIs block sodium channels in the laboratory, which could acutely reduce nerve firing, but that does not explain persistence after stopping.",
+  "Antipsychotics and mirtazapine do not bind the skin-level touch channels in available binding data, which makes spinal gating, the brain, or an indirect effect on fibre health more likely sites for those drugs. This is an inference from incomplete data.",
+  "No public gene-expression dataset has sampled sensory ganglia, spinal cord or genital tissue after any implicated drug.",
+  "Post-finasteride studies report evidence of peripheral nerve involvement; the equivalent has not been done after psychiatric drugs.",
+]
+tests = [
+  "Quantitative sensory testing of genital skin against matched controls",
+  "Skin biopsy for nerve fibre density",
+  "Pudendal evoked potentials",
+  "Brain imaging during genital stimulation",
+]
+symptoms = ["genital_numbness", "orgasm", "sensory"]
+
+[[brief]]
+id = "spontaneous"
+title = "Loss of spontaneous erections and genital tissue change"
+summary = "Sleep-related erections are thought to keep erectile tissue oxygenated. Their prolonged absence is linked, mainly in men after prostate surgery, to loss of smooth muscle, scarring and shortening. Whether this happens after psychiatric drugs has not been measured."
+points = [
+  "Proposed chain: tissue stays in its low-oxygen flaccid state, scarring signals such as TGF-beta rise, smooth muscle is replaced by collagen, and the tissue becomes less elastic and can shorten.",
+  "Sleep-related erections need REM sleep, central drive (dopamine and oxytocin, inhibited by serotonin), adequate testosterone, and intact nerves and nitric-oxide signalling. Each is a testable explanation for their absence.",
+  "Psychiatric drugs alter sleep architecture, and antipsychotics can raise prolactin, which suppresses testosterone.",
+  "Prevention of tissue change is better supported than reversal; whether established scarring reverses is uncertain in any condition.",
+  "Perceived and measured change do not always agree, so measurement comes first.",
+]
+tests = [
+  "Nocturnal erection monitoring over several nights",
+  "Sleep study to confirm REM sleep",
+  "Morning testosterone and prolactin",
+  "Penile Doppler ultrasound for blood flow and scarring",
+]
+symptoms = ["spontaneous_erections", "tissue_change", "erectile"]
+[[brief.avenue]]
+name = "Daily low-dose PDE5 inhibitor"
+rationale = "Restores blood flow and oxygenation"
+evidence = "Used after prostate surgery, with mixed trial results. Untested in this condition."
+[[brief.avenue]]
+name = "Vacuum erection device"
+rationale = "Mechanically stretches and oxygenates tissue"
+evidence = "Some evidence for preserving length after prostate surgery. Untested in this condition."
+[[brief.avenue]]
+name = "Correcting low testosterone or high prolactin"
+rationale = "Sleep erections depend on androgens"
+evidence = "Applies only if blood tests show a problem."
+[[brief.avenue]]
+name = "Treating the sleep disorder"
+rationale = "Without REM sleep there are no sleep erections"
+evidence = "Indirect, but measurable."
+[[brief.avenue]]
+name = "Anti-scarring drugs"
+rationale = "Reverse established fibrosis"
+evidence = "Experimental even in other conditions."
+
+[[brief]]
+id = "desire"
+title = "Loss of desire and psychogenic erections"
+summary = "Mental desire is driven mainly by dopamine in the hypothalamus and reward circuit, braked by serotonin, and dependent on testosterone. Why it would stay reduced after a drug is stopped has not been shown."
+points = [
+  "Psychogenic erection (from thought or sight), reflex erection (from touch) and sleep erection use partly separate pathways, so which ones remain is diagnostic information.",
+  "Wanting and liking are separate: dopamine drives pursuit, while opioid and cannabinoid signalling produces pleasure. Loss of drive points more to the first; pleasureless orgasm more to the second.",
+  "Antipsychotics block dopamine D2 receptors directly and commonly raise prolactin. Mirtazapine and antipsychotics block 5-HT2A and 5-HT2C.",
+  "Candidate explanations for persistence are a lasting change in dopamine signalling, a lasting hormonal change, or altered gene expression in the reward circuit. A rat study of paroxetine shows a weak, unconfirmed hint of the last.",
+  "Drugs that raise dopamine carry a real risk of relapse after a psychotic episode.",
+]
+tests = [
+  "Morning testosterone, prolactin, LH, FSH and thyroid",
+  "Which erection types remain: psychogenic, reflex, sleep",
+  "A standard anhedonia questionnaire, to see whether all reward is flattened or sexual reward specifically",
+]
+symptoms = ["libido", "anhedonia", "blunting", "erectile"]
+[[brief.avenue]]
+name = "Correcting abnormal testosterone, prolactin or thyroid"
+rationale = "A hormonal cause is the most fixable"
+evidence = "Standard tests; treat only if abnormal."
+[[brief.avenue]]
+name = "Bupropion"
+rationale = "Raises dopamine and noradrenaline"
+evidence = "Trials for on-treatment dysfunction. Case reports only for the persistent condition, with mixed results."
+[[brief.avenue]]
+name = "Dopamine agonists"
+rationale = "Directly stimulate the wanting pathway"
+evidence = "Case reports only. Risk of relapse after psychosis."
+[[brief.avenue]]
+name = "Melanocortin agonist (bremelanotide)"
+rationale = "A second accelerator that bypasses dopamine"
+evidence = "Approved for low desire in premenopausal women. Untested in this condition."
+[[brief.avenue]]
+name = "Recovery of sleep and mood"
+rationale = "Anhedonia and insomnia suppress desire on their own"
+evidence = "Indirect, but these often improve with time."

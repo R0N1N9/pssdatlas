@@ -31,7 +31,7 @@
 }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
-main { max-width: 1120px; margin: 0 auto; padding: 24px 16px 64px; }
+main { max-width: 1120px; margin: 0 auto; padding-block: 24px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
 h1 { font-size: 28px; margin: 0 0 4px; letter-spacing: -0.01em; }
 h2 { font-size: 19px; margin: 0 0 4px; }
 p { margin: 0 0 10px; }
@@ -73,7 +73,7 @@ svg text { fill: var(--text-2); font-size: 11.5px; font-family: inherit; }
 svg .lab { fill: var(--text); font-size: 12.5px; }
 #tip { position: fixed; pointer-events: none; background: var(--text); color: var(--bg); padding: 6px 9px; border-radius: 6px; font-size: 12.5px; line-height: 1.4; max-width: 280px; display: none; z-index: 10; white-space: pre-line; }
 nav { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13.5px; margin-top: 10px; }
-.parts { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 10px 0 8px; margin-top: 8px; border-bottom: 1px solid var(--border); }
+.parts { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding: 10px 0 8px; margin-top: 8px; border-bottom: 1px solid var(--border); }
 .seg { display: flex; flex-wrap: wrap; gap: 6px; }
 .seg button { border-radius: 999px; padding: 6px 14px; }
 .seg button[aria-pressed="true"] { background: var(--text); color: var(--bg); border-color: var(--text); font-weight: 600; }
@@ -86,6 +86,11 @@ button.primary { background: var(--s1); border-color: var(--s1); color: #fff; fo
 button:disabled { opacity: 0.6; cursor: default; }
 #upBox { display: none; margin-top: 12px; padding: 12px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); font-size: 13.5px; }
 #upBox pre { margin: 8px 0 0; font: 12px/1.5 ui-monospace, monospace; color: var(--text-2); white-space: pre-wrap; max-height: 200px; overflow: auto; }
+#guide details { border-top: 1px solid var(--grid); padding: 10px 0; }
+#guide summary { cursor: pointer; }
+#guide details > *:not(summary) { margin-top: 8px; }
+#guide ul { margin: 6px 0; padding-left: 20px; max-width: 90ch; }
+#guide li { margin: 3px 0; }
 #upBox code { background: var(--grid); padding: 1px 5px; border-radius: 4px; }
 footer { color: var(--text-3); font-size: 12.5px; margin-top: 24px; }
 </style>
@@ -98,10 +103,21 @@ footer { color: var(--text-3); font-size: 12.5px; margin-top: 24px; }
 <p class="small" id="stamp"></p>
 <div id="upBox" role="status" aria-live="polite"></div>
 <div class="parts"><div class="seg" id="seg" role="group" aria-label="Drug group"></div><p class="small" id="partNote" style="margin:6px 0 0"></p></div>
-<nav><a href="#timeline">Timeline</a><a href="#matrix">Evidence matrix</a><a href="#gaps">Research gaps</a><a href="#treat">Treatments</a><a href="#trials">Trials</a><a href="#faers">Drug-safety signals</a><a href="#targets">Drug targets</a><a href="#patients">Patient reports</a><a href="#explore">Paper explorer</a></nav>
+<nav><a href="#guide">Background guide</a><a href="#timeline">Timeline</a><a href="#matrix">Evidence matrix</a><a href="#gaps">Research gaps</a><a href="#treat">Treatments</a><a href="#trials">Trials</a><a href="#faers">Drug-safety signals</a><a href="#targets">Drug targets</a><a href="#patients">Patient reports</a><a href="#explore">Paper explorer</a></nav>
 <div class="note">Tags are assigned automatically by keyword rules and will contain errors; a tag means a paper <em>discusses</em> a topic, not that it supports it. This is a research-navigation aid, not medical advice.</div>
 
 <div class="tiles" id="tiles"></div>
+
+<section id="guide">
+  <h2>Background guide</h2>
+  <p class="small">An orientation to the biology and the main open questions, with what the atlas currently holds on each.</p>
+  <div class="note" id="guideNote"></div>
+  <div id="briefs"></div>
+  <details><summary><b>The pathway from touch to feeling: chemicals and receptors</b></summary>
+    <p class="small">Each stage, the main molecules involved, and how many of the implicated drugs in the current view bind them strongly. Gene names link to the target dossiers below.</p>
+    <div class="scroll"><table id="pathTable"></table></div>
+  </details>
+</section>
 
 <section id="timeline">
   <h2>Publications per year</h2>

@@ -344,6 +344,46 @@
   }
   fx.addEventListener('input', drawForest);
 
+  // ---- background guide -----------------------------------------------
+  function drawGuide() {
+    const G = D.guide || {}, P = papers(), B = D.targets.binding || {};
+    $('guideNote').textContent = G.note || '';
+    const drugs = Object.keys(B).filter(d => PART.everything || PART.drugs.includes(d));
+    const known = new Set((D.targets.targets || []).map(t => t.symbol));
+    const open = new Set([...document.querySelectorAll('#briefs details[open]')].map(d => d.dataset.id));
+    $('briefs').replaceChildren(...(G.brief || []).map(b => {
+      const d = h('details', { open: open.has(b.id) ? '' : null }, h('summary', null, h('b', null, b.title)), h('p', null, b.summary),
+        h('ul', null, (b.points || []).map(x => h('li', null, x))));
+      d.dataset.id = b.id;
+      if ((b.avenue || []).length) {
+        const t = h('table', null, h('tr', null, ['Avenue', 'Rationale', 'Evidence'].map(c => h('th', null, c))),
+          b.avenue.map(a => h('tr', null, h('td', null, a.name), h('td', null, a.rationale), h('td', null, a.evidence))));
+        d.append(h('h3', null, 'Avenues and how strong the evidence is'), h('div', { class: 'scroll' }, t),
+          h('p', { class: 'small' }, 'None has been shown to work for the persistent condition. These are prescription decisions for a clinician who knows the history.'));
+      }
+      if ((b.tests || []).length) d.append(h('h3', null, 'What can be measured'), h('ul', null, b.tests.map(x => h('li', null, x))));
+      if ((b.symptoms || []).length) {
+        d.append(h('h3', null, 'In the atlas (current view)'), h('p', null, b.symptoms.map(sid => {
+          const ps = P.filter(p => (p.symptoms || []).includes(sid)), core = ps.filter(p => p.scope === 'core').length;
+          const a = h('a', { href: '#explore', class: 'pill' }, `${label(D.symptoms, sid)}: ${ps.length} papers, ${core} on persistent dysfunction`);
+          a.addEventListener('click', e => { e.preventDefault(); setFilters({ sym: sid }); });
+          return a;
+        })));
+      }
+      return d;
+    }));
+    const t = $('pathTable'); t.replaceChildren();
+    t.append(h('tr', null, ['Stage', 'What happens', 'Key molecules', 'Targets', 'Implicated drugs binding strongly'].map(c => h('th', null, c))));
+    let grp = null;
+    for (const r of (G.pathway || [])) {
+      if (r.group !== grp) { grp = r.group; t.append(h('tr', { class: 'grp' }, h('td', { colspan: 5, style: 'font-weight:600;color:var(--text-2);padding-top:14px' }, grp))); }
+      const binders = [...new Set(drugs.filter(d => r.genes.some(g => B[d][g] && B[d][g].pki >= 7)))];
+      t.append(h('tr', null, h('td', null, h('b', null, r.stage)), h('td', null, r.what), h('td', null, r.molecules),
+        h('td', null, r.genes.map(g => known.has(g) ? h('a', { href: '#targets', class: 'pill' }, g) : h('span', { class: 'pill' }, g))),
+        h('td', { class: 'small' }, !r.genes.length ? '–' : binders.length ? `${binders.length} of ${drugs.length}: ${binders.slice(0, 5).map(cap).join(', ')}${binders.length > 5 ? '…' : ''}` : 'none in available data')));
+    }
+  }
+
   // ---- drug targets ---------------------------------------------------
   function drawTargets() {
     const B = D.targets.binding || {}, cls = D.drugClasses || {};
@@ -476,7 +516,7 @@
     for (const b of $('seg').children) b.setAttribute('aria-pressed', b.dataset.id === PART.id);
     $('partNote').textContent = PART.everything ? PART.description
       : `${PART.description} A record is included when its title, abstract or post names one of these drugs, so some records are only partly about them.`;
-    drawTiles(); drawTimeline(); drawMatrix(); drawGaps(); drawSymptoms(); drawTreatments(); drawTrials(); drawForest(); drawTargets(); drawPatients(); render();
+    drawTiles(); drawGuide(); drawTimeline(); drawMatrix(); drawGaps(); drawSymptoms(); drawTreatments(); drawTrials(); drawForest(); drawTargets(); drawPatients(); render();
   }
   $('seg').append(...PARTS.map(p => {
     const b = h('button', { 'aria-pressed': 'false' }, p.label); b.dataset.id = p.id;

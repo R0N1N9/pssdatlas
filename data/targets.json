@@ -2808,6 +2808,325 @@
    "top_tissue": "Liver",
    "top_tissue_tpm": 95.3663,
    "url": "https://platform.opentargets.org/target/ENSG00000147955"
+  },
+  {
+   "clinical_candidates": 87,
+   "ensembl": "ENSG00000112038",
+   "expression_tpm": {
+    "accumbens": 1.37617,
+    "hypothalamus": 1.19748,
+    "skin": 0,
+    "spinal_cord": 0.113761
+   },
+   "hypothesis": "experience",
+   "marketed_drugs": [
+    "Alfentanil",
+    "Alvimopan",
+    "Anileridine",
+    "Benzhydrocodone",
+    "Buprenorphine",
+    "Butorphanol",
+    "Codeine",
+    "Dextromoramide",
+    "Dezocine",
+    "Dihydrocodeine",
+    "Diphenoxylate",
+    "Fentanyl",
+    "Hydrocodone",
+    "Hydromorphone",
+    "Levallorphan",
+    "Levorphanol",
+    "Loperamide",
+    "Meperidine",
+    "Meptazinol",
+    "Methadone",
+    "Methylnaltrexone",
+    "Morphine",
+    "Nalbuphine",
+    "Naldemedine",
+    "Nalmefene",
+    "Naloxegol",
+    "Naloxone",
+    "Naltrexone",
+    "Oliceridine",
+    "Ondelopran",
+    "Oxycodone",
+    "Oxymorphone",
+    "Remifentanil",
+    "Samidorphan",
+    "Sufentanil",
+    "Tapentadol",
+    "Tramadol"
+   ],
+   "name": "opioid receptor mu 1",
+   "rationale": "Mu opioid receptor: pleasure ('liking') and spinal sensory gating.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "OPRM1",
+   "top_tissue": "Brain - Cerebellum",
+   "top_tissue_tpm": 5.9333,
+   "url": "https://platform.opentargets.org/target/ENSG00000112038"
+  },
+  {
+   "clinical_candidates": 12,
+   "ensembl": "ENSG00000118432",
+   "expression_tpm": {
+    "accumbens": 7.72004,
+    "hypothalamus": 9.09803,
+    "skin": 2.62335,
+    "spinal_cord": 1.67681
+   },
+   "hypothesis": "experience",
+   "marketed_drugs": [
+    "Cannabidiol",
+    "Dronabinol",
+    "Nabilone"
+   ],
+   "name": "cannabinoid receptor 1",
+   "rationale": "CB1 cannabinoid receptor: pleasure and sensory modulation.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "CNR1",
+   "top_tissue": "Brain - Cerebellar Hemisphere",
+   "top_tissue_tpm": 33.2359,
+   "url": "https://platform.opentargets.org/target/ENSG00000118432"
+  },
+  {
+   "clinical_candidates": 17,
+   "ensembl": "ENSG00000198400",
+   "expression_tpm": {
+    "accumbens": 1.14261,
+    "hypothalamus": 0.494947,
+    "skin": 0.089853,
+    "spinal_cord": 0.238367
+   },
+   "hypothesis": "neuropathy",
+   "marketed_drugs": [
+    "Cenegermin",
+    "Entrectinib",
+    "Larotrectinib",
+    "Lestaurtinib",
+    "Regorafenib",
+    "Repotrectinib"
+   ],
+   "name": "neurotrophic receptor tyrosine kinase 1",
+   "rationale": "TrkA, the nerve growth factor receptor that maintains small sensory fibres.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "High-Quality Pocket",
+    "Druggable Family"
+   ],
+   "symbol": "NTRK1",
+   "top_tissue": "Prostate",
+   "top_tissue_tpm": 4.54427,
+   "url": "https://platform.opentargets.org/target/ENSG00000198400"
+  },
+  {
+   "clinical_candidates": 19,
+   "ensembl": "ENSG00000115353",
+   "expression_tpm": {
+    "accumbens": 2.08591,
+    "hypothalamus": 1.17299,
+    "skin": 3.28372,
+    "spinal_cord": 0.159568
+   },
+   "hypothesis": "neuropathy",
+   "marketed_drugs": [
+    "Aprepitant",
+    "Elinzanetant",
+    "Fosaprepitant",
+    "Fosnetupitant",
+    "Netupitant",
+    "Rolapitant"
+   ],
+   "name": "tachykinin receptor 1",
+   "rationale": "NK1 receptor for substance P at the spinal sensory relay.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "High-Quality Pocket",
+    "Druggable Family"
+   ],
+   "symbol": "TACR1",
+   "top_tissue": "Adipose - Subcutaneous",
+   "top_tissue_tpm": 11.7051,
+   "url": "https://platform.opentargets.org/target/ENSG00000115353"
+  },
+  {
+   "clinical_candidates": 9,
+   "ensembl": "ENSG00000137252",
+   "expression_tpm": {
+    "accumbens": 0.236543,
+    "hypothalamus": 0.785818,
+    "skin": 0,
+    "spinal_cord": 0.038078
+   },
+   "hypothesis": "experience",
+   "marketed_drugs": [
+    "Daridorexant",
+    "Lemborexant",
+    "Suvorexant"
+   ],
+   "name": "hypocretin receptor 2",
+   "rationale": "Orexin receptor: wakefulness and the feeling of sleepiness.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "HCRTR2",
+   "top_tissue": "Brain - Hypothalamus",
+   "top_tissue_tpm": 0.785818,
+   "url": "https://platform.opentargets.org/target/ENSG00000137252"
+  },
+  {
+   "clinical_candidates": 53,
+   "ensembl": "ENSG00000168539",
+   "expression_tpm": {
+    "accumbens": 40.8562,
+    "hypothalamus": 1.61566,
+    "skin": 3.16258,
+    "spinal_cord": 0.299308
+   },
+   "hypothesis": "experience",
+   "marketed_drugs": [
+    "Anisotropine",
+    "Atropine",
+    "Benztropine",
+    "Biperiden",
+    "Cevimeline",
+    "Clidinium",
+    "Cycrimine",
+    "Dicyclomine",
+    "Diphemanil",
+    "Diphenidol",
+    "Ethopropazine",
+    "Glycopyrronium",
+    "Hexocyclium",
+    "Isopropamide",
+    "Mepenzolate",
+    "Methixene",
+    "Methscopolamine",
+    "Oxyphencyclimine",
+    "Oxyphenonium",
+    "Pilocarpine",
+    "Pirenzepine",
+    "Procyclidine",
+    "Propantheline",
+    "Scopolamine",
+    "Sofpironium",
+    "Tridihexethyl",
+    "Trihexyphenidyl"
+   ],
+   "name": "cholinergic receptor muscarinic 1",
+   "rationale": "Muscarinic receptor strongly blocked by olanzapine and clozapine; cognition.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "CHRM1",
+   "top_tissue": "Brain - Cortex",
+   "top_tissue_tpm": 55.501,
+   "url": "https://platform.opentargets.org/target/ENSG00000168539"
+  },
+  {
+   "clinical_candidates": 72,
+   "ensembl": "ENSG00000133019",
+   "expression_tpm": {
+    "accumbens": 0.497079,
+    "hypothalamus": 0.886746,
+    "skin": 0.623603,
+    "spinal_cord": 0.055802
+   },
+   "hypothesis": "vascular",
+   "marketed_drugs": [
+    "Acetylcholine",
+    "Aclidinium",
+    "Anisotropine",
+    "Atropine",
+    "Bethanechol",
+    "Carbachol",
+    "Cevimeline",
+    "Clidinium",
+    "Cyclopentolate",
+    "Darifenacin",
+    "Dicyclomine",
+    "Diphemanil",
+    "Fesoterodine",
+    "Glycopyrronium",
+    "Hexocyclium",
+    "Imidafenacin",
+    "Ipratropium",
+    "Isopropamide",
+    "Mepenzolate",
+    "Methacholine",
+    "Methscopolamine",
+    "Oxybutynin",
+    "Oxyphencyclimine",
+    "Oxyphenonium",
+    "Pilocarpine",
+    "Propantheline",
+    "Revefenacin",
+    "Sofpironium",
+    "Solifenacin",
+    "Tiotropium",
+    "Tolterodine",
+    "Tridihexethyl",
+    "Tropicamide",
+    "Trospium",
+    "Umeclidinium"
+   ],
+   "name": "cholinergic receptor muscarinic 3",
+   "rationale": "Muscarinic receptor in smooth muscle and glands.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "CHRM3",
+   "top_tissue": "Esophagus - Muscularis",
+   "top_tissue_tpm": 10.332,
+   "url": "https://platform.opentargets.org/target/ENSG00000133019"
+  },
+  {
+   "clinical_candidates": 5,
+   "ensembl": "ENSG00000105329",
+   "expression_tpm": {
+    "accumbens": 8.62599,
+    "hypothalamus": 12.3887,
+    "skin": 41.0515,
+    "spinal_cord": 18.1904
+   },
+   "hypothesis": "vascular",
+   "marketed_drugs": [
+    "Luspatercept"
+   ],
+   "name": "transforming growth factor beta 1",
+   "rationale": "Main pro-scarring signal in erectile tissue deprived of oxygen.",
+   "small_molecule": [
+    "Structure with Ligand",
+    "Med-Quality Pocket",
+    "Druggable Family"
+   ],
+   "symbol": "TGFB1",
+   "top_tissue": "Whole Blood",
+   "top_tissue_tpm": 337.627,
+   "url": "https://platform.opentargets.org/target/ENSG00000105329"
   }
  ]
 }
