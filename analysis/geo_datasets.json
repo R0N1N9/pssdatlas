@@ -160,7 +160,7 @@
    "tissue_category": "brain_other",
    "tissue_score": 3,
    "tissue_keyword": "brain",
-   "washout_class": "washout_keyword",
+   "washout_class": "early_life_exposure",
    "washout_keywords": [
     "withdraw"
    ],
@@ -175,7 +175,13 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 12,
-   "n_sample_titles_listed": 78
+   "n_sample_titles_listed": 78,
+   "manual_check": {
+    "priority": 90,
+    "note": "(GEO summary read; sample titles read) Perinatal paroxetine (dams 10 mg/kg/day), offspring hippocampus and amygdala arrays at P7/P14/P21, n=78. Early-life exposure, readout in juveniles not adults. The 'withdraw' keyword refers to neonatal withdrawal in the background text, not a washout arm.",
+    "washout_class": "early_life_exposure"
+   },
+   "washout_class_keyword_rule": "washout_keyword"
   },
   {
    "accession": "GSE141144",
@@ -248,7 +254,7 @@
    "tissue_category": "hypothalamus_accumbens",
    "tissue_score": 4,
    "tissue_keyword": "hypothalam",
-   "washout_class": "washout_keyword",
+   "washout_class": "early_life_exposure_adult_readout",
    "washout_keywords": [
     "withdraw"
    ],
@@ -262,7 +268,13 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 12,
-   "n_sample_titles_listed": 72
+   "n_sample_titles_listed": 72,
+   "manual_check": {
+    "priority": 76,
+    "note": "(GEO summary read) Zebrafish early-life fluoxetine, telencephalon and hypothalamus in larvae and adults, n=6 per group. 'Withdrawn' refers to transgenerational background. Fish.",
+    "washout_class": "early_life_exposure_adult_readout"
+   },
+   "washout_class_keyword_rule": "washout_keyword"
   },
   {
    "accession": "GSE32280",
@@ -334,7 +346,7 @@
    "tissue_category": "blood_immune",
    "tissue_score": 1,
    "tissue_keyword": "blood",
-   "washout_class": "washout_keyword",
+   "washout_class": "false_positive_keyword_handchecked",
    "washout_keywords": [
     "drug-free"
    ],
@@ -343,7 +355,14 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 10,
-   "n_sample_titles_listed": 37
+   "n_sample_titles_listed": 37,
+   "manual_check": {
+    "priority": 0,
+    "note": "(GEO summary read) Blood from drug-FREE first-episode depression patients; not a post-drug design.",
+    "exclude": true,
+    "washout_class": "false_positive_keyword_handchecked"
+   },
+   "washout_class_keyword_rule": "washout_keyword"
   },
   {
    "accession": "GSE344141",
@@ -388,7 +407,7 @@
    "tissue_category": "skin_hair",
    "tissue_score": 1,
    "tissue_keyword": "skin",
-   "washout_class": "washout_keyword",
+   "washout_class": "false_positive_keyword_handchecked",
    "washout_keywords": [
     "post-treatment"
    ],
@@ -397,7 +416,14 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 10,
-   "n_sample_titles_listed": 12
+   "n_sample_titles_listed": 12,
+   "manual_check": {
+    "priority": 0,
+    "note": "(GEO summary read) Mouse skin melanocyte stem cells; 'post-treatment' means 1-3 days after topical dosing. Not relevant tissue or timescale.",
+    "exclude": true,
+    "washout_class": "false_positive_keyword_handchecked"
+   },
+   "washout_class_keyword_rule": "washout_keyword"
   },
   {
    "accession": "GSE158376",
@@ -462,7 +488,12 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 9,
-   "n_sample_titles_listed": 20
+   "n_sample_titles_listed": 20,
+   "manual_check": {
+    "priority": 0,
+    "note": "(GEO summary read) Apigenin in a trisomy-21 model; fluoxetine not the studied exposure.",
+    "exclude": true
+   }
   },
   {
    "accession": "GSE158377",
@@ -535,7 +566,12 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 9,
-   "n_sample_titles_listed": 28
+   "n_sample_titles_listed": 28,
+   "manual_check": {
+    "priority": 0,
+    "note": "(GEO summary read) Apigenin in human amniocytes; fluoxetine not the studied exposure.",
+    "exclude": true
+   }
   },
   {
    "accession": "GSE189653",
@@ -613,7 +649,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 9,
-   "n_sample_titles_listed": 30
+   "n_sample_titles_listed": 30,
+   "manual_check": {
+    "priority": 84,
+    "note": "(GEO summary read) Mouse whole brain at P120 after fluoxetine P3-P21 via milk, wild-type and Arid1b-het, RNA-seq. Roughly 100 drug-free days after early-life SSRI; the wild-type fluoxetine vs vehicle arm is the relevant contrast."
+   }
   },
   {
    "accession": "GSE203343",
@@ -677,7 +717,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 9,
-   "n_sample_titles_listed": 16
+   "n_sample_titles_listed": 16,
+   "manual_check": {
+    "priority": 83,
+    "note": "(title only, summary not hand-read; same project as GSE189653) Prefrontal cortex at P120 after early fluoxetine, 16 samples."
+   }
   },
   {
    "accession": "GSE111491",
@@ -725,7 +769,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 8,
-   "n_sample_titles_listed": 4
+   "n_sample_titles_listed": 4,
+   "manual_check": {
+    "priority": 80,
+    "note": "(GEO summary read) Prenatal (in utero) fluoxetine, adult mouse brain, 4 arrays only."
+   }
   },
   {
    "accession": "GSE166297",
@@ -859,7 +907,12 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 8,
-   "n_sample_titles_listed": 8
+   "n_sample_titles_listed": 8,
+   "manual_check": {
+    "priority": 0,
+    "note": "(GEO summary read) ATM-deficiency study; no SSRI washout design evident in summary.",
+    "exclude": true
+   }
   },
   {
    "accession": "GSE237896",
@@ -981,7 +1034,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 8,
-   "n_sample_titles_listed": 8
+   "n_sample_titles_listed": 8,
+   "manual_check": {
+    "priority": 88,
+    "note": "(GEO summary read) Postnatal fluoxetine, rat medial prefrontal cortex profiled in adulthood (4 vs 4 arrays). Early-life exposure with adult readout. No PMID linked."
+   }
   },
   {
    "accession": "GSE270731",
@@ -1031,7 +1088,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 8,
-   "n_sample_titles_listed": 8
+   "n_sample_titles_listed": 8,
+   "manual_check": {
+    "priority": 87,
+    "note": "(title only, summary not hand-read; sister series of GSE270730) Juvenile fluoxetine, rat mPFC in adulthood, 8 arrays."
+   }
   },
   {
    "accession": "GSE29417",
@@ -1085,7 +1146,12 @@
    "cancer_context": false,
    "sexual_function_wording": true,
    "relevance_score": 8,
-   "n_sample_titles_listed": 12
+   "n_sample_titles_listed": 12,
+   "manual_check": {
+    "priority": 0,
+    "note": "(title read) Mouse mania model; olanzapine incidental.",
+    "exclude": true
+   }
   },
   {
    "accession": "GSE309013",
@@ -1138,7 +1204,12 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 8,
-   "n_sample_titles_listed": 6
+   "n_sample_titles_listed": 6,
+   "manual_check": {
+    "priority": 0,
+    "note": "(title read) Maternal oridonin study; fluoxetine is a comparator.",
+    "exclude": true
+   }
   },
   {
    "accession": "GSE316091",
@@ -1191,7 +1262,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 8,
-   "n_sample_titles_listed": 4
+   "n_sample_titles_listed": 4,
+   "manual_check": {
+    "priority": 95,
+    "note": "(GEO summary read) The only antipsychotic post-treatment dataset: mouse cortex snRNA-seq 9 weeks after adolescent risperidone. 4 samples (2 risperidone, 2 saline). Adolescent exposure, cortex only; shows the design is feasible."
+   }
   },
   {
    "accession": "GSE319615",
@@ -1265,7 +1340,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 8,
-   "n_sample_titles_listed": 30
+   "n_sample_titles_listed": 30,
+   "manual_check": {
+    "priority": 30,
+    "note": "(title only, summary not hand-read) ASD-model mice given early-postnatal fluoxetine, prefrontal cortex at P40 (one of a large family of GSE2936xx/GSE3196xx series). Early-life exposure; interval off drug not stated in title."
+   }
   },
   {
    "accession": "GSE319616",
@@ -1333,7 +1412,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 8,
-   "n_sample_titles_listed": 24
+   "n_sample_titles_listed": 24,
+   "manual_check": {
+    "priority": 30,
+    "note": "(title only, summary not hand-read) ASD-model mice given early-postnatal fluoxetine, prefrontal cortex at P40 (one of a large family of GSE2936xx/GSE3196xx series). Early-life exposure; interval off drug not stated in title."
+   }
   },
   {
    "accession": "GSE319618",
@@ -1407,7 +1490,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 8,
-   "n_sample_titles_listed": 30
+   "n_sample_titles_listed": 30,
+   "manual_check": {
+    "priority": 30,
+    "note": "(title only, summary not hand-read) ASD-model mice given early-postnatal fluoxetine, prefrontal cortex at P40 (one of a large family of GSE2936xx/GSE3196xx series). Early-life exposure; interval off drug not stated in title."
+   }
   },
   {
    "accession": "GSE319620",
@@ -1480,7 +1567,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 8,
-   "n_sample_titles_listed": 29
+   "n_sample_titles_listed": 29,
+   "manual_check": {
+    "priority": 30,
+    "note": "(title only, summary not hand-read) ASD-model mice given early-postnatal fluoxetine, prefrontal cortex at P40 (one of a large family of GSE2936xx/GSE3196xx series). Early-life exposure; interval off drug not stated in title."
+   }
   },
   {
    "accession": "GSE330728",
@@ -1564,7 +1655,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 8,
-   "n_sample_titles_listed": 53
+   "n_sample_titles_listed": 53,
+   "manual_check": {
+    "priority": 30,
+    "note": "(title only, summary not hand-read) ASD-model mice given early-postnatal fluoxetine, prefrontal cortex at P40 (one of a large family of GSE2936xx/GSE3196xx series). Early-life exposure; interval off drug not stated in title."
+   }
   },
   {
    "accession": "GSE4036",
@@ -1635,7 +1730,12 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 8,
-   "n_sample_titles_listed": 28
+   "n_sample_titles_listed": 28,
+   "manual_check": {
+    "priority": 0,
+    "note": "(title read) Human post-mortem schizophrenia hippocampus arrays; no washout design.",
+    "exclude": true
+   }
   },
   {
    "accession": "GSE44110",
@@ -1679,7 +1779,7 @@
    "tissue_category": "brain_other",
    "tissue_score": 3,
    "tissue_keyword": "brain",
-   "washout_class": "washout_keyword",
+   "washout_class": "false_positive_keyword_handchecked",
    "washout_keywords": [
     "withdraw"
    ],
@@ -1690,7 +1790,14 @@
    "cancer_context": true,
    "sexual_function_wording": false,
    "relevance_score": 8,
-   "n_sample_titles_listed": 8
+   "n_sample_titles_listed": 8,
+   "manual_check": {
+    "priority": 0,
+    "note": "(GEO summary read) Kv10.1 knockout mouse characterisation; haloperidol is a behavioural challenge, 'withdraw' is unrelated. Not a washout dataset.",
+    "exclude": true,
+    "washout_class": "false_positive_keyword_handchecked"
+   },
+   "washout_class_keyword_rule": "washout_keyword"
   },
   {
    "accession": "GSE58279",
@@ -1746,7 +1853,12 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 8,
-   "n_sample_titles_listed": 12
+   "n_sample_titles_listed": 12,
+   "manual_check": {
+    "priority": 0,
+    "note": "(title read) Alcohol/mephedrone study in adolescent mice; haloperidol incidental.",
+    "exclude": true
+   }
   },
   {
    "accession": "GSE67203",
@@ -1786,7 +1898,7 @@
    "tissue_category": "brain_other",
    "tissue_score": 3,
    "tissue_keyword": "hippocamp",
-   "washout_class": "early_life_exposure_adult_readout",
+   "washout_class": "adult_washout_handchecked",
    "washout_keywords": [],
    "persistence_keywords": [
     "long-term change",
@@ -1799,7 +1911,13 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 8,
-   "n_sample_titles_listed": 4
+   "n_sample_titles_listed": 4,
+   "manual_check": {
+    "priority": 100,
+    "note": "(GEO summary read) The only GEO series found with ADULT exposure followed by a drug-free interval in mammalian brain: rats given fluoxetine 12 mg/kg at PND 67-88, hippocampus profiled 'long-term' afterwards. But only 4 samples (2 fluoxetine, 2 vehicle; pooled or not is not stated in the summary) - no usable statistics. Hippocampus, not a sexual-function region.",
+    "washout_class": "adult_washout_handchecked"
+   },
+   "washout_class_keyword_rule": "early_life_exposure_adult_readout"
   },
   {
    "accession": "GSE119772",
@@ -1857,7 +1975,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 7,
-   "n_sample_titles_listed": 16
+   "n_sample_titles_listed": 16,
+   "manual_check": {
+    "priority": 70,
+    "note": "(title only, summary not hand-read) Olanzapine, mouse hypothalamus RNA-seq (hyperphagia study), 16 samples. On-treatment; hypothalamus is relevant but the question asked was appetite."
+   }
   },
   {
    "accession": "GSE122494",
@@ -1917,7 +2039,11 @@
    "cancer_context": false,
    "sexual_function_wording": true,
    "relevance_score": 7,
-   "n_sample_titles_listed": 15
+   "n_sample_titles_listed": 15,
+   "manual_check": {
+    "priority": 60,
+    "note": "(GEO summary read) Rat fetal anogenital tissue after in-utero finasteride (GD7-21), 15 arrays, collected at GD21. The only genital-region tissue in the catalogue, but fetal and collected during exposure - not a washout design."
+   }
   },
   {
    "accession": "GSE150028",
@@ -2218,7 +2344,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 7,
-   "n_sample_titles_listed": 20
+   "n_sample_titles_listed": 20,
+   "manual_check": {
+    "priority": 69,
+    "note": "(title only, summary not hand-read) Risperidone, mouse hypothalamus RNA-seq (MC4R / weight gain), 20 samples. On-treatment."
+   }
   },
   {
    "accession": "GSE183534",
@@ -2588,7 +2718,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 7,
-   "n_sample_titles_listed": 26
+   "n_sample_titles_listed": 26,
+   "manual_check": {
+    "priority": 67,
+    "note": "(title only, summary not hand-read) Chronic clozapine, mouse striatum single-cell incl. ventral striatum, 26 samples. On-treatment."
+   }
   },
   {
    "accession": "GSE42940",
@@ -2640,7 +2774,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 7,
-   "n_sample_titles_listed": 8
+   "n_sample_titles_listed": 8,
+   "manual_check": {
+    "priority": 86,
+    "note": "(title only, summary not hand-read) Postnatal fluoxetine, rat hippocampus, 8 arrays; early-life exposure."
+   }
   },
   {
    "accession": "GSE45053",
@@ -2828,7 +2966,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 6,
-   "n_sample_titles_listed": 227
+   "n_sample_titles_listed": 227,
+   "manual_check": {
+    "priority": 62,
+    "note": "(GEO summary read) Mouse primary cortical culture screen of 218 CNS drugs, RNA-seq, one sample per drug; includes paroxetine, sertraline, citalopram, mirtazapine, finasteride, isotretinoin among others. In vitro, single replicate."
+   }
   },
   {
    "accession": "GSE115614",
@@ -3425,7 +3567,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 6,
-   "n_sample_titles_listed": 15
+   "n_sample_titles_listed": 15,
+   "manual_check": {
+    "priority": 66,
+    "note": "(title only, summary not hand-read) Chronic olanzapine/haloperidol, mouse striatum single-cell RNA-seq. On-treatment."
+   }
   },
   {
    "accession": "GSE174722",
@@ -3833,7 +3979,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 6,
-   "n_sample_titles_listed": 106
+   "n_sample_titles_listed": 106,
+   "manual_check": {
+    "priority": 73,
+    "note": "(GEO summary read) H3K27ac ChIP-seq arm of the same fluoxetine 27-region rat atlas: the main epigenomic SSRI dataset. On-treatment only."
+   }
   },
   {
    "accession": "GSE194289",
@@ -3916,7 +4066,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 6,
-   "n_sample_titles_listed": 212
+   "n_sample_titles_listed": 212,
+   "manual_check": {
+    "priority": 74,
+    "note": "(title only, summary not hand-read; sister series GSE193040 summary read) Rat fluoxetine atlas, bulk RNA-seq over 27 brain regions (sample titles of the ChIP series include nucleus accumbens core/shell and raphe). On-treatment only, no washout, but the best-powered regional SSRI reference to compare a washout signature against."
+   }
   },
   {
    "accession": "GSE197622",
@@ -4000,7 +4154,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 6,
-   "n_sample_titles_listed": 108
+   "n_sample_titles_listed": 108,
+   "manual_check": {
+    "priority": 72,
+    "note": "(title only, summary not hand-read) Single-cell arm of the fluoxetine 27-region rat atlas. On-treatment only."
+   }
   },
   {
    "accession": "GSE202172",
@@ -4139,98 +4297,6 @@
    "sexual_function_wording": false,
    "relevance_score": 6,
    "n_sample_titles_listed": 21
-  },
-  {
-   "accession": "GSE216991",
-   "title": "Small Molecule Inducers of Neuroprotective miR-132 Identified by HTS-HTS in Human iPSC-derived Neurons",
-   "organism": "Homo sapiens",
-   "n_samples": 1441,
-   "gds_type": "Non-coding RNA profiling by high throughput sequencing",
-   "platform_type": "ncRNA-seq",
-   "platforms": [
-    "GPL21697"
-   ],
-   "summary": "MicroRNAs (miRNAs) are short RNAs that regulate fundamental biological processes. miR-132, a key miRNA with established functions in Tau homeostasis and neuroprotection, is consistently downregulated in Alzheimer’s disease (AD) and other tauopathies. miR-132 overexpression rescues neurodegenerative phenotypes in several AD models. To complement research on miRNA-mimicking oligonucleotides targeting the central nervous system, we developed a high-throughput-screen coupled high-throughput-sequencing (HTS-HTS) in human induced pluripotent stem cell (iPSC)-derived neurons to identify small molecule inducers of miR-132. We discovered that cardiac glycosides, which are canonical sodium-potassium ATPase inhibitors, selectively upregulated miR-132 in the sub-μM range. Coordinately, cardiac glycoside treatment downregulated total and phosphorylated Tau in rodent and human neurons and protected against toxicity by glutamate, N-methyl-D-aspartate, rotenone, and Aβ oligomers. In conclusion, we identified small-molecule drugs that upregulated the neuroprotective miR-132 and ameliorated neurodegenerative phenotypes. Our dataset also represents a comprehensive resource for discovering small molecules that modulate specific miRNAs for therapeutic purposes.",
-   "pubmed_ids": [
-    "37989753"
-   ],
-   "release_date": "2023/10/19",
-   "supplementary_file_types": "XLSX",
-   "ftp_link": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE216nnn/GSE216991/",
-   "sample_titles": [
-    "RSB181-90 [ABT-199 (GDC-0199)]",
-    "RSB163-62 [Valganciclovir HCl]",
-    "RSB181-262 [Rocilinostat (ACY-1215)]",
-    "RSB163-81 [Mefenamic Acid]",
-    "RSB163-60 [Carbimazole]",
-    "RSB241-235 [Lubiprostone]",
-    "RSB211-116 [AST-1306]",
-    "RSB163-21 [Entacapone]",
-    "RSB163-93 [Pramoxine HCl]",
-    "RSB196-87 [Cabozantinib (XL184, BMS-907351)]",
-    "RSB211-203 [Amprenavir]",
-    "RSB196-238 [Etomidate]",
-    "RSB217-108 [A66]",
-    "RSB196-82 [Bimatoprost]",
-    "RSB181-334 [WY-14643 (Pirinixic Acid)]",
-    "RSB217-42 [Noradrenaline bitartrate monohydrate]",
-    "RSB217-210 [CHIR-99021 (CT99021) HCl]",
-    "RSB217-153 [Scopolamine HBr]",
-    "RSB217-310 [NXY-059]",
-    "RSB211-283 [Valaciclovir HCl]",
-    "RSB211-145 [Pyrazinamide]",
-    "RSB211-123 [Nicotinic Acid]",
-    "RSB217-97 [Osthole]",
-    "RSB217-255 [Cortisone acetate]",
-    "RSB211-106 [Propylthiouracil]",
-    "RSB211-171 [Naproxen]",
-    "RSB211-7 [nc-DMSO rep5-7]",
-    "RSB211-231 [Adenosine]",
-    "RSB196-179 [S3I-201]",
-    "RSB211-202 [Cyproheptadine HCl]",
-    "RSB196-96 [Rolipram]",
-    "RSB217-177 [Vardenafil HCl Trihydrate]",
-    "RSB196-139 [STF-62247]",
-    "RSB196-182 [Calcitriol]",
-    "RSB211-75 [Tazarotene]",
-    "RSB217-280 [Cabozantinib malate (XL184)]",
-    "RSB217-331 [Clonidine HCl]",
-    "RSB217-232 [CH5132799]",
-    "RSB211-139 [Rizatriptan Benzoate]",
-    "RSB217-134 [5-hydroxymethyl Tolterodine (PNU 200577, 5-HMT, 5-HM)]"
-   ],
-   "matched_queries": [
-    "citalopram",
-    "escitalopram",
-    "finasteride",
-    "isotretinoin"
-   ],
-   "drugs": [
-    "citalopram",
-    "escitalopram",
-    "venlafaxine",
-    "finasteride",
-    "isotretinoin"
-   ],
-   "drug_classes": [
-    "5ARI",
-    "SNRI",
-    "SSRI",
-    "retinoid"
-   ],
-   "drug_named_in_text": true,
-   "dreadd_ligand_only": false,
-   "tissue_category": "reproductive_endocrine",
-   "tissue_score": 3,
-   "tissue_keyword": "adrenal",
-   "washout_class": "none_found",
-   "washout_keywords": [],
-   "persistence_keywords": [],
-   "early_life_keywords": [],
-   "cancer_context": false,
-   "sexual_function_wording": false,
-   "relevance_score": 6,
-   "n_sample_titles_listed": 1441
   },
   {
    "accession": "GSE222756",
@@ -4632,7 +4698,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 6,
-   "n_sample_titles_listed": 216
+   "n_sample_titles_listed": 216,
+   "manual_check": {
+    "priority": 61,
+    "note": "(GEO summary read) Human prostate transition-zone biopsies before and after finasteride (MTOPS trial), 216 RNA-seq samples. On-treatment, prostate; the only sizeable human tissue dataset for a 5-alpha-reductase inhibitor."
+   }
   },
   {
    "accession": "GSE292948",
@@ -6657,92 +6727,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 6,
-   "n_sample_titles_listed": 2
-  },
-  {
-   "accession": "GSE334500",
-   "title": "Psychotropic-drug and neurotransmitter perturbation RNA-seq of human iPSC-derived cardiac and retinal organoids (ToxiPred)",
-   "organism": "Homo sapiens",
-   "n_samples": 96,
-   "gds_type": "Expression profiling by high throughput sequencing",
-   "platform_type": "RNA-seq",
-   "platforms": [
-    "GPL34295"
-   ],
-   "summary": "Bulk 3'-barcoded RNA-sequencing (Drop-seq-style digital gene expression) of human iPSC-derived cardiac and retinal organoids treated for 24 h at 5 uM with psychotropic drugs (aripiprazole, loxapine, sertraline, quetiapine, xanomeline) versus a No_drug reference, each crossed with neurotransmitter / co-treatment conditions (adrenaline, dopamine, histamine, retinoic acid, serotonin) plus vehicle/chemical controls. Generated for the ToxiPred study to test predicted tissue-resolved drug liability and recover lipid/sterol pathway mechanisms.",
-   "pubmed_ids": [],
-   "release_date": "2026/06/09",
-   "supplementary_file_types": "TXT",
-   "ftp_link": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE334nnn/GSE334500/",
-   "sample_titles": [
-    "retinal organoid; aripiprazole + histamine; well B10",
-    "cardiac organoid; sertraline + histamine; well D4",
-    "cardiac organoid; control 2 mg ml k Carrageenan; well H6",
-    "retinal organoid; xanomeline + serotonin; well F12",
-    "cardiac organoid; loxapine + adrenaline; well C2",
-    "retinal organoid; xanomeline; well F7",
-    "cardiac organoid; control No drug; well H1",
-    "retinal organoid; loxapine + serotonin; well C12",
-    "cardiac organoid; quetiapine; well E1",
-    "retinal organoid; loxapine; well C7",
-    "retinal organoid; control 10 uM NaNO2; well G9",
-    "cardiac organoid; control 2 uM C8H16NaO8; well G4",
-    "retinal organoid; sertraline + dopamine; well D9",
-    "retinal organoid; No_drug + dopamine; well A9",
-    "cardiac organoid; aripiprazole; well B1",
-    "retinal organoid; quetiapine + retinoic acid; well E11",
-    "cardiac organoid; loxapine + dopamine; well C3",
-    "cardiac organoid; control 2 uM Na4P2O7; well G5",
-    "retinal organoid; aripiprazole + retinoic acid; well B11",
-    "cardiac organoid; quetiapine + serotonin; well E6",
-    "retinal organoid; control 2 uM Na4P2O7; well H11",
-    "cardiac organoid; aripiprazole + serotonin; well B6",
-    "retinal organoid; xanomeline + adrenaline; well F8",
-    "cardiac organoid; No_drug + histamine; well A4",
-    "retinal organoid; aripiprazole + dopamine; well B9",
-    "cardiac organoid; xanomeline + dopamine; well F3",
-    "retinal organoid; control 10 uM NaCl; well G8",
-    "cardiac organoid; xanomeline + serotonin; well F6",
-    "cardiac organoid; aripiprazole + histamine; well B4",
-    "retinal organoid; loxapine + retinoic acid; well C11",
-    "cardiac organoid; control 10 uM NaNO2; well G3",
-    "cardiac organoid; loxapine + serotonin; well C6",
-    "retinal organoid; No_drug; well A7",
-    "retinal organoid; quetiapine + dopamine; well E9",
-    "cardiac organoid; quetiapine + retinoic acid; well E5",
-    "cardiac organoid; sertraline + dopamine; well D3",
-    "cardiac organoid; No_drug + dopamine; well A3",
-    "retinal organoid; sertraline + adrenaline; well D8",
-    "retinal organoid; No_drug + serotonin; well A12",
-    "cardiac organoid; xanomeline + adrenaline; well F2"
-   ],
-   "matched_queries": [
-    "aripiprazole",
-    "quetiapine",
-    "sertraline"
-   ],
-   "drugs": [
-    "sertraline",
-    "quetiapine",
-    "aripiprazole"
-   ],
-   "drug_classes": [
-    "SSRI",
-    "antipsychotic"
-   ],
-   "drug_named_in_text": true,
-   "dreadd_ligand_only": false,
-   "tissue_category": "reproductive_endocrine",
-   "tissue_score": 3,
-   "tissue_keyword": "adrenal",
-   "washout_class": "none_found",
-   "washout_keywords": [],
-   "persistence_keywords": [],
-   "early_life_keywords": [],
-   "cancer_context": false,
-   "sexual_function_wording": false,
-   "relevance_score": 6,
-   "n_sample_titles_listed": 96
+   "n_sample_titles_listed": 2,
+   "manual_check": {
+    "priority": 68,
+    "note": "(title only, summary not hand-read) Quetiapine/clozapine, mouse nucleus accumbens (D3 receptor study); 2 samples listed. On-treatment."
+   }
   },
   {
    "accession": "GSE336483",
@@ -7233,7 +7222,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 6,
-   "n_sample_titles_listed": 12
+   "n_sample_titles_listed": 12,
+   "manual_check": {
+    "priority": 64,
+    "note": "(title only, summary not hand-read) Olanzapine, rat hippocampus/cerebellum/liver DNA methylation. On-treatment epigenetic dataset."
+   }
   },
   {
    "accession": "GSE56028",
@@ -7439,7 +7432,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 6,
-   "n_sample_titles_listed": 12
+   "n_sample_titles_listed": 12,
+   "manual_check": {
+    "priority": 63,
+    "note": "(GEO summary read) The only mirtazapine dataset in neural cells: mouse primary cortical neurons, 48 h exposure, 12 arrays (2 per drug). In vitro, on-drug, no washout."
+   }
   },
   {
    "accession": "GSE6467",
@@ -7844,7 +7841,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 6,
-   "n_sample_titles_listed": 87
+   "n_sample_titles_listed": 87,
+   "manual_check": {
+    "priority": 65,
+    "note": "(title only, summary not hand-read) Chronic haloperidol, mouse brain RNA-seq plus chromatin accessibility, 87 samples. On-treatment epigenomic reference for antipsychotics."
+   }
   },
   {
    "accession": "GSE84183",
@@ -10627,6 +10628,98 @@
    "n_sample_titles_listed": 213
   },
   {
+   "accession": "GSE216991",
+   "title": "Small Molecule Inducers of Neuroprotective miR-132 Identified by HTS-HTS in Human iPSC-derived Neurons",
+   "organism": "Homo sapiens",
+   "n_samples": 1441,
+   "gds_type": "Non-coding RNA profiling by high throughput sequencing",
+   "platform_type": "ncRNA-seq",
+   "platforms": [
+    "GPL21697"
+   ],
+   "summary": "MicroRNAs (miRNAs) are short RNAs that regulate fundamental biological processes. miR-132, a key miRNA with established functions in Tau homeostasis and neuroprotection, is consistently downregulated in Alzheimer’s disease (AD) and other tauopathies. miR-132 overexpression rescues neurodegenerative phenotypes in several AD models. To complement research on miRNA-mimicking oligonucleotides targeting the central nervous system, we developed a high-throughput-screen coupled high-throughput-sequencing (HTS-HTS) in human induced pluripotent stem cell (iPSC)-derived neurons to identify small molecule inducers of miR-132. We discovered that cardiac glycosides, which are canonical sodium-potassium ATPase inhibitors, selectively upregulated miR-132 in the sub-μM range. Coordinately, cardiac glycoside treatment downregulated total and phosphorylated Tau in rodent and human neurons and protected against toxicity by glutamate, N-methyl-D-aspartate, rotenone, and Aβ oligomers. In conclusion, we identified small-molecule drugs that upregulated the neuroprotective miR-132 and ameliorated neurodegenerative phenotypes. Our dataset also represents a comprehensive resource for discovering small molecules that modulate specific miRNAs for therapeutic purposes.",
+   "pubmed_ids": [
+    "37989753"
+   ],
+   "release_date": "2023/10/19",
+   "supplementary_file_types": "XLSX",
+   "ftp_link": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE216nnn/GSE216991/",
+   "sample_titles": [
+    "RSB181-90 [ABT-199 (GDC-0199)]",
+    "RSB163-62 [Valganciclovir HCl]",
+    "RSB181-262 [Rocilinostat (ACY-1215)]",
+    "RSB163-81 [Mefenamic Acid]",
+    "RSB163-60 [Carbimazole]",
+    "RSB241-235 [Lubiprostone]",
+    "RSB211-116 [AST-1306]",
+    "RSB163-21 [Entacapone]",
+    "RSB163-93 [Pramoxine HCl]",
+    "RSB196-87 [Cabozantinib (XL184, BMS-907351)]",
+    "RSB211-203 [Amprenavir]",
+    "RSB196-238 [Etomidate]",
+    "RSB217-108 [A66]",
+    "RSB196-82 [Bimatoprost]",
+    "RSB181-334 [WY-14643 (Pirinixic Acid)]",
+    "RSB217-42 [Noradrenaline bitartrate monohydrate]",
+    "RSB217-210 [CHIR-99021 (CT99021) HCl]",
+    "RSB217-153 [Scopolamine HBr]",
+    "RSB217-310 [NXY-059]",
+    "RSB211-283 [Valaciclovir HCl]",
+    "RSB211-145 [Pyrazinamide]",
+    "RSB211-123 [Nicotinic Acid]",
+    "RSB217-97 [Osthole]",
+    "RSB217-255 [Cortisone acetate]",
+    "RSB211-106 [Propylthiouracil]",
+    "RSB211-171 [Naproxen]",
+    "RSB211-7 [nc-DMSO rep5-7]",
+    "RSB211-231 [Adenosine]",
+    "RSB196-179 [S3I-201]",
+    "RSB211-202 [Cyproheptadine HCl]",
+    "RSB196-96 [Rolipram]",
+    "RSB217-177 [Vardenafil HCl Trihydrate]",
+    "RSB196-139 [STF-62247]",
+    "RSB196-182 [Calcitriol]",
+    "RSB211-75 [Tazarotene]",
+    "RSB217-280 [Cabozantinib malate (XL184)]",
+    "RSB217-331 [Clonidine HCl]",
+    "RSB217-232 [CH5132799]",
+    "RSB211-139 [Rizatriptan Benzoate]",
+    "RSB217-134 [5-hydroxymethyl Tolterodine (PNU 200577, 5-HMT, 5-HM)]"
+   ],
+   "matched_queries": [
+    "citalopram",
+    "escitalopram",
+    "finasteride",
+    "isotretinoin"
+   ],
+   "drugs": [
+    "citalopram",
+    "escitalopram",
+    "venlafaxine",
+    "finasteride",
+    "isotretinoin"
+   ],
+   "drug_classes": [
+    "5ARI",
+    "SNRI",
+    "SSRI",
+    "retinoid"
+   ],
+   "drug_named_in_text": true,
+   "dreadd_ligand_only": false,
+   "tissue_category": "ipsc_neuron",
+   "tissue_score": 2,
+   "tissue_keyword": "iPSC",
+   "washout_class": "none_found",
+   "washout_keywords": [],
+   "persistence_keywords": [],
+   "early_life_keywords": [],
+   "cancer_context": false,
+   "sexual_function_wording": false,
+   "relevance_score": 5,
+   "n_sample_titles_listed": 1441
+  },
+  {
    "accession": "GSE22261",
    "title": "Fathead minnow pharmaceuticals",
    "organism": "Pimephales promelas",
@@ -11673,7 +11766,11 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 5,
-   "n_sample_titles_listed": 25
+   "n_sample_titles_listed": 25,
+   "manual_check": {
+    "priority": 78,
+    "note": "(GEO summary read) Zebrafish embryos exposed to citalopram 2-24 hpf, expression assessed later: explicitly about persistence after transient exposure. Fish embryo, whole organism; weak translational relevance."
+   }
   },
   {
    "accession": "GSE314458",
@@ -11766,6 +11863,91 @@
    "sexual_function_wording": false,
    "relevance_score": 5,
    "n_sample_titles_listed": 6
+  },
+  {
+   "accession": "GSE334500",
+   "title": "Psychotropic-drug and neurotransmitter perturbation RNA-seq of human iPSC-derived cardiac and retinal organoids (ToxiPred)",
+   "organism": "Homo sapiens",
+   "n_samples": 96,
+   "gds_type": "Expression profiling by high throughput sequencing",
+   "platform_type": "RNA-seq",
+   "platforms": [
+    "GPL34295"
+   ],
+   "summary": "Bulk 3'-barcoded RNA-sequencing (Drop-seq-style digital gene expression) of human iPSC-derived cardiac and retinal organoids treated for 24 h at 5 uM with psychotropic drugs (aripiprazole, loxapine, sertraline, quetiapine, xanomeline) versus a No_drug reference, each crossed with neurotransmitter / co-treatment conditions (adrenaline, dopamine, histamine, retinoic acid, serotonin) plus vehicle/chemical controls. Generated for the ToxiPred study to test predicted tissue-resolved drug liability and recover lipid/sterol pathway mechanisms.",
+   "pubmed_ids": [],
+   "release_date": "2026/06/09",
+   "supplementary_file_types": "TXT",
+   "ftp_link": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE334nnn/GSE334500/",
+   "sample_titles": [
+    "retinal organoid; aripiprazole + histamine; well B10",
+    "cardiac organoid; sertraline + histamine; well D4",
+    "cardiac organoid; control 2 mg ml k Carrageenan; well H6",
+    "retinal organoid; xanomeline + serotonin; well F12",
+    "cardiac organoid; loxapine + adrenaline; well C2",
+    "retinal organoid; xanomeline; well F7",
+    "cardiac organoid; control No drug; well H1",
+    "retinal organoid; loxapine + serotonin; well C12",
+    "cardiac organoid; quetiapine; well E1",
+    "retinal organoid; loxapine; well C7",
+    "retinal organoid; control 10 uM NaNO2; well G9",
+    "cardiac organoid; control 2 uM C8H16NaO8; well G4",
+    "retinal organoid; sertraline + dopamine; well D9",
+    "retinal organoid; No_drug + dopamine; well A9",
+    "cardiac organoid; aripiprazole; well B1",
+    "retinal organoid; quetiapine + retinoic acid; well E11",
+    "cardiac organoid; loxapine + dopamine; well C3",
+    "cardiac organoid; control 2 uM Na4P2O7; well G5",
+    "retinal organoid; aripiprazole + retinoic acid; well B11",
+    "cardiac organoid; quetiapine + serotonin; well E6",
+    "retinal organoid; control 2 uM Na4P2O7; well H11",
+    "cardiac organoid; aripiprazole + serotonin; well B6",
+    "retinal organoid; xanomeline + adrenaline; well F8",
+    "cardiac organoid; No_drug + histamine; well A4",
+    "retinal organoid; aripiprazole + dopamine; well B9",
+    "cardiac organoid; xanomeline + dopamine; well F3",
+    "retinal organoid; control 10 uM NaCl; well G8",
+    "cardiac organoid; xanomeline + serotonin; well F6",
+    "cardiac organoid; aripiprazole + histamine; well B4",
+    "retinal organoid; loxapine + retinoic acid; well C11",
+    "cardiac organoid; control 10 uM NaNO2; well G3",
+    "cardiac organoid; loxapine + serotonin; well C6",
+    "retinal organoid; No_drug; well A7",
+    "retinal organoid; quetiapine + dopamine; well E9",
+    "cardiac organoid; quetiapine + retinoic acid; well E5",
+    "cardiac organoid; sertraline + dopamine; well D3",
+    "cardiac organoid; No_drug + dopamine; well A3",
+    "retinal organoid; sertraline + adrenaline; well D8",
+    "retinal organoid; No_drug + serotonin; well A12",
+    "cardiac organoid; xanomeline + adrenaline; well F2"
+   ],
+   "matched_queries": [
+    "aripiprazole",
+    "quetiapine",
+    "sertraline"
+   ],
+   "drugs": [
+    "sertraline",
+    "quetiapine",
+    "aripiprazole"
+   ],
+   "drug_classes": [
+    "SSRI",
+    "antipsychotic"
+   ],
+   "drug_named_in_text": true,
+   "dreadd_ligand_only": false,
+   "tissue_category": "ipsc_neuron",
+   "tissue_score": 2,
+   "tissue_keyword": "iPSC",
+   "washout_class": "none_found",
+   "washout_keywords": [],
+   "persistence_keywords": [],
+   "early_life_keywords": [],
+   "cancer_context": false,
+   "sexual_function_wording": false,
+   "relevance_score": 5,
+   "n_sample_titles_listed": 96
   },
   {
    "accession": "GSE35761",
@@ -15042,7 +15224,12 @@
    "cancer_context": false,
    "sexual_function_wording": false,
    "relevance_score": 3,
-   "n_sample_titles_listed": 20
+   "n_sample_titles_listed": 20,
+   "manual_check": {
+    "priority": 0,
+    "note": "(GEO summary read) Not a drug study: ALS/FTD post-mortem spinal cord; SSRIs appear only in non-returned metadata.",
+    "exclude": true
+   }
   },
   {
    "accession": "GSE263664",
@@ -17693,7 +17880,11 @@
    "cancer_context": true,
    "sexual_function_wording": false,
    "relevance_score": 3,
-   "n_sample_titles_listed": 40
+   "n_sample_titles_listed": 40,
+   "manual_check": {
+    "priority": 40,
+    "note": "(title only, summary not hand-read) Human prostate cancer tissue after neoadjuvant dutasteride, 40 arrays. On-treatment, tumour tissue."
+   }
   },
   {
    "accession": "GSE10433",

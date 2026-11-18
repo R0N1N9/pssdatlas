@@ -39,6 +39,7 @@ EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
 USER_AGENT = "pssd-atlas/0.1 (research evidence mapper)"
 MIN_INTERVAL = 0.40  # seconds between requests (< 3 requests / second)
 HERE = Path(__file__).resolve().parent
+WASHOUT_YES = ("washout_keyword", "adult_washout_handchecked")
 MAX_TITLES_STORED = 40  # per series, to keep geo_datasets.json small
 
 # drug -> (class, search synonyms)
@@ -149,7 +150,7 @@ TISSUE_RULES = [  # first match wins; ordered by relevance
     ("reproductive_endocrine", 3, rx(
         r"prostate", r"prostatic", r"\btestis\b", r"\btestes\b", r"testicular",
         r"epididym", r"seminal vesicle", r"\bovar(y|ies|ian)\b", r"uter(us|ine)",
-        r"placenta", r"pituitary", r"adrenal", r"leydig", r"sertoli")),
+        r"placenta", r"pituitary", r"\badrenals?\b", r"leydig", r"sertoli")),
     ("ipsc_neuron", 2, rx(
         r"iPSC", r"induced pluripotent", r"\bhPSC", r"organoid",
         r"neural progenitor", r"neuronal culture", r"primary neuron",
@@ -323,7 +324,7 @@ def write_markdown(records, notes, path: Path, top: int, queries_run: dict):
     A("**How to read this.** Classification is by keyword rules over the title, summary and sample "
       "titles that GEO returns. It is over-inclusive and has not been checked against the papers, "
       "except for the entries carrying a *hand-check* note (those were read by eye: GEO summary and, "
-      "where stated, the sample table). A dataset being listed here does not mean it shows anything "
+      "where stated, the sample table). GEO's free-text search can miss a series whose drug is named only in per-sample characteristics, and anything deposited elsewhere (SRA only, ArrayExpress, journal supplements) is out of scope of the search. A dataset being listed here does not mean it shows anything "
       "about persistent sexual dysfunction; almost none were designed to.\n")
     A("## Counts\n")
     A(f"- Series returned by all queries (deduplicated): **{len(records)}**")
@@ -333,19 +334,19 @@ def write_markdown(records, notes, path: Path, top: int, queries_run: dict):
       f"series (clozapine-N-oxide), {sum((not r['drug_named_in_text']) and not r['dreadd_ligand_only'] for r in records)} "
       "series where the drug name was matched only in fields the summary API does not return.\n")
     A("### By drug (a series can count under several drugs)\n")
-    A("| Drug | Class | Series | ...with washout keyword | ...early-life exposure |")
+    A("| Drug | Class | Series | ...washout (keyword not yet refuted, or hand-confirmed) | ...early-life exposure |")
     A("|---|---|---:|---:|---:|")
     for drug, (cls, _) in DRUGS.items():
         rs = [r for r in relevant if drug in r["drugs"]]
-        A(f"| {drug} | {cls} | {len(rs)} | {sum(r['washout_class'] == 'washout_keyword' for r in rs)} | "
+        A(f"| {drug} | {cls} | {len(rs)} | {sum(r['washout_class'] in WASHOUT_YES for r in rs)} | "
           f"{sum(r['washout_class'].startswith('early_life') for r in rs)} |")
     A("\n### By tissue category\n")
-    A("| Tissue category (keyword rule, first match wins) | Series | ...with washout keyword |")
+    A("| Tissue category (keyword rule, first match wins) | Series | ...washout (keyword or hand-confirmed) |")
     A("|---|---:|---:|")
     order = [t[0] for t in TISSUE_RULES] + ["other_or_unclear"]
     for t in order:
         rs = [r for r in relevant if r["tissue_category"] == t]
-        A(f"| {t} | {len(rs)} | {sum(r['washout_class'] == 'washout_keyword' for r in rs)} |")
+        A(f"| {t} | {len(rs)} | {sum(r['washout_class'] in WASHOUT_YES for r in rs)} |")
     A("\n### Drug class x tissue category\n")
     classes = ["SSRI", "SNRI", "antipsychotic", "mirtazapine", "5ARI", "retinoid"]
     A("| Tissue | " + " | ".join(classes) + " |")
@@ -395,12 +396,17 @@ def write_markdown(records, notes, path: Path, top: int, queries_run: dict):
     def has(pred):
         return sorted((r for r in relevant if pred(r)), key=lambda r: r["accession"])
     sens = has(lambda r: r["tissue_category"] == "sensory_spinal_genital")
-    A(f"- **Sensory ganglia / spinal cord / genital tissue:** {len(sens)} series hit a sensory/spinal/genital "
-      "keyword anywhere in their text: " + (", ".join(f"{r['accession']} ({'/'.join(r['drugs'])})" for r in sens) or "none") +
-      ". See the hand-check notes and the gap statement below for which of these truly profile such tissue after drug exposure.")
+    sens_any = sorted(r["accession"] for r in records
+                      if r["tissue_category"] == "sensory_spinal_genital" and r not in sens)
+    A(f"- **Sensory ganglia / spinal cord / genital tissue:** {len(sens)} series that name a target drug hit a "
+      "sensory/spinal/genital keyword (dorsal root ganglion, sensory neuron, spinal cord, penis, clitoris, genital, "
+      "pudendal, peripheral nerve ...) anywhere in title, summary or sample titles" +
+      (": " + ", ".join(f"{r['accession']} ({'/'.join(r['drugs'])})" for r in sens) if sens else "") +
+      f". Among series returned by the queries but not naming the drug in that text: {len(sens_any)}" +
+      (" (" + ", ".join(sens_any) + ")" if sens_any else "") + ".")
     for cls in ("antipsychotic", "mirtazapine", "5ARI", "retinoid", "SNRI", "SSRI"):
-        rs = has(lambda r, c=cls: c in r["drug_classes"] and r["washout_class"] == "washout_keyword")
-        A(f"- **{cls} with a washout keyword:** {len(rs)} series" +
+        rs = has(lambda r, c=cls: c in r["drug_classes"] and r["washout_class"] in WASHOUT_YES)
+        A(f"- **{cls} with a washout keyword (not refuted by hand-check) or hand-confirmed adult washout:** {len(rs)} series" +
           (": " + ", ".join(r["accession"] for r in rs[:30]) + (" ..." if len(rs) > 30 else "") if rs else "."))
     A("")
     gap = notes.get("_gap_statement")
@@ -460,6 +466,9 @@ def main() -> int:
         n = notes.get(r["accession"])
         if n:
             r["manual_check"] = n
+            if n.get("washout_class"):  # hand-check overrides the keyword rule
+                r["washout_class_keyword_rule"] = r["washout_class"]
+                r["washout_class"] = n["washout_class"]
     records.sort(key=lambda r: (-r["relevance_score"], r["accession"]))
 
     args.out.mkdir(parents=True, exist_ok=True)

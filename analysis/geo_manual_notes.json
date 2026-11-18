@@ -1,0 +1,198 @@
+{
+ "GSE67203": {
+  "priority": 100,
+  "note": "(GEO summary read) The only GEO series found with ADULT exposure followed by a drug-free interval in mammalian brain: rats given fluoxetine 12 mg/kg at PND 67-88, hippocampus profiled 'long-term' afterwards. But only 4 samples (2 fluoxetine, 2 vehicle; pooled or not is not stated in the summary) - no usable statistics. Hippocampus, not a sexual-function region.",
+  "washout_class": "adult_washout_handchecked"
+ },
+ "GSE316091": {
+  "priority": 95,
+  "note": "(GEO summary read) The only antipsychotic post-treatment dataset: mouse cortex snRNA-seq 9 weeks after adolescent risperidone. 4 samples (2 risperidone, 2 saline). Adolescent exposure, cortex only; shows the design is feasible."
+ },
+ "GSE111362": {
+  "priority": 90,
+  "note": "(GEO summary read; sample titles read) Perinatal paroxetine (dams 10 mg/kg/day), offspring hippocampus and amygdala arrays at P7/P14/P21, n=78. Early-life exposure, readout in juveniles not adults. The 'withdraw' keyword refers to neonatal withdrawal in the background text, not a washout arm.",
+  "washout_class": "early_life_exposure"
+ },
+ "GSE270730": {
+  "priority": 88,
+  "note": "(GEO summary read) Postnatal fluoxetine, rat medial prefrontal cortex profiled in adulthood (4 vs 4 arrays). Early-life exposure with adult readout. No PMID linked."
+ },
+ "GSE270731": {
+  "priority": 87,
+  "note": "(title only, summary not hand-read; sister series of GSE270730) Juvenile fluoxetine, rat mPFC in adulthood, 8 arrays."
+ },
+ "GSE42940": {
+  "priority": 86,
+  "note": "(title only, summary not hand-read) Postnatal fluoxetine, rat hippocampus, 8 arrays; early-life exposure."
+ },
+ "GSE189653": {
+  "priority": 84,
+  "note": "(GEO summary read) Mouse whole brain at P120 after fluoxetine P3-P21 via milk, wild-type and Arid1b-het, RNA-seq. Roughly 100 drug-free days after early-life SSRI; the wild-type fluoxetine vs vehicle arm is the relevant contrast."
+ },
+ "GSE203343": {
+  "priority": 83,
+  "note": "(title only, summary not hand-read; same project as GSE189653) Prefrontal cortex at P120 after early fluoxetine, 16 samples."
+ },
+ "GSE111491": {
+  "priority": 80,
+  "note": "(GEO summary read) Prenatal (in utero) fluoxetine, adult mouse brain, 4 arrays only."
+ },
+ "GSE308723": {
+  "priority": 78,
+  "note": "(GEO summary read) Zebrafish embryos exposed to citalopram 2-24 hpf, expression assessed later: explicitly about persistence after transient exposure. Fish embryo, whole organism; weak translational relevance."
+ },
+ "GSE141144": {
+  "priority": 76,
+  "note": "(GEO summary read) Zebrafish early-life fluoxetine, telencephalon and hypothalamus in larvae and adults, n=6 per group. 'Withdrawn' refers to transgenerational background. Fish.",
+  "washout_class": "early_life_exposure_adult_readout"
+ },
+ "GSE194289": {
+  "priority": 74,
+  "note": "(title only, summary not hand-read; sister series GSE193040 summary read) Rat fluoxetine atlas, bulk RNA-seq over 27 brain regions (sample titles of the ChIP series include nucleus accumbens core/shell and raphe). On-treatment only, no washout, but the best-powered regional SSRI reference to compare a washout signature against."
+ },
+ "GSE193040": {
+  "priority": 73,
+  "note": "(GEO summary read) H3K27ac ChIP-seq arm of the same fluoxetine 27-region rat atlas: the main epigenomic SSRI dataset. On-treatment only."
+ },
+ "GSE197622": {
+  "priority": 72,
+  "note": "(title only, summary not hand-read) Single-cell arm of the fluoxetine 27-region rat atlas. On-treatment only."
+ },
+ "GSE119772": {
+  "priority": 70,
+  "note": "(title only, summary not hand-read) Olanzapine, mouse hypothalamus RNA-seq (hyperphagia study), 16 samples. On-treatment; hypothalamus is relevant but the question asked was appetite."
+ },
+ "GSE158751": {
+  "priority": 69,
+  "note": "(title only, summary not hand-read) Risperidone, mouse hypothalamus RNA-seq (MC4R / weight gain), 20 samples. On-treatment."
+ },
+ "GSE329758": {
+  "priority": 68,
+  "note": "(title only, summary not hand-read) Quetiapine/clozapine, mouse nucleus accumbens (D3 receptor study); 2 samples listed. On-treatment."
+ },
+ "GSE294239": {
+  "priority": 67,
+  "note": "(title only, summary not hand-read) Chronic clozapine, mouse striatum single-cell incl. ventral striatum, 26 samples. On-treatment."
+ },
+ "GSE171977": {
+  "priority": 66,
+  "note": "(title only, summary not hand-read) Chronic olanzapine/haloperidol, mouse striatum single-cell RNA-seq. On-treatment."
+ },
+ "GSE67755": {
+  "priority": 65,
+  "note": "(title only, summary not hand-read) Chronic haloperidol, mouse brain RNA-seq plus chromatin accessibility, 87 samples. On-treatment epigenomic reference for antipsychotics."
+ },
+ "GSE52615": {
+  "priority": 64,
+  "note": "(title only, summary not hand-read) Olanzapine, rat hippocampus/cerebellum/liver DNA methylation. On-treatment epigenetic dataset."
+ },
+ "GSE63005": {
+  "priority": 63,
+  "note": "(GEO summary read) The only mirtazapine dataset in neural cells: mouse primary cortical neurons, 48 h exposure, 12 arrays (2 per drug). In vitro, on-drug, no washout."
+ },
+ "GSE110256": {
+  "priority": 62,
+  "note": "(GEO summary read) Mouse primary cortical culture screen of 218 CNS drugs, RNA-seq, one sample per drug; includes paroxetine, sertraline, citalopram, mirtazapine, finasteride, isotretinoin among others. In vitro, single replicate."
+ },
+ "GSE262946": {
+  "priority": 61,
+  "note": "(GEO summary read) Human prostate transition-zone biopsies before and after finasteride (MTOPS trial), 216 RNA-seq samples. On-treatment, prostate; the only sizeable human tissue dataset for a 5-alpha-reductase inhibitor."
+ },
+ "GSE122494": {
+  "priority": 60,
+  "note": "(GEO summary read) Rat fetal anogenital tissue after in-utero finasteride (GD7-21), 15 arrays, collected at GD21. The only genital-region tissue in the catalogue, but fetal and collected during exposure - not a washout design."
+ },
+ "GSE9972": {
+  "priority": 40,
+  "note": "(title only, summary not hand-read) Human prostate cancer tissue after neoadjuvant dutasteride, 40 arrays. On-treatment, tumour tissue."
+ },
+ "GSE255683": {
+  "priority": 0,
+  "note": "(GEO summary read) Not a drug study: ALS/FTD post-mortem spinal cord; SSRIs appear only in non-returned metadata.",
+  "exclude": true
+ },
+ "GSE44110": {
+  "priority": 0,
+  "note": "(GEO summary read) Kv10.1 knockout mouse characterisation; haloperidol is a behavioural challenge, 'withdraw' is unrelated. Not a washout dataset.",
+  "exclude": true,
+  "washout_class": "false_positive_keyword_handchecked"
+ },
+ "GSE32280": {
+  "priority": 0,
+  "note": "(GEO summary read) Blood from drug-FREE first-episode depression patients; not a post-drug design.",
+  "exclude": true,
+  "washout_class": "false_positive_keyword_handchecked"
+ },
+ "GSE344141": {
+  "priority": 0,
+  "note": "(GEO summary read) Mouse skin melanocyte stem cells; 'post-treatment' means 1-3 days after topical dosing. Not relevant tissue or timescale.",
+  "exclude": true,
+  "washout_class": "false_positive_keyword_handchecked"
+ },
+ "GSE158376": {
+  "priority": 0,
+  "note": "(GEO summary read) Apigenin in a trisomy-21 model; fluoxetine not the studied exposure.",
+  "exclude": true
+ },
+ "GSE158377": {
+  "priority": 0,
+  "note": "(GEO summary read) Apigenin in human amniocytes; fluoxetine not the studied exposure.",
+  "exclude": true
+ },
+ "GSE202217": {
+  "priority": 0,
+  "note": "(GEO summary read) ATM-deficiency study; no SSRI washout design evident in summary.",
+  "exclude": true
+ },
+ "GSE309013": {
+  "priority": 0,
+  "note": "(title read) Maternal oridonin study; fluoxetine is a comparator.",
+  "exclude": true
+ },
+ "GSE58279": {
+  "priority": 0,
+  "note": "(title read) Alcohol/mephedrone study in adolescent mice; haloperidol incidental.",
+  "exclude": true
+ },
+ "GSE4036": {
+  "priority": 0,
+  "note": "(title read) Human post-mortem schizophrenia hippocampus arrays; no washout design.",
+  "exclude": true
+ },
+ "GSE29417": {
+  "priority": 0,
+  "note": "(title read) Mouse mania model; olanzapine incidental.",
+  "exclude": true
+ },
+ "GSE319615": {
+  "priority": 30,
+  "note": "(title only, summary not hand-read) ASD-model mice given early-postnatal fluoxetine, prefrontal cortex at P40 (one of a large family of GSE2936xx/GSE3196xx series). Early-life exposure; interval off drug not stated in title."
+ },
+ "GSE319616": {
+  "priority": 30,
+  "note": "(title only, summary not hand-read) ASD-model mice given early-postnatal fluoxetine, prefrontal cortex at P40 (one of a large family of GSE2936xx/GSE3196xx series). Early-life exposure; interval off drug not stated in title."
+ },
+ "GSE319618": {
+  "priority": 30,
+  "note": "(title only, summary not hand-read) ASD-model mice given early-postnatal fluoxetine, prefrontal cortex at P40 (one of a large family of GSE2936xx/GSE3196xx series). Early-life exposure; interval off drug not stated in title."
+ },
+ "GSE319620": {
+  "priority": 30,
+  "note": "(title only, summary not hand-read) ASD-model mice given early-postnatal fluoxetine, prefrontal cortex at P40 (one of a large family of GSE2936xx/GSE3196xx series). Early-life exposure; interval off drug not stated in title."
+ },
+ "GSE330728": {
+  "priority": 30,
+  "note": "(title only, summary not hand-read) ASD-model mice given early-postnatal fluoxetine, prefrontal cortex at P40 (one of a large family of GSE2936xx/GSE3196xx series). Early-life exposure; interval off drug not stated in title."
+ },
+ "_gap_statement": [
+  "SENSORY GANGLIA / SPINAL CORD / GENITAL TISSUE: no GEO series profiles dorsal root ganglia, sensory neurons, spinal cord, pudendal/pelvic nerve, penis, clitoris or genital skin after any of the 17 drugs. The single keyword hit (GSE255683) is an ALS spinal-cord study, not a drug study. The nearest thing is fetal rat anogenital tissue during in-utero finasteride (GSE122494). For a syndrome whose hallmark is genital numbness this is the central gap.",
+  "ADULT WASHOUT DESIGNS: across all drugs, GEO holds one adult treat-then-stop dataset in mammalian brain (GSE67203, fluoxetine, rat hippocampus, 4 samples). Everything else flagged 'persistent' is early-life (perinatal / postnatal / adolescent) exposure read out later.",
+  "ANTIPSYCHOTIC WASHOUT: none in adults. One adolescent-exposure dataset (GSE316091, risperidone, mouse cortex, 2 vs 2). Nothing for olanzapine, quetiapine, aripiprazole, haloperidol or clozapine after discontinuation.",
+  "MIRTAZAPINE: no in-vivo dataset at all and no washout dataset; only a 48 h cortical-neuron culture (GSE63005) and one-replicate screen entries (GSE110256).",
+  "FINASTERIDE / DUTASTERIDE: prostate (mostly cancer or BPH) and toxicogenomic liver/kidney only. No brain, nerve or penile tissue in GEO, no withdrawal arm, and no post-finasteride-syndrome patient dataset: the published patient penile-skin expression study (PMID 34247957, returned by PubMed in this session) was not found in GEO by any query here.",
+  "ISOTRETINOIN: toxicogenomic, teratogenicity (iPSC/embryoid) and skin/sebocyte series only; no neural or genital tissue in vivo, no post-treatment design.",
+  "HUMAN TISSUE FROM AFFECTED PATIENTS (PSSD, PFS, post-retinoid): none in GEO for any tissue.",
+  "THE MOST RELEVANT DATASETS ARE NOT IN GEO: the rat paroxetine treatment-and-withdrawal RNA-seq of hypothalamus and nucleus accumbens (Giatti et al., Mol Neurobiol 2025, PMID 39495228) and the matching finasteride study of hypothalamus and hippocampus (Giatti et al., J Endocrinol Invest 2024, PMID 38493246) were searched for in GEO (db=gds), BioProject and SRA and not found. Their per-sample normalised counts are, however, in the journal supplementary tables; these are what REANALYSIS.md uses. Raw reads appear not to be public (the finasteride paper says data are available on request).",
+  "EPIGENOMIC DATA: methylation / chromatin datasets exist only on-treatment (e.g. fluoxetine H3K27ac GSE193040, haloperidol GSE67755, olanzapine methylation GSE52615, human placental methylation after maternal SSRI GSE203396). None tests whether an epigenetic mark outlasts the drug in an adult."
+ ]
+}

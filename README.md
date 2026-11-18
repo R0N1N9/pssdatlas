@@ -165,6 +165,15 @@ description = "One sentence."
 patterns = ['regex one', 'regex two']
 ```
 
+## Expression-dataset mining
+
+[`analysis/`](analysis/) holds a separate piece of work: a catalogue of public
+gene-expression datasets for the implicated drugs
+([`GEO_CATALOGUE.md`](analysis/GEO_CATALOGUE.md)) and a re-analysis of the one
+usable treatment-then-withdrawal dataset
+([`REANALYSIS.md`](analysis/REANALYSIS.md)). The re-analysis script needs
+numpy, pandas, scipy and openpyxl; the atlas itself does not.
+
 ## Limitations
 
 - **Tagging is keyword-based.** A hypothesis tag means the title or abstract
