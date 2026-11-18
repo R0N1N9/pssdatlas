@@ -419,6 +419,14 @@
         })));
       }
     }
+    const pt = $('profTable'), PR = D.targets.profiles || {}; pt.replaceChildren();
+    pt.append(h('tr', null, ['Drug', 'Class', 'Formula', 'Molecular weight', 'First approved', 'Strongest binding (pKi)'].map((c, i) => h('th', { class: i === 3 || i === 4 ? 'num' : '' }, c))));
+    for (const d of drugs) {
+      const p = PR[d] || {}, top = Object.entries(B[d]).sort((a, b) => b[1].pki - a[1].pki).slice(0, 6);
+      pt.append(h('tr', null, h('td', null, p.url ? h('a', { href: p.url, target: '_blank', rel: 'noopener' }, cap(d)) : cap(d)), h('td', null, cls[d] || ''),
+        h('td', null, p.formula || '–'), h('td', { class: 'num' }, p.weight ? (+p.weight).toFixed(1) : '–'), h('td', { class: 'num' }, p.approved || '–'),
+        h('td', null, top.map(([g, c]) => h('span', { class: 'pill' }, `${g} ${c.pki.toFixed(1)}`)))));
+    }
     const t = $('tgTable'); t.replaceChildren();
     const T = D.targets.targets || [];
     if (!T.length) { t.append(h('tr', null, h('td', null, 'No target data yet.'))); return; }

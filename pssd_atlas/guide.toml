@@ -225,3 +225,60 @@ evidence = "Approved for low desire in premenopausal women. Untested in this con
 name = "Recovery of sleep and mood"
 rationale = "Anhedonia and insomnia suppress desire on their own"
 evidence = "Indirect, but these often improve with time."
+
+[[brief]]
+id = "sleep"
+title = "Restoring natural sleep, and whether it helps"
+summary = "No study has tested whether restoring sleep improves persistent post-drug sexual symptoms. Poor sleep does cause fog, flat mood, anhedonia and dissociation on its own, so the case for treating it is strongest for the non-sexual symptoms."
+points = [
+  "Many implicated drugs are strongly sedating through histamine H1 blockade; after they are stopped, the brain's own sleep-pressure and arousal systems can take a long time to re-settle. Akathisia and psychosis also leave the arousal system overactive.",
+  "Sleepiness comes from sleep pressure, which builds with time awake, and the body clock, which sets when sleep is possible. Non-drug approaches strengthen one or the other.",
+  "Likely to improve with better sleep: fog, anhedonia, flat mood, dissociation, to the extent they are sleep-driven.",
+  "Plausible: spontaneous erections, since sleep erections occur in REM sleep.",
+  "Possible: desire, since sleep loss lowers testosterone and blunts reward generally.",
+  "Least likely: genital numbness; no mechanism is known by which sleep would restore sensation.",
+  "People with insomnia often sleep more than it feels like, so measurement comes first.",
+]
+tests = [
+  "Sleep study: deep and REM sleep, sleep apnoea, limb movements",
+  "A sleep diary or wearable alongside a symptom log, to see whether they move together",
+]
+symptoms = ["sleep", "cognitive", "anhedonia", "dissociation", "spontaneous_erections"]
+[[brief.avenue]]
+name = "Cognitive behavioural therapy for insomnia"
+rationale = "Builds sleep pressure and re-links bed with sleep"
+evidence = "First-line in sleep medicine and better than sleeping pills long term. After psychosis, use a gentler, clinician-guided form."
+[[brief.avenue]]
+name = "Fixed wake time every day"
+rationale = "Anchors the body clock"
+evidence = "Core component of insomnia treatment."
+[[brief.avenue]]
+name = "Bright light early in the day, dim light in the evening"
+rationale = "Sets the timing of the body clock"
+evidence = "Well established for circadian timing."
+[[brief.avenue]]
+name = "Daytime physical activity"
+rationale = "Increases deep sleep"
+evidence = "Consistent moderate benefit."
+[[brief.avenue]]
+name = "Caffeine cut-off by midday, minimal alcohol"
+rationale = "Both fragment sleep"
+evidence = "Well established."
+[[brief.avenue]]
+name = "Sedating medication"
+rationale = "Induces sleep directly"
+evidence = "The same drug class implicated in the condition; a decision for a psychiatrist or sleep physician."
+
+[[brief]]
+id = "avenues"
+title = "Research avenues where headway is realistic"
+summary = "Desk-based work that could move the field without a laboratory, and the laboratory work that would be most decisive."
+points = [
+  "A structured table of every published case: drug, duration, onset, symptoms, treatments tried and outcome, split by drug class. This would give the first counted answer to what was tried and what happened.",
+  "A side-by-side of what has been measured in the sister syndromes. Post-finasteride research is ahead, with nerve, hormone and tissue studies that could be replicated here.",
+  "Deeper use of adverse-event reports, which also record whether the drug was stopped and whether the person recovered, though those fields are patchy.",
+  "Full-text mining of open-access papers, since abstracts omit many measurements.",
+  "Signature reversal: searching compound databases for drugs that reverse a disease gene-expression signature. The only available signature is too weak to trust until better data exist.",
+  "Individual measurements tracked over time with validated questionnaires, so that one person becomes usable data.",
+  "Most decisive, but laboratory work: sensory-ganglion and genital-nerve tissue after treatment and washout for an SSRI and an antipsychotic side by side, and patient skin biopsies.",
+]

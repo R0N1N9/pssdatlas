@@ -1452,6 +1452,204 @@
    }
   }
  },
+ "profiles": {
+  "amisulpride": {
+   "approved": 1986,
+   "chembl": "CHEMBL243712",
+   "formula": "C17H27N3O4S",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL243712/",
+   "weight": "369.49"
+  },
+  "amitriptyline": {
+   "approved": 1961,
+   "chembl": "CHEMBL629",
+   "formula": "C20H23N",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL629/",
+   "weight": "277.41"
+  },
+  "aripiprazole": {
+   "approved": 2002,
+   "chembl": "CHEMBL1112",
+   "formula": "C23H27Cl2N3O2",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1112/",
+   "weight": "448.39"
+  },
+  "bupropion": {
+   "approved": 1985,
+   "chembl": "CHEMBL894",
+   "formula": "C13H18ClNO",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL894/",
+   "weight": "239.75"
+  },
+  "citalopram": {
+   "approved": 1998,
+   "chembl": "CHEMBL549",
+   "formula": "C20H21FN2O",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL549/",
+   "weight": "324.40"
+  },
+  "clomipramine": {
+   "approved": 1989,
+   "chembl": "CHEMBL415",
+   "formula": "C19H23ClN2",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL415/",
+   "weight": "314.86"
+  },
+  "clozapine": {
+   "approved": 1989,
+   "chembl": "CHEMBL42",
+   "formula": "C18H19ClN4",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL42/",
+   "weight": "326.83"
+  },
+  "desvenlafaxine": {
+   "approved": 2008,
+   "chembl": "CHEMBL1118",
+   "formula": "C16H25NO2",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1118/",
+   "weight": "263.38"
+  },
+  "duloxetine": {
+   "approved": 2004,
+   "chembl": "CHEMBL1175",
+   "formula": "C18H19NOS",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1175/",
+   "weight": "297.42"
+  },
+  "dutasteride": {
+   "approved": 2001,
+   "chembl": "CHEMBL1200969",
+   "formula": "C27H30F6N2O2",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1200969/",
+   "weight": "528.54"
+  },
+  "escitalopram": {
+   "approved": 2002,
+   "chembl": "CHEMBL1508",
+   "formula": "C20H21FN2O",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1508/",
+   "weight": "324.40"
+  },
+  "finasteride": {
+   "approved": 1992,
+   "chembl": "CHEMBL710",
+   "formula": "C23H36N2O2",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL710/",
+   "weight": "372.55"
+  },
+  "fluoxetine": {
+   "approved": 1987,
+   "chembl": "CHEMBL41",
+   "formula": "C17H18F3NO",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL41/",
+   "weight": "309.33"
+  },
+  "fluvoxamine": {
+   "approved": 1994,
+   "chembl": "CHEMBL814",
+   "formula": "C15H21F3N2O2",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL814/",
+   "weight": "318.34"
+  },
+  "haloperidol": {
+   "approved": 1967,
+   "chembl": "CHEMBL54",
+   "formula": "C21H23ClFNO2",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL54/",
+   "weight": "375.87"
+  },
+  "isotretinoin": {
+   "approved": 1982,
+   "chembl": "CHEMBL547",
+   "formula": "C20H28O2",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL547/",
+   "weight": "300.44"
+  },
+  "lurasidone": {
+   "approved": 2010,
+   "chembl": "CHEMBL1237021",
+   "formula": "C28H36N4O2S",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1237021/",
+   "weight": "492.69"
+  },
+  "mirtazapine": {
+   "approved": 1996,
+   "chembl": "CHEMBL654",
+   "formula": "C17H19N3",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL654/",
+   "weight": "265.36"
+  },
+  "olanzapine": {
+   "approved": 1996,
+   "chembl": "CHEMBL715",
+   "formula": "C17H20N4S",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL715/",
+   "weight": "312.44"
+  },
+  "paliperidone": {
+   "approved": 2006,
+   "chembl": "CHEMBL1621",
+   "formula": "C23H27FN4O3",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1621/",
+   "weight": "426.49"
+  },
+  "paroxetine": {
+   "approved": 1992,
+   "chembl": "CHEMBL490",
+   "formula": "C19H20FNO3",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL490/",
+   "weight": "329.37"
+  },
+  "quetiapine": {
+   "approved": 1997,
+   "chembl": "CHEMBL716",
+   "formula": "C21H25N3O2S",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL716/",
+   "weight": "383.52"
+  },
+  "risperidone": {
+   "approved": 1993,
+   "chembl": "CHEMBL85",
+   "formula": "C23H27FN4O2",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL85/",
+   "weight": "410.49"
+  },
+  "sertraline": {
+   "approved": 1991,
+   "chembl": "CHEMBL809",
+   "formula": "C17H17Cl2N",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL809/",
+   "weight": "306.24"
+  },
+  "trazodone": {
+   "approved": 1981,
+   "chembl": "CHEMBL621",
+   "formula": "C19H22ClN5O",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL621/",
+   "weight": "371.87"
+  },
+  "venlafaxine": {
+   "approved": 1993,
+   "chembl": "CHEMBL637",
+   "formula": "C17H27NO2",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL637/",
+   "weight": "277.41"
+  },
+  "vortioxetine": {
+   "approved": 2013,
+   "chembl": "CHEMBL2104993",
+   "formula": "C18H22N2S",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2104993/",
+   "weight": "298.46"
+  },
+  "ziprasidone": {
+   "approved": 2001,
+   "chembl": "CHEMBL708",
+   "formula": "C21H21ClN4OS",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL708/",
+   "weight": "412.95"
+  }
+ },
  "targets": [
   {
    "clinical_candidates": 79,

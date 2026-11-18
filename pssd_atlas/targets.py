@@ -65,9 +65,9 @@ def dossier(symbol: str) -> dict | None:
     }
 
 
-def _chembl_id(client: Client, name: str) -> str | None:
+def _molecule(client: Client, name: str) -> dict | None:
     mols = client.get_json(f"{CHEMBL}/molecule.json", {"pref_name__iexact": name, "limit": 5})["molecules"]
-    return mols[0]["molecule_chembl_id"] if mols else None
+    return mols[0] if mols else None
 
 
 def _gene(client: Client, target_id: str, cache: dict) -> str | None:
@@ -82,16 +82,22 @@ def _gene(client: Client, target_id: str, cache: dict) -> str | None:
     return cache[target_id]
 
 
-def binding(client: Client, drugs: list[dict], log=lambda m: None) -> dict:
-    """Median pKi per drug and human protein, from ChEMBL binding measurements."""
+def binding(client: Client, drugs: list[dict], log=lambda m: None) -> tuple[dict, dict]:
+    """(median pKi per drug and human protein, basic chemistry per drug), from ChEMBL."""
     genes: dict = {}
     cells: dict[str, dict] = {}
+    profiles: dict[str, dict] = {}
     for d in drugs:
         name = d["name"]
-        cid = _chembl_id(client, name)
-        if not cid:
+        mol = _molecule(client, name)
+        if not mol:
             log(f"  ChEMBL: {name} not found")
             continue
+        cid = mol["molecule_chembl_id"]
+        props = mol.get("molecule_properties") or {}
+        profiles[name] = {"chembl": cid, "formula": props.get("full_molformula"), "weight": props.get("full_mwt"),
+                          "approved": mol.get("first_approval"),
+                          "url": f"https://www.ebi.ac.uk/chembl/compound_report_card/{cid}/"}
         vals: dict[str, list[float]] = {}
         offset = 0
         while True:
@@ -109,7 +115,7 @@ def binding(client: Client, drugs: list[dict], log=lambda m: None) -> dict:
                 break
         cells[name] = {g: {"pki": round(statistics.median(v), 2), "n": len(v)} for g, v in vals.items()}
         log(f"  ChEMBL: {name}: {len(cells[name])} proteins with a measured Ki")
-    return cells
+    return cells, profiles
 
 
 def analyse(client: Client, targets: list[dict], drugs: list[dict], log=lambda m: None) -> dict:
@@ -121,4 +127,5 @@ def analyse(client: Client, targets: list[dict], drugs: list[dict], log=lambda m
             continue
         out.append({**d, "hypothesis": t.get("hypothesis", ""), "rationale": t.get("rationale", "")})
     log(f"- Open Targets: {len(out)} target dossiers")
-    return {"targets": out, "binding": binding(client, [d for d in drugs if not d.get("control")], log)}
+    cells, profiles = binding(client, [d for d in drugs if not d.get("control")], log)
+    return {"targets": out, "binding": cells, "profiles": profiles}

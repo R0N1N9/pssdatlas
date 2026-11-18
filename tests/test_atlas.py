@@ -150,7 +150,8 @@ class TargetBinding(unittest.TestCase):
         class Fake:
             def get_json(self, url, params=None):
                 if url.endswith("/molecule.json"):
-                    return {"molecules": [{"molecule_chembl_id": "C1"}]}
+                    return {"molecules": [{"molecule_chembl_id": "C1", "first_approval": 1996,
+                                           "molecule_properties": {"full_molformula": "C17H20N4S", "full_mwt": "312.44"}}]}
                 if "/target/" in url:
                     single = url.endswith("T1.json")
                     return {"target_type": "SINGLE PROTEIN" if single else "PROTEIN FAMILY",
@@ -160,8 +161,9 @@ class TargetBinding(unittest.TestCase):
                 return {"activities": [{"target_chembl_id": t, "pchembl_value": v, "standard_relation": r}
                                        for t, v, r in acts], "page_meta": {"total_count": len(acts)}}
 
-        cells = targets.binding(Fake(), [{"name": "olanzapine"}])
+        cells, profiles = targets.binding(Fake(), [{"name": "olanzapine"}])
         self.assertEqual(cells, {"olanzapine": {"HTR2A": {"pki": 7.5, "n": 2}}})
+        self.assertEqual((profiles["olanzapine"]["formula"], profiles["olanzapine"]["approved"]), ("C17H20N4S", 1996))
 
 
 class Disproportionality(unittest.TestCase):
