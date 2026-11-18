@@ -30,7 +30,7 @@
   }
   const label = (list, id) => (list.find(x => x.id === id) || { label: id }).label;
   const cap = t => t ? t[0].toUpperCase() + t.slice(1) : t;
-  const SCOPES = [['core', 'Core: persistent after psychotropics', '--s1'], ['related', 'Related: post-finasteride / post-retinoid', '--s2'], ['adjacent', 'Adjacent: on-treatment dysfunction', '--s3']];
+  const SCOPES = [['core', 'Core: persistent after psychotropics', '--s1'], ['related', 'Related: sister syndromes and persistent non-sexual symptoms', '--s2'], ['adjacent', 'Adjacent: on-treatment dysfunction', '--s3']];
   const human = new Set(D.humanPrimary);
   const fmt = n => n == null ? '' : n.toLocaleString('en-US');
   const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -155,13 +155,14 @@
   $('yearLegend').append(...SCOPES.map(([, l, col]) => h('span', null, h('i', { style: `background:var(${col})` }), l)));
 
   // ---- paper explorer --------------------------------------------------
-  const F = { q: $('q'), scope: $('fScope'), type: $('fType'), hyp: $('fHyp'), tx: $('fTx'), drug: $('fDrug') };
+  const F = { q: $('q'), scope: $('fScope'), type: $('fType'), hyp: $('fHyp'), tx: $('fTx'), drug: $('fDrug'), sym: $('fSym') };
   function fill(sel, first, opts) { sel.append(h('option', { value: '' }, first), ...opts.map(([v, l]) => h('option', { value: v }, l))); }
   fill(F.scope, 'All scopes', SCOPES.map(([k]) => [k, cap(k)]));
   fill(F.type, 'All study designs', D.studyTypes.map(t => [t.id, t.label]).concat([['__human', 'Any original human data']]));
   fill(F.hyp, 'All hypotheses and themes', D.hypotheses.map(x => [x.id, x.label]));
   fill(F.tx, 'All treatments', D.interventions.map(x => [x.id, x.label]));
   fill(F.drug, 'All drugs mentioned', [...new Set(D.papers.flatMap(p => p.drugs))].sort().map(d => [d, cap(d)]));
+  fill(F.sym, 'All symptoms', D.symptoms.map(x => [x.id, x.label]));
   let scopeOverride = null, shown = 40, current = [];
   function matches(p) {
     if (scopeOverride ? !scopeOverride.includes(p.scope) : (F.scope.value && p.scope !== F.scope.value)) return false;
@@ -169,6 +170,7 @@
     if (F.hyp.value && !p.hypotheses.includes(F.hyp.value)) return false;
     if (F.tx.value && !p.interventions.includes(F.tx.value)) return false;
     if (F.drug.value && !p.drugs.includes(F.drug.value)) return false;
+    if (F.sym.value && !(p.symptoms || []).includes(F.sym.value)) return false;
     const q = F.q.value.trim().toLowerCase();
     if (q) { const hay = (p.title + ' ' + p.abstract + ' ' + p.authors.join(' ')).toLowerCase(); if (!q.split(/\s+/).every(w => hay.includes(w))) return false; }
     return true;
@@ -194,7 +196,7 @@
   }
   function setFilters(v) {
     scopeOverride = v.scopes || null;
-    F.scope.value = v.scope || ''; F.type.value = v.type || ''; F.hyp.value = v.hyp || ''; F.tx.value = v.tx || ''; F.drug.value = v.drug || ''; F.q.value = '';
+    F.scope.value = v.scope || ''; F.type.value = v.type || ''; F.hyp.value = v.hyp || ''; F.tx.value = v.tx || ''; F.drug.value = v.drug || ''; F.sym.value = v.sym || ''; F.q.value = '';
     shown = 40; render(); $('explore').scrollIntoView({ behavior: 'smooth' });
   }
   for (const k in F) F[k].addEventListener('input', () => { if (k === 'scope') scopeOverride = null; shown = 40; render(); });
@@ -257,6 +259,20 @@
       const name = h('td', null, a); hover(name, r.x.description);
       t.append(h('tr', null, name, h('td', { class: 'num' }, r.n), h('td', { class: 'num' }, r.hum), h('td', { class: 'num' }, r.ctl), h('td', { class: 'num' }, r.ani),
         h('td', { class: 'num' }, r.rev), h('td', { class: 'num' }, r.ratio == null ? '–' : r.ratio.toFixed(1)), h('td', null, flag)));
+    }
+  }
+
+  // ---- symptoms studied ------------------------------------------------
+  function drawSymptoms() {
+    const P = papers(), t = $('symTable'); t.replaceChildren();
+    t.append(h('tr', null, ['Symptom', 'Papers', 'on persistent dysfunction', 'with original human data', 'Randomised trials'].map((c, i) => h('th', { class: i ? 'num' : '' }, c))));
+    const rows = D.symptoms.map(x => { const ps = P.filter(p => (p.symptoms || []).includes(x.id));
+      return { x, n: ps.length, core: ps.filter(p => p.scope === 'core').length, hum: ps.filter(p => p.scope === 'core' && human.has(p.study_type)).length, rct: ps.filter(p => p.study_type === 'rct').length }; })
+      .sort((a, b) => b.core - a.core || b.n - a.n);
+    for (const r of rows) {
+      const a = h('a', { href: '#explore' }, r.x.label);
+      a.addEventListener('click', e => { e.preventDefault(); setFilters({ sym: r.x.id }); });
+      t.append(h('tr', null, h('td', null, a), ...[r.n, r.core, r.hum, r.rct].map(v => h('td', { class: 'num' }, v))));
     }
   }
 
@@ -460,7 +476,7 @@
     for (const b of $('seg').children) b.setAttribute('aria-pressed', b.dataset.id === PART.id);
     $('partNote').textContent = PART.everything ? PART.description
       : `${PART.description} A record is included when its title, abstract or post names one of these drugs, so some records are only partly about them.`;
-    drawTiles(); drawTimeline(); drawMatrix(); drawGaps(); drawTreatments(); drawTrials(); drawForest(); drawTargets(); drawPatients(); render();
+    drawTiles(); drawTimeline(); drawMatrix(); drawGaps(); drawSymptoms(); drawTreatments(); drawTrials(); drawForest(); drawTargets(); drawPatients(); render();
   }
   $('seg').append(...PARTS.map(p => {
     const b = h('button', { 'aria-pressed': 'false' }, p.label); b.dataset.id = p.id;

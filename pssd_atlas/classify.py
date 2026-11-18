@@ -91,6 +91,7 @@ def classify_paper(rec: dict, cfg: Config) -> dict:
     rec["interventions"] = _tags(cfg.interventions, text)
     rec["drugs"] = _tags(cfg.drug_tagger, text)
     rec["partitions"] = cfg.partitions_for(rec["drugs"], text, paper=True)
+    rec["symptoms"] = _tags(cfg.symptoms, text)
     return rec
 
 

@@ -121,6 +121,9 @@ footer { color: var(--text-3); font-size: 12.5px; margin-top: 24px; }
   <h2>Where the evidence is thin</h2>
   <p class="small">For each mechanistic hypothesis: how much of the literature is original human data versus animal work and reviews. A high review-to-data ratio marks an idea that is often repeated but rarely tested.</p>
   <div class="scroll"><table id="gapTable"></table></div>
+  <h3>Symptoms studied</h3>
+  <p class="small">How much of the literature in this view addresses each symptom, sexual and non-sexual. Select a symptom to list its papers.</p>
+  <div class="scroll"><table id="symTable"></table></div>
 </section>
 
 <section id="treat">
@@ -169,7 +172,7 @@ footer { color: var(--text-3); font-size: 12.5px; margin-top: 24px; }
     <input type="search" id="q" placeholder="Search titles and abstracts" aria-label="Search titles and abstracts">
     <select id="fScope" aria-label="Scope"></select><select id="fType" aria-label="Study design"></select>
     <select id="fHyp" aria-label="Hypothesis"></select><select id="fTx" aria-label="Treatment"></select>
-    <select id="fDrug" aria-label="Drug"></select>
+    <select id="fDrug" aria-label="Drug"></select><select id="fSym" aria-label="Symptom"></select>
     <select id="fSort" aria-label="Sort order"><option value="new">Newest first</option><option value="old">Oldest first</option></select>
     <button id="reset">Reset</button><button id="csv">Download CSV</button>
   </div>

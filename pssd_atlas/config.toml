@@ -9,7 +9,8 @@
 # --------------------------------------------------------------------------
 # Literature searches. `scope` ranks how directly a paper bears on PSSD:
 #   core     - persistent sexual dysfunction after psychotropic drugs
-#   related  - sister syndromes (post-finasteride, post-retinoid) that may share mechanism
+#   related  - sister syndromes (post-finasteride, post-retinoid) and persistent non-sexual
+#              symptoms after psychiatric drugs, which may share mechanism
 #   adjacent - on-treatment drug-induced sexual dysfunction (mechanism + antidote trials)
 # A paper found by several searches keeps the most direct scope.
 # --------------------------------------------------------------------------
@@ -49,6 +50,21 @@ OR (("persistent sexual"[tiab] OR "enduring sexual"[tiab] OR "persisting sexual"
 '''
 europepmc = '''
 ("post-finasteride syndrome" OR "post finasteride syndrome" OR "post-retinoid sexual dysfunction")
+'''
+
+[[query]]
+id = "protracted"
+scope = "related"
+label = "Persistent non-sexual symptoms after psychiatric drugs (protracted withdrawal, tardive akathisia)"
+pubmed = '''
+(("protracted withdrawal"[tiab] OR "persistent post-withdrawal"[tiab] OR "post-withdrawal disorder*"[tiab]
+  OR "post-acute withdrawal"[tiab] OR "persistent withdrawal"[tiab] OR "enduring withdrawal"[tiab])
+ AND (antidepressant*[tiab] OR SSRI*[tiab] OR "serotonin reuptake"[tiab] OR antipsychotic*[tiab] OR neuroleptic*[tiab] OR mirtazapine[tiab]))
+OR "tardive akathisia"[tiab]
+OR ("emotional blunting"[tiab] AND (persist*[tiab] OR "after discontinuation"[tiab]) AND (antidepressant*[tiab] OR SSRI*[tiab]))
+'''
+europepmc = '''
+(("protracted withdrawal" OR "persistent post-withdrawal" OR "post-acute withdrawal") AND (antidepressant OR SSRI OR antipsychotic))
 '''
 
 [[query]]
@@ -319,6 +335,12 @@ reactions = [
   "FEMALE SEXUAL AROUSAL DISORDER",
   "EMOTIONAL POVERTY",
   "ANHEDONIA",
+  "APATHY",
+  "DEPERSONALISATION/DEREALISATION DISORDER",
+  "COGNITIVE DISORDER",
+  "DISTURBANCE IN ATTENTION",
+  "INSOMNIA",
+  "AKATHISIA",
 ]
 # Terms pooled into the per-drug "any sexual dysfunction" composite.
 composite = [
@@ -557,12 +579,12 @@ url = "https://www.pssdcanada.ca/our-stories?format=rss"
 [[community.symptom]]
 id = "genital_numbness"
 label = "Genital numbness / reduced sensation"
-patterns = ['genital (numb|an(a)?esthesia)', 'numb (genital|penis|dick|clit|vagina)', '(penis|penile|clitor\w+|genital\w*) (is |feels? |are )?(numb|rubbery|dead)', 'no (genital )?sensation', 'reduced sensation', 'rubbery']
+patterns = ['genital (numb|an(a)?esthesia|hypo(a)?esthesia|sensation|sensitivity)', 'penile (an(a)?esthesia|sensitivity|sensation)', 'erogenous', 'numb (genital|penis|dick|clit|vagina)', '(penis|penile|clitor\w+|genital\w*) (is |feels? |are )?(numb|rubbery|dead)', 'no (genital )?sensation', 'reduced sensation', 'rubbery']
 
 [[community.symptom]]
 id = "libido"
 label = "Loss of libido"
-patterns = ['libido', 'sex drive', 'no (sexual )?desire', 'asexual']
+patterns = ['libido', 'sex drive', 'sexual desire', 'hypoactive', 'no (sexual )?desire', 'asexual']
 
 [[community.symptom]]
 id = "erectile"
@@ -572,12 +594,12 @@ patterns = ['erectile', '\bED\b', 'erections?', "can'?t get (hard|aroused|wet)",
 [[community.symptom]]
 id = "orgasm"
 label = "Weak or pleasureless orgasm"
-patterns = ['anorgasmi', 'pleasureless', 'ejaculatory anhedonia', 'muted orgasm', 'weak orgasm', "can'?t (orgasm|climax|cum|finish)", 'no orgasm']
+patterns = ['anorgasmi', 'orgasm', 'ejaculat', 'pleasureless', 'ejaculatory anhedonia', 'muted orgasm', 'weak orgasm', "can'?t (orgasm|climax|cum|finish)", 'no orgasm']
 
 [[community.symptom]]
 id = "blunting"
 label = "Emotional blunting"
-patterns = ['emotional(ly)? (blunt|numb|flat)', 'blunted', "can'?t feel (emotions?|love|anything)", 'no emotions', 'feel nothing']
+patterns = ['emotional(ly)? (blunt|numb|flat|indifferen)', 'apathy', 'blunted', "can'?t feel (emotions?|love|anything)", 'no emotions', 'feel nothing']
 
 [[community.symptom]]
 id = "anhedonia"
@@ -587,17 +609,27 @@ patterns = ['anhedoni', 'no pleasure', 'no joy', "can'?t enjoy"]
 [[community.symptom]]
 id = "cognitive"
 label = "Cognitive problems"
-patterns = ['brain fog', 'cognitive', 'memory (loss|problems|issues)', "can'?t (think|concentrate|focus)", 'blank mind']
+patterns = ['brain fog', 'cognit', 'memory impairment', 'concentration', 'memory (loss|problems|issues)', "can'?t (think|concentrate|focus)", 'blank mind']
 
 [[community.symptom]]
 id = "sleep"
 label = "Sleep problems"
-patterns = ['insomnia', "can'?t sleep", 'sleep (problems|issues)', 'unrefreshing']
+patterns = ['insomnia', 'sleep disturbance', 'sleep disorder', 'sleepiness', 'somnolence', "can'?t sleep", 'sleep (problems|issues)', 'unrefreshing']
 
 [[community.symptom]]
 id = "sensory"
 label = "Other sensory changes"
 patterns = ['skin numb', 'reduced (taste|smell)', 'tinnitus', 'visual snow', 'blurr(y|ed) vision', 'no goosebumps']
+
+[[community.symptom]]
+id = "dissociation"
+label = "Dissociation / depersonalisation"
+patterns = ['depersonali[sz]ation', 'dereali[sz]ation', 'dissociat', 'feel(ing)? unreal', 'disconnected from (my|the) (body|self)']
+
+[[community.symptom]]
+id = "akathisia"
+label = "Akathisia / restlessness"
+patterns = ['akathisia', 'inner restlessness', "can'?t sit still"]
 
 # Treatments that appear in patient discussions but rarely in the literature.
 [[community.intervention]]
