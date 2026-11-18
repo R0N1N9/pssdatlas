@@ -1,0 +1,2813 @@
+{
+ "binding": {
+  "amisulpride": {
+   "DRD2": {
+    "n": 2,
+    "pki": 8.21
+   },
+   "DRD3": {
+    "n": 2,
+    "pki": 8.43
+   },
+   "HTR2A": {
+    "n": 1,
+    "pki": 6.2
+   },
+   "HTR2B": {
+    "n": 2,
+    "pki": 7.2
+   },
+   "HTR7": {
+    "n": 2,
+    "pki": 7.77
+   }
+  },
+  "amitriptyline": {
+   "ADRA1D": {
+    "n": 1,
+    "pki": 7.28
+   },
+   "ADRA2A": {
+    "n": 1,
+    "pki": 6.88
+   },
+   "ADRA2B": {
+    "n": 1,
+    "pki": 8.43
+   },
+   "ADRA2C": {
+    "n": 1,
+    "pki": 8.07
+   },
+   "CHRM1": {
+    "n": 1,
+    "pki": 8.56
+   },
+   "CHRM2": {
+    "n": 1,
+    "pki": 7.54
+   },
+   "CHRM3": {
+    "n": 1,
+    "pki": 8.27
+   },
+   "CHRM4": {
+    "n": 1,
+    "pki": 9.13
+   },
+   "CHRM5": {
+    "n": 1,
+    "pki": 8.24
+   },
+   "DRD1": {
+    "n": 2,
+    "pki": 6.9
+   },
+   "DRD2": {
+    "n": 2,
+    "pki": 6.59
+   },
+   "DRD3": {
+    "n": 2,
+    "pki": 6.95
+   },
+   "DRD5": {
+    "n": 1,
+    "pki": 6.77
+   },
+   "HRH1": {
+    "n": 2,
+    "pki": 9.11
+   },
+   "HRH2": {
+    "n": 1,
+    "pki": 6.14
+   },
+   "HTR2A": {
+    "n": 1,
+    "pki": 8.36
+   },
+   "HTR2B": {
+    "n": 1,
+    "pki": 7.35
+   },
+   "HTR2C": {
+    "n": 1,
+    "pki": 8.5
+   },
+   "HTR6": {
+    "n": 1,
+    "pki": 7.19
+   },
+   "KCNH2": {
+    "n": 1,
+    "pki": 4.84
+   },
+   "SIGMAR1": {
+    "n": 1,
+    "pki": 6.36
+   },
+   "SLC6A2": {
+    "n": 2,
+    "pki": 7.07
+   },
+   "SLC6A3": {
+    "n": 1,
+    "pki": 5.21
+   },
+   "SLC6A4": {
+    "n": 6,
+    "pki": 8.15
+   }
+  },
+  "aripiprazole": {
+   "ADRA1A": {
+    "n": 3,
+    "pki": 7.58
+   },
+   "ADRA1B": {
+    "n": 1,
+    "pki": 7.0
+   },
+   "ADRA2A": {
+    "n": 1,
+    "pki": 7.0
+   },
+   "ADRA2B": {
+    "n": 1,
+    "pki": 6.0
+   },
+   "ADRA2C": {
+    "n": 2,
+    "pki": 7.21
+   },
+   "DRD1": {
+    "n": 8,
+    "pki": 6.28
+   },
+   "DRD2": {
+    "n": 39,
+    "pki": 8.8
+   },
+   "DRD3": {
+    "n": 23,
+    "pki": 8.4
+   },
+   "DRD4": {
+    "n": 15,
+    "pki": 7.0
+   },
+   "DRD5": {
+    "n": 3,
+    "pki": 5.8
+   },
+   "HRH1": {
+    "n": 6,
+    "pki": 7.43
+   },
+   "HRH3": {
+    "n": 1,
+    "pki": 5.63
+   },
+   "HTR1A": {
+    "n": 20,
+    "pki": 8.2
+   },
+   "HTR1B": {
+    "n": 1,
+    "pki": 6.0
+   },
+   "HTR1D": {
+    "n": 1,
+    "pki": 7.0
+   },
+   "HTR2A": {
+    "n": 31,
+    "pki": 8.05
+   },
+   "HTR2B": {
+    "n": 5,
+    "pki": 8.9
+   },
+   "HTR2C": {
+    "n": 11,
+    "pki": 7.02
+   },
+   "HTR3A": {
+    "n": 1,
+    "pki": 6.0
+   },
+   "HTR5A": {
+    "n": 1,
+    "pki": 6.0
+   },
+   "HTR6": {
+    "n": 6,
+    "pki": 6.6
+   },
+   "HTR7": {
+    "n": 9,
+    "pki": 7.85
+   },
+   "KCNH2": {
+    "n": 3,
+    "pki": 5.99
+   },
+   "SLC6A4": {
+    "n": 7,
+    "pki": 6.62
+   }
+  },
+  "bupropion": {
+   "SLC6A2": {
+    "n": 2,
+    "pki": 5.3
+   },
+   "SLC6A3": {
+    "n": 4,
+    "pki": 6.22
+   },
+   "SLC6A4": {
+    "n": 1,
+    "pki": 4.88
+   }
+  },
+  "citalopram": {
+   "ADRA1D": {
+    "n": 1,
+    "pki": 5.79
+   },
+   "HRH1": {
+    "n": 1,
+    "pki": 6.43
+   },
+   "HTR2B": {
+    "n": 1,
+    "pki": 5.93
+   },
+   "HTR2C": {
+    "n": 1,
+    "pki": 6.81
+   },
+   "KCNH2": {
+    "n": 1,
+    "pki": 4.86
+   },
+   "SIGMAR1": {
+    "n": 1,
+    "pki": 6.78
+   },
+   "SLC6A2": {
+    "n": 2,
+    "pki": 5.44
+   },
+   "SLC6A3": {
+    "n": 1,
+    "pki": 4.78
+   },
+   "SLC6A4": {
+    "n": 8,
+    "pki": 8.36
+   }
+  },
+  "clomipramine": {
+   "ADRA1D": {
+    "n": 1,
+    "pki": 7.06
+   },
+   "ADRA2A": {
+    "n": 1,
+    "pki": 6.28
+   },
+   "ADRA2B": {
+    "n": 1,
+    "pki": 7.34
+   },
+   "ADRA2C": {
+    "n": 1,
+    "pki": 6.69
+   },
+   "CHRM1": {
+    "n": 1,
+    "pki": 7.66
+   },
+   "CHRM2": {
+    "n": 1,
+    "pki": 7.07
+   },
+   "CHRM3": {
+    "n": 1,
+    "pki": 7.44
+   },
+   "CHRM4": {
+    "n": 1,
+    "pki": 7.89
+   },
+   "CHRM5": {
+    "n": 1,
+    "pki": 7.42
+   },
+   "DRD1": {
+    "n": 1,
+    "pki": 6.25
+   },
+   "DRD2": {
+    "n": 1,
+    "pki": 6.86
+   },
+   "DRD3": {
+    "n": 1,
+    "pki": 7.33
+   },
+   "HRH1": {
+    "n": 1,
+    "pki": 8.01
+   },
+   "HRH2": {
+    "n": 1,
+    "pki": 5.7
+   },
+   "HTR2A": {
+    "n": 1,
+    "pki": 7.72
+   },
+   "HTR2B": {
+    "n": 1,
+    "pki": 6.82
+   },
+   "HTR2C": {
+    "n": 1,
+    "pki": 7.75
+   },
+   "HTR6": {
+    "n": 2,
+    "pki": 6.95
+   },
+   "SIGMAR1": {
+    "n": 1,
+    "pki": 6.24
+   },
+   "SLC6A2": {
+    "n": 1,
+    "pki": 7.16
+   },
+   "SLC6A3": {
+    "n": 1,
+    "pki": 5.66
+   },
+   "SLC6A4": {
+    "n": 2,
+    "pki": 9.94
+   }
+  },
+  "clozapine": {
+   "ADRA1A": {
+    "n": 3,
+    "pki": 7.72
+   },
+   "ADRA1B": {
+    "n": 1,
+    "pki": 8.0
+   },
+   "ADRA1D": {
+    "n": 1,
+    "pki": 7.77
+   },
+   "ADRA2A": {
+    "n": 4,
+    "pki": 7.1
+   },
+   "ADRA2B": {
+    "n": 2,
+    "pki": 7.48
+   },
+   "ADRA2C": {
+    "n": 3,
+    "pki": 8.54
+   },
+   "AOX1": {
+    "n": 1,
+    "pki": 5.29
+   },
+   "CHRM1": {
+    "n": 6,
+    "pki": 8.68
+   },
+   "CHRM2": {
+    "n": 2,
+    "pki": 6.88
+   },
+   "CHRM3": {
+    "n": 2,
+    "pki": 7.38
+   },
+   "CHRM4": {
+    "n": 3,
+    "pki": 7.9
+   },
+   "CHRM5": {
+    "n": 2,
+    "pki": 7.51
+   },
+   "DRD1": {
+    "n": 15,
+    "pki": 7.05
+   },
+   "DRD2": {
+    "n": 80,
+    "pki": 6.98
+   },
+   "DRD3": {
+    "n": 37,
+    "pki": 6.5
+   },
+   "DRD4": {
+    "n": 55,
+    "pki": 7.75
+   },
+   "DRD5": {
+    "n": 4,
+    "pki": 6.37
+   },
+   "HRH1": {
+    "n": 10,
+    "pki": 8.74
+   },
+   "HRH2": {
+    "n": 1,
+    "pki": 5.45
+   },
+   "HRH3": {
+    "n": 1,
+    "pki": 6.2
+   },
+   "HRH4": {
+    "n": 3,
+    "pki": 6.7
+   },
+   "HTR1A": {
+    "n": 15,
+    "pki": 6.84
+   },
+   "HTR1B": {
+    "n": 1,
+    "pki": 6.0
+   },
+   "HTR1E": {
+    "n": 1,
+    "pki": 6.0
+   },
+   "HTR2A": {
+    "n": 41,
+    "pki": 8.04
+   },
+   "HTR2B": {
+    "n": 3,
+    "pki": 8.14
+   },
+   "HTR2C": {
+    "n": 26,
+    "pki": 7.94
+   },
+   "HTR3A": {
+    "n": 3,
+    "pki": 6.73
+   },
+   "HTR5A": {
+    "n": 1,
+    "pki": 6.0
+   },
+   "HTR6": {
+    "n": 16,
+    "pki": 8.21
+   },
+   "HTR7": {
+    "n": 31,
+    "pki": 7.7
+   },
+   "KCNH2": {
+    "n": 5,
+    "pki": 5.06
+   },
+   "SIGMAR1": {
+    "n": 2,
+    "pki": 5.07
+   },
+   "SLC6A2": {
+    "n": 1,
+    "pki": 5.84
+   },
+   "SLC6A4": {
+    "n": 2,
+    "pki": 5.97
+   }
+  },
+  "desvenlafaxine": {
+   "SLC6A2": {
+    "n": 1,
+    "pki": 6.17
+   },
+   "SLC6A3": {
+    "n": 1,
+    "pki": 5.43
+   },
+   "SLC6A4": {
+    "n": 2,
+    "pki": 8.11
+   }
+  },
+  "duloxetine": {
+   "SLC6A2": {
+    "n": 11,
+    "pki": 8.1
+   },
+   "SLC6A3": {
+    "n": 9,
+    "pki": 6.43
+   },
+   "SLC6A4": {
+    "n": 9,
+    "pki": 8.85
+   }
+  },
+  "dutasteride": {},
+  "escitalopram": {
+   "HTR6": {
+    "n": 1,
+    "pki": 9.0
+   },
+   "SLC6A4": {
+    "n": 6,
+    "pki": 8.71
+   }
+  },
+  "finasteride": {
+   "HSD3B1": {
+    "n": 1,
+    "pki": 4.96
+   },
+   "SRD5A1": {
+    "n": 3,
+    "pki": 6.82
+   },
+   "SRD5A2": {
+    "n": 1,
+    "pki": 8.7
+   }
+  },
+  "fluoxetine": {
+   "ADRA2A": {
+    "n": 1,
+    "pki": 8.2
+   },
+   "ADRA2B": {
+    "n": 1,
+    "pki": 6.16
+   },
+   "CHRM1": {
+    "n": 1,
+    "pki": 6.11
+   },
+   "CHRM3": {
+    "n": 1,
+    "pki": 6.12
+   },
+   "CHRM5": {
+    "n": 1,
+    "pki": 6.01
+   },
+   "HRH3": {
+    "n": 4,
+    "pki": 5.14
+   },
+   "HTR2A": {
+    "n": 1,
+    "pki": 7.26
+   },
+   "HTR2C": {
+    "n": 1,
+    "pki": 7.21
+   },
+   "HTR6": {
+    "n": 1,
+    "pki": 6.11
+   },
+   "KCNH2": {
+    "n": 1,
+    "pki": 5.0
+   },
+   "SIGMAR1": {
+    "n": 1,
+    "pki": 6.68
+   },
+   "SLC6A2": {
+    "n": 6,
+    "pki": 5.83
+   },
+   "SLC6A3": {
+    "n": 5,
+    "pki": 5.22
+   },
+   "SLC6A4": {
+    "n": 14,
+    "pki": 8.66
+   }
+  },
+  "fluvoxamine": {
+   "CYP2C9": {
+    "n": 1,
+    "pki": 5.07
+   },
+   "CYP2D6": {
+    "n": 2,
+    "pki": 4.93
+   },
+   "SIGMAR1": {
+    "n": 1,
+    "pki": 7.44
+   },
+   "SLC6A3": {
+    "n": 1,
+    "pki": 8.84
+   },
+   "SLC6A4": {
+    "n": 2,
+    "pki": 7.42
+   }
+  },
+  "haloperidol": {
+   "ABCB1": {
+    "n": 1,
+    "pki": 6.7
+   },
+   "ADRA1A": {
+    "n": 2,
+    "pki": 7.94
+   },
+   "ADRA1D": {
+    "n": 1,
+    "pki": 7.39
+   },
+   "ADRA2A": {
+    "n": 1,
+    "pki": 5.73
+   },
+   "ADRA2B": {
+    "n": 2,
+    "pki": 6.27
+   },
+   "ADRA2C": {
+    "n": 2,
+    "pki": 6.42
+   },
+   "CHRM1": {
+    "n": 2,
+    "pki": 5.8
+   },
+   "CHRM5": {
+    "n": 1,
+    "pki": 5.55
+   },
+   "DRD1": {
+    "n": 10,
+    "pki": 7.03
+   },
+   "DRD2": {
+    "n": 104,
+    "pki": 8.81
+   },
+   "DRD3": {
+    "n": 53,
+    "pki": 8.2
+   },
+   "DRD4": {
+    "n": 45,
+    "pki": 8.3
+   },
+   "DRD5": {
+    "n": 5,
+    "pki": 7.24
+   },
+   "EBP": {
+    "n": 1,
+    "pki": 6.72
+   },
+   "GRIN2B": {
+    "n": 1,
+    "pki": 7.89
+   },
+   "HRH1": {
+    "n": 6,
+    "pki": 6.36
+   },
+   "HRH2": {
+    "n": 1,
+    "pki": 5.94
+   },
+   "HTR1A": {
+    "n": 4,
+    "pki": 5.5
+   },
+   "HTR2A": {
+    "n": 19,
+    "pki": 6.92
+   },
+   "HTR2B": {
+    "n": 1,
+    "pki": 5.88
+   },
+   "HTR2C": {
+    "n": 10,
+    "pki": 5.33
+   },
+   "HTR6": {
+    "n": 2,
+    "pki": 5.59
+   },
+   "HTR7": {
+    "n": 5,
+    "pki": 6.39
+   },
+   "KCNH2": {
+    "n": 2,
+    "pki": 6.61
+   },
+   "OPRM1": {
+    "n": 2,
+    "pki": 5.8
+   },
+   "SIGMAR1": {
+    "n": 57,
+    "pki": 8.6
+   },
+   "SLC6A2": {
+    "n": 2,
+    "pki": 5.5
+   },
+   "SLC6A4": {
+    "n": 3,
+    "pki": 5.75
+   },
+   "TMEM97": {
+    "n": 11,
+    "pki": 7.66
+   }
+  },
+  "isotretinoin": {
+   "ADORA3": {
+    "n": 1,
+    "pki": 5.63
+   },
+   "ADRA2B": {
+    "n": 1,
+    "pki": 5.52
+   },
+   "HTR2B": {
+    "n": 1,
+    "pki": 6.27
+   }
+  },
+  "lurasidone": {
+   "DRD2": {
+    "n": 1,
+    "pki": 8.77
+   },
+   "HTR1A": {
+    "n": 1,
+    "pki": 8.17
+   },
+   "HTR2A": {
+    "n": 1,
+    "pki": 8.7
+   },
+   "HTR7": {
+    "n": 2,
+    "pki": 9.3
+   }
+  },
+  "mirtazapine": {
+   "ADRA2A": {
+    "n": 1,
+    "pki": 7.7
+   },
+   "ADRA2C": {
+    "n": 1,
+    "pki": 7.75
+   },
+   "DRD3": {
+    "n": 1,
+    "pki": 5.24
+   },
+   "HRH1": {
+    "n": 1,
+    "pki": 8.8
+   },
+   "HTR1A": {
+    "n": 1,
+    "pki": 7.75
+   },
+   "HTR2A": {
+    "n": 2,
+    "pki": 7.62
+   },
+   "HTR2C": {
+    "n": 1,
+    "pki": 7.41
+   },
+   "HTR3A": {
+    "n": 1,
+    "pki": 5.54
+   },
+   "HTR7": {
+    "n": 1,
+    "pki": 6.58
+   }
+  },
+  "olanzapine": {
+   "ADRA1A": {
+    "n": 3,
+    "pki": 7.22
+   },
+   "ADRA1B": {
+    "n": 1,
+    "pki": 6.0
+   },
+   "ADRA1D": {
+    "n": 1,
+    "pki": 7.35
+   },
+   "ADRA2A": {
+    "n": 3,
+    "pki": 6.69
+   },
+   "ADRA2B": {
+    "n": 2,
+    "pki": 6.86
+   },
+   "ADRA2C": {
+    "n": 3,
+    "pki": 7.09
+   },
+   "CHRM1": {
+    "n": 4,
+    "pki": 8.16
+   },
+   "CHRM2": {
+    "n": 1,
+    "pki": 7.0
+   },
+   "CHRM3": {
+    "n": 2,
+    "pki": 7.04
+   },
+   "CHRM4": {
+    "n": 3,
+    "pki": 7.66
+   },
+   "CHRM5": {
+    "n": 2,
+    "pki": 7.77
+   },
+   "DRD1": {
+    "n": 9,
+    "pki": 7.28
+   },
+   "DRD2": {
+    "n": 30,
+    "pki": 7.7
+   },
+   "DRD3": {
+    "n": 12,
+    "pki": 7.36
+   },
+   "DRD4": {
+    "n": 8,
+    "pki": 7.55
+   },
+   "DRD5": {
+    "n": 2,
+    "pki": 7.03
+   },
+   "HRH1": {
+    "n": 10,
+    "pki": 8.51
+   },
+   "HTR1A": {
+    "n": 7,
+    "pki": 5.57
+   },
+   "HTR1B": {
+    "n": 1,
+    "pki": 6.0
+   },
+   "HTR2A": {
+    "n": 25,
+    "pki": 8.4
+   },
+   "HTR2B": {
+    "n": 3,
+    "pki": 7.92
+   },
+   "HTR2C": {
+    "n": 12,
+    "pki": 8.07
+   },
+   "HTR3A": {
+    "n": 1,
+    "pki": 6.0
+   },
+   "HTR6": {
+    "n": 21,
+    "pki": 8.15
+   },
+   "HTR7": {
+    "n": 5,
+    "pki": 6.69
+   },
+   "KCNH2": {
+    "n": 2,
+    "pki": 4.44
+   },
+   "SLC6A4": {
+    "n": 1,
+    "pki": 6.26
+   }
+  },
+  "paliperidone": {
+   "ADRA1A": {
+    "n": 1,
+    "pki": 7.96
+   },
+   "ADRA2A": {
+    "n": 1,
+    "pki": 7.96
+   },
+   "ADRA2B": {
+    "n": 1,
+    "pki": 8.4
+   },
+   "ADRA2C": {
+    "n": 1,
+    "pki": 8.57
+   },
+   "DRD1": {
+    "n": 1,
+    "pki": 6.26
+   },
+   "DRD2": {
+    "n": 1,
+    "pki": 8.8
+   },
+   "DRD3": {
+    "n": 1,
+    "pki": 8.12
+   },
+   "DRD4": {
+    "n": 1,
+    "pki": 7.42
+   },
+   "DRD5": {
+    "n": 1,
+    "pki": 7.54
+   },
+   "HRH1": {
+    "n": 1,
+    "pki": 7.47
+   },
+   "HTR1B": {
+    "n": 1,
+    "pki": 6.96
+   },
+   "HTR1D": {
+    "n": 1,
+    "pki": 8.14
+   },
+   "HTR2A": {
+    "n": 1,
+    "pki": 9.08
+   },
+   "HTR2C": {
+    "n": 1,
+    "pki": 7.72
+   },
+   "HTR7": {
+    "n": 1,
+    "pki": 8.17
+   }
+  },
+  "paroxetine": {
+   "CHRM1": {
+    "n": 1,
+    "pki": 7.46
+   },
+   "CHRM2": {
+    "n": 1,
+    "pki": 6.72
+   },
+   "CHRM3": {
+    "n": 1,
+    "pki": 7.42
+   },
+   "CHRM4": {
+    "n": 1,
+    "pki": 7.47
+   },
+   "CHRM5": {
+    "n": 1,
+    "pki": 7.05
+   },
+   "CYP2D6": {
+    "n": 1,
+    "pki": 5.31
+   },
+   "HTR6": {
+    "n": 1,
+    "pki": 9.22
+   },
+   "KCNH2": {
+    "n": 1,
+    "pki": 5.07
+   },
+   "SIGMAR1": {
+    "n": 1,
+    "pki": 5.65
+   },
+   "SLC6A2": {
+    "n": 3,
+    "pki": 7.05
+   },
+   "SLC6A3": {
+    "n": 3,
+    "pki": 6.4
+   },
+   "SLC6A4": {
+    "n": 11,
+    "pki": 9.96
+   }
+  },
+  "quetiapine": {
+   "ADRA1A": {
+    "n": 2,
+    "pki": 7.35
+   },
+   "ADRA1B": {
+    "n": 1,
+    "pki": 7.0
+   },
+   "ADRA1D": {
+    "n": 1,
+    "pki": 7.32
+   },
+   "ADRA2A": {
+    "n": 1,
+    "pki": 6.03
+   },
+   "ADRA2B": {
+    "n": 2,
+    "pki": 6.67
+   },
+   "ADRA2C": {
+    "n": 2,
+    "pki": 7.11
+   },
+   "CHRM1": {
+    "n": 5,
+    "pki": 6.4
+   },
+   "CHRM2": {
+    "n": 1,
+    "pki": 5.92
+   },
+   "CHRM4": {
+    "n": 3,
+    "pki": 6.66
+   },
+   "CHRM5": {
+    "n": 1,
+    "pki": 5.67
+   },
+   "DRD1": {
+    "n": 5,
+    "pki": 6.0
+   },
+   "DRD2": {
+    "n": 9,
+    "pki": 6.51
+   },
+   "DRD3": {
+    "n": 6,
+    "pki": 6.44
+   },
+   "DRD4": {
+    "n": 3,
+    "pki": 5.8
+   },
+   "HRH1": {
+    "n": 7,
+    "pki": 8.0
+   },
+   "HTR1A": {
+    "n": 7,
+    "pki": 6.64
+   },
+   "HTR2A": {
+    "n": 12,
+    "pki": 6.92
+   },
+   "HTR2B": {
+    "n": 3,
+    "pki": 6.87
+   },
+   "HTR2C": {
+    "n": 5,
+    "pki": 5.76
+   },
+   "HTR6": {
+    "n": 1,
+    "pki": 5.85
+   },
+   "HTR7": {
+    "n": 2,
+    "pki": 6.6
+   },
+   "SIGMAR1": {
+    "n": 1,
+    "pki": 6.02
+   }
+  },
+  "risperidone": {
+   "ADRA1A": {
+    "n": 4,
+    "pki": 8.52
+   },
+   "ADRA1B": {
+    "n": 1,
+    "pki": 8.0
+   },
+   "ADRA1D": {
+    "n": 1,
+    "pki": 8.31
+   },
+   "ADRA2A": {
+    "n": 4,
+    "pki": 7.78
+   },
+   "ADRA2B": {
+    "n": 2,
+    "pki": 6.96
+   },
+   "ADRA2C": {
+    "n": 3,
+    "pki": 8.49
+   },
+   "CHRM1": {
+    "n": 1,
+    "pki": 5.55
+   },
+   "DRD1": {
+    "n": 6,
+    "pki": 6.43
+   },
+   "DRD2": {
+    "n": 20,
+    "pki": 8.41
+   },
+   "DRD3": {
+    "n": 12,
+    "pki": 7.87
+   },
+   "DRD4": {
+    "n": 7,
+    "pki": 8.0
+   },
+   "DRD5": {
+    "n": 1,
+    "pki": 6.0
+   },
+   "HRH1": {
+    "n": 10,
+    "pki": 7.6
+   },
+   "HRH2": {
+    "n": 1,
+    "pki": 5.84
+   },
+   "HRH3": {
+    "n": 1,
+    "pki": 5.96
+   },
+   "HTR1A": {
+    "n": 9,
+    "pki": 6.6
+   },
+   "HTR1B": {
+    "n": 1,
+    "pki": 8.0
+   },
+   "HTR1D": {
+    "n": 1,
+    "pki": 6.0
+   },
+   "HTR2A": {
+    "n": 21,
+    "pki": 9.3
+   },
+   "HTR2B": {
+    "n": 3,
+    "pki": 7.7
+   },
+   "HTR2C": {
+    "n": 19,
+    "pki": 7.68
+   },
+   "HTR5A": {
+    "n": 1,
+    "pki": 6.0
+   },
+   "HTR6": {
+    "n": 8,
+    "pki": 5.9
+   },
+   "HTR7": {
+    "n": 4,
+    "pki": 8.68
+   },
+   "KCNH2": {
+    "n": 2,
+    "pki": 5.75
+   },
+   "SIGMAR1": {
+    "n": 1,
+    "pki": 5.37
+   },
+   "SLC6A4": {
+    "n": 2,
+    "pki": 5.92
+   }
+  },
+  "sertraline": {
+   "ADRA2A": {
+    "n": 1,
+    "pki": 6.96
+   },
+   "ADRA2B": {
+    "n": 1,
+    "pki": 7.08
+   },
+   "ADRA2C": {
+    "n": 1,
+    "pki": 6.19
+   },
+   "CHRM1": {
+    "n": 1,
+    "pki": 6.51
+   },
+   "CHRM2": {
+    "n": 1,
+    "pki": 6.01
+   },
+   "CHRM4": {
+    "n": 1,
+    "pki": 6.43
+   },
+   "CHRM5": {
+    "n": 1,
+    "pki": 6.44
+   },
+   "HTR2A": {
+    "n": 1,
+    "pki": 6.11
+   },
+   "HTR2B": {
+    "n": 1,
+    "pki": 5.67
+   },
+   "HTR2C": {
+    "n": 1,
+    "pki": 6.25
+   },
+   "KCNH2": {
+    "n": 1,
+    "pki": 5.17
+   },
+   "MC5R": {
+    "n": 1,
+    "pki": 5.37
+   },
+   "SIGMAR1": {
+    "n": 2,
+    "pki": 7.38
+   },
+   "SLC6A2": {
+    "n": 1,
+    "pki": 6.01
+   },
+   "SLC6A3": {
+    "n": 1,
+    "pki": 7.59
+   },
+   "SLC6A4": {
+    "n": 1,
+    "pki": 10.12
+   }
+  },
+  "trazodone": {
+   "ADRA1D": {
+    "n": 1,
+    "pki": 6.89
+   },
+   "ADRA2A": {
+    "n": 1,
+    "pki": 6.47
+   },
+   "ADRA2B": {
+    "n": 1,
+    "pki": 6.75
+   },
+   "ADRA2C": {
+    "n": 1,
+    "pki": 6.55
+   },
+   "DRD3": {
+    "n": 1,
+    "pki": 5.9
+   },
+   "HRH1": {
+    "n": 1,
+    "pki": 7.38
+   },
+   "HTR1A": {
+    "n": 1,
+    "pki": 6.93
+   },
+   "HTR2A": {
+    "n": 1,
+    "pki": 8.25
+   },
+   "HTR2B": {
+    "n": 2,
+    "pki": 7.15
+   },
+   "HTR2C": {
+    "n": 1,
+    "pki": 7.33
+   },
+   "SIGMAR1": {
+    "n": 1,
+    "pki": 6.03
+   },
+   "SLC6A4": {
+    "n": 1,
+    "pki": 6.99
+   }
+  },
+  "venlafaxine": {
+   "SLC6A2": {
+    "n": 4,
+    "pki": 6.11
+   },
+   "SLC6A3": {
+    "n": 2,
+    "pki": 5.36
+   },
+   "SLC6A4": {
+    "n": 4,
+    "pki": 7.69
+   }
+  },
+  "vortioxetine": {
+   "HTR1A": {
+    "n": 5,
+    "pki": 8.02
+   },
+   "HTR3A": {
+    "n": 1,
+    "pki": 8.43
+   },
+   "HTR7": {
+    "n": 5,
+    "pki": 7.58
+   },
+   "SLC6A4": {
+    "n": 1,
+    "pki": 8.8
+   }
+  },
+  "ziprasidone": {
+   "ADRA1A": {
+    "n": 1,
+    "pki": 8.22
+   },
+   "CHRM1": {
+    "n": 1,
+    "pki": 5.29
+   },
+   "DRD1": {
+    "n": 3,
+    "pki": 6.89
+   },
+   "DRD2": {
+    "n": 14,
+    "pki": 8.53
+   },
+   "DRD3": {
+    "n": 5,
+    "pki": 8.14
+   },
+   "DRD4": {
+    "n": 4,
+    "pki": 7.41
+   },
+   "HRH1": {
+    "n": 5,
+    "pki": 7.33
+   },
+   "HTR1A": {
+    "n": 5,
+    "pki": 8.6
+   },
+   "HTR2A": {
+    "n": 9,
+    "pki": 9.52
+   },
+   "HTR2B": {
+    "n": 1,
+    "pki": 8.8
+   },
+   "HTR2C": {
+    "n": 7,
+    "pki": 8.89
+   },
+   "HTR6": {
+    "n": 5,
+    "pki": 7.21
+   },
+   "HTR7": {
+    "n": 3,
+    "pki": 8.3
+   },
+   "SLC6A4": {
+    "n": 3,
+    "pki": 7.1
+   }
+  }
+ },
+ "targets": [
+  {
+   "clinical_candidates": 79,
+   "ensembl": "ENSG00000169432",
+   "expression_tpm": {
+    "accumbens": 1.83356,
+    "hypothalamus": 7.26244,
+    "skin": 0.427778,
+    "spinal_cord": 0.825273
+   },
+   "hypothesis": "neuropathy",
+   "marketed_drugs": [
+    "Articaine",
+    "Benoxinate",
+    "Carbamazepine",
+    "Cenobamate",
+    "Chloroprocaine",
+    "Cocaine",
+    "Disopyramide",
+    "Dronedarone",
+    "Dyclonine",
+    "Eslicarbazepine",
+    "Ethotoin",
+    "Etidocaine",
+    "Fosphenytoin",
+    "Hexylcaine",
+    "Indecainide",
+    "Lacosamide",
+    "Lamotrigine",
+    "Lidocaine",
+    "Mephenytoin",
+    "Mepivacaine",
+    "Mexiletine",
+    "Orphenadrine",
+    "Oxcarbazepine",
+    "Phenacemide",
+    "Phenytoin",
+    "Prilocaine",
+    "Primidone",
+    "Procainamide",
+    "Procaine",
+    "Propafenone",
+    "Proparacaine",
+    "Propoxycaine",
+    "Quinidine",
+    "Riluzole",
+    "Ropivacaine",
+    "Rufinamide",
+    "Tetracaine",
+    "Tocainide",
+    "Topiramate",
+    "Zonisamide"
+   ],
+   "name": "sodium voltage-gated channel alpha subunit 9",
+   "rationale": "Nav1.7, the main pain and touch sodium channel in sensory neurons; several SSRIs block sodium channels.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "SCN9A",
+   "top_tissue": "Testis",
+   "top_tissue_tpm": 8.20589,
+   "url": "https://platform.opentargets.org/target/ENSG00000169432"
+  },
+  {
+   "clinical_candidates": 76,
+   "ensembl": "ENSG00000185313",
+   "expression_tpm": {
+    "accumbens": 0,
+    "hypothalamus": 0.002589,
+    "skin": 0,
+    "spinal_cord": 0.004464
+   },
+   "hypothesis": "neuropathy",
+   "marketed_drugs": [
+    "Articaine",
+    "Benoxinate",
+    "Carbamazepine",
+    "Cenobamate",
+    "Chloroprocaine",
+    "Cocaine",
+    "Dibucaine",
+    "Disopyramide",
+    "Dronedarone",
+    "Dyclonine",
+    "Eslicarbazepine",
+    "Ethotoin",
+    "Etidocaine",
+    "Fosphenytoin",
+    "Hexylcaine",
+    "Indecainide",
+    "Lacosamide",
+    "Lamotrigine",
+    "Lidocaine",
+    "Mephenytoin",
+    "Mepivacaine",
+    "Mexiletine",
+    "Orphenadrine",
+    "Oxcarbazepine",
+    "Phenacemide",
+    "Phenytoin",
+    "Prilocaine",
+    "Primidone",
+    "Procainamide",
+    "Procaine",
+    "Propafenone",
+    "Proparacaine",
+    "Propoxycaine",
+    "Quinidine",
+    "Riluzole",
+    "Ropivacaine",
+    "Rufinamide",
+    "Tetracaine",
+    "Tocainide",
+    "Topiramate",
+    "Zonisamide"
+   ],
+   "name": "sodium voltage-gated channel alpha subunit 10",
+   "rationale": "Nav1.8, sensory-neuron sodium channel.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "SCN10A",
+   "top_tissue": "Testis",
+   "top_tissue_tpm": 0.471355,
+   "url": "https://platform.opentargets.org/target/ENSG00000185313"
+  },
+  {
+   "clinical_candidates": 73,
+   "ensembl": "ENSG00000168356",
+   "expression_tpm": {
+    "accumbens": 0.408999,
+    "hypothalamus": 0.315765,
+    "skin": 0.192491,
+    "spinal_cord": 0.380966
+   },
+   "hypothesis": "neuropathy",
+   "marketed_drugs": [
+    "Articaine",
+    "Benoxinate",
+    "Carbamazepine",
+    "Cenobamate",
+    "Chloroprocaine",
+    "Cocaine",
+    "Disopyramide",
+    "Dronedarone",
+    "Dyclonine",
+    "Eslicarbazepine",
+    "Ethotoin",
+    "Etidocaine",
+    "Fosphenytoin",
+    "Hexylcaine",
+    "Indecainide",
+    "Lacosamide",
+    "Lamotrigine",
+    "Lidocaine",
+    "Mephenytoin",
+    "Mepivacaine",
+    "Mexiletine",
+    "Orphenadrine",
+    "Oxcarbazepine",
+    "Phenacemide",
+    "Phenytoin",
+    "Prilocaine",
+    "Primidone",
+    "Procainamide",
+    "Procaine",
+    "Propafenone",
+    "Proparacaine",
+    "Propoxycaine",
+    "Quinidine",
+    "Riluzole",
+    "Ropivacaine",
+    "Rufinamide",
+    "Tetracaine",
+    "Tocainide",
+    "Topiramate",
+    "Zonisamide"
+   ],
+   "name": "sodium voltage-gated channel alpha subunit 11",
+   "rationale": "Nav1.9, sets sensory-neuron excitability.",
+   "small_molecule": [
+    "Approved Drug",
+    "Druggable Family"
+   ],
+   "symbol": "SCN11A",
+   "top_tissue": "Testis",
+   "top_tissue_tpm": 2.75726,
+   "url": "https://platform.opentargets.org/target/ENSG00000168356"
+  },
+  {
+   "clinical_candidates": 0,
+   "ensembl": "ENSG00000154864",
+   "expression_tpm": {
+    "accumbens": 0.49972,
+    "hypothalamus": 1.0319,
+    "skin": 0.420421,
+    "spinal_cord": 7.18407
+   },
+   "hypothesis": "neuropathy",
+   "marketed_drugs": [],
+   "name": "piezo type mechanosensitive ion channel component 2",
+   "rationale": "Principal light-touch mechanosensor.",
+   "small_molecule": [],
+   "symbol": "PIEZO2",
+   "top_tissue": "Lung",
+   "top_tissue_tpm": 7.22944,
+   "url": "https://platform.opentargets.org/target/ENSG00000154864"
+  },
+  {
+   "clinical_candidates": 19,
+   "ensembl": "ENSG00000196689",
+   "expression_tpm": {
+    "accumbens": 4.97782,
+    "hypothalamus": 6.5324,
+    "skin": 8.0249,
+    "spinal_cord": 7.89892
+   },
+   "hypothesis": "neuropathy",
+   "marketed_drugs": [
+    "Acetaminophen",
+    "Capsaicin",
+    "Zucapsaicin"
+   ],
+   "name": "transient receptor potential cation channel subfamily V member 1",
+   "rationale": "Heat and chemical sensor on small sensory fibres.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "TRPV1",
+   "top_tissue": "Brain - Cerebellum",
+   "top_tissue_tpm": 22.7412,
+   "url": "https://platform.opentargets.org/target/ENSG00000196689"
+  },
+  {
+   "clinical_candidates": 3,
+   "ensembl": "ENSG00000144481",
+   "expression_tpm": {
+    "accumbens": 0.037459,
+    "hypothalamus": 0.105666,
+    "skin": 0.014149,
+    "spinal_cord": 0.029126
+   },
+   "hypothesis": "neuropathy",
+   "marketed_drugs": [
+    "Menthol"
+   ],
+   "name": "transient receptor potential cation channel subfamily M member 8",
+   "rationale": "Cold sensor on small sensory fibres.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "TRPM8",
+   "top_tissue": "Prostate",
+   "top_tissue_tpm": 14.2666,
+   "url": "https://platform.opentargets.org/target/ENSG00000144481"
+  },
+  {
+   "clinical_candidates": 4,
+   "ensembl": "ENSG00000104321",
+   "expression_tpm": {
+    "accumbens": 0,
+    "hypothalamus": 0.018212,
+    "skin": 0.015055,
+    "spinal_cord": 0
+   },
+   "hypothesis": "neuropathy",
+   "marketed_drugs": [
+    "Menthol"
+   ],
+   "name": "transient receptor potential cation channel subfamily A member 1",
+   "rationale": "Irritant sensor on small sensory fibres.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "TRPA1",
+   "top_tissue": "Bladder",
+   "top_tissue_tpm": 12.4912,
+   "url": "https://platform.opentargets.org/target/ENSG00000104321"
+  },
+  {
+   "clinical_candidates": 0,
+   "ensembl": "ENSG00000213199",
+   "expression_tpm": {
+    "accumbens": 17.8347,
+    "hypothalamus": 15.4503,
+    "skin": 4.42709,
+    "spinal_cord": 21.4377
+   },
+   "hypothesis": "neuropathy",
+   "marketed_drugs": [],
+   "name": "acid sensing ion channel subunit 3",
+   "rationale": "Acid-sensing channel in sensory neurons.",
+   "small_molecule": [
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "ASIC3",
+   "top_tissue": "Brain - Cerebellum",
+   "top_tissue_tpm": 92.4293,
+   "url": "https://platform.opentargets.org/target/ENSG00000213199"
+  },
+  {
+   "clinical_candidates": 67,
+   "ensembl": "ENSG00000108576",
+   "expression_tpm": {
+    "accumbens": 0.109425,
+    "hypothalamus": 0.107531,
+    "skin": 0.525475,
+    "spinal_cord": 0.121936
+   },
+   "hypothesis": "serotonin",
+   "marketed_drugs": [
+    "Amitriptyline",
+    "Amoxapine",
+    "Citalopram",
+    "Clomipramine",
+    "Dasotraline",
+    "Desvenlafaxine",
+    "Dothiepin",
+    "Duloxetine",
+    "Escitalopram",
+    "Fluoxetine",
+    "Fluvoxamine",
+    "Imipramine",
+    "Levomilnacipran",
+    "Lumateperone",
+    "Mazindol",
+    "Methamphetamine",
+    "Milnacipran",
+    "Nortriptyline",
+    "Paroxetine",
+    "Protriptyline",
+    "Sertraline",
+    "Trazodone",
+    "Venlafaxine",
+    "Vilazodone",
+    "Vortioxetine"
+   ],
+   "name": "solute carrier family 6 member 4",
+   "rationale": "Serotonin transporter, the primary SSRI target.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "SLC6A4",
+   "top_tissue": "Lung",
+   "top_tissue_tpm": 35.0239,
+   "url": "https://platform.opentargets.org/target/ENSG00000108576"
+  },
+  {
+   "clinical_candidates": 35,
+   "ensembl": "ENSG00000178394",
+   "expression_tpm": {
+    "accumbens": 0.238621,
+    "hypothalamus": 1.19098,
+    "skin": 0,
+    "spinal_cord": 0.086974
+   },
+   "hypothesis": "serotonin",
+   "marketed_drugs": [
+    "Alverine",
+    "Amisulpride",
+    "Aripiprazole",
+    "Brexpiprazole",
+    "Buspirone",
+    "Ergoloid",
+    "Gepirone",
+    "Methysergide",
+    "Vilazodone",
+    "Vortioxetine"
+   ],
+   "name": "5-hydroxytryptamine receptor 1A",
+   "rationale": "Autoreceptor whose desensitisation is a leading PSSD hypothesis.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "HTR1A",
+   "top_tissue": "Brain - Cortex",
+   "top_tissue_tpm": 5.83895,
+   "url": "https://platform.opentargets.org/target/ENSG00000178394"
+  },
+  {
+   "clinical_candidates": 24,
+   "ensembl": "ENSG00000135312",
+   "expression_tpm": {
+    "accumbens": 2.87865,
+    "hypothalamus": 0.678556,
+    "skin": 0.098437,
+    "spinal_cord": 0.207486
+   },
+   "hypothesis": "serotonin",
+   "marketed_drugs": [
+    "Almotriptan",
+    "Amisulpride",
+    "Eletriptan",
+    "Ergoloid",
+    "Frovatriptan",
+    "Naratriptan",
+    "Rizatriptan",
+    "Sumatriptan",
+    "Zolmitriptan"
+   ],
+   "name": "5-hydroxytryptamine receptor 1B",
+   "rationale": "Present on sensory afferents.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "HTR1B",
+   "top_tissue": "Artery - Tibial",
+   "top_tissue_tpm": 17.3393,
+   "url": "https://platform.opentargets.org/target/ENSG00000135312"
+  },
+  {
+   "clinical_candidates": 74,
+   "ensembl": "ENSG00000102468",
+   "expression_tpm": {
+    "accumbens": 1.71037,
+    "hypothalamus": 2.77396,
+    "skin": 0.122916,
+    "spinal_cord": 0.518781
+   },
+   "hypothesis": "serotonin",
+   "marketed_drugs": [
+    "Amisulpride",
+    "Aripiprazole",
+    "Asenapine",
+    "Blonanserin",
+    "Brexpiprazole",
+    "Chlorpromazine",
+    "Chlorprothixene",
+    "Clothiapine",
+    "Clozapine",
+    "Cyclobenzaprine",
+    "Haloperidol",
+    "Iloperidone",
+    "Loxapine",
+    "Lumateperone",
+    "Lurasidone",
+    "Mesoridazine",
+    "Mirtazapine",
+    "Molindone",
+    "Olanzapine",
+    "Paliperidone",
+    "Pimavanserin",
+    "Pimozide",
+    "Promazine",
+    "Quetiapine",
+    "Risperidone",
+    "Sarpogrelate",
+    "Thiothixene",
+    "Trazodone",
+    "Trifluoperazine",
+    "Trimipramine",
+    "Ziprasidone"
+   ],
+   "name": "5-hydroxytryptamine receptor 2A",
+   "rationale": "Blocked by antipsychotics and mirtazapine; modulates sexual function.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "HTR2A",
+   "top_tissue": "Brain - Frontal Cortex (BA9)",
+   "top_tissue_tpm": 14.7183,
+   "url": "https://platform.opentargets.org/target/ENSG00000102468"
+  },
+  {
+   "clinical_candidates": 44,
+   "ensembl": "ENSG00000147246",
+   "expression_tpm": {
+    "accumbens": 34.0051,
+    "hypothalamus": 13.654,
+    "skin": 0,
+    "spinal_cord": 0.531684
+   },
+   "hypothesis": "serotonin",
+   "marketed_drugs": [
+    "Amisulpride",
+    "Chlorprothixene",
+    "Clothiapine",
+    "Cyclobenzaprine",
+    "Loxapine",
+    "Methixene",
+    "Methysergide",
+    "Mirtazapine",
+    "Olanzapine",
+    "Quetiapine",
+    "Risperidone",
+    "Trazodone",
+    "Trifluoperazine",
+    "Trimipramine",
+    "Ziprasidone"
+   ],
+   "name": "5-hydroxytryptamine receptor 2C",
+   "rationale": "Blocked by antipsychotics and mirtazapine; modulates sexual function.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "HTR2C",
+   "top_tissue": "Brain - Nucleus accumbens (basal ganglia)",
+   "top_tissue_tpm": 34.0051,
+   "url": "https://platform.opentargets.org/target/ENSG00000147246"
+  },
+  {
+   "clinical_candidates": 29,
+   "ensembl": "ENSG00000166736",
+   "expression_tpm": {
+    "accumbens": 1.45687,
+    "hypothalamus": 0.026226,
+    "skin": 0.1235,
+    "spinal_cord": 0
+   },
+   "hypothesis": "serotonin",
+   "marketed_drugs": [
+    "Alosetron",
+    "Amisulpride",
+    "Cilansetron",
+    "Clothiapine",
+    "Dolasetron",
+    "Granisetron",
+    "Metoclopramide",
+    "Mosapride",
+    "Ondansetron",
+    "Palonosetron",
+    "Ramosetron",
+    "Tropisetron",
+    "Vortioxetine"
+   ],
+   "name": "5-hydroxytryptamine receptor 3A",
+   "rationale": "Ion-channel serotonin receptor on sensory nerves; blocked by mirtazapine.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "HTR3A",
+   "top_tissue": "Colon - Sigmoid",
+   "top_tissue_tpm": 3.04613,
+   "url": "https://platform.opentargets.org/target/ENSG00000166736"
+  },
+  {
+   "clinical_candidates": 7,
+   "ensembl": "ENSG00000148680",
+   "expression_tpm": {
+    "accumbens": 0.224174,
+    "hypothalamus": 1.70175,
+    "skin": 0.37792,
+    "spinal_cord": 0.293699
+   },
+   "hypothesis": "serotonin",
+   "marketed_drugs": [
+    "Amisulpride"
+   ],
+   "name": "5-hydroxytryptamine receptor 7",
+   "rationale": "Expressed in sensory ganglia and spinal cord.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "HTR7",
+   "top_tissue": "Testis",
+   "top_tissue_tpm": 12.8765,
+   "url": "https://platform.opentargets.org/target/ENSG00000148680"
+  },
+  {
+   "clinical_candidates": 111,
+   "ensembl": "ENSG00000149295",
+   "expression_tpm": {
+    "accumbens": 54.2141,
+    "hypothalamus": 6.927,
+    "skin": 0.625681,
+    "spinal_cord": 0.662092
+   },
+   "hypothesis": "dopamine",
+   "marketed_drugs": [
+    "Acetophenazine",
+    "Alizapride",
+    "Amisulpride",
+    "Amoxapine",
+    "Apomorphine",
+    "Aripiprazole",
+    "Asenapine",
+    "Benperidol",
+    "Benzquinamide",
+    "Blonanserin",
+    "Brexpiprazole",
+    "Bromocriptine",
+    "Bromopride",
+    "Bromperidol",
+    "Cabergoline",
+    "Cariprazine",
+    "Chlorpromazine",
+    "Chlorprothixene",
+    "Clebopride",
+    "Clozapine",
+    "Domperidone",
+    "Ergoloid",
+    "Fluphenazine",
+    "Fluspirilene",
+    "Haloperidol",
+    "Iloperidone",
+    "Itopride",
+    "Levomepromazine",
+    "Levosulpiride",
+    "Loxapine",
+    "Lumateperone",
+    "Lurasidone",
+    "Mesoridazine",
+    "Metoclopramide",
+    "Molindone",
+    "Olanzapine",
+    "Paliperidone",
+    "Perphenazine",
+    "Pimozide",
+    "Piperacetazine",
+    "Pramipexole",
+    "Prochlorperazine",
+    "Promazine",
+    "Quetiapine",
+    "Quinagolide",
+    "Risperidone",
+    "Ropinirole",
+    "Sulpiride",
+    "Thiethylperazine",
+    "Thiothixene",
+    "Tiapride",
+    "Trifluoperazine",
+    "Trimipramine",
+    "Ziprasidone"
+   ],
+   "name": "dopamine receptor D2",
+   "rationale": "Blocked by antipsychotics; controls prolactin and reward.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "DRD2",
+   "top_tissue": "Pituitary",
+   "top_tissue_tpm": 82.9875,
+   "url": "https://platform.opentargets.org/target/ENSG00000149295"
+  },
+  {
+   "clinical_candidates": 45,
+   "ensembl": "ENSG00000151577",
+   "expression_tpm": {
+    "accumbens": 5.59407,
+    "hypothalamus": 0.124835,
+    "skin": 0,
+    "spinal_cord": 0.011226
+   },
+   "hypothesis": "dopamine",
+   "marketed_drugs": [
+    "Amisulpride",
+    "Amoxapine",
+    "Apomorphine",
+    "Blonanserin",
+    "Bromocriptine",
+    "Cariprazine",
+    "Chlorpromazine",
+    "Chlorprothixene",
+    "Ergoloid",
+    "Haloperidol",
+    "Levomepromazine",
+    "Loxapine",
+    "Olanzapine",
+    "Pimozide",
+    "Pramipexole",
+    "Promazine",
+    "Ropinirole",
+    "Tiapride",
+    "Trifluoperazine"
+   ],
+   "name": "dopamine receptor D3",
+   "rationale": "Limbic dopamine receptor.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Med-Quality Pocket",
+    "Druggable Family"
+   ],
+   "symbol": "DRD3",
+   "top_tissue": "Brain - Nucleus accumbens (basal ganglia)",
+   "top_tissue_tpm": 5.59407,
+   "url": "https://platform.opentargets.org/target/ENSG00000151577"
+  },
+  {
+   "clinical_candidates": 2,
+   "ensembl": "ENSG00000145545",
+   "expression_tpm": {
+    "accumbens": 5.84084,
+    "hypothalamus": 6.57639,
+    "skin": 22.628,
+    "spinal_cord": 5.38704
+   },
+   "hypothesis": "neurosteroid",
+   "marketed_drugs": [
+    "Abiraterone",
+    "Dutasteride"
+   ],
+   "name": "steroid 5 alpha-reductase 1",
+   "rationale": "Makes neuroactive steroids in brain and nerve.",
+   "small_molecule": [
+    "Approved Drug",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "SRD5A1",
+   "top_tissue": "Esophagus - Mucosa",
+   "top_tissue_tpm": 22.6845,
+   "url": "https://platform.opentargets.org/target/ENSG00000145545"
+  },
+  {
+   "clinical_candidates": 3,
+   "ensembl": "ENSG00000277893",
+   "expression_tpm": {
+    "accumbens": 0.019783,
+    "hypothalamus": 0.042941,
+    "skin": 0.052266,
+    "spinal_cord": 0.020846
+   },
+   "hypothesis": "neurosteroid",
+   "marketed_drugs": [
+    "Abiraterone",
+    "Dutasteride",
+    "Finasteride"
+   ],
+   "name": "steroid 5 alpha-reductase 2",
+   "rationale": "Finasteride target.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "SRD5A2",
+   "top_tissue": "Prostate",
+   "top_tissue_tpm": 26.9225,
+   "url": "https://platform.opentargets.org/target/ENSG00000277893"
+  },
+  {
+   "clinical_candidates": 0,
+   "ensembl": "ENSG00000151632",
+   "expression_tpm": {
+    "accumbens": 0.790387,
+    "hypothalamus": 4.0203,
+    "skin": 8.92488,
+    "spinal_cord": 1.76827
+   },
+   "hypothesis": "neurosteroid",
+   "marketed_drugs": [],
+   "name": "aldo-keto reductase family 1 member C2",
+   "rationale": "Final step in allopregnanolone synthesis.",
+   "small_molecule": [
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "High-Quality Pocket",
+    "Druggable Family"
+   ],
+   "symbol": "AKR1C2",
+   "top_tissue": "Adipose - Subcutaneous",
+   "top_tissue_tpm": 85.1885,
+   "url": "https://platform.opentargets.org/target/ENSG00000151632"
+  },
+  {
+   "clinical_candidates": 3,
+   "ensembl": "ENSG00000100300",
+   "expression_tpm": {
+    "accumbens": 21.5019,
+    "hypothalamus": 30.7369,
+    "skin": 397.276,
+    "spinal_cord": 65.1464
+   },
+   "hypothesis": "neurosteroid",
+   "marketed_drugs": [],
+   "name": "translocator protein",
+   "rationale": "Rate-limiting cholesterol transport for neurosteroid synthesis.",
+   "small_molecule": [
+    "Approved Drug",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "TSPO",
+   "top_tissue": "Whole Blood",
+   "top_tissue_tpm": 711.24,
+   "url": "https://platform.opentargets.org/target/ENSG00000100300"
+  },
+  {
+   "clinical_candidates": 72,
+   "ensembl": "ENSG00000187730",
+   "expression_tpm": {
+    "accumbens": 56.8729,
+    "hypothalamus": 3.25839,
+    "skin": 0.689774,
+    "spinal_cord": 1.9787
+   },
+   "hypothesis": "neurosteroid",
+   "marketed_drugs": [
+    "Acamprosate",
+    "Alprazolam",
+    "Brexanolone",
+    "Butabarbital",
+    "Butalbital",
+    "Cenobamate",
+    "Chlordiazepoxide",
+    "Cipepofol",
+    "Clobazam",
+    "Clonazepam",
+    "Clorazepate",
+    "Clorazepic",
+    "Clotiazepam",
+    "Desflurane",
+    "Diazepam",
+    "Enflurane",
+    "Estazolam",
+    "Eszopiclone",
+    "Ethchlorvynol",
+    "Etifoxine",
+    "Etomidate",
+    "Flumazenil",
+    "Flurazepam",
+    "Gaboxadol",
+    "Ganaxolone",
+    "Glutethimide",
+    "Halazepam",
+    "Halothane",
+    "Isoflurane",
+    "Lorazepam",
+    "Metharbital",
+    "Methohexital",
+    "Methyprylon",
+    "Midazolam",
+    "Oxazepam",
+    "Prazepam",
+    "Primidone",
+    "Propofol",
+    "Quazepam",
+    "Remimazolam",
+    "Secobarbital",
+    "Sevoflurane",
+    "Talbutal",
+    "Temazepam",
+    "Thiamylal",
+    "Thiopental",
+    "Topiramate",
+    "Triclofos",
+    "Zuranolone"
+   ],
+   "name": "gamma-aminobutyric acid type A receptor subunit delta",
+   "rationale": "GABA-A subunit that confers neurosteroid sensitivity.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "GABRD",
+   "top_tissue": "Brain - Cerebellar Hemisphere",
+   "top_tissue_tpm": 554.454,
+   "url": "https://platform.opentargets.org/target/ENSG00000187730"
+  },
+  {
+   "clinical_candidates": 73,
+   "ensembl": "ENSG00000109158",
+   "expression_tpm": {
+    "accumbens": 11.5761,
+    "hypothalamus": 1.90752,
+    "skin": 0.147638,
+    "spinal_cord": 0.132837
+   },
+   "hypothesis": "neurosteroid",
+   "marketed_drugs": [
+    "Acamprosate",
+    "Alprazolam",
+    "Brexanolone",
+    "Butabarbital",
+    "Butalbital",
+    "Cenobamate",
+    "Chlordiazepoxide",
+    "Cipepofol",
+    "Clobazam",
+    "Clonazepam",
+    "Clorazepate",
+    "Clorazepic",
+    "Clotiazepam",
+    "Desflurane",
+    "Diazepam",
+    "Enflurane",
+    "Estazolam",
+    "Eszopiclone",
+    "Ethchlorvynol",
+    "Etifoxine",
+    "Etomidate",
+    "Flumazenil",
+    "Flurazepam",
+    "Gaboxadol",
+    "Ganaxolone",
+    "Glutethimide",
+    "Halazepam",
+    "Halothane",
+    "Isoflurane",
+    "Lorazepam",
+    "Metharbital",
+    "Methohexital",
+    "Methyprylon",
+    "Midazolam",
+    "Oxazepam",
+    "Prazepam",
+    "Primidone",
+    "Propofol",
+    "Quazepam",
+    "Remimazolam",
+    "Secobarbital",
+    "Sevoflurane",
+    "Talbutal",
+    "Temazepam",
+    "Thiamylal",
+    "Thiopental",
+    "Topiramate",
+    "Triclofos",
+    "Zuranolone"
+   ],
+   "name": "gamma-aminobutyric acid type A receptor subunit alpha4",
+   "rationale": "GABA-A subunit that confers neurosteroid sensitivity.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "GABRA4",
+   "top_tissue": "Brain - Nucleus accumbens (basal ganglia)",
+   "top_tissue_tpm": 11.5761,
+   "url": "https://platform.opentargets.org/target/ENSG00000109158"
+  },
+  {
+   "clinical_candidates": 40,
+   "ensembl": "ENSG00000169083",
+   "expression_tpm": {
+    "accumbens": 0.475394,
+    "hypothalamus": 1.07693,
+    "skin": 5.11818,
+    "spinal_cord": 0.691487
+   },
+   "hypothesis": "hormonal",
+   "marketed_drugs": [
+    "Abiraterone",
+    "Apalutamide",
+    "Bicalutamide",
+    "Clascoterone",
+    "Danazol",
+    "Darolutamide",
+    "Enzalutamide",
+    "Ethylestrenol",
+    "Fluoxymesterone",
+    "Flutamide",
+    "Methyltestosterone",
+    "Nilutamide",
+    "Oxandrolone",
+    "Oxymetholone",
+    "Stanozolol",
+    "Testosterone"
+   ],
+   "name": "androgen receptor",
+   "rationale": "Androgen receptor; expression changes reported in post-finasteride patients.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "High-Quality Pocket",
+    "Druggable Family"
+   ],
+   "symbol": "AR",
+   "top_tissue": "cervix endocervix",
+   "top_tissue_tpm": 47.5867,
+   "url": "https://platform.opentargets.org/target/ENSG00000169083"
+  },
+  {
+   "clinical_candidates": 51,
+   "ensembl": "ENSG00000091831",
+   "expression_tpm": {
+    "accumbens": 0.197663,
+    "hypothalamus": 0.444957,
+    "skin": 0.850678,
+    "spinal_cord": 0.20414
+   },
+   "hypothesis": "hormonal",
+   "marketed_drugs": [
+    "Arzoxifene",
+    "Bazedoxifene",
+    "Clomiphene",
+    "Diethylstilbestrol",
+    "Elacestrant",
+    "Estetrol",
+    "Estradiol",
+    "Estriol",
+    "Estrogens,",
+    "Estrone",
+    "Estropipate",
+    "Ethinyl",
+    "Fulvestrant",
+    "Mestranol",
+    "Ospemifene",
+    "Polyestradiol",
+    "Quinestrol",
+    "Raloxifene",
+    "Synthetic",
+    "Tamoxifen",
+    "Toremifene"
+   ],
+   "name": "estrogen receptor 1",
+   "rationale": "Oestrogen receptor alpha.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "High-Quality Pocket",
+    "Druggable Family"
+   ],
+   "symbol": "ESR1",
+   "top_tissue": "cervix endocervix",
+   "top_tissue_tpm": 101.479,
+   "url": "https://platform.opentargets.org/target/ENSG00000091831"
+  },
+  {
+   "clinical_candidates": 0,
+   "ensembl": "ENSG00000113494",
+   "expression_tpm": {
+    "accumbens": 1.56516,
+    "hypothalamus": 1.08625,
+    "skin": 3.33767,
+    "spinal_cord": 0.124059
+   },
+   "hypothesis": "hormonal",
+   "marketed_drugs": [],
+   "name": "prolactin receptor",
+   "rationale": "Prolactin receptor; prolactin rises with antipsychotics.",
+   "small_molecule": [
+    "High-Quality Ligand"
+   ],
+   "symbol": "PRLR",
+   "top_tissue": "cervix endocervix",
+   "top_tissue_tpm": 32.505,
+   "url": "https://platform.opentargets.org/target/ENSG00000113494"
+  },
+  {
+   "clinical_candidates": 2,
+   "ensembl": "ENSG00000089250",
+   "expression_tpm": {
+    "accumbens": 3.59273,
+    "hypothalamus": 3.26166,
+    "skin": 2.305,
+    "spinal_cord": 1.40153
+   },
+   "hypothesis": "vascular",
+   "marketed_drugs": [],
+   "name": "nitric oxide synthase 1",
+   "rationale": "Neuronal nitric-oxide synthase, required for genital arousal.",
+   "small_molecule": [
+    "Advanced Clinical",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "NOS1",
+   "top_tissue": "muscle skeletal",
+   "top_tissue_tpm": 8.11584,
+   "url": "https://platform.opentargets.org/target/ENSG00000089250"
+  },
+  {
+   "clinical_candidates": 13,
+   "ensembl": "ENSG00000138735",
+   "expression_tpm": {
+    "accumbens": 1.17415,
+    "hypothalamus": 1.75159,
+    "skin": 3.74102,
+    "spinal_cord": 1.04569
+   },
+   "hypothesis": "vascular",
+   "marketed_drugs": [
+    "Avanafil",
+    "Dipyridamole",
+    "Ibudilast",
+    "Pentoxifylline",
+    "Sildenafil",
+    "Tadalafil",
+    "Udenafil",
+    "Vardenafil"
+   ],
+   "name": "phosphodiesterase 5A",
+   "rationale": "Target of sildenafil and tadalafil.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "High-Quality Pocket",
+    "Druggable Family"
+   ],
+   "symbol": "PDE5A",
+   "top_tissue": "Artery - Aorta",
+   "top_tissue_tpm": 86.5459,
+   "url": "https://platform.opentargets.org/target/ENSG00000138735"
+  },
+  {
+   "clinical_candidates": 8,
+   "ensembl": "ENSG00000180914",
+   "expression_tpm": {
+    "accumbens": 6.17339,
+    "hypothalamus": 4.61943,
+    "skin": 0.228303,
+    "spinal_cord": 2.71886
+   },
+   "hypothesis": "vascular",
+   "marketed_drugs": [
+    "Atosiban",
+    "Carbetocin",
+    "Oxytocin"
+   ],
+   "name": "oxytocin receptor",
+   "rationale": "Oxytocin receptor.",
+   "small_molecule": [
+    "Advanced Clinical",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "OXTR",
+   "top_tissue": "Breast - Mammary Tissue",
+   "top_tissue_tpm": 10.9577,
+   "url": "https://platform.opentargets.org/target/ENSG00000180914"
+  },
+  {
+   "clinical_candidates": 5,
+   "ensembl": "ENSG00000166603",
+   "expression_tpm": {
+    "accumbens": 1.05149,
+    "hypothalamus": 3.36494,
+    "skin": 0,
+    "spinal_cord": 0.119285
+   },
+   "hypothesis": "dopamine",
+   "marketed_drugs": [
+    "Bremelanotide",
+    "Setmelanotide"
+   ],
+   "name": "melanocortin 4 receptor",
+   "rationale": "Target of bremelanotide, approved for low desire.",
+   "small_molecule": [
+    "Advanced Clinical",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "MC4R",
+   "top_tissue": "Brain - Hypothalamus",
+   "top_tissue_tpm": 3.36494,
+   "url": "https://platform.opentargets.org/target/ENSG00000166603"
+  },
+  {
+   "clinical_candidates": 95,
+   "ensembl": "ENSG00000196639",
+   "expression_tpm": {
+    "accumbens": 1.41298,
+    "hypothalamus": 1.77354,
+    "skin": 5.1462,
+    "spinal_cord": 0.765425
+   },
+   "hypothesis": "serotonin",
+   "marketed_drugs": [
+    "Acrivastine",
+    "Alcaftadine",
+    "Antazoline",
+    "Azatadine",
+    "Azelastine",
+    "Bepotastine",
+    "Betahistine",
+    "Bilastine",
+    "Bromodiphenhydramine",
+    "Brompheniramine",
+    "Buclizine",
+    "Carbinoxamine",
+    "Cetirizine",
+    "Chlorpheniramine",
+    "Chlorphenoxamine",
+    "Cinnarizine",
+    "Clemastine",
+    "Cyclizine",
+    "Cyproheptadine",
+    "Dexbrompheniramine",
+    "Dexchlorpheniramine",
+    "Dibenzepin",
+    "Dimenhydrinate",
+    "Dimethindene",
+    "Diphenhydramine",
+    "Diphenylpyraline",
+    "Doxepin",
+    "Doxylamine",
+    "Ebastine",
+    "Emedastine",
+    "Epinastine",
+    "Fexofenadine",
+    "Histamine",
+    "Hydroxyzine",
+    "Ketotifen",
+    "Levocabastine",
+    "Levocetirizine",
+    "Loratadine",
+    "Meclizine",
+    "Mequitazine",
+    "Methdilazine",
+    "Methylpromazine",
+    "Mizolastine",
+    "Olopatadine",
+    "Orphenadrine",
+    "Oxatomide",
+    "Phenindamine",
+    "Pheniramine",
+    "Promethazine",
+    "Propiomazine",
+    "Pyrilamine",
+    "Rupatadine",
+    "Tolazoline",
+    "Trimipramine",
+    "Tripelennamine",
+    "Triprolidine"
+   ],
+   "name": "histamine receptor H1",
+   "rationale": "Strongly blocked by mirtazapine, olanzapine and quetiapine.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Med-Quality Pocket",
+    "Druggable Family"
+   ],
+   "symbol": "HRH1",
+   "top_tissue": "Artery - Aorta",
+   "top_tissue_tpm": 18.9077,
+   "url": "https://platform.opentargets.org/target/ENSG00000196639"
+  },
+  {
+   "clinical_candidates": 57,
+   "ensembl": "ENSG00000150594",
+   "expression_tpm": {
+    "accumbens": 0.532985,
+    "hypothalamus": 6.17038,
+    "skin": 10.4507,
+    "spinal_cord": 0.964415
+   },
+   "hypothesis": "serotonin",
+   "marketed_drugs": [
+    "Alseroxylon",
+    "Apraclonidine",
+    "Brimonidine",
+    "Celiprolol",
+    "Clonidine",
+    "Dexmedetomidine",
+    "Dipivefrin",
+    "Droxidopa",
+    "Ephedrine",
+    "Epinephrine",
+    "Ergoloid",
+    "Ergotamine",
+    "Guanabenz",
+    "Guanfacine",
+    "Hydroxyamphetamine",
+    "Labetalol",
+    "Lofexidine",
+    "Mephentermine",
+    "Methyldopa",
+    "Methyldopate",
+    "Mirtazapine",
+    "Naphazoline",
+    "Norepinephrine",
+    "Oxymetazoline",
+    "Phenoxybenzamine",
+    "Phentolamine",
+    "Rauwolfia",
+    "Tetrahydrozoline",
+    "Tizanidine",
+    "Tolazoline",
+    "Xylometazoline"
+   ],
+   "name": "adrenoceptor alpha 2A",
+   "rationale": "Blocked by mirtazapine.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "ADRA2A",
+   "top_tissue": "Adipose - Subcutaneous",
+   "top_tissue_tpm": 90.4145,
+   "url": "https://platform.opentargets.org/target/ENSG00000150594"
+  },
+  {
+   "clinical_candidates": 9,
+   "ensembl": "ENSG00000147955",
+   "expression_tpm": {
+    "accumbens": 24.4941,
+    "hypothalamus": 29.4264,
+    "skin": 64.2356,
+    "spinal_cord": 27.0545
+   },
+   "hypothesis": "serotonin",
+   "marketed_drugs": [
+    "Carbetapentane",
+    "Dextromethorphan",
+    "Pentazocine"
+   ],
+   "name": "sigma non-opioid intracellular receptor 1",
+   "rationale": "Bound by several SSRIs; modulates ion channels.",
+   "small_molecule": [
+    "Approved Drug",
+    "Structure with Ligand",
+    "High-Quality Ligand",
+    "Druggable Family"
+   ],
+   "symbol": "SIGMAR1",
+   "top_tissue": "Liver",
+   "top_tissue_tpm": 95.3663,
+   "url": "https://platform.opentargets.org/target/ENSG00000147955"
+  }
+ ]
+}

@@ -328,6 +328,56 @@
   }
   fx.addEventListener('input', drawForest);
 
+  // ---- drug targets ---------------------------------------------------
+  function drawTargets() {
+    const B = D.targets.binding || {}, cls = D.drugClasses || {};
+    const drugs = Object.keys(B).filter(d => Object.keys(B[d]).length && (PART.everything || PART.drugs.includes(d)));
+    const classOrder = [...new Set(Object.values(cls))];
+    drugs.sort((a, b) => classOrder.indexOf(cls[a]) - classOrder.indexOf(cls[b]));   // keep each class together
+    const strong = (d, g) => B[d][g] && B[d][g].pki >= 7;
+    const tbl = $('bindTable'), sum = $('bindSummary'); tbl.replaceChildren(); sum.replaceChildren();
+    if (!drugs.length) sum.textContent = 'No binding data yet.';
+    else {
+      const genes = [...new Set(drugs.flatMap(d => Object.keys(B[d])))]
+        .map(g => ({ g, n: drugs.filter(d => strong(d, g)).length })).filter(x => x.n >= 2 || (drugs.length < 4 && x.n))
+        .sort((a, b) => b.n - a.n || a.g.localeCompare(b.g)).slice(0, 22);
+      const half = genes.filter(x => x.n >= drugs.length / 2).map(x => `${x.g} (${x.n} of ${drugs.length})`);
+      sum.append(h('b', null, 'Bound strongly by at least half the drugs in this view: '), half.length ? half.join(', ') + '.' : 'no single protein.');
+      if (PART.everything) {
+        const grp = d => ['SSRI', 'SNRI'].includes(cls[d]) ? 'a' : (cls[d] === 'Antipsychotic' || d === 'mirtazapine') ? 'b' : null;
+        const A = drugs.filter(d => grp(d) === 'a'), Bg = drugs.filter(d => grp(d) === 'b');
+        const both = genes.filter(x => A.filter(d => strong(d, x.g)).length >= A.length / 2 && Bg.filter(d => strong(d, x.g)).length >= Bg.length / 2).map(x => x.g);
+        sum.append(h('br'), h('b', null, 'Shared by most SSRIs/SNRIs and most antipsychotics plus mirtazapine: '), both.length ? both.join(', ') + '.' : 'no protein. The two groups have no common direct target in these data, so any shared mechanism would have to lie downstream.');
+      }
+      tbl.append(h('tr', null, h('th', null, ''), genes.map(x => h('th', { class: 'col' }, x.g))));
+      let last = null;
+      for (const d of drugs) {
+        if (cls[d] !== last) { last = cls[d]; tbl.append(h('tr', { class: 'grp' }, h('td', { colspan: genes.length + 1 }, last))); }
+        tbl.append(h('tr', null, h('td', null, cap(d)), genes.map(x => {
+          const c = B[d][x.g];
+          if (!c) return h('td', { class: 'cell zero' }, '·');
+          const td = h('td', { class: 'cell', style: `cursor:default;background:rgba(var(--seq),${Math.max(0.06, Math.min(0.7, (c.pki - 5) / 5 * 0.7)).toFixed(2)})` }, c.pki.toFixed(1));
+          const ki = Math.pow(10, 9 - c.pki);
+          hover(td, `${cap(d)} · ${x.g}\nKi about ${ki >= 100 ? Math.round(ki) : ki.toPrecision(2)} nM (pKi ${c.pki})\n${c.n} measurement${c.n > 1 ? 's' : ''}`);
+          return td;
+        })));
+      }
+    }
+    const t = $('tgTable'); t.replaceChildren();
+    const T = D.targets.targets || [];
+    if (!T.length) { t.append(h('tr', null, h('td', null, 'No target data yet.'))); return; }
+    const tpm = v => v == null ? '–' : v >= 10 ? Math.round(v) : v.toFixed(1);
+    t.append(h('tr', null, ['Target', 'Hypothesis', 'Why it is a candidate', 'Marketed drugs acting on it', 'Implicated drugs binding it', 'Spinal cord', 'Hypothalamus', 'Skin'].map((c, i) => h('th', { class: i > 3 ? 'num' : '' }, c))));
+    const order = D.hypotheses.map(x => x.id);
+    for (const x of T.slice().sort((a, b) => order.indexOf(a.hypothesis) - order.indexOf(b.hypothesis))) {
+      const e = x.expression_tpm, m = x.marketed_drugs, nb = drugs.filter(d => strong(d, x.symbol)).length;
+      t.append(h('tr', null, h('td', null, h('a', { href: x.url, target: '_blank', rel: 'noopener' }, x.symbol), h('div', { class: 'small' }, x.name)),
+        h('td', null, label(D.hypotheses, x.hypothesis)), h('td', { class: 'small' }, x.rationale),
+        h('td', null, m.length ? `${m.length}: ${m.slice(0, 3).join(', ')}${m.length > 3 ? '…' : ''}` : h('span', { class: 'flag' }, 'None yet')),
+        h('td', { class: 'num' }, nb || '–'), h('td', { class: 'num' }, tpm(e.spinal_cord)), h('td', { class: 'num' }, tpm(e.hypothalamus)), h('td', { class: 'num' }, tpm(e.skin))));
+    }
+  }
+
   // ---- patient reports -------------------------------------------------
   const TX = D.interventions.concat(D.communityInterventions || []);
   let ptShown = 25, ptTx = '', ptRec = false, blShown = 15, blSrc = '';
@@ -410,7 +460,7 @@
     for (const b of $('seg').children) b.setAttribute('aria-pressed', b.dataset.id === PART.id);
     $('partNote').textContent = PART.everything ? PART.description
       : `${PART.description} A record is included when its title, abstract or post names one of these drugs, so some records are only partly about them.`;
-    drawTiles(); drawTimeline(); drawMatrix(); drawGaps(); drawTreatments(); drawTrials(); drawForest(); drawPatients(); render();
+    drawTiles(); drawTimeline(); drawMatrix(); drawGaps(); drawTreatments(); drawTrials(); drawForest(); drawTargets(); drawPatients(); render();
   }
   $('seg').append(...PARTS.map(p => {
     const b = h('button', { 'aria-pressed': 'false' }, p.label); b.dataset.id = p.id;

@@ -39,7 +39,7 @@ def serve(args, run_update) -> int:
             if include_faers:
                 rc = run_update(ns, log=job.log.append)
             else:
-                ns.skip = ["faers"]
+                ns.skip = ["faers", "targets"]
                 rc = run_update(ns, log=job.log.append)
             job.error = "Some sources could not be refreshed; their previous data was kept." if rc else ""
         except Exception as e:  # noqa: BLE001 - report any failure to the page

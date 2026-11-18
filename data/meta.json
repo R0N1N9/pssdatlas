@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17",
+ "generated": "2026-11-18",
  "sources": {
   "blogs": {
    "ok": true,
@@ -18,9 +18,13 @@
    "updated": "2026-11-17"
   },
   "reddit": {
-   "configured": false,
+   "configured": true,
    "ok": true,
    "updated": "2026-11-17"
+  },
+  "targets": {
+   "ok": true,
+   "updated": "2026-11-18"
   },
   "trials": {
    "ok": true,

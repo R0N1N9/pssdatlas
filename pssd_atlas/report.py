@@ -21,6 +21,8 @@ def payload(cfg: Config, data: Path) -> dict:
         "papers": _read(data / "papers.json", []),
         "trials": _read(data / "trials.json", []),
         "faers": _read(data / "faers.json", {"rows": [], "reactions": [], "n_reports": 0}),
+        "targets": _read(data / "targets.json", {"targets": [], "binding": {}}),
+        "drugClasses": {d["name"]: d.get("class", "") for d in cfg.faers_drugs},
         "community": _read(data / "community.json", []),
         "partitions": [{"id": p.id, "label": p.label, "description": p.description, "drugs": sorted(p.drugs),
                         "everything": p.everything} for p in cfg.partitions],

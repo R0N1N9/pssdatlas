@@ -639,3 +639,174 @@ patterns = ['reinstat']
 id = "lithium"
 label = "Lithium"
 patterns = ['lithium']
+
+# --------------------------------------------------------------------------
+# Candidate drug targets. Each gets a dossier (druggability, existing drugs,
+# nerve-tissue expression) and a column in the drug-binding comparison.
+# `hypothesis` refers to a [[hypothesis]] id above.
+# --------------------------------------------------------------------------
+
+[[target]]
+symbol = "SCN9A"
+hypothesis = "neuropathy"
+rationale = "Nav1.7, the main pain and touch sodium channel in sensory neurons; several SSRIs block sodium channels."
+
+[[target]]
+symbol = "SCN10A"
+hypothesis = "neuropathy"
+rationale = "Nav1.8, sensory-neuron sodium channel."
+
+[[target]]
+symbol = "SCN11A"
+hypothesis = "neuropathy"
+rationale = "Nav1.9, sets sensory-neuron excitability."
+
+[[target]]
+symbol = "PIEZO2"
+hypothesis = "neuropathy"
+rationale = "Principal light-touch mechanosensor."
+
+[[target]]
+symbol = "TRPV1"
+hypothesis = "neuropathy"
+rationale = "Heat and chemical sensor on small sensory fibres."
+
+[[target]]
+symbol = "TRPM8"
+hypothesis = "neuropathy"
+rationale = "Cold sensor on small sensory fibres."
+
+[[target]]
+symbol = "TRPA1"
+hypothesis = "neuropathy"
+rationale = "Irritant sensor on small sensory fibres."
+
+[[target]]
+symbol = "ASIC3"
+hypothesis = "neuropathy"
+rationale = "Acid-sensing channel in sensory neurons."
+
+[[target]]
+symbol = "SLC6A4"
+hypothesis = "serotonin"
+rationale = "Serotonin transporter, the primary SSRI target."
+
+[[target]]
+symbol = "HTR1A"
+hypothesis = "serotonin"
+rationale = "Autoreceptor whose desensitisation is a leading PSSD hypothesis."
+
+[[target]]
+symbol = "HTR1B"
+hypothesis = "serotonin"
+rationale = "Present on sensory afferents."
+
+[[target]]
+symbol = "HTR2A"
+hypothesis = "serotonin"
+rationale = "Blocked by antipsychotics and mirtazapine; modulates sexual function."
+
+[[target]]
+symbol = "HTR2C"
+hypothesis = "serotonin"
+rationale = "Blocked by antipsychotics and mirtazapine; modulates sexual function."
+
+[[target]]
+symbol = "HTR3A"
+hypothesis = "serotonin"
+rationale = "Ion-channel serotonin receptor on sensory nerves; blocked by mirtazapine."
+
+[[target]]
+symbol = "HTR7"
+hypothesis = "serotonin"
+rationale = "Expressed in sensory ganglia and spinal cord."
+
+[[target]]
+symbol = "DRD2"
+hypothesis = "dopamine"
+rationale = "Blocked by antipsychotics; controls prolactin and reward."
+
+[[target]]
+symbol = "DRD3"
+hypothesis = "dopamine"
+rationale = "Limbic dopamine receptor."
+
+[[target]]
+symbol = "SRD5A1"
+hypothesis = "neurosteroid"
+rationale = "Makes neuroactive steroids in brain and nerve."
+
+[[target]]
+symbol = "SRD5A2"
+hypothesis = "neurosteroid"
+rationale = "Finasteride target."
+
+[[target]]
+symbol = "AKR1C2"
+hypothesis = "neurosteroid"
+rationale = "Final step in allopregnanolone synthesis."
+
+[[target]]
+symbol = "TSPO"
+hypothesis = "neurosteroid"
+rationale = "Rate-limiting cholesterol transport for neurosteroid synthesis."
+
+[[target]]
+symbol = "GABRD"
+hypothesis = "neurosteroid"
+rationale = "GABA-A subunit that confers neurosteroid sensitivity."
+
+[[target]]
+symbol = "GABRA4"
+hypothesis = "neurosteroid"
+rationale = "GABA-A subunit that confers neurosteroid sensitivity."
+
+[[target]]
+symbol = "AR"
+hypothesis = "hormonal"
+rationale = "Androgen receptor; expression changes reported in post-finasteride patients."
+
+[[target]]
+symbol = "ESR1"
+hypothesis = "hormonal"
+rationale = "Oestrogen receptor alpha."
+
+[[target]]
+symbol = "PRLR"
+hypothesis = "hormonal"
+rationale = "Prolactin receptor; prolactin rises with antipsychotics."
+
+[[target]]
+symbol = "NOS1"
+hypothesis = "vascular"
+rationale = "Neuronal nitric-oxide synthase, required for genital arousal."
+
+[[target]]
+symbol = "PDE5A"
+hypothesis = "vascular"
+rationale = "Target of sildenafil and tadalafil."
+
+[[target]]
+symbol = "OXTR"
+hypothesis = "vascular"
+rationale = "Oxytocin receptor."
+
+[[target]]
+symbol = "MC4R"
+hypothesis = "dopamine"
+rationale = "Target of bremelanotide, approved for low desire."
+
+[[target]]
+symbol = "HRH1"
+hypothesis = "serotonin"
+rationale = "Strongly blocked by mirtazapine, olanzapine and quetiapine."
+
+[[target]]
+symbol = "ADRA2A"
+hypothesis = "serotonin"
+rationale = "Blocked by mirtazapine."
+
+[[target]]
+symbol = "SIGMAR1"
+hypothesis = "serotonin"
+rationale = "Bound by several SSRIs; modulates ion channels."

@@ -60,6 +60,7 @@ class Config:
     community_interventions: list[Tagger] = field(default_factory=list)
     reddit: dict = field(default_factory=dict)
     blogs: list[dict] = field(default_factory=list)
+    targets: list[dict] = field(default_factory=list)
 
     @property
     def drug_tagger(self) -> list[Tagger]:
@@ -109,4 +110,5 @@ def load(path: Path | None = None) -> Config:
         community_interventions=[Tagger(x["id"], x["label"], x["patterns"]) for x in com.get("intervention", [])],
         reddit=com.get("reddit", {}),
         blogs=com.get("blog", []),
+        targets=raw.get("target", []),
     )

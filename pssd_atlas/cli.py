@@ -10,12 +10,12 @@ import json
 import sys
 from pathlib import Path
 
-from . import blogs, classify, community, forumpage, config, europepmc, faers, pubmed, reddit, report, server, trials
+from . import blogs, classify, community, forumpage, targets, config, europepmc, faers, pubmed, reddit, report, server, trials
 from .http import Client
 
 SCOPE_RANK = {"core": 0, "related": 1, "adjacent": 2}
 IMPORTABLE = {".html", ".htm", ".txt", ".md"}
-SOURCES = ("pubmed", "preprints", "trials", "faers", "reddit", "blogs")
+SOURCES = ("pubmed", "preprints", "trials", "faers", "reddit", "blogs", "targets")
 
 
 def _log(msg: str) -> None:
@@ -143,6 +143,16 @@ def cmd_update(args, log=_log) -> int:
     fa = run("faers", get_faers)
     if fa is None:
         fa = _read(data / "faers.json", {"rows": [], "reactions": [], "n_reports": 0, "composite_terms": []})
+
+    def get_targets():
+        log("- target dossiers and drug-binding data (a few minutes on first run)")
+        slow = Client(cache_dir=None if args.no_cache else Path(args.cache), cache_ttl=30 * 86400, min_interval=0.25)
+        return targets.analyse(slow, cfg.targets, cfg.faers_drugs, log=log)
+
+    tg = run("targets", get_targets)
+    if tg is None:
+        tg = _read(data / "targets.json", {"targets": [], "binding": {}})
+    _write(data / "targets.json", tg)
 
     # Patient reports. Raw post text is kept in a local, git-ignored store so that posts
     # accumulate across runs (Reddit only serves recent ones) and tags can be re-derived

@@ -1,7 +1,7 @@
 import math
 import unittest
 
-from pssd_atlas import classify, community, config, faers, forumpage, pubmed, reddit
+from pssd_atlas import classify, community, config, faers, forumpage, pubmed, reddit, targets
 
 CFG = config.load()
 
@@ -143,6 +143,25 @@ class ForumPages(unittest.TestCase):
         q = forumpage.parse("<html><body><p>Just some saved notes about mirtazapine and what happened afterwards.</p></body></html>")
         self.assertFalse(q["split"])
         self.assertIn("mirtazapine", q["posts"][0]["text"])
+
+
+class TargetBinding(unittest.TestCase):
+    def test_median_per_gene_and_filters(self):
+        class Fake:
+            def get_json(self, url, params=None):
+                if url.endswith("/molecule.json"):
+                    return {"molecules": [{"molecule_chembl_id": "C1"}]}
+                if "/target/" in url:
+                    single = url.endswith("T1.json")
+                    return {"target_type": "SINGLE PROTEIN" if single else "PROTEIN FAMILY",
+                            "target_components": [{"target_component_synonyms": [
+                                {"syn_type": "GENE_SYMBOL", "component_synonym": "HTR2A"}]}]}
+                acts = [("T1", "8.0", "="), ("T1", "7.0", "="), ("T1", "9.9", ">"), ("T2", "9.0", "=")]
+                return {"activities": [{"target_chembl_id": t, "pchembl_value": v, "standard_relation": r}
+                                       for t, v, r in acts], "page_meta": {"total_count": len(acts)}}
+
+        cells = targets.binding(Fake(), [{"name": "olanzapine"}])
+        self.assertEqual(cells, {"olanzapine": {"HTR2A": {"pki": 7.5, "n": 2}}})
 
 
 class Disproportionality(unittest.TestCase):

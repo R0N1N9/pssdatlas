@@ -128,6 +128,22 @@ Outcome tags come from nearby words ("didn't help", "made it worse"), not from
 understanding the post, and are frequently wrong. Posts are self-selected.
 Treat this section as a source of leads, not evidence.
 
+### Drug targets
+
+The report's **Drug targets** section has two parts, both following the view
+selector:
+
+- **What the implicated drugs bind**: a heatmap of binding strength for every
+  implicated drug against human proteins, from ChEMBL, with a computed summary
+  of which proteins most drugs in the view share.
+- **Candidate target dossiers**: for each gene under `[[target]]` in the
+  config, the marketed drugs that already act on it and its tissue expression,
+  from the Open Targets Platform.
+
+Binding data are incomplete and uneven across drugs, and many values rest on a
+single experiment. No sensory-ganglion expression data are available from this
+source.
+
 The report also has a light/dark toggle, and the paper explorer sorts by
 publication date (newest or oldest first).
 
