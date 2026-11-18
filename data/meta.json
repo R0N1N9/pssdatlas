@@ -7,15 +7,15 @@
   },
   "faers": {
    "ok": true,
-   "updated": "2026-11-17"
+   "updated": "2026-11-18"
   },
   "preprints": {
    "ok": true,
-   "updated": "2026-11-17"
+   "updated": "2026-11-18"
   },
   "pubmed": {
    "ok": true,
-   "updated": "2026-11-17"
+   "updated": "2026-11-18"
   },
   "reddit": {
    "configured": true,
@@ -28,7 +28,7 @@
   },
   "trials": {
    "ok": true,
-   "updated": "2026-11-17"
+   "updated": "2026-11-18"
   }
  },
  "version": 1

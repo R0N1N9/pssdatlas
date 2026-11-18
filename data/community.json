@@ -12,7 +12,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "sleep"
+   "sleep",
+   "akathisia"
   ],
   "title": "Whose Fault Are Suicides?",
   "treatments": [
@@ -39,7 +40,9 @@
   "recovery": false,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "cognitive"
+  ],
   "title": "Ariadne’s Thread and Post-Mefloquine Toxicity",
   "treatments": [
    {
@@ -72,7 +75,8 @@
   "symptoms": [
    "blunting",
    "cognitive",
-   "sensory"
+   "sensory",
+   "dissociation"
   ],
   "title": "Functional, Fashionable or Toxic?",
   "treatments": [
@@ -203,7 +207,9 @@
   "recovery": false,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "cognitive"
+  ],
   "title": "The Daily Signal: The problem of Post-SSRI Sexual Dysfunction",
   "treatments": [],
   "url": "https://www.pssdnetwork.org/media/dailysignal-antidepressants-pssd"
@@ -226,7 +232,9 @@
   "symptoms": [
    "genital_numbness",
    "libido",
-   "erectile"
+   "erectile",
+   "orgasm",
+   "cognitive"
   ],
   "title": "Ordinary or Forgotten Women and Men",
   "treatments": [
@@ -264,7 +272,9 @@
   "recovery": true,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "orgasm"
+  ],
   "title": "A Story of Bad Science: How Defenders of Antidepressant Efficacy Make Their Case",
   "treatments": [],
   "url": "https://www.madinamerica.com/2026/07/a-story-of-bad-science-how-defenders-of-antidepressant-efficacy-make-their-case/"
@@ -287,7 +297,9 @@
   "symptoms": [
    "genital_numbness",
    "libido",
-   "erectile"
+   "erectile",
+   "orgasm",
+   "cognitive"
   ],
   "title": "Can Stealing be Regulated",
   "treatments": [
@@ -321,7 +333,9 @@
   "recovery": false,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "cognitive"
+  ],
   "title": "ReachLink: What nobody tells you about Antidepressants and PSSD",
   "treatments": [],
   "url": "https://www.pssdnetwork.org/media/reachlink-antidepressants-pssd"
@@ -360,7 +374,9 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "libido"
+   "libido",
+   "orgasm",
+   "akathisia"
   ],
   "title": "Triple Therapy for Enduring Sexual Dsyfunction",
   "treatments": [
@@ -482,7 +498,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "erectile"
+   "erectile",
+   "cognitive"
   ],
   "title": "Regulators Bearing Gifts",
   "treatments": [],
@@ -548,7 +565,9 @@
   "recovery": true,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "genital_numbness"
+  ],
   "title": "Approving a Drug for Children and Adolescents That Is More Likely to Induce Suicidality Than Relieve Anxiety Is Concerning",
   "treatments": [],
   "url": "https://www.madinamerica.com/2026/06/approving-a-drug-for-children-and-adolescents-that-is-more-likely-to-induce-suicidality-than-relieve-anxiety-is-concerning/"
@@ -587,7 +606,9 @@
   "recovery": true,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "cognitive"
+  ],
   "title": "Love Actually and Looping Disorders",
   "treatments": [
    {
@@ -771,7 +792,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "libido"
+   "libido",
+   "cognitive"
   ],
   "title": "No Sex – We’re on Antidepressants",
   "treatments": [
@@ -793,7 +815,9 @@
   "recovery": false,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "cognitive"
+  ],
   "title": "Esquire: Uncomfortably Numb — My Life with a desensitized Penis",
   "treatments": [],
   "url": "https://www.pssdnetwork.org/media/https/wwwesquirecom/lifestyle/health/a70611558/ssri-genital-numbness-men"
@@ -952,7 +976,9 @@
   "symptoms": [
    "genital_numbness",
    "libido",
-   "cognitive"
+   "orgasm",
+   "cognitive",
+   "akathisia"
   ],
   "title": "Are HealthCare and Science Compatible?",
   "treatments": [
@@ -995,6 +1021,7 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
+   "orgasm",
    "cognitive"
   ],
   "title": "ADHD Diagnoses, Examining the Psyche, Withdrawal and PSSD Risks, ECT Harms and More: Robert Whitaker Answers Reader Questions",
@@ -1041,7 +1068,10 @@
   "source": "blog",
   "symptoms": [
    "genital_numbness",
-   "erectile"
+   "libido",
+   "erectile",
+   "orgasm",
+   "akathisia"
   ],
   "title": "We Must Stop the ADHD Prescribing Cascade, Not Perpetuate It",
   "treatments": [
@@ -1090,7 +1120,9 @@
   "symptoms": [
    "genital_numbness",
    "libido",
-   "cognitive"
+   "orgasm",
+   "cognitive",
+   "akathisia"
   ],
   "title": "I Come to Praise SSRIs not to Bury Them",
   "treatments": [
@@ -1133,7 +1165,9 @@
   "source": "blog",
   "symptoms": [
    "blunting",
-   "anhedonia"
+   "anhedonia",
+   "dissociation",
+   "akathisia"
   ],
   "title": "Antidepressant Withdrawal: Finding an Astronomical Perspective – A Conversation with Safa Askeri",
   "treatments": [
@@ -1160,7 +1194,8 @@
    "genital_numbness",
    "libido",
    "cognitive",
-   "sensory"
+   "sensory",
+   "akathisia"
   ],
   "title": "Erotic Sensory Shocks",
   "treatments": [
@@ -1222,7 +1257,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "sensory"
+   "sensory",
+   "akathisia"
   ],
   "title": "Can Antidepressants Cause Visual Snow Syndrome?",
   "treatments": [
@@ -1319,7 +1355,8 @@
    "genital_numbness",
    "blunting",
    "cognitive",
-   "sensory"
+   "sensory",
+   "akathisia"
   ],
   "title": "Lonesome Heroes can work Miracles",
   "treatments": [
@@ -1406,6 +1443,7 @@
   "source": "blog",
   "symptoms": [
    "genital_numbness",
+   "libido",
    "orgasm",
    "blunting",
    "anhedonia",
@@ -1463,7 +1501,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "cognitive"
+   "cognitive",
+   "akathisia"
   ],
   "title": "Do Critics of Biological Psychiatry Have an Alternative to a Life of “Whack-A-Mole”?",
   "treatments": [
@@ -1525,6 +1564,7 @@
    "genital_numbness",
    "libido",
    "erectile",
+   "orgasm",
    "blunting",
    "sleep",
    "sensory"
@@ -1572,7 +1612,10 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "sensory"
+   "cognitive",
+   "sleep",
+   "sensory",
+   "akathisia"
   ],
   "title": "SNOMED, Your Doctor and You – Having an Impact",
   "treatments": [
@@ -1615,7 +1658,8 @@
    "libido",
    "erectile",
    "orgasm",
-   "sensory"
+   "sensory",
+   "akathisia"
   ],
   "title": "MHRA Adopts Code for Post-SSRI Sexual Dysfunction",
   "treatments": [
@@ -1687,9 +1731,11 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
+   "blunting",
    "anhedonia",
    "cognitive",
-   "sleep"
+   "sleep",
+   "dissociation"
   ],
   "title": "Why I Stopped Taking Antidepressants—and Was It Worth It?",
   "treatments": [],
@@ -1718,8 +1764,11 @@
    "genital_numbness",
    "libido",
    "erectile",
+   "orgasm",
    "blunting",
-   "sleep"
+   "cognitive",
+   "sleep",
+   "akathisia"
   ],
   "title": "Antidepressants, Homicide and a Challenge",
   "treatments": [
@@ -1808,7 +1857,8 @@
   "source": "blog",
   "symptoms": [
    "genital_numbness",
-   "libido"
+   "libido",
+   "orgasm"
   ],
   "title": "Antidepressants Linked to Lasting Sexual Dysfunction, Study Finds",
   "treatments": [],
@@ -1826,7 +1876,9 @@
   "recovery": false,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "cognitive"
+  ],
   "title": "New Article about PSSD Epidemiology",
   "treatments": [],
   "url": "https://rxisk.org/new-article-about-pssd-epidemiology/"
@@ -1854,9 +1906,11 @@
    "genital_numbness",
    "libido",
    "erectile",
+   "orgasm",
    "blunting",
    "cognitive",
-   "sensory"
+   "sensory",
+   "akathisia"
   ],
   "title": "Madness, Normality and Antidepressant Dysregulation",
   "treatments": [
@@ -1896,7 +1950,8 @@
    "blunting",
    "anhedonia",
    "cognitive",
-   "sensory"
+   "sensory",
+   "akathisia"
   ],
   "title": "The Iatrogenic Gaze: How We Forgot That Psychiatry Could Be Harmful",
   "treatments": [
@@ -1963,6 +2018,7 @@
    "genital_numbness",
    "libido",
    "orgasm",
+   "blunting",
    "anhedonia",
    "sleep"
   ],
@@ -2021,7 +2077,9 @@
   "recovery": true,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "akathisia"
+  ],
   "title": "The Clinical, Social, and Cultural Harm of an Iatrogenic Psychiatry",
   "treatments": [
    {
@@ -2049,7 +2107,9 @@
    "genital_numbness",
    "libido",
    "erectile",
-   "sensory"
+   "orgasm",
+   "sensory",
+   "akathisia"
   ],
   "title": "Complex Sensory Imbalances: New Remedies",
   "treatments": [
@@ -2081,6 +2141,7 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
+   "orgasm",
    "sensory"
   ],
   "title": "Vision Weird, Vision Blurred and Visual Snow",
@@ -2116,6 +2177,7 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
+   "cognitive",
    "sensory"
   ],
   "title": "Visual Snow, Visual Blur, Visual Weird",
@@ -2186,7 +2248,9 @@
   "recovery": false,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "cognitive"
+  ],
   "title": "Challenging My Media to Disclose",
   "treatments": [
    {
@@ -2225,10 +2289,12 @@
    "genital_numbness",
    "libido",
    "erectile",
+   "orgasm",
    "blunting",
    "cognitive",
    "sleep",
-   "sensory"
+   "sensory",
+   "akathisia"
   ],
   "title": "The Fantasies of Psychopharmacology",
   "treatments": [
@@ -2328,6 +2394,7 @@
    "genital_numbness",
    "libido",
    "erectile",
+   "orgasm",
    "blunting",
    "cognitive"
   ],
@@ -2423,8 +2490,10 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
+   "libido",
    "erectile",
-   "cognitive"
+   "cognitive",
+   "dissociation"
   ],
   "title": "Depression: Psychiatry’s Discredited Theories and Drugs Versus a Sane Model and Approach",
   "treatments": [
@@ -2498,7 +2567,8 @@
   "symptoms": [
    "genital_numbness",
    "libido",
-   "erectile"
+   "erectile",
+   "orgasm"
   ],
   "title": "Sex, Fertility, France and Serotonin Timeline",
   "treatments": [
@@ -2575,6 +2645,7 @@
    "genital_numbness",
    "libido",
    "erectile",
+   "orgasm",
    "sensory"
   ],
   "title": "Drugs & Sex & Fertility – and SSRIs",
@@ -2708,7 +2779,9 @@
   "symptoms": [
    "genital_numbness",
    "libido",
-   "blunting"
+   "orgasm",
+   "blunting",
+   "cognitive"
   ],
   "title": "Has Healthcare Gone Mad?",
   "treatments": [
@@ -2742,7 +2815,8 @@
   "source": "blog",
   "symptoms": [
    "anhedonia",
-   "cognitive"
+   "cognitive",
+   "dissociation"
   ],
   "title": "May Cause Side Effects–Radical Acceptance and Psychiatric Drug Withdrawal: An Interview with Brooke Siem",
   "treatments": [
@@ -2775,7 +2849,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "sensory"
+   "sensory",
+   "akathisia"
   ],
   "title": "Treatment Complications: Good Expert Needed",
   "treatments": [
@@ -2800,7 +2875,8 @@
   "source": "blog",
   "symptoms": [
    "genital_numbness",
-   "libido"
+   "libido",
+   "orgasm"
   ],
   "title": "When the Personal becomes Political",
   "treatments": [],
@@ -2825,6 +2901,7 @@
   "source": "blog",
   "symptoms": [
    "genital_numbness",
+   "orgasm",
    "blunting"
   ],
   "title": "New Test to Confirm a PSSD Diagnosis",
@@ -2859,7 +2936,8 @@
    "blunting",
    "anhedonia",
    "cognitive",
-   "sensory"
+   "sensory",
+   "akathisia"
   ],
   "title": "Withdrawal, PSSD and Cholinergic Drugs",
   "treatments": [
@@ -2899,7 +2977,10 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
+   "genital_numbness",
    "erectile",
+   "orgasm",
+   "cognitive",
    "sensory"
   ],
   "title": "Visual Snow: A Looming Epidemic",
@@ -2944,7 +3025,8 @@
   "symptoms": [
    "genital_numbness",
    "libido",
-   "erectile"
+   "erectile",
+   "orgasm"
   ],
   "title": "What Counts? A Tale of Good and Evil",
   "treatments": [
@@ -3033,7 +3115,9 @@
   "recovery": false,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "cognitive"
+  ],
   "title": "An Expert View on PSSD: ‘I Have a Hunch As to What Might Be Causing It’",
   "treatments": [],
   "url": "https://www.madinamerica.com/2023/08/an-expert-view-on-pssd-i-have-a-hunch-as-to-what-might-be-causing-it/"
@@ -3097,6 +3181,7 @@
   "source": "blog",
   "symptoms": [
    "libido",
+   "orgasm",
    "blunting"
   ],
   "title": "Antidepressants Can Cause ‘Chemical Castration’",
@@ -3120,7 +3205,9 @@
   "source": "blog",
   "symptoms": [
    "genital_numbness",
-   "blunting"
+   "blunting",
+   "cognitive",
+   "akathisia"
   ],
   "title": "The Long Awaited PSSD Research Breakthrough?",
   "treatments": [],
@@ -3185,6 +3272,7 @@
   "symptoms": [
    "genital_numbness",
    "erectile",
+   "orgasm",
    "blunting",
    "anhedonia",
    "cognitive"
@@ -3243,7 +3331,8 @@
   "symptoms": [
    "genital_numbness",
    "libido",
-   "erectile"
+   "erectile",
+   "orgasm"
   ],
   "title": "What Is the Risk of Permanent Sexual Dysfunction from Antidepressants?",
   "treatments": [
@@ -3296,8 +3385,10 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
+   "genital_numbness",
    "libido",
    "erectile",
+   "orgasm",
    "anhedonia"
   ],
   "title": "Sexual Mysteries. What is in a Touch?",
@@ -3322,7 +3413,10 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "erectile"
+   "genital_numbness",
+   "libido",
+   "erectile",
+   "orgasm"
   ],
   "title": "PSSD Patients Needed for CCM Investigation",
   "treatments": [],
@@ -3405,6 +3499,7 @@
    "genital_numbness",
    "libido",
    "erectile",
+   "orgasm",
    "blunting",
    "anhedonia"
   ],
@@ -3545,7 +3640,9 @@
   "source": "blog",
   "symptoms": [
    "libido",
-   "cognitive"
+   "blunting",
+   "cognitive",
+   "akathisia"
   ],
   "title": "We Won’t Get Fooled Again",
   "treatments": [
@@ -3646,7 +3743,8 @@
   "symptoms": [
    "blunting",
    "cognitive",
-   "sensory"
+   "sensory",
+   "dissociation"
   ],
   "title": "David Healy – Polluting Our Internal Environments: The Perils of Polypharmacy",
   "treatments": [
@@ -3741,7 +3839,9 @@
    "blunting",
    "cognitive",
    "sleep",
-   "sensory"
+   "sensory",
+   "dissociation",
+   "akathisia"
   ],
   "title": "Antidepressant Neuropathy and the Color of Life",
   "treatments": [
@@ -3828,7 +3928,9 @@
   "symptoms": [
    "libido",
    "erectile",
-   "sleep"
+   "orgasm",
+   "sleep",
+   "akathisia"
   ],
   "title": "Our RCT Fetish: How the “Gold Standard” for Research Has Led to A Societal Delusion About the Merits of Antidepressants",
   "treatments": [
@@ -3961,8 +4063,10 @@
    "genital_numbness",
    "libido",
    "erectile",
+   "orgasm",
    "blunting",
-   "anhedonia"
+   "anhedonia",
+   "dissociation"
   ],
   "title": "The Holy Grail: Searching for a Cure for PSSD",
   "treatments": [
@@ -4018,7 +4122,8 @@
   "source": "blog",
   "symptoms": [
    "cognitive",
-   "sensory"
+   "sensory",
+   "dissociation"
   ],
   "title": "Tsang/Shidlofsky Visual Snow Protocol",
   "treatments": [
@@ -4091,7 +4196,8 @@
   "symptoms": [
    "libido",
    "erectile",
-   "orgasm"
+   "orgasm",
+   "cognitive"
   ],
   "title": "Welcome to Mondor, Frodo",
   "treatments": [
@@ -4177,7 +4283,9 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "blunting"
+   "genital_numbness",
+   "blunting",
+   "cognitive"
   ],
   "title": "Who’s Afraid of Science?",
   "treatments": [],
@@ -4197,7 +4305,9 @@
   "recovery": false,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "cognitive"
+  ],
   "title": "The Evidence that Counts for Us",
   "treatments": [
    {
@@ -4224,6 +4334,7 @@
   "symptoms": [
    "genital_numbness",
    "libido",
+   "orgasm",
    "blunting"
   ],
   "title": "The Evidence that Counts for FDA",
@@ -4311,7 +4422,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "erectile"
+   "erectile",
+   "cognitive"
   ],
   "title": "A Time for Post SSRI Sexual Dysfunction?",
   "treatments": [],
@@ -4359,7 +4471,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "erectile"
+   "erectile",
+   "orgasm"
   ],
   "title": "Diagnostic Criteria for Enduring Sexual Dysfunction",
   "treatments": [],
@@ -4436,7 +4549,9 @@
   "recovery": false,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "cognitive"
+  ],
   "title": "Love in a Time of Covid",
   "treatments": [],
   "url": "https://rxisk.org/love-in-a-time-of-covid/"
@@ -4478,7 +4593,9 @@
   "recovery": false,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "genital_numbness"
+  ],
   "title": "Clinical Trials Are Unsafe",
   "treatments": [
    {
@@ -4566,8 +4683,11 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
+   "genital_numbness",
+   "orgasm",
    "blunting",
-   "anhedonia"
+   "anhedonia",
+   "sleep"
   ],
   "title": "Tiffany’s Story",
   "treatments": [
@@ -4677,7 +4797,8 @@
    "erectile",
    "orgasm",
    "blunting",
-   "sleep"
+   "sleep",
+   "akathisia"
   ],
   "title": "Access Denied: Victims of Prescribed Harm Are Abandoned by Psychiatry",
   "treatments": [],
@@ -4703,6 +4824,7 @@
    "genital_numbness",
    "libido",
    "erectile",
+   "orgasm",
    "cognitive",
    "sleep"
   ],
@@ -4736,7 +4858,9 @@
   "source": "blog",
   "symptoms": [
    "genital_numbness",
-   "orgasm"
+   "libido",
+   "orgasm",
+   "cognitive"
   ],
   "title": "Jess’s Story",
   "treatments": [
@@ -4773,7 +4897,8 @@
    "erectile",
    "orgasm",
    "cognitive",
-   "sleep"
+   "sleep",
+   "akathisia"
   ],
   "title": "Mental Health Survival Kit, Chapter 2: Is Psychiatry Evidence Based? (Part 5)",
   "treatments": [
@@ -4839,7 +4964,9 @@
   "recovery": true,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "libido"
+  ],
   "title": "I can’t breathe",
   "treatments": [],
   "url": "https://davidhealy.org/i-cant-breathe/"
@@ -4908,7 +5035,9 @@
   "recovery": true,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "cognitive"
+  ],
   "title": "MAiD in Canada: Treatment Resistant Depression",
   "treatments": [],
   "url": "https://rxisk.org/maid-in-canada-treatment-resistant-depression/"
@@ -4933,7 +5062,9 @@
    "genital_numbness",
    "libido",
    "erectile",
-   "anhedonia"
+   "orgasm",
+   "anhedonia",
+   "cognitive"
   ],
   "title": "MAiD in Canada: Enduring Sexual Dysfunctions",
   "treatments": [],
@@ -5058,7 +5189,8 @@
   "source": "blog",
   "symptoms": [
    "genital_numbness",
-   "libido"
+   "libido",
+   "orgasm"
   ],
   "title": "Sex, Drugs and Bureaucrats",
   "treatments": [],
@@ -5156,7 +5288,9 @@
   "recovery": false,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "cognitive"
+  ],
   "title": "TRP Drugs and Herbs for Withdrawal and PSSD",
   "treatments": [
    {
@@ -5183,7 +5317,10 @@
   "recovery": false,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "dissociation",
+   "akathisia"
+  ],
   "title": "Managing SSRI Withdrawal: Another Way",
   "treatments": [
    {
@@ -5345,6 +5482,7 @@
   "source": "blog",
   "symptoms": [
    "erectile",
+   "orgasm",
    "cognitive",
    "sleep"
   ],
@@ -5384,7 +5522,8 @@
   "source": "blog",
   "symptoms": [
    "erectile",
-   "cognitive"
+   "cognitive",
+   "akathisia"
   ],
   "title": "Helping H: SSRI Withdrawal",
   "treatments": [
@@ -5439,7 +5578,8 @@
    "erectile",
    "orgasm",
    "blunting",
-   "anhedonia"
+   "anhedonia",
+   "dissociation"
   ],
   "title": "Shawn’s Story",
   "treatments": [
@@ -5470,9 +5610,11 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
+   "genital_numbness",
    "libido",
    "erectile",
-   "cognitive"
+   "cognitive",
+   "dissociation"
   ],
   "title": "Jake’s Story",
   "treatments": [
@@ -5501,7 +5643,9 @@
   "symptoms": [
    "libido",
    "erectile",
-   "blunting"
+   "orgasm",
+   "blunting",
+   "cognitive"
   ],
   "title": "Emily’s Story",
   "treatments": [
@@ -5528,7 +5672,9 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
+   "genital_numbness",
    "libido",
+   "orgasm",
    "sleep"
   ],
   "title": "Ellen’s Story",
@@ -5581,8 +5727,10 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
+   "genital_numbness",
    "libido",
    "erectile",
+   "orgasm",
    "anhedonia",
    "cognitive"
   ],
@@ -5675,7 +5823,9 @@
   "symptoms": [
    "genital_numbness",
    "libido",
-   "blunting"
+   "orgasm",
+   "blunting",
+   "cognitive"
   ],
   "title": "Does My Bias Look Big in This?",
   "treatments": [
@@ -5730,7 +5880,9 @@
    "libido",
    "erectile",
    "blunting",
-   "cognitive"
+   "cognitive",
+   "dissociation",
+   "akathisia"
   ],
   "title": "Sex, Withdrawal and Boundaries",
   "treatments": [],
@@ -5759,7 +5911,10 @@
    "genital_numbness",
    "libido",
    "erectile",
-   "blunting"
+   "orgasm",
+   "blunting",
+   "cognitive",
+   "dissociation"
   ],
   "title": "What’s Sex Got to Do with It",
   "treatments": [
@@ -5795,7 +5950,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "genital_numbness"
+   "genital_numbness",
+   "cognitive"
   ],
   "title": "RxISK Manifesto",
   "treatments": [
@@ -5862,7 +6018,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "genital_numbness"
+   "genital_numbness",
+   "orgasm"
   ],
   "title": "Business Opportunity courtesy of Impeto Medical",
   "treatments": [
@@ -5884,7 +6041,9 @@
   "recovery": false,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "cognitive"
+  ],
   "title": "Device Wrecks & Regulators?",
   "treatments": [],
   "url": "https://rxisk.org/device-wrecks-regulators/"
@@ -6078,7 +6237,8 @@
    "libido",
    "erectile",
    "orgasm",
-   "anhedonia"
+   "anhedonia",
+   "dissociation"
   ],
   "title": "Xarelto and Sex",
   "treatments": [
@@ -6195,7 +6355,9 @@
   "recovery": false,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "cognitive"
+  ],
   "title": "PSSD and Hancock’s Half Brexit",
   "treatments": [],
   "url": "https://rxisk.org/pssd-and-hancocks-half-brexit/"
@@ -6216,7 +6378,8 @@
   "source": "blog",
   "symptoms": [
    "libido",
-   "erectile"
+   "erectile",
+   "orgasm"
   ],
   "title": "Post-Retinoid Sexual Dysfunction (PRSD) Petition",
   "treatments": [],
@@ -6241,6 +6404,7 @@
   "symptoms": [
    "libido",
    "erectile",
+   "orgasm",
    "blunting",
    "cognitive",
    "sleep"
@@ -6312,10 +6476,13 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
+   "genital_numbness",
    "libido",
    "erectile",
+   "orgasm",
    "blunting",
-   "cognitive"
+   "cognitive",
+   "akathisia"
   ],
   "title": "Can Antidepressants Make You Less Attractive?",
   "treatments": [],
@@ -6338,7 +6505,8 @@
   "symptoms": [
    "genital_numbness",
    "libido",
-   "erectile"
+   "erectile",
+   "orgasm"
   ],
   "title": "PSSD In The Guardian, U.S. News & Lyon Capitale",
   "treatments": [],
@@ -6431,7 +6599,9 @@
   "recovery": false,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "akathisia"
+  ],
   "title": "What to do about Suicide",
   "treatments": [],
   "url": "https://davidhealy.org/what-to-do-about-suicide/"
@@ -6499,7 +6669,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "cognitive"
+   "cognitive",
+   "akathisia"
   ],
   "title": "Dependence on Antidepressants and The New York Times",
   "treatments": [
@@ -6605,7 +6776,9 @@
   "source": "blog",
   "symptoms": [
    "anhedonia",
-   "sensory"
+   "sensory",
+   "dissociation",
+   "akathisia"
   ],
   "title": "Psychiatry Poured Oil Down the Hill I Was Climbing",
   "treatments": [
@@ -6633,7 +6806,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "erectile"
+   "erectile",
+   "akathisia"
   ],
   "title": "Psychotropic Drug Dependence in Scotland: Petition PE01651",
   "treatments": [],
@@ -6657,7 +6831,9 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "erectile"
+   "erectile",
+   "orgasm",
+   "cognitive"
   ],
   "title": "Bladder and Bowel Problems After Antidepressants",
   "treatments": [
@@ -6684,6 +6860,7 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
+   "orgasm",
    "cognitive"
   ],
   "title": "POIS: A Whole New Meaning to Man Flu",
@@ -6710,7 +6887,8 @@
   "symptoms": [
    "genital_numbness",
    "erectile",
-   "orgasm"
+   "orgasm",
+   "cognitive"
   ],
   "title": "Post-SSRI Sexual Dysfunction: Getting a Diagnosis",
   "treatments": [
@@ -6817,7 +6995,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "erectile"
+   "erectile",
+   "cognitive"
   ],
   "title": "RxISK Prize: Global Impact",
   "treatments": [],
@@ -6838,7 +7017,9 @@
   "recovery": false,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "genital_numbness"
+  ],
   "title": "RxISK Prize: Relationships",
   "treatments": [],
   "url": "https://rxisk.org/rxisk-prize-relationships/"
@@ -6976,7 +7157,9 @@
   "recovery": true,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "cognitive"
+  ],
   "title": "Withdrawal & PSSD: Terminal Diagnoses?",
   "treatments": [
    {
@@ -7150,7 +7333,8 @@
    "genital_numbness",
    "libido",
    "erectile",
-   "orgasm"
+   "orgasm",
+   "blunting"
   ],
   "title": "How Common is Post-SSRI Sexual Dysfunction (PSSD)?",
   "treatments": [
@@ -7200,8 +7384,10 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
+   "genital_numbness",
    "libido",
    "erectile",
+   "orgasm",
    "cognitive"
   ],
   "title": "Pharmaceutical Rape: Cast of Characters",
@@ -7261,7 +7447,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "genital_numbness"
+   "genital_numbness",
+   "orgasm"
   ],
   "title": "Greg’s Dilemma: Feeling Blue",
   "treatments": [],
@@ -7470,6 +7657,7 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
+   "genital_numbness",
    "libido",
    "orgasm"
   ],
@@ -7492,7 +7680,8 @@
   "symptoms": [
    "genital_numbness",
    "libido",
-   "erectile"
+   "erectile",
+   "orgasm"
   ],
   "title": "Wikipedia Page Gone, But RxISK Presses On to Educate about Post-SSRI Sexual Dysfunction",
   "treatments": [],
@@ -7510,7 +7699,9 @@
   "recovery": true,
   "replies": 0,
   "source": "blog",
-  "symptoms": [],
+  "symptoms": [
+   "cognitive"
+  ],
   "title": "Thalidomide: From Disaster to Recovery",
   "treatments": [
    {
@@ -7536,7 +7727,9 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "libido"
+   "genital_numbness",
+   "libido",
+   "orgasm"
   ],
   "title": "A PSSD Story",
   "treatments": [],
@@ -7598,7 +7791,8 @@
   "symptoms": [
    "genital_numbness",
    "libido",
-   "erectile"
+   "erectile",
+   "orgasm"
   ],
   "title": "PSSD – One Hundred and Twenty Cases",
   "treatments": [],
@@ -7622,6 +7816,7 @@
   "source": "blog",
   "symptoms": [
    "genital_numbness",
+   "orgasm",
    "anhedonia"
   ],
   "title": "Wikipedia Editor Inserts Foot in Mouth",
@@ -7678,7 +7873,8 @@
   "source": "blog",
   "symptoms": [
    "libido",
-   "erectile"
+   "erectile",
+   "orgasm"
   ],
   "title": "Wikipedia Falls: Post-SSRI Sexual Dysfunction",
   "treatments": [
@@ -7878,7 +8074,8 @@
   "replies": 0,
   "source": "blog",
   "symptoms": [
-   "libido"
+   "libido",
+   "dissociation"
   ],
   "title": "Treating PSSD",
   "treatments": [
@@ -8003,8 +8200,10 @@
   "source": "blog",
   "symptoms": [
    "genital_numbness",
+   "orgasm",
    "blunting",
-   "anhedonia"
+   "anhedonia",
+   "dissociation"
   ],
   "title": "Drugs and Sex Don’t Go",
   "treatments": [
@@ -8043,7 +8242,8 @@
   "source": "blog",
   "symptoms": [
    "libido",
-   "erectile"
+   "erectile",
+   "orgasm"
   ],
   "title": "Buried Alive: Post-SSRI Sexual Dysfunction (PSSD)",
   "treatments": [
