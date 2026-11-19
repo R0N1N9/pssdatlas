@@ -13,6 +13,11 @@ It also covers enduring sexual dysfunction after non-SSRI drugs
 (antipsychotics, mirtazapine, finasteride, isotretinoin), since these may share
 mechanisms and are routinely left out of SSRI-only searches.
 
+<p align="center">
+  <img src="docs/screenshots/overview.png" width="900" alt="PSSD Atlas report header with the view selector, section links and summary tiles">
+  <br><em>The generated report (<code>docs/index.html</code>): view selector, section links and headline counts from the current data snapshot.</em>
+</p>
+
 ## What it does
 
 `pssd-atlas update` fetches four public sources and builds a single
@@ -48,6 +53,20 @@ The report then shows:
 - **Paper explorer**: full-text search and filters over every record, with CSV export
 
 The same data is written to `data/` as JSON and CSV for your own analysis.
+
+## Screenshots
+
+| Evidence matrix | Drug-safety signals |
+|---|---|
+| <img src="docs/screenshots/evidence-matrix.png" alt="Evidence matrix of hypotheses against study designs, shaded by paper count"> | <img src="docs/screenshots/drug-safety-signals.png" alt="Forest plot of reporting odds ratios with 95% confidence intervals per drug"> |
+| Papers per hypothesis and study design; select a cell to list them. | Reporting odds ratios with 95% CIs from FAERS, grouped by drug class. |
+
+<p align="center">
+  <img src="docs/screenshots/drug-targets.png" width="900" alt="Heatmap of binding strength (pKi) for implicated drugs against human proteins">
+  <br><em>Drug targets: binding strength of each implicated drug against human proteins, from ChEMBL.</em>
+</p>
+
+All screenshots are of the committed `docs/index.html` (data snapshot 2026-11-18).
 
 ## Usage
 
@@ -173,6 +192,26 @@ gene-expression datasets for the implicated drugs
 usable treatment-then-withdrawal dataset
 ([`REANALYSIS.md`](analysis/REANALYSIS.md)). The re-analysis script needs
 numpy, pandas, scipy and openpyxl; the atlas itself does not.
+
+## Structure
+
+```
+pssd_atlas/
+  cli.py            update, report, new, serve, import
+  pubmed.py, europepmc.py, trials.py, faers.py, targets.py
+                    one collector per public source
+  community.py, blogs.py, reddit.py, forumpage.py
+                    patient posts and articles, reduced to tags
+  classify.py       scope, study design, hypothesis and treatment tagging
+  report.py         builds docs/index.html from template.html and app.js
+  server.py         local server behind the report's Update data button
+  config.toml       searches, hypotheses, treatments, drug groups, FAERS grid
+  guide.toml        background guide text
+data/               papers, trials, FAERS, targets and community data (JSON, CSV)
+docs/index.html     the self-contained report
+analysis/           expression-dataset catalogue and re-analysis
+tests/              unittest suite
+```
 
 ## Limitations
 
